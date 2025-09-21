@@ -1,14 +1,14 @@
 # IR-system
 
 Crafting a full-functioned Information Retrieval System to index and search on 1000 papers (pdf style) including but not limited to ts
-<<<<<<< HEAD
 
 
-##启用Docker
+
+## 启用Docker
 docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.8.2
 
 
-##目录结构
+## 目录结构
 
 ```
 .
@@ -22,7 +22,6 @@ docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.8.2
 └── ...
 
 ```
-=======
 
 
->>>>>>> 6ca77c0da32dbdf76194bb089a831768d87f3c5f
+
