@@ -23,6 +23,6 @@ docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.8.2
 
 ```
 =======
-aaa123123hajiminonameludo
+
 
 >>>>>>> 6ca77c0da32dbdf76194bb089a831768d87f3c5f
