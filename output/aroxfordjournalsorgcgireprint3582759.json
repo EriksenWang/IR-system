@@ -1,0 +1,154 @@
+{
+    "title": "Identification and characterization of OGG1 mutations in patients with Alzheimer's disease",
+    "publication_date": "2007-04-10",
+    "authors": [
+        {
+            "full_name": "Guogen Mao",
+            "firstname": "Guogen",
+            "lastname": "Mao",
+            "affiliations": [
+                {
+                    "organization": "Graduate Center for Toxicology",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Xiaoyu Pan",
+            "firstname": "Xiaoyu",
+            "lastname": "Pan",
+            "affiliations": [
+                {
+                    "organization": "Graduate Center for Toxicology",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Bei-Bei Zhu",
+            "firstname": "Bei-Bei",
+            "lastname": "Zhu",
+            "affiliations": [
+                {
+                    "organization": "Department of Pathology & Laboratory Medicine",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Yanbin Zhang",
+            "firstname": "Yanbin",
+            "lastname": "Zhang",
+            "affiliations": [
+                {
+                    "organization": "Graduate Center for Toxicology",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Fenghua Yuan",
+            "firstname": "Fenghua",
+            "lastname": "Yuan",
+            "affiliations": [
+                {
+                    "organization": "Graduate Center for Toxicology",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Jian Huang",
+            "firstname": "Jian",
+            "lastname": "Huang",
+            "affiliations": [
+                {
+                    "organization": "College of Life Sciences, Wuhan University",
+                    "address": {
+                        "city": "Wuhan",
+                        "country": "China"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Mark A Lovell",
+            "firstname": "Mark A",
+            "lastname": "Lovell",
+            "affiliations": [
+                {
+                    "organization": "Sanders-Brown Center on Aging",
+                    "address": {}
+                },
+                {
+                    "organization": "Department of Chemistry, University of Kentucky",
+                    "address": {
+                        "city": "Lexington",
+                        "country": "USA"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Maxwell P Lee",
+            "firstname": "Maxwell P",
+            "lastname": "Lee",
+            "affiliations": [
+                {
+                    "organization": "Laboratory of Population Genetics, National Cancer Institute",
+                    "address": {
+                        "city": "Bethesda",
+                        "country": "USA"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "William R Markesbery",
+            "firstname": "William R",
+            "lastname": "Markesbery",
+            "affiliations": [
+                {
+                    "organization": "Department of Pathology & Laboratory Medicine",
+                    "address": {}
+                },
+                {
+                    "organization": "Sanders-Brown Center on Aging",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Guo-Min Li",
+            "firstname": "Guo-Min",
+            "lastname": "Li",
+            "affiliations": [
+                {
+                    "organization": "Graduate Center for Toxicology",
+                    "address": {}
+                },
+                {
+                    "organization": "Department of Pathology & Laboratory Medicine",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Liya Gu",
+            "firstname": "Liya",
+            "lastname": "Gu",
+            "affiliations": [
+                {
+                    "organization": "Graduate Center for Toxicology",
+                    "address": {}
+                },
+                {
+                    "organization": "Department of Pathology & Laboratory Medicine",
+                    "address": {}
+                }
+            ]
+        }
+    ],
+    "abstract": "Patients with Alzheimer's disease (AD) exhibit higher levels of 8-oxo-guanine (8-oxoG) DNA lesions in their brain, suggesting a reduced or defective 8-oxoG repair. To test this hypothesis, this study investigated 14 AD patients and 10 agematched controls for mutations of the major 8-oxoG removal gene OGG1. Whereas no alterations were detected in any control samples, four AD patients exhibited mutations in OGG1, two carried a common single base (C 796 ) deletion that alters the carboxyl terminal sequence of OGG1, and the other two had nucleotide alterations leading to single amino acid substitutions. In vitro biochemical assays revealed that the protein encoded by the C 796 -deleted OGG1 completely lost its 8-oxoG glycosylase activity, and that the two single residue-substituted OGG1 proteins showed a significant reduction in the glycosylase activity. These results were consistent with the fact that nuclear extracts derived from a limited number of AD patients with OGG1 mutations exhibited greatly reduced 8-oxoG glycosylase activity compared with age-matched controls and AD patients without OGG1 alterations. Our findings suggest that defects in OGG1 may be important in the pathogenesis of AD in a significant fraction of AD patients and provide new insight into the molecular basis for the disease.",
+    "full_text": "Alzheimer's disease (AD) is the most common form of adult dementia and is characterized by progressive cognitive deterioration, impairment of activities of daily living, and a variety of neuropsychiatric symptoms and behavioral disturbances. It is generally accepted that the production and accumulation of beta-amyloid peptide in the brain in AD are important in the pathogenesis of the disease (1). Increasing evidence supports that mutations in the beta-amyloid precursor protein and the presenilins lead to some early-onset AD cases (1). Although mutations can be induced by numerous endogenous and exogenous agents, oxidative stress has been thought to be the main source for DNA damage in AD (2). Indeed, previous studies have demonstrated that increased nuclear and mitochondrial DNA oxidation is present in the brain in AD (3)(4)(5)(6), with 8-hydroxyguanine or its isomeric form 7,8-dihydro-8-oxoguanine (8-oxoG) being the major DNA lesion (7).\n\nThe 8-oxoG is highly mutagenic because adenine is preferentially incorporated opposite the oxidized base upon replication by DNA polymerases, yielding GC to TA transversions. To prevent 8-oxoG-induced mutagenesis, cells possess a mechanism called the GO system, which consists of MutY homolog (MYH), OGG1 (8-oxoG-DNA glycosylase I, the eukaryotic homolog of MutM), and MutT (8)(9)(10). The MutT protein is a phosphotase that specifically converts 8-oxo-dGTP in the nucleotide pool into 8-oxo-dGMP to keep the oxidized nucleotides from being incorporated into DNA during replication. Both MYH and OGG1 are 8-oxoG-specific DNA glycosylases. Unlike MutT, OGG1 and MYH are components of base excision repair and involved in processing 8-oxoG (9,10). Whereas, OGG1 actually removes 8-oxoG from damaged DNA, MYH excises the adenine residues incorporated by DNA polymerases opposite 8-oxoG. Mutations of OGG1 and MYH have been implicated in the development of certain human diseases including cancer (11)(12)(13). Gene knockout mice defective in OGG1 accumulate higher levels of 8-oxoG lesions compared with wild-type controls *To whom correspondence should be addressed. Tel: þ1 859 323 0285; Fax: þ1 859 323 1059; Email: lgu0@uky.edu ß 2007 The Author(s) This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/ by-nc/2.0/uk/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited. (14,15), and exhibit elevated spontaneous mutations, especially when exposed to higher levels of oxidative stress (16). These observations suggest that OGG1 acts as a major pathway responsible for 8-oxoG removal (17).\n\nTo determine the impact of OGG1 in AD development, DNA and/or protein samples derived from the brain of AD patients and age-matched controls were analyzed for defects in OGG1 and OGG1 glycosylase activity. Mutations of the OGG1 gene were indeed identified in AD patients. Biochemical studies revealed that these mutations either completely inactivate or severely reduce the OGG1 DNA-glycosylase activity, suggesting that defects in OGG1 are associated with the development of AD.\n\nBrain specimens were from AD patients and normal control subjects who were longitudinally followed with annual detailed assessments in the University of Kentucky Alzheimer's Disease Center. The specimens were evaluated in a blinded manner in our study. These samples were collected as described previously (3). Briefly, 10-15 g specimens of frontal, temporal and parietal lobes and cerebellum were dissected en bloc at the time of autopsy from patients with AD and age-matched normal control subjects. The tissue was snap-frozen and stored at À708C until used for analysis. All AD patients met standard clinical diagnostic criteria for probable AD (18) and accepted histopathological criteria for the diagnosis of AD (19). The AD patients were in the late stage of AD. Control subjects were individuals without a history of dementia, other neurological disorders or systemic disease affecting the brain. Neuropathological studies revealed no significant neuropathological alterations in the control subjects. The mean age for the control cases was 92.3 and 72.0 years for the AD cases. The average postmortem interval was 2.90 AE 0.31 h for AD and 3.36 AE 0.47 h for control subjects.\n\nPreparation of nuclear extracts from brain specimens was performed as described previously (20). Because of potential variations in water content in tissues collected from various individuals (both AD and control subjects), data were normalized to protein content for each isolated nuclear fraction, rather than using the same amount of starting materials for extract preparations. The OGG1 glycosylase activity was measured essentially as described (21) using an oligonucleotide duplex consisting of the 32 P-labeled 5 0 -ATTGCCATTCTCGATA[8-oxoG]GATC CGGTCAAACCTAGAC-3 0 and the cold complementary strand 5 0 GTCTAGGTTTGACCGGATCCTATCGAG AATGGCAAT-3 0 . Briefly, incision reactions (20 ml) contained 50 mM sodium phosphate buffer (pH 6.8), 2 mM EDTA, 2 mM DTT, 80 mM KCl, 0.1 mg/ml of BSA, 10% glycerol, 50 fmol of 32 P-labeled duplex and 40 mg of nuclear extracts or indicated amount of purified wild-type or mutant OGG1 protein. After incubation at 378C for 1 h, the reactions were terminated by adding an equal volume of a stop solution (95% formamide, 20 mM EDTA, 0.05% bromophenol blue and 0.05% xylem cyanol). The reaction products were resolved on a 15% denaturing gel and visualized by a phosphorimager.\n\nThe His-tagged human OGG1 expression vector (pET28d) was kindly provided by Drs Sankar Mitra and Tapas K. Hazra, University of Texas Medical Branch at Galveston. Construction of the OGG1 mutants associated with AD was performed using an overlap-extension PCR technology as described (22), which is depicted in Figure 1, showing the strategy for the generation of the C 796 -deletion of OGG1. Two sets of PCR primers were used: forward primer 1 (RP1), 5 0 -GGGGAATTGT GAGCGGATAAC-3 0 , and reverse primer 1 (RP1), 5 0 -ATATGGACATCCACGGCACAGCCTGGGGC TT-3 0 ; FP2, 5 0 -AGGCTGTGCCGTGGATGTCCATAT GT-3 0 and RP2, 5 0 -GGTGGTGGTGGTGCTCGAG-3 0 , where the bold types represent the mutation site. PCR products from the two sets of reactions were mixed, denatured and reannealed. Because these PCR products overlapped at their 3 0 ends, a full-length mutant OGG1 was generated via 3 0 end extension (Figure 1). The fulllength mutant gene was amplified using primers FP1 and RP2, digested with XhoI and XbaI, and cloned into the XhoI/XbaI-digested pET28d expression vector. The C 796 deletion results in a frame-shift mutation that allows the mutated gene to encode a protein 59 amino acids longer than the wild-type OGG1 (see below for details). Thus, a pair of primers (5 0 -ACTGTCACTAGTCTCACCAG-3 0 and 5 0 -ATACTCGAGTCAATATCCCCCACCCCATCT TGTTG-3 0 ) were used to amplify part of the exon 7 sequence of OGG1 and its 3 0 untranslated region (3 0 -UTR) from genomic DNA derived from patient AD2. After digestion with BspMI and XhoI, the PCR product was cloned into pET28d plasmid containing the C 796deleted OGG1. The presence of the C 796 deletion and the extended 3 0 UTR was confirmed by DNA sequencing. Other OGG1 mutants identified in AD were similarly constructed.\n\nThe wild-type and mutant OGG1 plasmids were transformed into Escherichia coli strain BL21 DE3 for expression and the recombinant proteins were purified as described by Hill et al. (23). The purified proteins (498% purity, as judged by Coomassie Brilliant Blue R-250 staining on an SDS-PAGE gel) were aliquoted and stored at À808C for use.\n\nNuclear DNA was isolated from brain regions of AD patients and controls as described by Gabbita et al. (3). PCR-based single-strand conformation polymorphism (SSCP) was used to determine mutations in OGG1. PCR primers (Supplementary Data, Table S1) were used to amplify all seven exons and flanking splice sites of the OGG1 gene as described by Murata et al. (24). Variant and wild-type PCR products were excised and eluted from SSCP gels, and then reamplified. The resulting PCR products were sequenced using T7 Sequenase, version 2.0 DNA sequencing kit (USB Corp., Cleveland, OH, USA).\n\nStatistical analyses were performed using t-test function in R package. Specifically, one-sided t-test was used to compare 8-oxoG glycosylase activity shown in Figure 2 and 8-oxoG lesion level in Table 1.\n\nThe abundance of 8-oxoG in the brain of AD patients prompted us to determine 8-oxoG glycosylase activity in AD patients. Nuclear extracts obtained from the brain specimens of AD patients were examined for their ability to cleave a duplex DNA containing a single 8-oxoG lesion. As shown in Figure 2, the nuclear extracts derived from all three age-matched controls (C1, C2 and C3) exhibited high levels (8% or more) of 8-oxoG glycosylase activity, whereas extracts from two (AD2 and AD3) of the three AD patients tested had only about one-half of the glycosylase activity observed in the control samples. These results were repeatable. Statistical analysis revealed that the observed difference in glycosylase activity between extracts derived from AD patients with lower 8-oxoG glycosylase activity (AD2 and AD3) and those isolated from control subjects (C1-3) or an AD patient with normal glycosylase activity (i.e. AD1) is highly significant (P ¼ 0.00298). These observations suggest that reduced repair of 8-oxoG is associated with AD patients.\n\nBecause the major DNA glycosylase for removal of 8-oxoG is OGG1 (17), we reasoned that the reduced 8-oxoG glycosylase activity in AD patients could be due to a reduction in OGG1 activity. PCR primers (Supplementary Data, Table 1) were therefore designed to amplify all seven individual exons of the OGG1 gene from the brain specimens of AD patients and age-matched controls. The resulting PCR products were analyzed by SSCP as described (24). Whereas, no abnormal SSCP products were detected in exons 1-4, 6 and 7 of OGG1 in all samples tested (data not shown), two AD patients appeared to display aberrant SSCP bands in exon 5. As shown in Figure 3A, two specific products (bands 1 and 4), presumably the normal alleles of the OGG1 exon 5, were seen in the age-matched controls (data for C1 and C2 not shown) and patient AD1 but both normal and additional alleles (bands 2 and 3) were detected in AD2 and AD3, the two AD patients exhibiting reduced 8-oxoG glycosylase activity (Figure 2). These results seem to suggest a heterozygous alteration of OGG1 in these patients.\n\nTo determine if the abnormal SSCP products of exon 5 in AD2 and AD3 were associated with mutation(s), SSCP bands 1-4 shown in Figure 3A were eluted from the gel, reamplified and sequenced. As expected, bands 1 and 4 from all samples indeed showed the wild-type OGG1 sequence, and examples of these sequences are shown in Figure 3B (see two gels on the left side for AD1 and C3). However, bands 2 and 3 exhibited a mutated OGG1 sequence as a C (C 796 , C 797 or C 798 ) was deleted from nucleotide positions 796-798. For simplicity, the mutation was referred to as C 796 -deleted. Interestingly, both AD2 and AD3 carried the same deletion (Figure 3B, two gels on the right side). The status of the heterozygous mutation in AD2 and AD3 was further confirmed by cloning the PCR products of exon 5 into a T-A cloning vector (Invitrogen, Carlsbad, CA, USA), followed by DNA sequencing. The results revealed an approximate 1:1 ratio of wild-type and mutant clones (data not shown).\n\nThe association of a defective OGG1 in AD2 and AD3 prompted us to investigate 11 additional AD samples for mutations in OGG1. Abnormal SSCP products were identified in two patients (data not shown). DNA sequencing analysis revealed that one patient (AD4) had a G 157 !A transition and another patient (AD5) carried a C 863 !T transition in OGG1 (Figure 3C). The G!A substitution changes amino acid residue alanine 53 (A 53 ) to threonine and the C!T substitution changes alanine 288 (A 288 ) to valine. However, no nucleotide alterations were identified in any of the seven additional age-matched controls (C4 in Figure 3C, data for C5-C10 not shown). Taken together, our results suggest that a substantial fraction (28.6% or 4 out of 14) of AD patients are associated with mutations in the OGG1 gene.\n\nThe C 796 -deleted OGG1 gene encodes a proteins lacking 8-oxoG glycosylase activity Given a single nucleotide deletion in the OGG1 gene, AD2 and AD3 were expected to express an altered OGG1 protein that possesses a carboxyl terminal different from that of the wild-type OGG1. The wild-type OGG1 gene encodes 345 amino acid residues (Figure 4A). However, the C 796 deletion altered the coding frame of OGG1 at the mutation site. As a result, the translation does not terminate at codon 346, instead, it terminates 59 amino acid residues downstream of the previous termination site (Figure 4B). Thus, not only does the mutated protein contain different amino acid residues from the wild-type OGG1 following the mutation site, but also is 59-residue bigger than OGG1 (Figure 4B). The mutant protein was therefore referred to as OGG1-59aa.\n\nTo determine if the mutated OGG1 retains 8-oxoG glycosylase activity, site-directed mutagenesis was performed to generate the OGG1-59aa as described in Materials and Methods section. Both the wild type and  OGG1-59aa proteins were purified (Figure 5A) and assayed for the 8-oxoG glycosylase activity. Whereas, the wild-type OGG1 (W) was very active in cleaving the 8-oxoG-containing duplex, little such activity was detected in reactions with OGG1-59aa (M), regardless of the reaction incubation time and the amount of protein used (Figure 5B and C). Mixing experiments using various ratios of wild-type OGG1 versus OGG1-59aa indicated that the mutant protein had no negative inference on the wild-type OGG1 activity (data not shown), ruling out a dominant negative role for OGG1-59aa. These results indicate that a defective OGG1 is present in patients AD2 and AD3, which may account for the reduced 8-oxoG glycosylase activity in these patients.\n\nTo determine the impact of A53T or A288V substitution on OGG1 glycosylase activity, genes encoding OGG1(A53T) and OGG1(A288V) were created using a similar strategy as described in Figure 1, and the mutant proteins were purified (see Figure 5A) and examined for 8-oxoG glycosylase activity. Unlike OGG1-59aa, which is completely defective in 8-oxoG glycosylase activity, both OGG1(A53T) and OGG1(A288V) proteins were capable of cleaving the 8-oxoG-containing oligonucleotide duplex (Figure 6A and B). However, the glycosylase activity of both altered proteins was only 50-60% of the wild-type OGG1 activity (Figure 6C). Further analysis revealed that both mutant proteins possess a K m higher than that of the wild-type OGG1 (Figure 6D), indicating that the reduction in glycosylase activity for both mutant proteins is due to the reduction in enzyme's affinity to the DNA substrate. Although protein samples of patients AD4 and AD5 were not available for biochemical assays, our results strongly suggest that reduced 8-oxoG glycosylase activity was likely present in the brain of these AD patients.\n\nPatients with AD have been shown to exhibit a much higher level of 8-oxoG DNA lesions in brain than agematched normal control subjects (7). The increased level of 8-oxoG lesions in AD is likely due to reduced DNA repair in these patients. We provide here both the genetic and biochemical evidence that a significant fraction (28.6%) of AD patients examined in this study exhibited mutations in the 8-oxoG removing gene OGG1 and that OGG1 proteins with the mutations identified in AD patients have either no or greatly reduced 8-oxoG glycosylase activity.\n\nInterestingly, of four unrelated patients with OGG1 mutations, two (AD2 and AD3) had a C 796 deletion mutation, which changes the OGG1 reading frame and leads to a different carboxyl terminal sequence, including an extra fragment of 59 amino acid residues (Figure 4). This mutation completely abolishes the OGG1 glycosylase activity (Figure 5). This result is consistent with previous crystal structure studies of the human OGG1 protein. Bruner et al. (25) demonstrated that the 8-oxoG lesion is extruded from the DNA helix and inserted into an extrahelical pocket composed of amino acid residues Phe 319 , Gln 315 , Gly 42 and Cys 253 of OGG1. In this activesite pocket, Phe 319 and Cys 253 sandwich the 8-oxoG lesion via interactions with the lesion; the Gln 315 amide-NH 2 and a water molecule tightly bound to the residue cooperate to recognize O 6 of the oxoG; and the side-chain carbonyl of Gln 315 and a second tightly bound water form hydrogen bonds with N1, NH 2 and O 6 of the oxoG (25). In addition, residue Asp 268 is required to deprotonate Lys 249 and His 270 is needed to protonate Lys 249 , which acts to displace the oxoG base and to promote conjugate elimination of the 3 0 phosphodiester through Schiff base chemistry (25). However, the C 796 deletion alters the OGG1 reading frame beginning at amino acid residue 267, leading to a protein no longer containing these important residues (i.e. Asp 268 , His 270 , Gln 315 and Phe 319 ) at the corresponding positions (see Figure 4A and B). Therefore,\n\nA B OGG1 (fmol) 1.25 2.5 5.0 7.0 13 C Time (min) 5 1 0 1 5 3 0 4 5 6 0 175 83 62 48 33 25 A 2 8 8 T O G G 1 A 5 3 T -5 9 a a M W Product Substrate Product Substrate W M W M W M W M W M W M W M W M W M W M W M it is understandable that the OGG1-59aa has no 8-oxoG glycosylase activity.\n\nTwo additional OGG1 mutations, A53T and A288V, were also identified in AD patients and both were found to reduce 8-oxoG glycosylase activity (Figure 6). The observed activities for these mutants appear to be justified by the roles of A 53 and A 288 in the OGG1 structure. OGG1 has two important domains (see Figure 4C): the OGG-N domain partially contributes to the 8-oxoG-binding pocket and the HhH-GPD domain (a helix-hairpin-helix structural element followed by a Gly/Pro-rich loop and a conserved aspartic acid) provides both the catalytic and DNA-binding functions of the DNA glycosylase (26)(27)(28). A 53 is located in the region linking two b sheets (b B and b C) in the OGG-N domain, and A 288 is part of the polypeptide connecting two a-helices (a M and a N) involved in the catalytic activity of the glycosylase (25). Thus, both alanine residues are not in the active center of their corresponding domains. However, substitutions of these alanines with other residues may allow OGG1 to adapt a conformation that is slightly different from the wild-type conformation, leading to the observed reduced glycosylase activity. Whether or not these alterations represent polymorphism in the population remains to be defined. It is also important to determine if individuals with these types of OGG1 alterations are at higher risk to develop AD.\n\nIt is interesting that, although a defective OGG1 was detected in the brain of patients AD2 and AD3, extracts derived from these tissues still contained partial 8-oxoG glycosylase activity (Figure 2). This phenomenon could be attributed to two possibilities. First, the alteration is a heterozygous mutation, thus, the patients possessed both wild-type and mutant OGG1. This possibility is supported by the fact that both wild-type and mutant alleles of the OGG1 exon 5 were detected in patients AD2 and AD3 (Figure 3A) and that the mutant OGG1 protein does not interfere with the wild-type protein on its glycosylase activity (data not shown). A second explanation is that there are multiple 8-oxoG glycosylase activities in human cells. Evidence for this assumption came from gene knockout mice defective in OGG1. Although Ogg1 À/À mice manifest a steady-state level of 8-oxoG that is 3-to 10-fold higher than wild-type controls (14,15), there is slow but significant removal of 8-oxoG from proliferating Ogg1-null cells (29), indicating that alterative 8-oxoG repair pathways are present in mammalian cells. Indeed, such activities have been recently identified (17,30).\n\nThe presence of multiple 8-oxoG glycosylase activities in mammalian cells may also explain why some AD patients who were previously shown to exhibit higher levels of 8-oxoG lesions in brain (3-6) seemed to be normal in OGG1 glycosylase activity, implying that deficiency in other 8-oxoG removal pathway(s) may also contribute to the high level of 8-oxoG in AD. Previous studies have shown significant differences in 8-oxoG levels between AD patients and age-matched controls (3)(4)(5)(6). Interestingly, when 8-oxoG levels reported previously (3)(4)(5)(6) were compared between AD patients with and without OGG1 mutations, it was found that the 8-oxoG level in AD with OGG1 alterations was higher than that in those without OGG1 alterations (Table 1). And t-test analysis revealed that the difference in 8-oxoG levels between these two groups is highly significant as judged by P ¼ 0.025. These data indicate that whereas OGG1 is the major 8-oxoG removal enzyme, abnormality in other 8-oxoG removal pathway(s), and 8-oxoG tolerance (MYH) and cleansing (MutT homologs) pathways can also result in accumulation of the oxidized lesion. The identification of only 28.6% AD patients with OGG1 alterations also support the possibility that the remaining 71.4% of the AD patients could have mutations in MYH, MutT homologs and/or other 8-oxoG removal pathways. Although this hypothesis remains to be investigated, our results shown here indicate that defects in DNA repair, including the OGG1 pathway, are present in AD patients, providing a possible molecular basis for the development of AD.\n\na\n\nby guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2007, Vol. 35, No. 8 2761 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from"
+}

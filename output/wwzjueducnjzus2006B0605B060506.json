@@ -1,0 +1,121 @@
+{
+    "title": "Functional analysis of helicase and three tandem HRDC domains of RecQ in Deinococcus radiodurans *",
+    "publication_date": "2004",
+    "authors": [
+        {
+            "full_name": "Li-Fen Huang",
+            "firstname": "Li-Fen",
+            "lastname": "Huang",
+            "affiliations": [
+                {
+                    "organization": "Institute of Nuclear-Agricultural Science, Zhejiang University",
+                    "address": {
+                        "city": "Hangzhou",
+                        "country": "China",
+                        "postcode": "310029"
+                    }
+                },
+                {
+                    "organization": "Jiangsu Province Key Lab of Crop Genetics and Physiology, Yangzhou University",
+                    "address": {
+                        "city": "Yangzhou",
+                        "country": "China",
+                        "postcode": "225009"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Hua Xiao-Ting",
+            "firstname": "Hua",
+            "lastname": "Xiao-Ting",
+            "affiliations": [
+                {
+                    "organization": "Institute of Nuclear-Agricultural Science, Zhejiang University",
+                    "address": {
+                        "city": "Hangzhou",
+                        "country": "China",
+                        "postcode": "310029"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Hui-Ming Lu",
+            "firstname": "Hui-Ming",
+            "lastname": "Lu",
+            "affiliations": [
+                {
+                    "organization": "Institute of Nuclear-Agricultural Science, Zhejiang University",
+                    "address": {
+                        "city": "Hangzhou",
+                        "country": "China",
+                        "postcode": "310029"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Gao Guan-Jun",
+            "firstname": "Gao",
+            "lastname": "Guan-Jun",
+            "affiliations": [
+                {
+                    "organization": "Institute of Nuclear-Agricultural Science, Zhejiang University",
+                    "address": {
+                        "city": "Hangzhou",
+                        "country": "China",
+                        "postcode": "310029"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Tian Bing",
+            "firstname": "Tian",
+            "lastname": "Bing",
+            "affiliations": [
+                {
+                    "organization": "Institute of Nuclear-Agricultural Science, Zhejiang University",
+                    "address": {
+                        "city": "Hangzhou",
+                        "country": "China",
+                        "postcode": "310029"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Bing-Hui Shen",
+            "firstname": "Bing-Hui",
+            "lastname": "Shen",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Biology, City of Hope National Medical Center, Beckman Research Institute",
+                    "address": {
+                        "city": "Duarte",
+                        "country": "USA",
+                        "postcode": "91010-3000"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Hua Yue-Jin",
+            "firstname": "Hua",
+            "lastname": "Yue-Jin",
+            "affiliations": [
+                {
+                    "organization": "Institute of Nuclear-Agricultural Science, Zhejiang University",
+                    "address": {
+                        "city": "Hangzhou",
+                        "country": "China",
+                        "postcode": "310029"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "RecQ is a highly conserved helicase necessary for maintaining genome stability in all organisms. Genome comparison showed that a homologue of RecQ in Deinococcus radiodurans designated as DR1289 is a member of RecQ family with unusual domain arrangement: a helicase domain, an RecQ C-terminal domain, and surprisingly three HRDC domain repeats, whose function, however, remains obscure currently. Using an insertion deletion, we discovered that the DRRecQ mutation causes an increase in gamma radiation, hydroxyurea and mitomycine C and UV sensitivity. Using the shuttle plasmid pRADK, we complemented various domains of the D. radiodurans RecQ (DRRecQ) to the mutant in vivo. Results suggested that both the helicase and helicase-and-RNase-D-C-terminal (HRDC) domains are essential for complementing several phenotypes. The complementation and biochemical function of DRRecQ variants with different domains truncated in vitro suggested that both the helicase and three HRDC domains are necessary for RecQ functions in D. radiodurans, while three HRDC domains have a synergistic effect on the whole function. Our finding leads to the hypothesis that the RecF recombination pathway is likely a primary path of double strand break repair in this well-known radioresistant organism.",
+    "full_text": "Deinococcus radiodurans exhibits extreme resistance to ionizing radiation, UV-ray, desiccation and a variety of DNA damaging agents without any mutation (Minton, 1994). With the release of the genome sequence of D. radiodurans R1 sequenced and annotated (White et al., 1999), many functional genes involved in DNA repair, such as recA, ssb and so on have been studied (Eggington et al., 2004;Daly et al., 1994). However, the molecular mechanisms underlying its radiation resistance remain unclear.\n\nAs a recombination-specific DNA helicase from the SF2 family, RecQ helicases are highly conserved in evolution and are required for maintaining genome stability in all organisms (Khakhar et al., 2003). Loss of RecQ helicase leads to a breakdown in the maintenance of genome integrity, in particular hyper-recombination. RecQ has been the focus of considerable attention recently because mutations in three recQ genes are responsible for human disorders RecQ is a multifunctional protein and likely plays roles in many facets of DNA metabolism, such as replication, recombination, telomere maintenance and DNA damage response. In vitro, RecQ helicase initiates strand exchange and unwinds a wide variety of DNA substrates homologous pairing intermediates, including G4 DNA, three-or four-strand DNA structure including D-loops, forked structure and Holliday junction (Huber et al., 2002). It is also suggested that RecQ generates an initiating signal that can recruit RecA for SOS induction and recombination at stalled replication forks (Hishida et al., 2004).\n\nThe RecQ family can be distinguished from others by its three conserved domains referred to as the helicase, RQC and HRDC domains (Morozov et al., 1997) (Fig. 1a). In D. radiodurans, one component of the recombinational repair system that has unusual domain architecture is the RecQ helicase, the function of which remains obscure currently. It contains three tandem copies of HRDC domain instead of single copy present in all other bacteria except Neisseria that similarly possesses three copies (Makarova et al., 2001). The three HRDC domains share many identical residues with other HRDC domains (Fig. 1b), but whether they could all contribute the extreme resistance ability in the bacterium, or whether there are similarities and differences between the DRRecQ and other RecQ family members remain unknown. Our present study was undertaken to investigate the biochemical function of the helicase domain and the three tandem HRDC domains of the D. radiodurans RecQ protein in vivo and in vitro.\n\nWe constructed an recQ disruption strain (designated MQ) in which the entire coding region of the DR1289 gene has been replaced with a kanamycin resistance cassette under the control of a constitutively expressed D. radiodurans promoter groEL. Cell survival after damage of the MQ strain showed that the DRRecQ mutation was sensitive to mitomycine C, and hydroxyurea and UV. Interestingly, we also found that when the dosage of gamma radiation up to 2 kilograys, it decreased remarkably compared to the wild type R1 (data not shown). Then, we complemented different HRDC domains truncated variants into the MQ mutant (Fig. 1c) with shuttle vector pRADK. Western blot results showed that all the RecQ variants proteins could be detected against RecQ antiserum, with the molecular weight of each band corresponding to the weight of the various proteins. Therefore, we concluded that all the various RecQ proteins could be over-expressed in MQ in vivo. It was previously proposed that the RECQ/QE helicase activity is important for cellular function and that the C-terminal domain has a special function in the absence of Top3 (Nakayama et al., 2004). While our data suggested that all the three HRDC domains and the helicase domain of D. radiodurans are all necessary for complementing the phenotype of the MQ, indicating that the three tandem HRDC domains have a special function in D. radiodurans, whose function may distinguished from other HRDC domain in the RecQ family.\n\nFour variants of the DRRecQ protein along with the full length enzyme were constructed and purified (Fig. 2). Helicase-mediated unwinding of the purified DRRecQ variants was monitored by using a continuous fluorescent dye-displacement assay. Hoechst 33258 functions as suitable reporter molecule and the dsDNA substrate used here was pUC19 digested by HindIII with nearly blunt dsDNA ends. Higher concentrations of DRRecQ cause an increase in the proportion of DNA molecules (Fig. 3). Moreover, similar to the E. coli RecQ, the fluorescence signal was sensitive to the concentration of magnesium and sodium chloride in the reaction. When all the variants tested showed similar activity, with more amount of HRDC domains truncated, DRRecQ∆1D, DRRecQ∆2D, DRRecQ∆3D had lower helicase, ATPase, and binding affinity in a synergistic manner. In contrast, DRRecQ∆H displays no detectable helicase and AT-Pase activity but displays all the binding properties of almost the full length protein. Thus, we proposed that the helicase domain is indispensable for the unwinding activity of the DRRecQ protein, while the three HRDC domains may elevate the helicase function as synergistic effectors. D. radiodurans RecQ is a special member of the RecF pathway of homologous recombination, its genetic importance in vivo and in vitro has been uncovered. These finding leads to the hypothesis that the RecF recombination pathway is likely a primary path of double strand break repair in this well-known radioresistant organism.\n\nThe propagation of the HRDC domain in D. radiodurans was proposed to contribute to the repair phenotype, given the interactions of RecQ with RecA in recombination. The work presented here has uncovered the biochemical functions and phenotype of D. radiodurans RecQ and provides important clues for understanding the complex interplay between DNA replication, recombination and DNA repair.\n\nDaly, M.J., Ouyang, L., Fuchs, P., Minton, K.W., 1994. In vivo damage and recA-dependent repair of plasmid and chromosomal DNA in the radiation-resistant bacterium Deinococcus radiodurans. J. Bacteriol., 176(12): 3508-3517. Eggington, J.M., Haruta, N., Wood, E.A., Cox, M.M., 2004.\n\nThe single-stranded DNA-binding protein of Deinococcus radiodurans. BMC Microbiol., 4(1):2. 1.0 0.8 0.6 0.4 0.2 0.0 0 100 200 300 400 500 600 Time (s) Fraction initial fluorescence 10 nmol/L 50 nmol/L 100 nmol/L 200 nmol/L Fig.3 Rate of HindIII-cut pUC19 unwinding of fluorescent dye-displacement helicase assay with various concentrations of DRRecQ protein"
+}

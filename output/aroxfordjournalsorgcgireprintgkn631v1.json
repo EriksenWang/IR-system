@@ -1,0 +1,395 @@
+{
+    "title": "GiardiaDB and TrichDB: integrated genomic resources for the eukaryotic protist pathogens Giardia lamblia and Trichomonas vaginalis",
+    "publication_date": "2004",
+    "authors": [
+        {
+            "full_name": "Cristina Aurrecoechea",
+            "firstname": "Cristina",
+            "lastname": "Aurrecoechea",
+            "affiliations": [
+                {
+                    "organization": "Center for Tropical & Emerging Global Diseases, University of Georgia",
+                    "address": {
+                        "city": "Athens",
+                        "postcode": "30602"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "John Brestelli",
+            "firstname": "John",
+            "lastname": "Brestelli",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Brian P Brunk",
+            "firstname": "Brian P",
+            "lastname": "Brunk",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jane M Carlton",
+            "firstname": "Jane M",
+            "lastname": "Carlton",
+            "affiliations": [
+                {
+                    "organization": "Department of Medical Parasitology, New York University Langone Medical Center",
+                    "address": {
+                        "city": "New York",
+                        "postcode": "10010"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jennifer Dommer",
+            "firstname": "Jennifer",
+            "lastname": "Dommer",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Steve Fischer",
+            "firstname": "Steve",
+            "lastname": "Fischer",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Bindu Gajria",
+            "firstname": "Bindu",
+            "lastname": "Gajria",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Xin Gao",
+            "firstname": "Xin",
+            "lastname": "Gao",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Alan Gingle",
+            "firstname": "Alan",
+            "lastname": "Gingle",
+            "affiliations": [
+                {
+                    "organization": "Center for Applied Genetic Technologies, University of Georgia",
+                    "address": {
+                        "city": "Athens",
+                        "postcode": "30602"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Greg Grant",
+            "firstname": "Greg",
+            "lastname": "Grant",
+            "affiliations": [
+                {
+                    "organization": "School of Medicine, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Omar S Harb",
+            "firstname": "Omar S",
+            "lastname": "Harb",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Mark Heiges",
+            "firstname": "Mark",
+            "lastname": "Heiges",
+            "affiliations": [
+                {
+                    "organization": "Center for Tropical & Emerging Global Diseases, University of Georgia",
+                    "address": {
+                        "city": "Athens",
+                        "postcode": "30602"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Frank Innamorato",
+            "firstname": "Frank",
+            "lastname": "Innamorato",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "John Iodice",
+            "firstname": "John",
+            "lastname": "Iodice",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jessica C Kissinger",
+            "firstname": "Jessica C",
+            "lastname": "Kissinger",
+            "affiliations": [
+                {
+                    "organization": "Center for Tropical & Emerging Global Diseases, University of Georgia",
+                    "address": {
+                        "city": "Athens",
+                        "postcode": "30602"
+                    }
+                },
+                {
+                    "organization": "Department of Genetics",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Eileen Kraemer",
+            "firstname": "Eileen",
+            "lastname": "Kraemer",
+            "affiliations": [
+                {
+                    "organization": "Department of Computer Science, University of Georgia",
+                    "address": {
+                        "city": "Athens Bay Paul",
+                        "postcode": "30602"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Wei Li",
+            "firstname": "Wei",
+            "lastname": "Li",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "John A Miller",
+            "firstname": "John A",
+            "lastname": "Miller",
+            "affiliations": [
+                {
+                    "organization": "Department of Computer Science, University of Georgia",
+                    "address": {
+                        "city": "Athens Bay Paul",
+                        "postcode": "30602"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Hilary G Morrison",
+            "firstname": "Hilary G",
+            "lastname": "Morrison",
+            "affiliations": []
+        },
+        {
+            "full_name": "Vishal Nayak",
+            "firstname": "Vishal",
+            "lastname": "Nayak",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Cary Pennington",
+            "firstname": "Cary",
+            "lastname": "Pennington",
+            "affiliations": [
+                {
+                    "organization": "Center for Tropical & Emerging Global Diseases, University of Georgia",
+                    "address": {
+                        "city": "Athens",
+                        "postcode": "30602"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Deborah F Pinney",
+            "firstname": "Deborah F",
+            "lastname": "Pinney",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "David S Roos",
+            "firstname": "David S",
+            "lastname": "Roos",
+            "affiliations": [
+                {
+                    "organization": "Center [for Comparative Molecular Biology and Evolution], Marine Biological Laboratory",
+                    "address": {
+                        "postcode": "02543"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Chris Ross",
+            "firstname": "Chris",
+            "lastname": "Ross",
+            "affiliations": [
+                {
+                    "organization": "Center for Tropical & Emerging Global Diseases, University of Georgia",
+                    "address": {
+                        "city": "Athens",
+                        "postcode": "30602"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Christian J Stoeckert",
+            "firstname": "Christian J",
+            "lastname": "Stoeckert",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Steven Sullivan",
+            "firstname": "Steven",
+            "lastname": "Sullivan",
+            "affiliations": [
+                {
+                    "organization": "Department of Medical Parasitology, New York University Langone Medical Center",
+                    "address": {
+                        "city": "New York",
+                        "postcode": "10010"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Charles Treatman",
+            "firstname": "Charles",
+            "lastname": "Treatman",
+            "affiliations": [
+                {
+                    "organization": "Penn Center for Bioinformatics, University of Pennsylvania",
+                    "address": {
+                        "city": "Philadelphia",
+                        "postcode": "19104"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Haiming Wang",
+            "firstname": "Haiming",
+            "lastname": "Wang",
+            "affiliations": [
+                {
+                    "organization": "Center for Tropical & Emerging Global Diseases, University of Georgia",
+                    "address": {
+                        "city": "Athens",
+                        "postcode": "30602"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "GiardiaDB (\nhttp://GiardiaDB.org\n) and TrichDB (\nhttp://TrichDB.org\n) house the genome databases for Giardia lamblia and Trichomonas vaginalis, respectively, and represent the latest additions to the EuPathDB (\nhttp://EuPathDB.org\n) family of functional genomic databases. GiardiaDB and TrichDB employ the same framework as other EuPathDB sites (CryptoDB, PlasmoDB and ToxoDB), supporting fully integrated and searchable databases. Genomicscale data available via these resources may be queried based on BLAST searches, annotation keywords and gene ID searches, GO terms, sequence motifs and other protein characteristics. Functional queries may also be formulated, based on transcript and protein expression data from a variety of platforms. Phylogenetic relationships may also be interrogated. The ability to combine the results from independent queries, and to store queries and query results for future use facilitates complex, genome-wide mining of functional genomic data.",
+    "full_text": "The amitochondriate protists Giardia lamblia (G. intestinalis; G. duodenalis) and Trichomonas vaginalis are ubiquitous microaerophilic parasites. Giardia lamblia, a major source of enteric infection in humans and potential bioterrorism agent (category B priority pathogen), is spread through fecal-oral transmission of highly stable cysts, with manifestations such as diarrhea, cramps, bloating, weight loss and maladsorption in symptomatic cases (1). Trichomonas vaginalis is the causative agent of trichomoniasis, and is considered the most common nonviral sexually transmitted disease of humans, with $170 million cases annually (2). This parasite infects the urogenital epithelia of both the sexes, causing inflammation (although men are usually asymptomatic) and increased risk of HIV infection.\n\nThe 12 Mb G. lamblia genome (3) and $160 Mb T. vaginalis genome (4) have been deposited in GenBank, and are also accessible at GiardiaDB (http://GiardiaDB.org) and TrichDB (http://TrichDB.org), respectively, along with both manually curated automatically generated annotation, and a variety of functional genomics data. Data can may accessed and queried directly via the individual Correspondence may also be addressed to Brian P. Brunk.\n\nTel: +1 215 573 3118; Fax: +1 215 573 3111; Email: brunkb@pcbi.upenn.edu; Jessica C. Kissinger. Tel: +1 706 542 6562; Fax: +1 706 542 3582; Email: jkissing@uga.edu; David S. Roos. Tel: +1 215 898 2118; Fax: +1 215 746 6697; Christian J. Stoeckert. Tel: +1 215 573 4409; Fax: +1 215 573 3111; Email: stoeckrt@pcbi.upenn.edu *To whom correspondence should be addressed. Tel: +1 215 746 7019; Fax: +1 215 573 3111; Email: oharb@pcbi.upenn.edu ß 2008 The Author(s) This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/ by-nc/2.0/uk/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.\n\ngenome sites or through the Eukaryotic Pathogen DataBase portal (EuPathDB: http://EuPathDB.org) (5), which also accommodates other eukaryotic pathogen databases including CryptoDB (Cryptosporidium spp.) (6), PlasmoDB (Plasmodium spp.) (7) and ToxoDB (Toxoplasma gondii) (8).\n\nGiardiaDB release 1.1 is based on the 12 Mb genome of the WBC6 clinical isolate of G. lamblia. The sequence is distributed among 306 contigs, assembled on 92 scaffolds (supercontigs), with an average depth of coverage of 11Â. A total of 4976 genes have been annotated, including 4889 protein coding genes, 61 tRNAs and 17 rRNAs. In addition, 1611 genes have been flagged as 'deprecated' (demoted) in this release of GiardiaDB as they appear unlikely to represent true genes, based on incompatibility with longer gene models, published data, or alternative models for which functional evidence is available.\n\nTranscript and proteomic expression data sets are both available for analysis through GiardiaDB. These include expressed sequence tag (EST) evidence from the trophozoite life stage (3, and data deposited in dbEST; http://www.ncbi. nlm.nih.gov/dbEST/), and ten serial analysis of gene expression (SAGE) data sets, representing time points distributed throughout the Giardia parasite life cycle: trophozoites, encystation, cyst and excystation (9). Understanding various parasite life stages will be critical for vaccine and therapy development strategies, making the SAGE time series particularly valuable. SAGE data may be queried for evidence of gene expression at a particular life stage(s), and also based on relative levels of expression at different stages (differential expression). As part of the Pathogen Functional Genomics Resource Center (http://pfgrc.tigr. org/index.php/microarray/available_microarrays.html), the J. Craig Venter Institute (JCVI) has developed a microarray based on the WBC6 genome which is available to Giardia research groups. Results from one completed microarray study identifying genes that are up-or downregulated in response to stress (heat or DTT) are available in the current database (A. Hehl et al., unpublished). Trophozoites during log-phase growth are also represented by mass spectrometry-based proteomics data, with peptide assignments made using the SEQUEST (10) and DTASelect (D. Ratner et al., unpublished data). These data have been used to further validate gene calls and restore a small number of genes from 'deprecated' status.\n\nBecause Giardia has provided an extraordinarily valuable window into the evolution of eukaryotic cells, GiardiaDB also provides precomputed phylogenetic trees for 1441 genes. Giardial genes and homologs in other eukaryotic organisms were aligned using MUSCLE (11) and phylogenetic relationships inferred using MrBayes (12). While such trees cannot be computed dynamically, these precomputed trees provide a starting point for further analysis.\n\nTrichDB release 1.0 is based on the 160 Mb genome sequence of the G3 isolate of T. vaginalis (4) distributed among many contigs and scaffolds. The annotated genome is comprised of 59 672 protein-coding genes (only 65 of which contain introns), 1136 RNA-coding genes (668 rRNA and 438 tRNA) and 38 201 'repeat genes' (protein-coding genes present in high copy number). Transcript expression includes data from 11 T. vaginalis EST libraries, courtesy of TvXpress at the Chang Gung Bioinformatics Center (http://tvxpress.cgu.edu.tw/). These represent ESTs from four isolates, grown under different conditions, and from various cell cycle stages.\n\nTrichDB and GiardiaDB are both accessed via the standard EuPathDB web interface, providing a wide variety of tools for genomic database mining. In addition to BLAST (13) and pattern/motif similarity searches, users can identify genes based on genomic position; common name or keyword; gene attributes (such as gene type, or number of exons); evidence of transcript expression including ESTs (both TrichDB and GiardiaDB), SAGE tags, microarray and proteomics (GiardiaDB only); gene product annotation (such as GO function, or EC enzyme number); and predicted cellular location (based on signal peptide and transmembrane predictions). Figure 1A and B illustrates a set of queries supported in GiardiaDB (TrichDB is very similar). Query results are returned as a tabular list, with columns that users can sort, or manipulate by adding or removing attributes to be displayed (Figure 1C). Clicking on any gene identifier links to the gene record page, providing all the information associated with the gene of interest. The right-hand panel of Figure 1E shows a representative gene record page from GiardiaDB.\n\nThe EuPathDB infrastructure also provides a set of tools leveraging these basic queries, enabling users to perform higher level operations on their query results. For example, users may use the query history functionality to combine results using the Boolean operators (AND, OR, NOT) (Figure 1D), allowing them to identify genes that possess a specified combination of attributes, such as Figure 1. Screenshots of queries available through GiardiaDB (similar queries are also available for TrichDB). (A) starting with the home page of GiardiaDB (or TrichDB), users may access 'Queries & Tools' via the green navigation bar. (B) Highlighted queries focus on EST evidence (black), microarray expression (orange) or GO terms (green), yielding results shown in a 'Gene Results' page (C), which can be organized by the addition (or deletion) of data columns (menu inset), or sorted based on any column of interest. Hot-links provide direct access to individual gene record pages of interest. (D) The results obtained from any queries run by the user are stored under 'Query History' (green navigation bar), which may be combined using Boolean operations available. (E) a sample gene record page, corresponding to the Multidrug Resistance Protein B (GL50803_17305), identified through the Boolean combination shown in (D). Gene record pages may be accessed from several locations, including the Gene Result page C (by clicking on gene IDs of interest), by entering the gene ID on the home page (A, gray arrow), or by clicking on gene glyphs shown in genomic context at the top the gene record page (permits sequential 'walking' along the chromosome to neighboring genes, or more distant genes when viewing within the Genome Browser).\n\nputative kinase genes expressed in trophozoites for which either proteomics or EST evidence is available. Investigators interested in drug target discovery, may wish to search for genes with EST, microarray or proteomics evidence for expression, that appear likely to encode small soluble proteins assigned EC numbers or GO terms associated with catalytic activity, and lack evident orthologs in humans or other mammals. Similar queries against TrichDB might be further refined by asking for protein coding genes that are not highly repeated. The resulting candidate list could be expanded or restricted based on the addition of additional criteria, or parameter refinement.\n\nAt any point, users may download the results of any query in various formats, including a detailed report contains all of the data stored for each gene record, enabling further bioinformatics analysis. FASTA format allows users to simply retrieve transcript and/or protein sequences, as along with flanking genomic sequences if desired. For example, users might wish to identify a set of genes and download all sequences that lie within 1000-bp upstream of each. Optional registration and logins enable users to retain their query history over time, so that these results can be further refined, combined with additional queries, or re-run at a later date. Registered users may also submit comments on any gene or sequence entity in the database, providing support for community of these parasite genomes. User comments (labeled as such) are immediately available to other users of the database, and indexed for retrieval using keyword searches.\n\nEuPathDB provides a unified query interface for TrichDB and GiardiaDB, as well as other pathogen databases including CryptoDB (supporting three species of Cryptosporidium), PlasmoDB (six Plasmodium species) and ToxoDB (three Toxoplasma gondii strains, and the closely related species Neospora caninum). In support of functional and evolutionarily relevant studies, the organism parameter facilitates searches for 'anaerobic protists' (Cryptosporidium, Giardia, Trichomonas) or 'apicomplexans' (Crytosporidium, Plasmodium, Toxoplasma), in addition to 'all organisms' or any user-defined subsets of species. All queries available on the component websites are available in EuPathDB, enabling users to leverage orthologous relationships between organisms to identify genes based on data types that may not be available for their organism of primary interest. (Ortholog functionality not available for T. vaginalis at the time of manuscript submission, but scheduled for the autumn 2008 release of TrichDB.)\n\nGiardiaDB is expected to grow substantially over the coming, year as next-generation sequencing and assembly technologies are now being applied to three new genomes, including a second assemblage A isolate and two assemblage B isolates (14). The ability to query across related genomes will likely identify both a core set of Giardia genes, and genes that appear to be strainspecific. Proteomic data sets corresponding to various life cycle stages and subcellular fractions (particularly the ESV excretory/secretory vesicles) are also anticipated (Gillin et al., Tachezy et al., personal communication).\n\nThe next release of TrichDB is expected to incorporate several new data sets and data upgrades including proteomic, phosphoproteomic, microRNA and microarray data, new EST libraries, and transposable element annotation and categorization. MicroRNA and EST data are also expected for other trichomonads including T. tenax, T. foetus and Pentatrichomonas hominis. Additionally, we anticipate loading and providing access to the genomic sequence and annotation for a second strain of T. vaginalis (TO16). The scheduled incorporation of T. vaginalis into the OrthoMCL database of orthologous proteins (http://OrthoMCL.org) (15) will allow users to leverage orthology relationships between T. vaginalis and other protozoan parasites.\n\nNucleic Acids Research Advance Access published September 29, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from 2 Nucleic Acids Research, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2008 3 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nby guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from"
+}

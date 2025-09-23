@@ -1,0 +1,62 @@
+{
+    "title": "Neuron, Volume 61 Supplemental Data Dscam Mediates Remodeling of Glutamate Receptors in Aplysia during De Novo and Learning-Related Synapse Formation",
+    "publication_date": "2002",
+    "authors": [
+        {
+            "full_name": "Hsiu-Ling Li",
+            "firstname": "Hsiu-Ling",
+            "lastname": "Li",
+            "affiliations": []
+        },
+        {
+            "full_name": "Ben S Huang",
+            "firstname": "Ben S",
+            "lastname": "Huang",
+            "affiliations": []
+        },
+        {
+            "full_name": "Harshad Vishwasrao",
+            "firstname": "Harshad",
+            "lastname": "Vishwasrao",
+            "affiliations": []
+        },
+        {
+            "full_name": "Nadia Sutedja",
+            "firstname": "Nadia",
+            "lastname": "Sutedja",
+            "affiliations": []
+        },
+        {
+            "full_name": "Wei Chen",
+            "firstname": "Wei",
+            "lastname": "Chen",
+            "affiliations": []
+        },
+        {
+            "full_name": "Iksung Jin",
+            "firstname": "Iksung",
+            "lastname": "Jin",
+            "affiliations": []
+        },
+        {
+            "full_name": "Robert D Hawkins",
+            "firstname": "Robert D",
+            "lastname": "Hawkins",
+            "affiliations": []
+        },
+        {
+            "full_name": "Craig H Bailey",
+            "firstname": "Craig H",
+            "lastname": "Bailey",
+            "affiliations": []
+        },
+        {
+            "full_name": "Eric R Kandel",
+            "firstname": "Eric R",
+            "lastname": "Kandel",
+            "affiliations": []
+        }
+    ],
+    "abstract": "Aplysia glutamate receptors are expressed in both pre-and postsynaptic neurons\nWe first cloned several members of the glutamate receptors in Aplysia. Overall, these receptors share only 30% to 40% identity with those in mammals (Figure\nS1A\n). However, the signature sequences in the putative pore region and the ligand binding domains (S1 and S2) of these glutamate receptors share over 95% and 80% identity with their mammalian homologues, respectively, suggesting that these receptors might be functionally conserved during evolution.\nWe then adopted the criteria proposed by\nSprengel et al. (Sprengel et al., 2001)\nto classify the glutamate receptors. They proposed that the amino acid residues that form the channel pore of a glutamate receptor (signature sequences) could be used as an identifier sequence for individual channel subtypes\n(Sprengel et al., 2001)\n, since some of the channel properties of glutamate receptors, such as ion selectivity, permeability and conductance, are embodied in the ion pore. We classify the Aplysia glutamate receptors into three groups, NMDA-like, AMPA-like and kanaite-type receptors. We further classified the AMPA-like receptors as",
+    "full_text": "ApGluR1 and ApGluR2 based on their sequence homology with the glutamate receptors from fresh water snail, Lymnaea and vertebrate (Hutton et al., 1991). However, it is worth noting that these two glutamate receptors are more similar to each other than either is to vertebrate GluRs. This is consistent with the theory that there has been amplification of an ancient AMPA receptor independently in different lineage.\n\nSince Aplysia is closely related to the fresh water snail, Lymnaea, we then compared the glutamate receptors in both species. The ApGluR2 is 78% identical (89% homologous) to the Lymnaea glutamate receptor described by Hutton et al. (1991). The ApGluR2 is much closer to this Lymnaea receptor than to other Aplysia glutamate receptors. Hutton et al. suggested that this channel is not functional in homomers and therefore resembles rat GluR2 or kainate receptor (GluR5) in this context (see pg 114 by Hutton et al.). Furthermore, the ApGluR2 is most homologous to the GluR2 counterpart of monkey and zebra fish in vertebrates. We therefore assigned ApGluR2 for this Aplysia homologue. In terms of ApGluR1, we blasted the sequences against the NCBI database. We named this gene after the first hit of the known glutamate receptors with well characterized physiological properties. For the convenience of comparison, the nomenclature of Aplysia glutamate receptors from various groups is listed below in the Supplemental Table 1.\n\nUsing Northern blot analysis, we find both AMPA-like (ApGluR1 and ApGluR2) and NMDA-like (ApNR1) receptors to be expressed in the ganglia of Aplysia, but not in the ovotestis (Figure S1A). We next used single cell RT/PCR and in situ types of postsynaptic MN, one of which (L7) is capable of making synaptic connections with the SN of the Aplysia gill-withdrawal reflex and the other of which (L11) does not form synaptic connections with the SN (Figure S1B). These data suggest that the failure of sensory neurons to make connections with L11 MN must be due to the lack of additional molecular cues other than glutamate receptors.\n\nInterestingly, we found that SN also express the same types of glutamate receptors (Figure S1B and S1C). The expression of glutamate receptors in SN could represent putative postsynaptic sites in these cells, since the SN may receive glutamatergic inputs from other presynaptic partners. Alternatively, and perhaps more likely, these glutamate receptors might function as presynaptic auto-receptors for SN-released glutamate. glutamate receptors. (A) The top diagram shows the position of the ligand binding domains, S1 and S2 and the pore region in the M2 domain of Aplysia We monitored the remodeling of endogenous AMPA-like receptors following the induction of LTF. Conventional immunostaining using antibodies against Aplysia postsynaptic glutamate receptors and presynaptic synapsin is not an ideal method to address this question for two reasons: 1) the axonal and dendritic compartments of Aplysia neurons are not polarized, and 2) presynaptic proteins (e.g. synapsin) (Angers et al., 2002) as well as postsynaptic glutamate receptors (e.g. ApGluR1 and ApNR1) are present in both SN and L7 MN (Figure S1). presynaptic SN. The images of presynaptic synapsin prior to stimulation are shown in (I). Treatment with 5 pulses of 5-HT induces the formation of new varicosities of the sensory neurons at 24 hrs after stimulation (II). Cells were then fixed and immunostained with anti-ApNR1 or ApGluR1 antibodies followed by Cy3-conjugated secondary antibody (III). Co-localization of presynaptic synapsin with endogenous glutamate receptors is indicated with arrowheads (IV). These data were quantified as described in the Materials and Methods. The percentage of NMDAR co-localized with synapsin before and after 5x5HT treatment were 25.18±5.16% and 56.13±44%, n=3, p<0.05. The value for AMPAR co-localized with synapsin before and after 5x5HT treatment were 11.00±3.606% and 27.00±2.00%, n=3, p<0.001. inhibition of Dscam RNA levels. Both L7 MN and SN were injected with a mixture of Dscam-targeted RNAi or control RNAi at 6 hr after in culture (left and right panels). Cells were harvested at 12, 24 and 48 h after injection. The RNA levels of Dscam, ApGluR2 and ApSynapsin at each time point were determined by single cell RT/PCR. Dscam-targeted RNAi selectively blocked the expression  3 C. The average pixel intensity of WTDscam/EGFP is 14.850±1.891, 56.77±5.199, 75.869±8.362, 40.985±5.651 and 42.843±5.54 and that of Alexa 555 is 51.53±3.667, 66.550±4.813, 77.087±7.85, 46.45±3.958 and 48.843±6.024 at 2, 4, 6, 8 and 10 µm from the tips of growth cones, respectively. Figure 6B. (left panel) The average pixel intensity of WTDscam/EGFP is 44.500±2.102, 38.500±2.179, 39.00±4.564. 60.500±5.951, 62.250±8.938 and that of Alexa 555 is 142.25±2.594, 138.500±7.511, 135.500±6.764, 150.750±12.841, and 133.75±18.085 at 1, 6, 9, 10 and 12 after induction of LTF (right panel) The average pixel intensity of WTDscam/EGFP and Alexas 555 per unit area of 4µm 2 after induction of LTF is 90.667±5.965 and 98.33±12.162 (0h), 86.667±7.205 and 112.00±14.369 (3h), 63.333±4.667 and 94.167±8.126 (6h) , 58.833±3.71 and 102.333±7.94 (9h) and 54.167±3.701 and 106.500±9.909 (12h). Figure 6D. For LTF, the average pixel intensity of Protocadherin/EGFP and Alexa 555 per µm 2 is 65.49±9.75 and 66.50±12.63 (0h), 63.39±4.34 and 64.94±5.54 (2h), 66.47±11.17 and 57.65±11.87 (4h), 85.97±0.61 and 54.79±1.88 (6h), 87.79±16.21 and 66.10±15.90 (8h), 105.84±0.16 and 77.78±2.78 (10h) and Supplemental Table 2: Summary of the cloning strategy of the DNA constructs used in this study Constructs Cloning Strategy 1. ApGluR1/EGFP EGFP is inserted into an artificial EcoRV site which is created after the 3 rd amino acid down the putative signal peptide. 2. ApGluR2/EGFP Same strategy as ApGluR1/EGFP 3. ApNR1/EGFP EGFP is inserted into the Stu I site which is located at the 4 th amino acid down the putative signal peptide. 4. ApNR1/RFP Same strategy as above except that EGFP is replaced by RFP 5. ApDscam/EGFP ApDscam is cloned into N1-EGFP vector 1 6. ApDscam/RFP ApDscam is cloned into N1-RFP vector 1 7. INDscam/EGFP The intracellular domain of Dscam (a.a. 1670 to 1963) is cloned into the C1-EGFP vector 1 8. ECDscam/EGFP DNA encoding the extracellular and transmembrane domains of Dscam (a.a. 1-1673) is cloned into the N1-EGFP vector 1 9. ApProtocadherin/EGFP ApProtocadherin is fused with EGFP by PCR 10. ApSynapsin/RFP ApSynapsin is inserted between HindIII and SacI sites of DsRed C1 vector 1 Note: The fluorescent protein vectors were acquired from Clontech, CA. These fusion constructs were subcloned into pNex-3 vector for the expression in Aplysia neurons. Supplemental To determine the effects of these RNAi during de novo formation of SN-MN synapses, a mixture of these RNAi (6.7 µM) was microinjected into Aplysia neurons at 6 h after plating the cells in vitro and thereafter every 48 h. To determine the effect of these RNAi on the expression of LTF, a mixture of these RNAi was microinjected into mature Aplysia neuronal culture on day 4. Cells were then stimulated with 5-HT to induce facilitation.\n\nAfter treatment with five pulses of 5-HT, cells were fixed with 4% paraformaldehyde with 30% sucrose, then permeabilized with Triton-X 100 and incubated with PBS containing 4% fetal bovine serum (FBS) for 1h prior to incubation with rabbit anti-ApNR1 Ab (1:200 dilution) or rabbit anti-ApGluR1 Ab (1:200 dilution) for an additional 1h. Cells were then incubated with Texas Redlabeled goat anti-rabbit Ab (Jackson ImmunoResearch, PA) and imaged using confocal microscopy.\n\nCGU"
+}

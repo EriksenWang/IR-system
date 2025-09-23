@@ -1,0 +1,110 @@
+{
+    "title": "VisHiC-hierarchical functional enrichment analysis of microarray data",
+    "publication_date": "2001",
+    "authors": [
+        {
+            "full_name": "Darya Krushevskaya",
+            "firstname": "Darya",
+            "lastname": "Krushevskaya",
+            "affiliations": [
+                {
+                    "organization": "Institute of Computer Science, University of Tartu",
+                    "address": {
+                        "city": "Tartu",
+                        "postcode": "50409"
+                    }
+                },
+                {
+                    "organization": "Estonian Biocentre",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Hedi Peterson",
+            "firstname": "Hedi",
+            "lastname": "Peterson",
+            "affiliations": [
+                {
+                    "organization": "Institute of Molecular and Cell Biology, University of Tartu",
+                    "address": {
+                        "city": "Tartu",
+                        "postcode": "51010"
+                    }
+                },
+                {
+                    "organization": "",
+                    "address": {
+                        "city": "Quretec Tartu",
+                        "country": "Estonia",
+                        "postcode": "51003"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Ju ¨ri Reimand",
+            "firstname": "Ju",
+            "lastname": "¨ri Reimand",
+            "affiliations": [
+                {
+                    "organization": "Institute of Computer Science, University of Tartu",
+                    "address": {
+                        "city": "Tartu",
+                        "postcode": "50409"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Meelis Kull",
+            "firstname": "Meelis",
+            "lastname": "Kull",
+            "affiliations": [
+                {
+                    "organization": "Institute of Computer Science, University of Tartu",
+                    "address": {
+                        "city": "Tartu",
+                        "postcode": "50409"
+                    }
+                },
+                {
+                    "organization": "",
+                    "address": {
+                        "city": "Quretec Tartu",
+                        "country": "Estonia",
+                        "postcode": "51003"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jaak Vilo",
+            "firstname": "Jaak",
+            "lastname": "Vilo",
+            "affiliations": [
+                {
+                    "organization": "Institute of Computer Science, University of Tartu",
+                    "address": {
+                        "city": "Tartu",
+                        "postcode": "50409"
+                    }
+                },
+                {
+                    "organization": "Estonian Biocentre",
+                    "address": {}
+                },
+                {
+                    "organization": "",
+                    "address": {
+                        "city": "Quretec Tartu",
+                        "country": "Estonia",
+                        "postcode": "51003"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "Measuring gene expression levels with microarrays is one of the key technologies of modern genomics. Clustering of microarray data is an important application, as genes with similar expression profiles may be regulated by common pathways and involved in related functions. Gene Ontology (GO) analysis and visualization allows researchers to study the biological context of discovered clusters and characterize genes with previously unknown functions. We present VisHiC (Visualization of Hierarchical Clustering), a web server for clustering and compact visualization of gene expression data combined with automated function enrichment analysis. The main output of the analysis is a dendrogram and visual heatmap of the expression matrix that highlights biologically relevant clusters based on enriched GO terms, pathways and regulatory motifs. Clusters with most significant enrichments are contracted in the final visualization, while less relevant parts are hidden altogether. Such a dense representation of microarray data gives a quick global overview of thousands of transcripts in many conditions and provides a good starting point for further analysis. VisHiC is freely available at\nhttp://biit.cs.ut.ee/vishic\n.",
+    "full_text": "Microarrays have become the standard way of producing genome-scale measurements of gene expression levels (1). Since the first experimental studies (2), microarrays have been used for answering a large variety of questions, such as characterizing gene expression patterns in tumour cell lines and healthy tissues (3,4), identifying key mechanisms of stem cell differentiation (5), and reconstructing global transcriptional networks in model organisms (6).\n\nDatabases like ArrayExpress and GEO (7,8) have become goldmines of transcriptomic information with thousands of publicly available microarray datasets.\n\nInterpretation and visualization is a crucial step of microarray analysis, as measurements are abundant and the level of experimental noise is high (9). A common reasoning behind microarray analysis is 'guilt by association', as genes with similar expression profiles may have common regulatory circuits and functions (10). Unsupervised clustering presented as a heatmap and dendrogram is a common approach for detecting coexpressed groups of genes (11,12). Gene Ontology (GO) annotations are often used for the biological interpretation of detected clusters (13).\n\nClustering has several well-identified drawbacks that affect interpretation and reproducibility (14). Popular clustering methods rely on input parameters, for example, hierarchical clustering (11) applies a fixed dendrogram cut-off value, and K-means (12) require predefining the number (and hence, the structure) of expected groups. Enrichment tools that relate gene groups to GO categories need to be accessed separately, which complicates the analysis of hundreds of clusters. Analysing results of hierarchical clustering is complicated, since each node of the dendrogram represents a potential cluster. Moreover, given the hundreds of potentially relevant datasets in public databases, the manual work would be unreasonable. Data visualization is also technically challenging, since heatmaps with thousands of transcripts hardly fit on computer screens. These problems are still commonly tackled with ad hoc means, e.g. removing genes that are 'not interesting' due to constant expression levels.\n\nVisHiC (Visualization of Hierarchical Clustering) is a web server for analysis of gene expression data, that provides agile all-in-one service for hierarchical clustering, functional enrichment analysis and visualization. The tool provides a global overview of a given expression matrix and highlights its most significant functional aspects using GO analysis. VisHiC builds a compact clustering using functional enrichments rather than fixed user-defined *To whom correspondence should be addressed. Tel: +372 50 49 365; Fax: +372 737 5468; Email: vilo@ut.ee; vilo@quretec.com ß 2009 The Author(s) This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/ by-nc/2.0/uk/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited. thresholds, by pruning clusters where no enrichments are found.\n\nGO enrichment analysis is a common measure of gene cluster interpretation and a wide range of related tools has been created in recent years (15)(16)(17). Several microarray analysis pipelines are available, notably Expression Profiler (18), GeneXPress (19) and AMEN (20) incorporate clustering methods with downstream analysis of annotations, sequence information and protein-protein interactions. The ambiguity of clustering methods has created a need for algorithms that assess multiple clusters (21). Some previously published tools also use functional information for clustering (22)(23)(24)(25). More recently, Ovaska et al. (26) combine clustering of genes based on semantic similarity of GO with heatmap visualization. However, the above comprise downloadable software that require additional data and expensive local computations. Our web server, on the other hand, provides the latest information from public databases and uses speedoptimized algorithms of HappieClust (27) and g:Profiler (16) to provide fast clustering and functional profiling even for larger datasets. In conclusion, we believe that our server provides an enhanced and useful service to the community.\n\nVisHiC (http://biit.cs.ut.ee/vishic, Figure 1) is a web server for integrated cluster analysis, interpretation and visualization of microarray data that:\n\n(1) performs a fast approximate hierarchical clustering of a user-provided gene expression dataset; (2) computes functional enrichments of all discovered clusters using GO, pathways and regulatory motifs; (3) creates a compact heatmap dendrogram of the expression dataset, revealing most important functional enrichments and hiding poorly annotated expression profiles.\n\nThe input of VisHiC is a gene expression matrix in plain tab-delimited or Gene Expression Omnibus SOFT format. Alternatively, one may use an expression matrix from our selection of example datasets. VisHiC supports a wide variety of gene, protein and probeset identifiers for human as well as most eukaryotic model organisms. The output of VisHiC is a compact gene expression matrix represented as a heatmap dendrogram, similar to the format used in many gene expression analysis applications. The analysis consists of three consecutive steps as described below.\n\nThe first stage of VisHiC analysis involves clustering of the input gene expression matrix.\n\nAgglomerative hierarchical clustering (AHC) organizes the data into a dendrogram, i.e. a tree where every node represents a gene cluster (28). Nodes in the bottom of the hierarchy (i.e. leaf nodes) represent single-gene clusters, all nodes except leaves are made up of two smaller clusters, and the root node contains all genes in the dataset. The AHC algorithm starts from single-gene clusters, iteratively merges most similar neighbours and results in a hierarchical structure of N À 1 non-trivial clusters given a dataset of N genes.\n\nComputational speed is an important consideration of AHC, as the standard algorithm requires all pairwise distances between expression profiles. This renders to around 200 million distances in case of an average mammalian genome. The VisHiC server incorporates HappieClust, our novel approximate version of the AHC algorithm (27). Instead of computing all pairwise distances, HappieClust takes advantage of pivot-based similarity heuristics to calculate all distances between similarly expressed genes as well as a random subset of more distant pairs. Since only a subset of all pairwise distances is calculated, HappieClust approximates the full AHC based on the pairwise distances that have been calculated during the process. Computational experiments with public microarray data show that HappieClust produces a biologically comparable analysis an order of magnitude faster than standard AHC.\n\nPearson correlation is the default measure in VisHiC for determining similarity between expression profiles. Alternatively, one may apply the negative correlation measure that detects inverse correlation patterns such as those shared by a repressor and its targets. Absolute correlation is a combination of the two, as it detects both direct and inverse similarity.\n\nThe second stage of VisHiC analysis involves functional enrichment analysis of all detected clusters to infer the optimal clustering.\n\nA common strategy for partitioning a hierarchical clustering involves a dendrogram cut-off. However, it is difficult to provide a biologically plausible cut-off value, as gene expression profiles are not uniformly distributed and a fixed cut-off for different datasets does not guarantee stability.\n\nIn this work, we take a different approach and infer clusters using statistical analysis of functional annotations [refer to (29) for a relevant review]. We use our g:Profiler software ( 16) to profile all discovered clusters for GO terms (13), pathways of Reactome and KEGG (30,31), regulatory motifs of Transfac (32) and microRNA target sites of miRBase (33).\n\nVisHiC applies the cumulative hypergeometric test to detect the significance of a functional annotation a, given that there are k genes in a cluster of n genes with an annotation a, and there are K annotated genes among the total of N genes in the genome:\n\nTo evaluate the total enrichment in a given cluster, VisHiC computes a size-weighted annotation score q that summarizes enrichments of GO as well as pathways and regulatory motifs:\n\nAlternatively, one may opt for a strategy that assigns the best log P-value to each cluster, giving more preference to clusters with specific annotations:\n\nIn order to reduce the amount of false positives resulting from numerous enrichment tests, VisHiC computes a special multiple testing correction that accounts for the hierarchical structure of GO (34). Standard corrections such as Bonferroni and Benjamini-Hochberg False Discovery Rate are also applicable.\n\nThe final stage of VisHiC analysis creates a compact and biologically motivated clustering of the expression dataset to reveal its functional essence.\n\nHierarchical clustering places gene groups in a parentchild structure, where clusters up in the hierarchy naturally contain smaller clusters as subsets. Similarly, the GO comprises a structured vocabulary where smaller groups of specific annotations are contained in large general groups. Hence, one expects to see specific enrichments in child clusters and corresponding general annotations in parent clusters. As the clustering dendrogram contains a spectrum of hierarchically contained clusters from single genes to the whole genome, choosing an optimal cluster involves maximizing certain criteria within a branch.\n\nWe have devised the following two-stage greedy algorithm that determines the cluster structure based on functional annotations.\n\nFirst, we look for dense clusters, i.e. clusters with a high annotation score q, or alternatively, the term with the strongest P-value m. We scan all groups of genes that have functional enrichments, greedily starting from the one that provides the strongest annotation score. A cluster is not considered if any of its child or parent clusters is already a dense cluster. Dense clusters are shown in the final output. Second, we detect sparse clusters, i.e. groups of genes that have poor or no functional enrichments. We start the analysis from the root of the dendrogram and pass it recursively, compressing all clusters except the ones that contain dense clusters as child nodes. Sparse clusters are cut-off from the dendrogram and corresponding expression profiles are hidden in the heatmap.\n\nOur annotation-driven clustering algorithm is fully automated and does not depend on user-defined cut-offs. Cluster boundaries are determined only from significant enrichments of functional terms. VisHiC excludes small (<5 genes) and large (>1000 genes) clusters from enrichment analysis for optimal running time. The user may choose a different range of cluster sizes, or disable all compression to view the full expression matrix with all related enrichments. All functional terms that remain significant after multiple testing correction are used for computing the optimal clustering. However, one may apply a more stringent P-value threshold to reduce the number of contributing enrichments and compress the matrix to a greater extent.\n\nThe resulting expression matrix is presented as a heatmap of gene activation and repression patterns, complete with a dendrogram that highlights functional groups of coexpressed genes. Colour-coded rectangles in the dendrogram denote dense clusters and related functional categories (GO, KEGG, Reactome, regulatory motifs, microRNA target sites). Cluster-specific functional annotations are additionally presented in a table and also appear when hovering over the dendrogram. The main window displays the compact heatmap with all highlighted clusters, while one may also 'zoom in' to view any cluster separately. In compact view, vertical branch stumps of the dendrogram mark places where sparse clusters are compressed. The user may search for genes of interest, or conduct further analysis via hyperlinks to external resources, e.g. browse-related functional categories via the GO web site or g:Profiler.\n\nWe present a case study to demonstrate the use of VisHiC in biological analyses (Figure 1). The example comprises a microarray dataset of myocardial remodelling, including 38 samples from 3 clinical groups of patients with ischemic, non-ischemic and myocardial infarction, taken before and after left ventricular assist device implantation [available in GEO as part of the series GSE974 (35)]. We clustered the dataset, detected optimal clusters with best enrichments and visualized the resulting expression matrix (Figure 1a). We used a custom stringent P-value threshold (P < 10 À7 ) and 'best annotation' cluster selection strategy with Pearson correlation measure to compress the matrix into a reasonable publication-sized format.\n\nThe best scoring clusters are related to mitochondrion (Figure 1b), muscle tissue (Figure 1c) and extracellular matrix, all of which are expected to be present in heart tissue expression profiles. Mitochondria produce adenosine triphosphate (ATP) and are the primary cellular energy generators. A recent publication underlines the importance of mitochondria in the heart and relates its mutations to heart disorders (36).\n\nThe cluster with muscle tissue enrichments (ID:36899, see Figure 1e for expression profiles and Figure 1f for functional annotations) contains 420 probesets for 251 genes and has several strong enrichments (contractile fibre: P < 10 À28 , muscle system process: P < 10 À22 , cytoskeletal protein binding: P < 10 À19 ). In addition, our analysis reveals an enrichment for the binding site of serum response factor (SRF) (Transfac M01007, P < 10 À9 ). SRF is a known heart transcription factor which increased expression in congestive heart failure (37).\n\nThe case study shows that VisHiC successfully extracts relevant functional aspects of a dataset, and compresses it into an easily perceivable compact format that fits well on screen and paper.\n\nVisHiC (http://biit.cs.ut.ee/vishic/) is a public web server for clustering and interpreting gene expression data. The tool is designed to extract the most significant biological features of a microarray dataset in a single run. The main output is a compact global view of the expression matrix with only the most significant clusters shown and less pronounced patterns hidden away, as its interactive format leaves open ends for more detailed analyses. VisHiC provides stability to otherwise ambiguous clustering and performs the labour-intensive task of evaluating hundreds of redundant clusters in a rapid automated manner. The approximate hierarchical clustering and rapid functional analysis guarantee meaningful results even if the datasets are large.\n\nFunctional assessment of microarray datasets is an immediate application of VisHiC analysis, as annotations of highlighted clusters should relate to proposed hypotheses. Our approach is likely to be useful for large expression warehouses, so that first broad overviews could be offered to users who are routinely browsing hundreds of datasets. One may use VisHiC to compare different datasets in the context of experimental conditions, global expression patterns and functional aspects. Integrating expression clusters with other types of experimental data like protein-DNA and protein-protein interactions may provide researchers with additional clues about gene regulation.\n\nNucleic Acids Research Advance Access published May 29, 2009 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2009 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2009 3 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nby guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2009 5 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2009 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from"
+}

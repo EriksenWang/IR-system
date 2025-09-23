@@ -1,0 +1,68 @@
+{
+    "title": "OperonDB: a comprehensive database of predicted operons in microbial genomes",
+    "publication_date": "1996",
+    "authors": [
+        {
+            "full_name": "Mihaela Pertea",
+            "firstname": "Mihaela",
+            "lastname": "Pertea",
+            "affiliations": [
+                {
+                    "organization": "Center for Bioinformatics and Computational Biology, University of Maryland",
+                    "address": {
+                        "city": "College Park",
+                        "country": "USA",
+                        "postcode": "20742"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Kunmi Ayanbule",
+            "firstname": "Kunmi",
+            "lastname": "Ayanbule",
+            "affiliations": [
+                {
+                    "organization": "Center for Bioinformatics and Computational Biology, University of Maryland",
+                    "address": {
+                        "city": "College Park",
+                        "country": "USA",
+                        "postcode": "20742"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Megan Smedinghoff",
+            "firstname": "Megan",
+            "lastname": "Smedinghoff",
+            "affiliations": [
+                {
+                    "organization": "Center for Bioinformatics and Computational Biology, University of Maryland",
+                    "address": {
+                        "city": "College Park",
+                        "country": "USA",
+                        "postcode": "20742"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Steven L Salzberg",
+            "firstname": "Steven L",
+            "lastname": "Salzberg",
+            "affiliations": [
+                {
+                    "organization": "Center for Bioinformatics and Computational Biology, University of Maryland",
+                    "address": {
+                        "city": "College Park",
+                        "country": "USA",
+                        "postcode": "20742"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "The fast pace of bacterial genome sequencing and the resulting dependence on highly automated annotation methods has driven the development of many genome-wide analysis tools. OperonDB, first released in 2001, is a database containing the results of a computational algorithm for locating operon structures in microbial genomes. OperonDB has grown from 34 genomes in its initial release to more than 500 genomes today. In addition to increasing the size of the database, we have re-designed our operon finding algorithm and improved its accuracy. The new database is updated regularly as additional genomes become available in public archives. OperonDB can be accessed at:\nhttp://operondb.cbcb.umd.edu",
+    "full_text": "Large-scale comparison of complete microbial genomes reveals that numerous gene clusters are conserved across species; i.e. sets of genes occur in the same physical arrangement in two or more species. Such gene clusters often, but not always, represent co-transcribed units, or operons, which are sets of genes that are co-regulated. In general, two genes are more likely to belong to an operon if they are adjacent, have the same orientation, are positioned relatively close together and are not separated by known promoters or terminators. Genes in an operon typically have closely related functions and consequently there is a strong selective pressure for operon structure to be conserved between genomes (1). Similarly, knowledge of operon structure provides important clues to the function of genes within an operon.\n\nExpression data from microarray experiments has previously been used to reliably identify clusters of co-transcribed genes (2,3); however, such data are not available for most bacterial and archaeal genomes, and sequencing continues to accelerate. Our operon prediction method (4) instead uses a purely computational and statistical approach, relying on conservation of gene order and orientation in two or more species to infer operon structure. We first used this method in 2001 to construct OperonDB, a database of operons for all complete microbial genomes, which at the time numbered 34 species. Although highly specific (with fewer than 2% false positives), the sensitivity of the original algorithm was estimated at 30-50% for the Escherichia coli genome. The current version of OperonDB has greater sensitivity while maintaining a similarly high level of specificity.\n\nThe original OperonDB algorithm defined the concept of a gene pair, and estimated the probability that genes in a conserved gene pair belonged to the same operon (4). A gene pair is defined as two adjacent genes (G1, G2) on the same strand, separated by at most 200 bp. A conserved gene pair is a gene pair that is found in two or more distinct genomes, where for pair (A, B) in genome G 1 and (C, D) in genome G 2 , A and C are orthologs, and B and D are orthologs.\n\nThe probability that a conserved gene pair between two genomes belongs to an operon was estimated (in the original OperonDB algorithm) from the overall proportion of conserved gene pairs as:\n\nPðgene pair in operonÞ\n\nwhere S and D are the sets of adjacent gene pairs on the same and different strands, respectively, SN is a subset of S that contains only pairs that do not belong to the same operon and P chance is the probability that a conserved S pair has homologs in other genomes.\n\nWe recently re-designed the algorithm behind OperonDB to make it more efficient and to improve its accuracy. The new implementation has increased sensitivity due to a relaxation of the constraints required to assign a gene pair to an operon. For example, in the current implementation, we eliminate the adjacency requirement *To whom correspondence should be addressed. Tel: +1 301 405 9762; Fax: +1 301 314 1341; Email: mpertea@umiacs.umd.edu ß 2008 The Author(s) This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/ by-nc/2.0/uk/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited. by requiring a gene pair to be co-linear, but allowing genes on the same strand to be separated by other genes with the same orientation. A threshold determines the maximum number of genes that are allowed to separate genes in any conserved gene pair. This relaxation allows for re-shufflings of gene order between species as well as genes inserted erroneously by misannotations. We also eliminated the 200-bp minimum separation between genes: while this limit works well for E. coli, other species have different distributions of intergenic lengths, and genes within operons are likely to reflect this difference (5).\n\nBy assuming that the conservation of a gene pair is independent of intergenic distance l, we can rewrite Equation 1 as:\n\nwhere the two probabilities PðljSÞ and PðljDÞ define the probabilities for a given S or D pair to have length l (estimated from the distributions of intergenic distances between same strand and opposite strand pairs, respectively). Due to the enormous quantities of data involved when dealing with the numerous prokaryotic genomes available today, the most computationally intensive step in estimating the probabilities in Equation 2is the identification of conserved pairs. To speed-up this step, we identify all orthologs between all pairs of genomes with highly parallelized BLAST (6) searches run on a grid-based system. We then find conserved gene clusters with a slightly modified version of the HomologyTeams (7) software. The algorithm implemented by HomologyTeams is a fast way to identify sets of orthologous genes. Within the conserved clusters neither the order of the genes nor their orientation need to be conserved, but a fixed threshold limits the distance between adjacent genes. We modified the HomologyTeams program to allow conserved pairs to be separated by a fixed number of non-conserved genes as well. This modification allows us to estimate both S and D conserved pairs in the context of our relaxed definition of gene pair.\n\nAlthough Equation 2 is an attempt to compute the probability P that two genes belong to the same operon, it incorporates several simplifying assumptions related to both the operon model (e.g. by assuming that D pairs can never belong to operons) and the evolutionary reason for gene cluster conservation (e.g. by ignoring alternative causes such as lateral gene transfer). As shown previously (4), these assumptions serve to make our estimate of P more conservative; i.e. it is an underestimate. Therefore, for the remainder of this discussion we will use the term confidence value instead of probability when we refer to the estimated value of P.\n\nThe confidence value computed by Equation 2does not take into account the evolutionary distance between the species containing the conserved gene pairs. Intuitively, the probability that a conserved gene cluster is co-transcribed should be higher if a larger evolutionary distance separates the species. To reflect this fact, we first estimate the evolutionary distance between any two genomes G 1 and G 2 using the Jaccard distance (8):\n\nwhere n(G i ) is the number of genes in G i and h(G i ;G j ) is the number of homologues from G j in G i . The previously computed confidence value for a conserved gene pair in two genomes G 1 and G 2 is then weighted with the ratio between d(G 1 ,G 2 ) and the maximum genome distance observed in the database.\n\nFigure 1 shows Receiver Operating Characteristic (ROC) curves of true positive versus false positive operon predictions for the new OperonDB database. The ROC curves are computed using a set of 602 E. coli operon pairs from RegulonDB (9), all of which are supported by experimental evidence. In the figure, a true positive is defined as any prediction of a conserved gene pair that is contained in a documented operon, and a false positive is any predicted pair where only one of the two genes belongs to a confirmed operon from the E. coli data set. Our new method shows substantial improvement over the previous implementation, especially for sensitivity levels >60%. Using Figure 1, we can compute the accuracy (defined as the average of sensitivity and specificity) of the new OperonDB for all possible thresholds. The maximum accuracy achieved is 80%, which is comparable to accuracies obtained by other recent operon prediction methods (10).\n\nOperonDB is accessible through a web interface at operondb.cbcb.umd.edu. The website is regularly updated and currently contains operon predictions for 550 bacterial and archaeal genomes, comprising the complete collection of finished prokaryotic genomes available from Genbank (www.ncbi.nih.gov) as of July 2008. This number will increase over time as more complete microbial genomes appear. All predictions can be downloaded in bulk, and the OperonDB software is available as free, open source software.\n\nIn an effort to make OperonDB faster and more portable, we have made several changes that have dramatically improved its performance and user interface. The most significant performance upgrade resulted from a switch of the database management system from Sybase to MySQL (5.0.22). The database also received a performance boost from a new database schema, better optimization tuning and an improved caching system. In consequence, OperonDB is easily scalable to a large number of genomes, and we routinely update it with little or no system downtime.\n\nOperonDB's web interface, which uses an Apache web server and a collection of php and perl-cgi scripts, was redesigned with a more intuitive system for data browsing. Figure 2 shows a site map of OperonDB.\n\nAccurate knowledge of promoters and terminators should allow us to improve further our predictions of transcription boundaries. Although promoters are notoriously difficult to predict, the TransTermHP system (11) does an excellent job-for at least some species-of finding rhoindependent terminators. And as mentioned above, when expression data are available, operon predictions can be even more accurate. We will continue to explore these and other methods for improving the accuracy of our operon finding algorithm.\n\nNucleic Acids Research Advance Access published October 23, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nby guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from"
+}

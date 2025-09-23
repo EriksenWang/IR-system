@@ -1,0 +1,266 @@
+{
+    "title": "Impairment of NO-Dependent Relaxation in Intralobar Pulmonary Arteries: Comparison Between Urban Particulate Matter and Manufactured Nanoparticles",
+    "publication_date": "2007",
+    "authors": [
+        {
+            "full_name": "Arnaud Courtois",
+            "firstname": "Arnaud",
+            "lastname": "Courtois",
+            "affiliations": [
+                {
+                    "organization": "Université",
+                    "address": {
+                        "city": "Bordeaux",
+                        "country": "France",
+                        "postcode": "F-33076"
+                    }
+                },
+                {
+                    "organization": "Inserm",
+                    "address": {
+                        "country": "France",
+                        "postcode": "U885 F-33076"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Pascal Andujar",
+            "firstname": "Pascal",
+            "lastname": "Andujar",
+            "affiliations": [
+                {
+                    "organization": "Faculté de médecine, Université",
+                    "address": {
+                        "city": "Créteil",
+                        "country": "France",
+                        "postcode": "F-94010"
+                    }
+                },
+                {
+                    "organization": "Inserm",
+                    "address": {
+                        "country": "France",
+                        "postcode": "U841 F-94010"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Yannick Ladeiro",
+            "firstname": "Yannick",
+            "lastname": "Ladeiro",
+            "affiliations": [
+                {
+                    "organization": "Université",
+                    "address": {
+                        "city": "Bordeaux",
+                        "country": "France",
+                        "postcode": "F-33076"
+                    }
+                },
+                {
+                    "organization": "Inserm",
+                    "address": {
+                        "country": "France",
+                        "postcode": "U885 F-33076"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Isabelle Baudrimont",
+            "firstname": "Isabelle",
+            "lastname": "Baudrimont",
+            "affiliations": [
+                {
+                    "organization": "Université",
+                    "address": {
+                        "city": "Bordeaux",
+                        "country": "France",
+                        "postcode": "F-33076"
+                    }
+                },
+                {
+                    "organization": "Inserm",
+                    "address": {
+                        "country": "France",
+                        "postcode": "U885 F-33076"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Estelle Delannoy",
+            "firstname": "Estelle",
+            "lastname": "Delannoy",
+            "affiliations": [
+                {
+                    "organization": "Université",
+                    "address": {
+                        "city": "Bordeaux",
+                        "country": "France",
+                        "postcode": "F-33076"
+                    }
+                },
+                {
+                    "organization": "Inserm",
+                    "address": {
+                        "country": "France",
+                        "postcode": "U885 F-33076"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Véronique Leblais",
+            "firstname": "Véronique",
+            "lastname": "Leblais",
+            "affiliations": [
+                {
+                    "organization": "Université",
+                    "address": {
+                        "city": "Bordeaux",
+                        "country": "France",
+                        "postcode": "F-33076"
+                    }
+                },
+                {
+                    "organization": "Inserm",
+                    "address": {
+                        "country": "France",
+                        "postcode": "U885 F-33076"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Hugues Begueret",
+            "firstname": "Hugues",
+            "lastname": "Begueret",
+            "affiliations": [
+                {
+                    "organization": "CHU de Bordeaux",
+                    "address": {
+                        "city": "Bordeaux",
+                        "country": "France",
+                        "postcode": "F-33076"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Marie Annick",
+            "firstname": "Marie",
+            "lastname": "Annick",
+            "affiliations": []
+        },
+        {
+            "full_name": "Billon Galland",
+            "firstname": "Billon",
+            "lastname": "Galland",
+            "affiliations": [
+                {
+                    "organization": "Laboratoire d'Etude des Particules Inhalées",
+                    "address": {
+                        "city": "Paris",
+                        "country": "France",
+                        "postcode": "F-75013"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Patrick Brochard",
+            "firstname": "Patrick",
+            "lastname": "Brochard",
+            "affiliations": [
+                {
+                    "organization": "CHU de Bordeaux",
+                    "address": {
+                        "city": "Bordeaux",
+                        "country": "France",
+                        "postcode": "F-33076"
+                    }
+                },
+                {
+                    "organization": "Université",
+                    "address": {
+                        "city": "Bordeaux",
+                        "country": "France",
+                        "postcode": "3672 F-33076"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Francelyne Marano",
+            "firstname": "Francelyne",
+            "lastname": "Marano",
+            "affiliations": [
+                {
+                    "organization": "Laboratoire de Cytophysiologie et de Toxicologie Cellulaire, Université Paris 7 Denis-Diderot",
+                    "address": {
+                        "city": "Paris",
+                        "country": "France",
+                        "postcode": "F-75251"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Roger Marthan",
+            "firstname": "Roger",
+            "lastname": "Marthan",
+            "affiliations": [
+                {
+                    "organization": "Université",
+                    "address": {
+                        "city": "Bordeaux",
+                        "country": "France",
+                        "postcode": "F-33076"
+                    }
+                },
+                {
+                    "organization": "Inserm",
+                    "address": {
+                        "country": "France",
+                        "postcode": "U885 F-33076"
+                    }
+                },
+                {
+                    "organization": "CHU de Bordeaux",
+                    "address": {
+                        "city": "Bordeaux",
+                        "country": "France",
+                        "postcode": "F-33076"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Bernard Muller",
+            "firstname": "Bernard",
+            "lastname": "Muller",
+            "affiliations": [
+                {
+                    "organization": "Université",
+                    "address": {
+                        "city": "Bordeaux",
+                        "country": "France",
+                        "postcode": "F-33076"
+                    }
+                },
+                {
+                    "organization": "Inserm",
+                    "address": {
+                        "country": "France",
+                        "postcode": "U885 F-33076"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "N/A",
+    "full_text": "Background and Objectives. Since pulmonary circulation is the primary vascular target of inhaled particulate matter, and NO a major vasculoprotective agent, this study investigates the effect of various particles on the NO-cGMP pathway in pulmonary arteries.\n\nMethods. Intrapulmonary arteries and/or endothelial cells, either exposed in vitro to particles, or removed from particle-instilled animals, were used for assessment of vasomotricity, cGMP and reactive oxygen species levels, and cytokine/chemokine release.\n\nResults. Endothelial NO-dependent relaxation and cGMP accumulation induced by acetylcholine were both decreased after 24 h exposure of rat intrapulmonary arteries to SRM1648 (urban particulate matter). Relaxation to NO donors was also decreased by SRM1648, while responsiveness to cGMP analogue remained unaffected. Unlike SRM1648, ultrafine carbon black, ultrafine or fine TiO 2 manufactured particles did not impair NO-mediated relaxation. SRM1648-induced decrease in relaxation to acetylcholine was prevented by dexamethasone (an anti-inflammatory agent), but not by antioxidants. Accordingly, SRM1648 increased the release of pro-inflammatory mediators (tumor necrosis factor-α, interleukin-8) from intrapulmonary arteries or pulmonary artery endothelial cells, but did not elevate reactive oxygen species levels within intrapulmonary arteries. Decreased relaxation to acetylcholine was also evidenced in intrapulmonary arteries removed from rats intratracheally instilled with SRM1648, but not with fine TiO 2 .\n\nConclusion. In contrast to manufactured particles (including nanoparticles), urban particulate matter impairs NO-, but not cGMP-responsiveness in intrapulmonary arteries. This is attributed to oxidative stress-independent inflammatory response, resulting in decreased guanylyl-cyclase activation by NO. Such impairment of the NO pathway may contribute to urban particulate matter-induced cardiovascular dysfunction.\n\nEpidemiological studies demonstrate a correlation between exposure to particulate matter (PM) pollution and cardiovascular morbidity (Hoek et al. 2001) and mortality (Pope et al. 2002). According to emission sources, PM is heterogeneous in size (aerodynamic diameter < 0.1 µm for ultrafine PM 0.1 ; < 2.5 µm for fine PM 2.5 ; < 10 µm for coarse PM 10 ) and composition (with various adsorbed constituents, such as transition metals, inorganic and organic compounds).\n\nAmong adverse effects, exposure to PM may induce pulmonary and systemic inflammation and dysfunction (Salvi et al. 1999). Two major hypotheses, which are not exclusive, have been proposed to account for the effects of inhaled particles that can deeply penetrate into the lungs. On one hand, once deposited into the lung, particles initiate a local inflammation, which triggers a secondary systemic inflammation that could exacerbate cardiovascular dysfunctions (Seaton et al. 1995).\n\nOn other hand, even though controversial, the passage of the finest particles, especially nanoparticles, into the blood after inhalation has been documented (Nemmar et al. 2001(Nemmar et al. , 2002;;Wiebert et al. 2006), suggesting direct effects of translocated particles, or of some of their constituents, on remote target tissues.\n\nConstriction of systemic or pulmonary arteries in response to PM is generally observed in in vitro and in vivo animal or human studies (Batalha et al. 2002;Brook et al. 2002;Huang et al. 2002;Li et al. 2005). Exposure to PM also induces a decrease in endothelium-dependent relaxation in systemic arteries (Ikeda et al. 1995;Nurkiewicz et al. 2004Nurkiewicz et al. , 2006)). Nitric oxide (NO) is a major endothelium-derived vasculoprotective factor, which among other effects (Gewaltig and Kojda 2002), decreases vascular tone through heme-dependent stimulation of soluble guanylylcyclase, and subsequent activation of cGMP-dependent protein kinases (Schlossmann et al. 2003). A decrease in endothelial NO production and/or bioactivity is a key event in the pathogenesis of many cardiovascular disorders (Li and Forstermann 2000). Inflammation and oxidative stress, two major effects accounting for some adverse effects of PM (Bai et al. 2007;Oberdörster et al. 2005), play a central role in endothelial dysfunction in many pathological blood vessels (Feletou and Vanhoutte 2006), including pulmonary arteries (Fresquet et al. 2006).\n\nAlthough impairment of NO-dependent pathway may contribute to deleterious effects of PM on the cardiovascular system, this issue has never been specifically addressed in pulmonary circulation, which is a privileged target of inhaled particles.\n\nTherefore, this study investigates the influence of PM on the NO-cGMP relaxant pathway in intrapulmonary arteries. PM under investigation were urban PM (SRM1648) and manufactured carbon black and TiO 2 nanoparticles, which unlike SRM1648 are relatively free of adsorbed constituents.\n\nDrugs and reagents were obtained from Sigma Chemical Co. (St Quentin-Fallavier, France), except diethylammonium(Z)-1-(N,N-diethylamino)diazen-1-ium-1,2-diolate (DEA-NONOate) and 3-(5'-hydroxymethyl-2'-furyl)-1-benzylindazole (YC-1), which were supplied from Alexis biochemicals (San-Diego, USA), 1H-[1,2,4]oxadiazolo [4,3-a]quinoxalin-1-one (ODQ) from Tocris Bioscience (Bristol, UK), Prostaglandin F 2α (PGF 2α , Dinolytic ® ), ketamine and xylazine from Centravet (Libourne, France), and dihydroethidium (DHE) from Molecular Probes (Cergy-Pontoise, France).\n\nStandard Reference Materials 1648 (SRM1648) was purchased from NIST (Gaithersburg, USA). Physical and chemical properties of SRM1648 have been previously described (Becker et al. 1996). They have a mean diameter of 0.4 µm, consist of greater than 63% inorganic carbon, and 4-7% organic carbon. Major constituent elements (> 1% mass fraction) are Silicon, Sulphur, Aluminum, Iron, Potassium and Sodium.\n\nOther particles used include ultrafine carbon black (ufcb) FW2 and P60 (from Degussa, Frankfurt, Germany), with average primary particle size of 13 and 21 nm, respectively. Ultrafine TiO 2 (ufTiO 2 ; average primary particle size: 15 nm) or fine TiO 2 (fTiO 2 ; mean diameter of 0.14 µm, determined by transmission electron microscopy) were obtained from Sigma Chemical Co. Prior experiments, particles (10 mg/ml) were freshly suspended in distilled deionized water. The concentrations of PM used for in vitro or in vivo experiments were chosen based on literature data (Nurkiewicz et al. 2004;Li et al. 2005Li et al. , 2006;;Mutlu et al. 2007).\n\nMale Wistar rats (12-14 weeks old; Elevage Janvier, Le Genest Saint Isle, France) were treated humanely and with regard for the alleviation of suffering, according to international guidelines (NIH Publication No. 85-23, revised 1996).\n\nIntrapulmonary arteries were dissected as previously described (Leblais et al. 2004).\n\nFor in vitro experiments, segments were incubated in DMEM, in absence or presence of particles for 24 h at 37°C in a humidified atmosphere (95% air / 5% CO 2 ). In some experiments, dexamethasone (10 µM), tempol (1 mM) or ascorbate (200 µM) were added to DMEM for the 24 h incubation period. Some rats were anesthetised by intraperitoneal injection of ketamine (50 mg/kg) and xylazine (4 mg/kg), and intratracheally instilled with 5 mg SRM1648 or fTiO 2 in 500 µl of saline (NaCl 0.9 %) or saline alone. After a recovery period (from 6 to 72 h), rats were euthanized and lungs were removed.\n\nArterial segments were mounted in a myograph as previously described (Leblais et al. 2004). In some case, endothelium was removed before mounting, by perfusion with the non-denaturating zwitterionic detergent, CHAPS (Pourageaud et al. 2005).\n\nViability of arteries was evaluated using physiological salt solution (PSS) containing 80 mM KCl (equimolar substitution with NaCl). Preparations developing a wall tension below 1 mN/mm were discarded. Endothelium removal or loss of NOsynthase functionality was evidenced when, after treatment with CHAPS or with the NO-synthase inhibitor N ω -nitro-L-arginine methylester (L-NAME, 300 µM), the reference endothelium-dependent relaxant agent acetylcholine (30 µM) elicited less than 5% relaxation after submaximal pre-contraction with PGF 2α (10 µM).\n\nIntrapulmonary arteries were exposed to KCl (5 to 100 mM) or PGF 2α (30 nM to 30 µM). After washout, they were submaximally contracted with PGF 2α in order to achieve approximately 50% of the tension obtained with 80 mM KCl. Once stable contraction was obtained, cumulative concentrations of acetylcholine, sodium nitroprusside (SNP), DEA-NONOate (DEA-NO), 8-Br-cyclic-GMP, YC-1, isoproterenol, forskolin or levcromakalim were added. The targets of drugs activating the NO-cGMP pathway are illustrated in Figure 1A. YC-1 was used to activate soluble guanylyl-cyclase by a NO-independent manner. However, this compound also increases the sensitivity of the enzyme to NO (Friebe and Koesling 2003). To minimize the influence of the latter mechanism, effect of YC-1 was studied in endothelium-denuded arteries treated with ODQ, an irreversible inhibitor of NOdependent activation of soluble guanylyl-cyclase. When isoproterenol was studied, arteries were pre-treated by phenoxybenzamine (1 µM) to irreversibly inactivate αadrenoreceptor (Pourageaud et al. 2005). In some experiments, tempol (1 mM) was added to organ bath before pre-contraction with PGF 2α .\n\nSections of intrapulmonary arteries were prepared and exposed to the fluorescent dye DHE (2.5 µM) as previously described (Fresquet et al. 2006). Slides were examined under a laser scanning confocal microscope equipped with a krypton/argon laser (excitation 488 nm, emission 610 nm). Final images were obtained after stacking.\n\nLungs from SRM1648-instilled rats were fixed in phosphate-buffered (pH 7.4) containing 4% formaldehyde. Paraffin-embedded histologic sections (3 µm thick) were stained with hematoxylin, eosin and saffron (HES), and examinated under optical light microscope.\n\nIntrapulmonary arteries from bovine lung (obtained from local slaughterhouse) were opened longitudinally. Their intimal surface was digested with collagenase and gently scraped to remove endothelial cells (adapted from Zhao et al. 2005).\n\nEndothelial cells were separated by immunomagnetic beads (Dynabeads ® ) coated with CD31 antibody, and purity was assessed by CD31 and endothelial NO-synthase immunostainings. Cells were seeded at 10 5 cells/ml in MCDB 31 medium, and cultured at 37°C in 5% CO 2 .\n\nIncubation medium from intrapulmonary arteries or subconfluent endothelial cells (used at their second passage) exposed or not to SRM1648 (200 µg/ml for 24 h) was stored at -20°C for subsequent determination of tumor necrosis factor α (TNFα), interleukin-8 (IL-8) or macrophage inflammatory protein-2 (MIP2, the functional analogue of IL-8) using ELISA kits (R&D Systems). Arteries were then transferred to PSS (at 37°C, under bubbling with carbogen) containing acetylcholine (10 µM) and the phosphodiesterase inhibitor isobutylmethylxanthine (IBMX, 100 µM).\n\nAfter 15 min, arteries were frozen, stored in liquid nitrogen and homogenized in icecold trichloroacetic acid (6%). Content of cGMP was determined using ELISA kit (Cayman Chemical Company). TNFα, MIP2 and cGMP levels were normalized to tissue protein content, the latter being determined by the method of Lowry.\n\nRelaxant responses were expressed as the percentages of the initial tone induced by PGF 2α . Data are given as means ± S.E.M. from n experiments (n: number of rats). Concentration-response curves were compared using two-way analysis of variance (ANOVA). Other statistical comparisons were performed with one-way ANOVA. Differences were considered statistically significant when P < 0.05.\n\nAfter 24 h pre-incubation without particles, maximal relaxation to 30 µM acetylcholine was 50.02 ± 3.03 % (n = 25). Such relaxation was slightly lower that the one obtained in freshly isolated tissue (in which maximum reaches about 75 %), as already observed in other arterial models (Jiménez-Altayó et al. 2006). Nevertheless, effect of acetylcholine was almost totally abolished by the NO-synthase inhibitor L-NAME (5.0 ± 3.6 % relaxation with 30 µM acetylcholine + 300 µM L-NAME, n = 4) or after endothelium removal with CHAPS (1.0 ± 1.7 % relaxation with 30 µM acetylcholine, n = 4). Neither contractile nor endothelium-independent relaxant maximal capacity of arteries was altered by endothelium removal, since effects of KCl (80 mM) and of the NO donor SNP (10 µM) were not significantly different between CHAPS-treated and -untreated arteries (not shown).\n\nPre-incubation of rat intrapulmonary arteries for 24 h with SRM1648 did not modify contraction to KCl (5 to 100 mM) or PGF 2α (30 nM to 30 µM) (not shown). A significant decrease in acetylcholine-induced relaxation was observed after 24 h exposure of intrapulmonary arteries to SRM1648 at concentrations ≥ 100 µg/ml (Figure 1B & Figure 2A). Acetylcholine-induced cGMP accumulation was also diminished after exposure of intrapulmonary arteries to 200 µg/ml SRM1648 (Figure 2B). Relaxation induced by either SNP or DEA-NO, two compounds releasing NO by distinct mechanisms (a phenomenon which might explain differences in their respective maximal effect), was diminished after exposure to 200 µg/ml SRM1648 (Figure 2A), while relaxation to 8-Br-cyclic-GMP (Figure 2A), a cGMP permeant analogue which directly stimulates cGMP-dependent protein kinase, or to YC-1 (Figure 2A), an activator of soluble guanylyl-cyclase, remained unaffected.\n\nOther vasorelaxing agents were studied for comparison. As shown in Figure 3, SRM1648 (200 µg/ml) did not modify relaxation to isoproterenol (which induces relaxation of rat intrapulmonary artery through activation of β 2 -adrenergic receptor; Pourageaud et al. 2005), forskolin (adenylyl-cyclase activator) or levcromakalim (K ATP activator).\n\nFor comparison with SRM1648, the effect of ufcb, ufTiO 2 or fTiO 2 was studied.\n\nAs shown in Figure 4, exposure of intrapulmonary arteries for 24 h to 200 µg/ml of these particles did not significantly impair acetylcholine-induced relaxation.\n\nThe steroidal anti-inflammatory agent dexamethasone (10 µM, added concomitantly to SRM1648) fully prevented SRM1648-induced impairment of relaxation to acetylcholine in intrapulmonary arteries, without modifying its relaxant effect in untreated arteries (Figure 5A). Exposure of intrapulmonary arteries to SRM1648 (200 µg/ml) resulted in an increased release of the pro-inflammatory mediators TNFα and MIP-2 (Figure 5B), the functional analogue of human IL-8. An increased level of IL-8 was also observed in incubation medium of pulmonary artery endothelial cells which were exposed to SRM1648 (200 µg/ml for 24 h) (Figure 5C).\n\nWhen added concomitantly to SRM1648, the antioxidants tempol (1 mM) or ascorbate (200 µM) failed to modify effect of acetylcholine (Figure 6A). Similarly, tempol did not modify the effect of acetylcholine, when it was added to SRM1648pretreated arteries, 15 min before pre-contraction with PGF 2α (Figure 6A). Compared to untreated ones, SRM1648-exposed intrapulmonary arteries did not exhibit elevated levels of reactive oxygen species, as determined using the fluorescent probe DHE (Figure 6B).\n\nThe presence of particles (black arrow in Figure 7A) was clearly evidenced in lung parenchyma removed 12 or 72 h after intratracheal instillation of SRM1648. In arteries isolated from SRM1648-instilled animals (12 h before), relaxation to acetylcholine was significantly decreased, when compared to responses obtained in control rats (Figure 7B). No impairment of acetylcholine-induced relaxation was evidenced after shorter (6 h) or longer (24 or 72 h) recovery delay after intratracheal instillation of SRM1648 (not shown). By contrast to SRM1648, intratracheal instillation of fTiO 2 (5 mg, 12 h before), did not modify acetylcholine-induced relaxation (Figure 7B).\n\nThis study shows, for the first time to the best of our knowledge, that urban PM impairs NO-dependent relaxation in small intrapulmonary artery, not only after in vitro exposure, but also after in vivo intratracheal instillation. Manufactured PM however, including nanoparticles, did not exhibit such effect.\n\nRelaxation to acetylcholine and NO donors, but not to 8-Br-cGMP, were decreased after exposure of intrapulmonary artery to SRM1648 (200 µg/ml for 24 h).\n\nIn addition to relaxation, acetylcholine-induced cGMP accumulation was also decreased in such conditions. This demonstrates that SRM1648 induced a decrease in responsiveness of smooth muscle to NO, rather than a decrease in endothelial NO production and/or bioactivity, and that SRM1648 impairs the NO signalling pathway upstream to activation of cGMP-dependent protein kinases. YC-1-induced relaxation was not affected by SRM1648, supporting the view that impairment of the NO pathway is likely due to a decrease in guanylyl-cyclase activation by NO. This argues against a role of decreased expression of guanylyl-cyclase in SRM1648-induced impairment of NO-dependent relaxation. In addition, this study demonstrates that impairment is selective for the NO pathway, since other relaxant mechanisms (resulting from K ATP , adenylyl-cyclase or β 2 -adrenergic receptors activation) remained unaffected by SRM1648.\n\nParticular core and/or adsorbed constituents may be responsible for PMinduced impairment of NO-dependent relaxation. To address this question, effects of SRM1648 were compared to those of other particles, with different core composition and mean diameter, and which are relatively free of adsorbed constituents. It is shown that carbon black or TiO 2 particles did not modify acetylcholine-induced relaxation in rat intrapulmonary arteries. Even though comparison between particle types is difficult, results show that, among particles of similar size range (PM 2.5 ), SRM1648, but not fTiO 2 , decreased acetylcholine-induced relaxation. Thus, adsorbed components of SRM1648, rather than particulate core, are likely responsible for impaired NO-dependent relaxation. Water-soluble fraction of inhaled PM is more biologically relevant, because its components could reach more easily pulmonary vessels than whole particles or insoluble fraction (Li et al. 2005).\n\nSeveral in vivo studies have demonstrated a decrease in endotheliumdependent relaxation of systemic or pulmonary arteries after exposure to PM (Brook et al. 2002;Nurkiewicz et al. 2004Nurkiewicz et al. , 2006;;Törnqvist et al. 2007). This study demonstrates that, like in vitro, in vivo exposure to SRM1648 also resulted in a decrease of the NO-dependent relaxation to acetylcholine in intrapulmonary arteries.\n\nMoreover, as in in vitro studies, fTiO 2 failed to alter relaxation to acetylcholine when instilled to animals. This not only argues against a non-specific response resulting from intratracheal instillation of particles, but also further supports the idea that impairment of NO pathway is rather due to adsorbed components of SRM1648, than to particular core. It should be emphasized that SRM1648 and fTiO 2 possess similar size range. Thus, it seems unlikely that their differential in vivo effects can be attributed to size-related differential penetration in the bronchiolar space.\n\nInterestingly, SRM1648-induced decrease in relaxation to acetylcholine was observed 12 h after instillation, but not after longer delay. Elucidation of the mechanisms underlying this transient aspect of the impairment of acetylcholineinduced relaxation deserves further investigations. Release of anti-inflammatory mediators (like TGF-β or IL-10) may recover or counteract SRM1648-induced alteration of NO-dependent relaxation. Since presence of PM was clearly evidenced in lung parenchyma removed 72 h after SRM1648 instillation, it is unlikely that recovery is related to elimination of particle deposit from lung parenchyma.\n\nOxidative stress is a major contributor of the adverse effects of PM (Baeza and Marano 2007;Oberdörster et al. 2005). In this study, SRM1648-induced alteration of NO-dependent relaxation was not modified in the presence of the antioxidant tempol.\n\nConsistently, intrapulmonary artery exposed to SRM1648 did not display an increase in reactive oxygen species level. This argues against a role of oxidative stress in the SRM1648-induced impairment of NO-mediated relaxation. This differs from data showing that superoxide dismutase can prevent particle-induced decrease in relaxation to acetylcholine in rat aorta (Ikeda et al. 1995) and that SRM1648 increases production of reactive oxygen species in pulmonary endothelial cells (Li et al. 2006). Oxidative stress appears as an acute response (within 5-10 min) of endothelial cells (including those from pulmonary artery, Li et al. 2006) or arteries exposed to PM. Even though oxidative stress might be an early event in intrapulmonary arteries exposed to SRM1648, it does not seem to play a role in impairment of NO pathway, since addition of antioxidants concomitantly with SRM1648 failed to prevent impairment of NO-dependent relaxation. Oxidative stress is recognized as a key process underlying endothelial dysfunction in pulmonary arteries (Fresquet et al. 2006). As discussed above, SRM1648 rather decreased activation of guanylyl-cyclase by NO within smooth muscle, a mechanism which may be independent of oxidative stress.\n\nRelease of inflammatory mediators is associated with PM-induced impairment of endothelium-dependent vasodilatation in systemic arteries (Nurkiewicz et al. 2006;Törnqvist et al. 2007). In the present study, the anti-inflammatory drug dexamethasone prevented SRM1648-induced impairment of NO-dependent relaxation in intrapulmonary arteries. Moreover, SRM1648 increased the release of pro-inflammatory mediators (TNFα, IL-8) from intrapulmonary arteries or endothelial cells. Pro-inflammatory mediators like TNFα are key players in alterations of NO signalling pathway in the vasculature (Huang and Vita 2006), including in pulmonary arteries (Greenberg et al. 1993). They may induce a decrease in NO, but not cGMP responsiveness in systemic resistance arteries (Jiménez-Altayó et al. 2006). It is shown here that SRM1648 also increased IL-8 release. This chemokine is a key mediator in inflammatory pulmonary diseases, not only by attracting neutrophils, but also by acting on vascular cells (Mukaida 2003).\n\nIn conclusion, this study shows that urban but not manufactured PM (including nanoparticles) impairs NO-mediated relaxation, without affecting cGMPresponsiveness in rat intrapulmonary arteries. This is attributed to oxidative stressindependent inflammatory response, resulting in decreased guanylyl-cyclase activation by NO. Such impairment of the NO pathway in pulmonary circulation may favour vasoconstriction, remodelling and thrombosis, all contributing to enhance arterial resistances, which in turn, may have negative impact on cardiac function. A. Schematic representation of the NO-cGMP relaxant pathway. The targets of the different drugs used are indicated. B. Wall tension recordings of the effect of acetylcholine in PGF 2α -precontracted rat intrapulmonary arteries incubated for 24 h in the absence (black trace) or in the presence (grey trace) of SRM1648 (200 µg/ml). Oscillations during contraction are not a characteristic feature of SRM1648-exposed arteries, since they could also be observed in unexposed arteries. A. Relaxant effect of acetylcholine, sodium nitroprusside, DEA-NONOate, 8-Br-cGMP or YC-1 in rat intrapulmonary arteries, which were incubated for 24 h in the absence (Control) or in the presence of SRM1648 (at the indicated concentrations). Mean ± S.E.M. from n = 4 to 10 experiments. Error bars represent S.E.M. *, P < 0.05; **, P < 0.01; ns, not significant. B. Levels of cGMP in rat intrapulmonary arteries incubated in the absence or in the presence of SRM1648 (200 µg/ml for 24 h) and subsequently exposed (black bars) or not (white bars) to acetylcholine (10 µM). Mean ± S.E.M. from n = 6 experiments. Error bars represent S.E.M. *, P < 0.05. Relaxant effect of isoproterenol, forskolin or levcromakalim in rat intrapulmonary  Relaxant effect of acetylcholine in rat intrapulmonary arteries, which were incubated for 24 h in the absence (Control) or in the presence of 200 µg/ml of ultrafine carbon black particles P60 (ufcb P60), ultrafine carbon black particles FW2 (ufcb FW2), fine TiO 2 (fTiO 2 ), or ultrafine TiO 2 (ufTiO 2 ). Mean ± S.E.M. from n = 4 to 5 experiments. Error bars represent S.E.M. ns, not significant. A. Relaxant effect of acetylcholine in rat intrapulmonary arteries, which were incubated for 24 h in the absence (Control) or in the presence of dexamethasone (10 µM), SRM1648 (200 µg/ml) or SRM1648 (200 µg/ml) + dexamethasone (10 µM). Mean ± S.E.M. from n = 4 to 5 experiments. Error bars represent S.E.M. *, P < 0.05; ns, not significant. B. TNFα and MIP-2 release from rat intrapulmonary arteries which were incubated for 24 h in the absence (white bars) or in the presence (black bars) of SRM1648 (200 µg/ml). Mean ± S.E.M. from n = 9 to 10 experiments. Error bars represent S.E.M. *, P < 0.05; **, P < 0.01. C. IL-8 release from bovine intrapulmonary artery endothelial cells which were incubated for 24 h in the absence (white bars) or in the presence (black bars) of SRM1648 (200 µg/ml). Mean ± S.E.M. from n = 3 to 4 experiments. Error bars represent S.E.M. **, P < 0.01. A. Relaxant effect of acetylcholine in rat intrapulmonary arteries. (a): arteries were incubated for 24 h in the absence (Control) or in the presence of tempol (1 mM), SRM1648 (200 µg/ml) or SRM1648 (200 µg/ml) + tempol (1 mM). (b): arteries were incubated for 24 h in the absence (Control) or in the presence of ascorbate (200 µM), SRM1648 (200 µg/ml) or SRM1648 (200 µg/ml) + ascorbate (200 µM). (c): arteries were incubated for 24 h in the absence (Control) or in the presence of 200 µg/ml SRM1648, and tempol (1 mM) was added 15 min before pre-contraction with PGF 2α . Mean ± S.E.M. from n = 4 to 6 experiments. Error bars represent S.E.M. ns, not significant. B. Dihydroethidium staining in rat intrapulmonary arteries, which were incubated for 24 h in the absence (Control) or in the presence of 200 µg/ml SRM1648 (SRM1648). Representative photomicrographs of 3 independent experiments. A. HES staining of lung slices prepared from rats which were instilled 12 h or 72 h before with 5 mg SRM1648. The presence of particles is indicated by black arrowheads. Representative light micrographs of 3 independent experiments. B. Relaxant effect of acetylcholine in intrapulmonary arteries from rats which were instilled 12 h before with saline, 5 mg SRM1648 or 5 mg fTiO 2 . Mean ± S.E.M. from n = 3 to 7 experiments. Error bars represent S.E.M. *, P < 0.05; ns, not significant. 29 30 31 32 33 34 35 36 37"
+}

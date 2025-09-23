@@ -1,0 +1,163 @@
+{
+    "title": "IDT SciTools: a suite for analysis and design of nucleic acid oligomers",
+    "publication_date": "1988",
+    "authors": [
+        {
+            "full_name": "Richard Owczarzy",
+            "firstname": "Richard",
+            "lastname": "Owczarzy",
+            "affiliations": [
+                {
+                    "organization": "Department of Molecular Genetics and Biophysics",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Andrey V Tataurov",
+            "firstname": "Andrey V",
+            "lastname": "Tataurov",
+            "affiliations": [
+                {
+                    "organization": "Department of Molecular Genetics and Biophysics",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Yihe Wu",
+            "firstname": "Yihe",
+            "lastname": "Wu",
+            "affiliations": [
+                {
+                    "organization": "Department of Bioinformatics",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Jeffrey A Manthey",
+            "firstname": "Jeffrey A",
+            "lastname": "Manthey",
+            "affiliations": [
+                {
+                    "organization": "Department of Bioinformatics",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Kyle A Mcquisten",
+            "firstname": "Kyle A",
+            "lastname": "Mcquisten",
+            "affiliations": [
+                {
+                    "organization": "Department of Bioinformatics",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Hakeem G Almabrazi",
+            "firstname": "Hakeem G",
+            "lastname": "Almabrazi",
+            "affiliations": [
+                {
+                    "organization": "Department of Bioinformatics",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Kent F Pedersen",
+            "firstname": "Kent F",
+            "lastname": "Pedersen",
+            "affiliations": [
+                {
+                    "organization": "Department of Bioinformatics",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Yuan Lin",
+            "firstname": "Yuan",
+            "lastname": "Lin",
+            "affiliations": [
+                {
+                    "organization": "Department of Bioinformatics",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Justin Garretson",
+            "firstname": "Justin",
+            "lastname": "Garretson",
+            "affiliations": [
+                {
+                    "organization": "Department of Bioinformatics",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Neil O Mcentaggart",
+            "firstname": "Neil O",
+            "lastname": "Mcentaggart",
+            "affiliations": [
+                {
+                    "organization": "Department of Information Services, Integrated DNA Technologies, Inc",
+                    "address": {
+                        "city": "Coralville",
+                        "country": "USA",
+                        "postcode": "52241"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Chris A Sailor",
+            "firstname": "Chris A",
+            "lastname": "Sailor",
+            "affiliations": [
+                {
+                    "organization": "Department of Information Services, Integrated DNA Technologies, Inc",
+                    "address": {
+                        "city": "Coralville",
+                        "country": "USA",
+                        "postcode": "52241"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Robert B Dawson",
+            "firstname": "Robert B",
+            "lastname": "Dawson",
+            "affiliations": [
+                {
+                    "organization": "Department of Information Services, Integrated DNA Technologies, Inc",
+                    "address": {
+                        "city": "Coralville",
+                        "country": "USA",
+                        "postcode": "52241"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Andrew S Peek",
+            "firstname": "Andrew S",
+            "lastname": "Peek",
+            "affiliations": [
+                {
+                    "organization": "Department of Bioinformatics",
+                    "address": {}
+                }
+            ]
+        }
+    ],
+    "abstract": "DNA and RNA oligomers are used in a myriad of diverse biological and biochemical experiments. These oligonucleotides are designed to have unique biophysical, chemical and hybridization properties. We have created an integrated set of bioinformatics tools that predict the properties of native and chemically modified nucleic acids and assist in their design. Researchers can select PCR primers, probes and antisense oligonucleotides, find the most suitable sequences for RNA interference, calculate stable secondary structures, and evaluate the potential for two sequences to interact. The latest, most accurate thermodynamic algorithms and models are implemented. This free software is available at\nhttp://www.idtdna.com/SciTools/\nSciTools.aspx.",
+    "full_text": "Synthetic oligonucleotides are widely employed in various molecular biology applications, e.g. polymerase chain reaction (PCR), molecular beacons, microarrays, mutagenesis, RNAi, antisense and de novo gene construction (1)(2)(3)(4)(5)(6)(7). Published bioinformatics algorithms can predict biophysical properties of oligonucleotides from their sequence and estimate performance of oligonucleotides in specific assays both singly and together with other sequences (8,9). Here, we describe an online suite of computational software tools that enable molecular biologists to design, evaluate and make informed decisions about the properties of nucleic acid sequences. The IDT SciTools receives over 7000 unique visitors and 1.5 million hits every month. The web servers consist of several independent applications summarized in Table 1. Instructions and help to each software tool can be found at the top of web input forms. The code is regularly updated when more accurate models and algorithms are published. New applications will be added in the future.\n\nThe OligoAnalyzer is the central calculator where various kinds of information about an oligonucleotide sequence can be predicted. The interface is presented on Figure 1. A user can input a nucleotide sequence and conditions, i.e. the concentrations of DNA, Na + , K + , Mg 2+ and deoxynucleoside triphosphates. Melting temperature is predicted under these conditions for the duplex where the oligonucleotide hybridizes to the complementary sequence. This complementary strand can be either RNA or DNA; this is selected using the Target Type option. The oligonucleotide sequence can be modified with over 150 different labels and chemical groups (e.g. biotin, phosphorothioate, fluorescent dyes) using symbols listed in the tabbed sections below the sequence box. Seven different analyses can be performed when the specific button is selected on the right side of the interface. Selection of the ANALYZE button results in the physical properties of the oligonucleotide, such as a complementary sequence, oligonucleotide length, content of G and C bases, melting temperature, extinction coefficient at 260 nm and molecular weight (Figure 1). Published nearest-neighbor parameters are employed to calculate the extinction coefficient (10)(11)(12)  Technologies, the effects of modifications are included in the oligonucleotide extinction coefficient. The oligonucleotide molecular weight also includes the weights of any chemical modifications. These weights have been experimentally validated (AE 2 g/mol) for thousands of synthesized sequences by electrospray-ionization liquid chromatography mass spectrometry (13).\n\nMelting temperatures are calculated from the nearestneighbor model (14)(15)(16) and the duplex is assumed to melt in two-state fashion,\n\n, is assumed to be significantly larger (at least 6 Â ) than the concentration of the complementary target, [S2], as this is seen in many molecular biology assays. In that case, C oligo is equal to [S1] and the concentration of the target can be neglected (17).\n\nthe following concentration should be entered into the calculator, 2) is valid when the designation of strands is switched. Transition enthalpy, ÁH8, and entropy, ÁS8, are calculated from the latest nearestneighbor parameters for DNAs (15,16) and RNAs (18,19). The effects of counterions are modeled using the improved corrections for monovalent ions (20) and magnesium ions ( 53),\n\nThis unique biophysical model employed for various counterions is not implemented elsewhere (21)(22)(23). Thermodynamic parameters are not available for many modifications that were demonstrated to change duplex stability (e.g. 2 0 -O-methyl RNA, 2-aminopurine, Cy3 dye) (13), and their effects on melting temperature are therefore neglected in the current version. When these parameters are published, they will be implemented in the predictive algorithm. If a sequence contains degenerate bases, the minimum and the maximum melting temperatures for the mixture of sequences are also estimated (Figure 1). The thermodynamic algorithm was validated using an independent set of over 100 different sequences ranging in length from 8 to 60 base pairs that were not used to derive the algorithm (20). Selection of the HAIRPIN button will present the user with the input form for predicting oligonucleotide secondary structures. This tool uses the mFold algorithm (9,24-26) that is described later. The SELF-DIMER and HETERO-DIMER buttons allow the user to examine possible duplexes when oligonucleotide anneals to itself or another target sequence. Predicted structures from most stable to least stable are shown. These cross-hybridization analyses are important for PCR assays where primerprimer interactions can decrease the efficiency of the reaction and cause secondary by-products. Selection of the NCBI BLAST button sends the sequence to the NCBI website for searching various databases using the short nearly exact matches method (27). This analysis can provide predicted annealing sites of the oligonucleotide within a genome or other group of candidate sequences.\n\nSelection of the TM MISMATCH button will allow the user to examine the effects of single base mismatches on duplex stability and oligonucleotide hybridization. Several published sets of nearest-neighbor parameters from SantaLucia's lab are employed to make these predictions (16,(28)(29)(30)(31)(32). Dangling unpaired bases usually stabilize the duplex, so the predictive algorithm also takes these effects into account (33). If a red target base is clicked, a dropdown box will appear and allow the user to select the desired base mismatch. The target concentration can be set to zero when the target concentration is negligible in comparison with the oligonucleotide concentration. Results will show melting temperatures of perfectly matched and mismatched duplexes as well as the fractions of oligonucleotide bound to the targets.\n\nThe LNA CONVERSION button will be described later. The tool allows the user to position LNA modifications within a sequence, so that the desired melting temperature of the duplex sequence is achieved.\n\nPrimer and probe selection for the PCR-based assays are important activities in molecular biology. Several software packages were therefore designed for this procedure (34)(35)(36)(37)(38)(39). PrimerQuest SM is based on the Primer3 code (37). However, the selection method was improved and a graphical user interface was created. The algorithm finds sequences having desired oligonucleotide length, GC content, melting temperature, content of consecutive GC base pairs and sequence stability at the 3 0 end. The intramolecular secondary structures, long repeats of the same bases and cross-hybridization between primers and the probes are minimized in the primer selection model. Furthermore, the oligonucleotide melting temperature is calculated using the same thermodynamic model employed in the OligoAnalyzer. Once the nucleotide sequence is entered in the sequence box, the name and design criteria for the sequence of interest can be set using the appropriate fields under the basic, standard and advanced tabs. The basic interface exposes the minimal information that needs to be entered and hides detailed criteria. These basic settings are suitable for typical PCR experiments. The standard and advanced tabs show increasing amounts of settings that an advanced user can configure to customize their predictive model. The CALCULATE button submits the data for the prediction of primers with the desired properties.\n\nResults show several sets of probes and primers that were found to be optimal (Figure 2). The predicted sets are ranked from best to next best. A graphical representation of the sequence is displayed with color bars for included, excluded and targeted regions. The biophysical properties of the primers and probes are also reported.\n\nChimeric probes containing locked nucleic acid residues were demonstrated to increase duplex stability, specificity and mismatch discrimination (40,41). These properties improve genotyping and microarray assays. The LNA design tool suggests positions within a specific sequence, where LNA modifications can be introduced to produce the desired biophysical properties. A user enters desired number of LNA residues and the melting temperature of LNA-modified duplex. The software will attempt to decrease the length of the sequence and introduce LNA modifications, so that the desired melting temperature is achieved. The LNA residues are indicated with '+' symbol in front of the base. Melting temperatures are predicted using the nearest-neighbor two-state model (Equation 1), the latest thermodynamic parameters (16,42), and improved salt corrections for the effects of monovalent and magnesium ions (20,53). The algorithm was tested with a published set of melting data for LNA modified oligomers (40,42).\n\nExpression of specific genes can be suppressed with antisense oligonucleotides (43). Software can be used to select the most effective antisense oligonucleotides based on a model that discriminates between effective and ineffective antisense sequences. The nucleotide sequence of a gene or other target candidate for antisense-based knockdown can be retrieved from NCBI databases using GenBank ID or RefSeq ID. Antisense DNA oligomers are typically from 19 to 26 bases long and modified with phosphorothioates for nuclease resistance. Optionally, 2 0 -O-methyl RNA residues can be introduced to increase duplex stability and resistance against nucleases. The general algorithm for predicting active sites includes or excludes 3 and 4 base long motifs that are correlated with antisense activity responses (44,45). Sequences with the best score for the number of positive motifs (CCAC, TCCC, ACTC, GCCA, CTCT) are most likely to show antisense activity. A user can modify search criteria and include or exclude various motifs.\n\nIn addition to antisense-based gene knockdown, the use of short interfering RNAs to induce RNA interference is a powerful strategy to suppress gene expression in vivo (5,6). These three tools assist in the design of effective siRNAs, as there are several properties that discriminate between effective and ineffective siRNA duplexes (46,47). The ddRNAi tool helps to design siRNAs, which are expressed directly from DNA transfected into cells to make the siRNA (48)(49)(50).\n\nThe RNAi design software tool allows users to predict effective short synthetic 27-mer siRNA duplexes that are delivered to target cells (6). A user can specify criteria for the siRNA duplex and overhangs, e.g. desired duplex length, strand content of G and C bases and various sequence motifs at specific positions. Mixed bases can be introduced and different weights can be assigned to each motif. The algorithm searches a target gene sequence, calculates scores for sequence candidates and ranks optimal siRNA duplexes. The duplexes can have symmetrical overhangs up to 3 bases long. Results show properties of selected siRNA duplexes and their location within the target sequence.\n\nSiRNA-TriFECTa sequences are a collection of predesigned dicer-substrate siRNA sequences that have been found to be optimal using dicer-substrate siRNA design criteria. Besides incorporating siRNA activity criteria into the design algorithm, additional analyses are performed, so that chosen siRNA sequences do not target alternatively spliced exons and do not include known polymorphic sites. Gene sequences from the NCBI reference sequence set within eight organisms can be selected and displayed.\n\nThis software tool predicts the most stable secondary structure of an oligonucleotide by minimizing folding free energy (51). Suboptimal energetic secondary structures having free energies close to minimal ÁG8 can be predicted as well. The mFold software was developed by and implemented in collaboration with Prof. Michael Zuker. The algorithm has been well tested and described in published sources (9,(24)(25)(26). A user can input a nucleotide sequence and the conditions, including temperature and ionic concentrations. The folded structures are predicted at the specified temperature. The results show both a dotplot diagram of possible base pairings and predicted secondary structures. These structures are ranked from the highest to lowest probability using transition free energies. Melting temperature is estimated using a two-state model. The connectivity table for each base and details of the energetics (each loop and stack ÁG8 contributions) can also be obtained.\n\nOligonucleotide dilutions can be calculated using the dilution calculator. A user inputs initial concentration, volume and desired final concentration. The calculator returns volumes used to mix solutions. Various concentration formats and units are accepted. Similarly, the resuspension calculator determines the volume of solution needed to achieve a specific concentration when known moles or mass of dry oligonucleotide are dissolved. Both calculators can be brought directly from the Oligo Analyzer results. In that case, oligonucleotide properties predicted by OligoAnalyzer are transferred automatically to these calculators.\n\nhttp://biophysics.idtdna.com contains advanced, unique calculators that are being developed. Software is stable and tested, but it has yet to be included into IDT SciTools. In the current version, the extinction coefficients and UV spectrum from 215 to 310 nm can be predicted for both single-stranded and double-stranded DNA oligomers. The models, parameters and their accuracy tests have been recently published (12). A user can also choose to apply Cavaluzzi-Borer correction for extinction coefficients of DNA bases at 260 nm (52). The predicted UV spectrum is plotted and extinction coefficients at each wavelength are tabulated.\n\nAdditional tools are also freely available, but the software requires a free login username and password to manage the user's information between sessions due to the computational time requirements. For example, oligonucleotides suitable for creating a gene expression microarray can be designed with the Workbench application. However, the design and storage of possibly thousands of target sequences is not amenable to be done during a single web browser session. The use of a free user login allows this information to be associated with a single user. Finally, for the programmatic incorporation of some of these software engines, IDT also provides a set of web service based interfaces to allow external software developers access to these functions (http://www.idtdna.com/ AnalyzerService/AnalyzerService.asmx).\n\nIDT SciTools web server provides useful predictions of oligonucleotide properties under various experimental conditions. The software tools help to select oligonucleotides that are most likely to exhibit the best performance in biological applications.\n\n*To whom correspondence should be addressed. Tel: +1 319 626 8459; Fax: +1 319 626 9621; Email: science@owczarzy.net Present address: Yuan Lin, J. Craig Venter Institute, 9704 Medical Center Dr., Rockville, MD 20850, USA Justin Garretson, Pioneer Hi-Bred International, Inc., 5640 Kings Row, Johnston, IA 50131, USA ß 2008 The Author(s) This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/ by-nc/2.0/uk/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.\n\nNucleic Acids Research Advance Access published April 25, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2008 3 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2008 5 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nby guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from"
+}

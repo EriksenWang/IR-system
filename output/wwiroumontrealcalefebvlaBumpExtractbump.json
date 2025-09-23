@@ -1,0 +1,30 @@
+{
+    "title": "Extraction and Synthesis of Bump Maps from Photographs",
+    "publication_date": "1997-08",
+    "authors": [
+        {
+            "full_name": "Laurent Lefebvre",
+            "firstname": "Laurent",
+            "lastname": "Lefebvre",
+            "affiliations": [
+                {
+                    "organization": "Département d'informatique, Université de Montréal",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Pierre Poulin",
+            "firstname": "Pierre",
+            "lastname": "Poulin",
+            "affiliations": [
+                {
+                    "organization": "Département d'informatique, Université de Montréal",
+                    "address": {}
+                }
+            ]
+        }
+    ],
+    "abstract": "Extracting fine patterns on real surfaces is a difficult problem. We present a solution to extract such patterns on specular surfaces, and to synthesize similar patterns as bump maps.",
+    "full_text": "Bump maps contribute significantly to the visual realism of synthetic surfaces and, for this reason, are often used in computer graphics. We propose a technique to interactively extract bump maps from real photographs using the specular reflections in order to synthesize surfaces similar in appearance to the photographs.\n\nThe work previously published in this field addresses mostly the synthesis of real BRDFs. Sato et al. [5] compute a synthetic BRDF by sampling a real BRDF using a robot arm. Ward [3] fits gaussians in order to synthesize anisotropic specular reflections but does not recover the bump map associated with the surface. Many authors have extracted shape from diffuse reflection [4], but little attention has been devoted to highly specular surfaces.\n\nBecause specular reflections are very sensitive to perturbations of the surface normals, fine variations in surface height might be more easily perceived on highly specular materials than on diffuse materials. We suppose: (1) highly specular surfaces; (2) camera and light directions almost parallel; and (3) that the surface is mostly perpendicular to the camera (and light). Under such conditions, a brighter pixel means that the microfacet is perpendicular to light and a darker pixel means that the microfacet is not perpendicular or is in shadow.\n\nSpecular reflections in digital photographs often oversaturate the image causing loss of information. In order to effectively use specular reflections to extract the bump map of a given surface, we need a more precise input than ordinary photographs. Debevec et al. [1] construct radiance maps using photographs. We use this method to remove the oversaturation in specular reflections.\n\nGiven the radiance map, the user indicates a region surrounding the highlight of interest. We then fit the Phong model (see equation 1)\n\nfor specular reflections to the data in the constructed radiance map to compute the roughness exponent (n) of the equation 1. The fit proceeds with a binary search between the values of the radiance map and the values predicted by the Phong model. Finally, we subtract the fitted Phong model to the radiance map to remove the effect of the specular reflection. Unfortunately, the fit might not be perfect and some of the specular reflection may remain.\n\nTo remove the undesired effect of the low frequencies still present in the image because of the errors of the fit, we use the FFT of the radiance map subtracted by the Phong model to highpass filter the specular reflection. This process gives a cleaner unshaded pattern over the surface in the photograph and serves as a basis for synthesizing the bump map. Figure 1 illustrates every step of the process.\n\nTo synthesize the bump map, we use the information of the radiance map resulting from the previous steps only inside the region of the specular reflection. We use Wei's implementation [6] of the algorithm developped by Efros and Leung [2]. This algorithm takes a long time but gives the best observed results in presence of semi-structured textures. Figure 2 gives an example of bump map synthesis. a b c d e Figure 1: (a) Image of a specular reflection; (b) height field of the reconstructed radiance map; (c) Phong model fitted to the radiance map; (d) radiance map after subtraction of the Phong model; (e) and radiance map after subtraction and highpass filtering 4 Rendering and Results\n\nWe rendered surfaces using a standard ray-tracer with 10 rays per pixel. The exponent of the specular reflection and the bump map were computed with our method. Currently, the user must provide a scaling factor that bounds the radiance color and the actual height of the points on the synthetic surface. He also has to input the color of the specular reflection. These informations could be extracted automatically using statistical data obtained from the input radiance map. Figure 3 gives examples of synthesized bump maps. The printed version of this poster might not give the best credit to these results, please consult the original file."
+}

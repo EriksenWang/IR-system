@@ -1,0 +1,158 @@
+{
+    "title": "Papers by Workshop Papers by Workshop Workshop WS7: IP Mobility Management and Architecture -2008 IPMMA Hybrid Robust Header Compression in Proxy Mobile IPv6 over Wireless Mesh Networks",
+    "publication_date": "2001",
+    "authors": [
+        {
+            "full_name": "S Pack",
+            "firstname": "S",
+            "lastname": "Pack",
+            "affiliations": []
+        },
+        {
+            "full_name": "J.-C Lee",
+            "firstname": "J.-C",
+            "lastname": "Lee",
+            "affiliations": []
+        },
+        {
+            "full_name": "J.-S Park",
+            "firstname": "J.-S",
+            "lastname": "Park",
+            "affiliations": []
+        },
+        {
+            "full_name": "Dong Phil Kim",
+            "firstname": "Dong Phil",
+            "lastname": "Kim",
+            "affiliations": []
+        },
+        {
+            "full_name": "S J Koh",
+            "firstname": "S J",
+            "lastname": "Koh",
+            "affiliations": []
+        },
+        {
+            "full_name": "S Yang",
+            "firstname": "S",
+            "lastname": "Yang",
+            "affiliations": []
+        },
+        {
+            "full_name": "Y Qin",
+            "firstname": "Y",
+            "lastname": "Qin",
+            "affiliations": []
+        },
+        {
+            "full_name": "H Luo",
+            "firstname": "H",
+            "lastname": "Luo",
+            "affiliations": []
+        },
+        {
+            "full_name": "H Zhang",
+            "firstname": "H",
+            "lastname": "Zhang",
+            "affiliations": []
+        },
+        {
+            "full_name": "J Y H So",
+            "firstname": "J Y H",
+            "lastname": "So",
+            "affiliations": []
+        },
+        {
+            "full_name": "J Wang",
+            "firstname": "J",
+            "lastname": "Wang",
+            "affiliations": []
+        },
+        {
+            "full_name": "L.-S Li",
+            "firstname": "L.-S",
+            "lastname": "Li",
+            "affiliations": []
+        },
+        {
+            "full_name": "L.-K Kang",
+            "firstname": "L.-K",
+            "lastname": "Kang",
+            "affiliations": []
+        },
+        {
+            "full_name": "S Wang",
+            "firstname": "S",
+            "lastname": "Wang",
+            "affiliations": []
+        },
+        {
+            "full_name": "Y Cui",
+            "firstname": "Y",
+            "lastname": "Cui",
+            "affiliations": []
+        },
+        {
+            "full_name": "S Das",
+            "firstname": "S",
+            "lastname": "Das",
+            "affiliations": []
+        },
+        {
+            "full_name": "M Xu",
+            "firstname": "M",
+            "lastname": "Xu",
+            "affiliations": []
+        },
+        {
+            "full_name": "J W Floroiu",
+            "firstname": "J W",
+            "lastname": "Floroiu",
+            "affiliations": []
+        },
+        {
+            "full_name": "M Corici",
+            "firstname": "M",
+            "lastname": "Corici",
+            "affiliations": []
+        },
+        {
+            "full_name": "S Arbanowski",
+            "firstname": "S",
+            "lastname": "Arbanowski",
+            "affiliations": []
+        },
+        {
+            "full_name": "B.-J Lee",
+            "firstname": "B.-J",
+            "lastname": "Lee",
+            "affiliations": []
+        },
+        {
+            "full_name": "S Lee",
+            "firstname": "S",
+            "lastname": "Lee",
+            "affiliations": []
+        },
+        {
+            "full_name": "X Liu",
+            "firstname": "X",
+            "lastname": "Liu",
+            "affiliations": []
+        },
+        {
+            "full_name": "Joo Seok",
+            "firstname": "Joo",
+            "lastname": "Seok",
+            "affiliations": []
+        },
+        {
+            "full_name": "Koh",
+            "firstname": "",
+            "lastname": "Koh",
+            "affiliations": []
+        }
+    ],
+    "abstract": "This paper analyzes the handover latency of Mobile IP and mobile SCTP over IPv6 networks. The analytical results are compared with performance by experiment over Linux testbed. For the analysis, we consider the two handover scenarios: horizontal handover and vertical handover. From the results, we see that the mSCTP handover can provide smaller handover latency than the Mobile IP. Moreover, the mSCTP can give much smaller handover latency for the vertical handover where has enough sojourn time of MN in the overlapping region between different subnet regions, compared to the horizontal handover.",
+    "full_text": "At the time of the fixed-mobile convergence toward all-IP networks, the IP mobility has been focused in the nextgeneration wireless mobile networks that include WLAN and Cellular systems [1][2][3]. One of the essential issues for IP mobility is IP handover to provide a seamless handover for a mobile node that moves across the different IP subnet regions while its sessions are active. Seamless handover can be achieved by minimizing handover latency and data losses.\n\nUntil now, several approaches have been proposed to support IP mobility. Among them, the Mobile IP (MIP) [4][5] has been regarded as a typical solution for IP handover in the network layer, whereas the mobile Stream Control Transmission Protocol (mSCTP) [6][7][8] was suggested for IP handover in the transport layer. MIP can provide location management and handover management for terminal mobility in the network layer, whereas mSCTP can be used to support the end-to-end IP handover with the help of the multi-homing feature in the transport layer. In this paper, we will consider the MIPv6 rather than the fast handover for MIPv6 (FMIPv6) [9] which will be for further study.\n\nIn this paper, we analyze the handover latency of MIP and mSCTP over IPv6 networks theoretically with the two handover scenarios: horizontal handover for single-homed Mobile Node (MN) and vertical handover for dual-homed MN. The analyzed values are then compared with the results by the experiments. For the experimental analysis, we construct a small testbed based on the existing implementation codes [16] for MIPv6. In case of the mSCTP handover, w modified the existing mSCTP handover supporting system made in [17], which allows the MN to automatically perform the mSCTP handover.\n\nThis paper is organized as follows. Section 2 describes the background and related works on MIP and mSCTP. In Section 3, we theoretically analyze the handover latency of MIP and mSCTP over IPv6 networks. Section 4 discusses experimental results on MIP and mSCTP handovers. Section 5 finally concludes this paper.\n\nIn terms of Mobile IP, Lee et al. [10] analyzes the handover latency of MIPv6 by investigating the factors concerned with handover latency. They insist that the time taken for MN to detect its movement and address configuration is dominated into the main part of total MIPv6 handover latency. Nicolas et al. [11] has evaluated the handover latency of MIPv6 over IEEE 802.11 wireless networks and compared the layer 2 delays with layer 3 delays. In this work, it is concluded that the handover latency could be considerably reduced by using the anticipation of link layer trigger. On the other hand, Hernandez et al. [12] identifies limitations of MIP in terms of throughput, handover and packet loss at different velocities of MN.\n\nThe study of mSCTP performance has also made recently. The work in [13] analyzes the mSCTP handover latency for vertical handover through some experiments. The work in [14] has analyzed that the handover latency for horizontal handover with two different movement patterns (specifically, linear and cross movement pattern). The work in [15] discusses mSCTP handover, which is called SIGMA. This work compares the performance for SIGMA and MIPv6 in terms of handover latency.\n\nThis paper provides the analytical comparison of MIPv6 and mSCTP handover latency. We will first analyze the performance of MIPv6 and mSCTP with respect to the handover latency by considering the two different scenarios: horizontal handover for single-homed MN and vertical handover MN for dual-homed MN handover. The analytical values will be compared with the experimental results. For experimentations, we used the recently released version of MIPv6 2.0.2 [16] and also implemented the mSCTP handover scheme.\n\nThis full text paper was peer reviewed at the direction of IEEE Communications Society subject matter experts for publication in the ICC 2008 workshop proceedings.\n\n978-1-4244-2052-0/08/$25.00 ©2008 IEEE III. ANALYSIS OF HANDOVER LATENCY For analysis, we consider the following two scenarios.\n\nThe horizontal handover indicates that the single-homed MN that activates only a single wireless network interface at a time moves within homogeneous networks. In this case, the link-up of a new link and the link-down of the old link will occur at the same time in the underlying link and network layers.\n\nThe vertical handover indicates that the dual-homed MN that uses the two different wireless network interfaces in the overlapping region moves across heterogeneous networks, as seen in the handover between 3G and WLAN. In particular, it is noted that the MN in this scenario can transmit and receive data packets by using two interfaces at the same time, in the overlapping region between different subnets.\n\nIn the analytical model, it is assumed that an MN moves from an IP subnet to the other one and it has the ability to detect the link-up and link-down events with the help of the underlying link layer.\n\nFor the analytical purpose, we will take the following considerations for handover of an MN: e) For MIPv6, the Return Routability (RR) procedure is used to support a secure communication between the MN and CN; and for mSCTP handover, the SCTP Address Configuration (ASCONF) chunks that are exchanged between the two endpoints for secure signaling are encapsulated with the suitable Authentication (AUTH) chunks.\n\nIn particular, we will make the following assumptions for vertical handover scenario:\n\na) The overlapping region between different subnets is enough large and the sojourn time of MN in this region is at least more then the time taken until its ADD-IP operation.\n\nb) Although an MN can use the two IP addresses in the overlapping region, it is noted that the MN only uses the one address as the main address which is referred as the primary address.\n\nBased on the assumptions made above, we will analyze the handover latency of MIPv6 and mSCTP.\n\nFigure 1 depicts the overall latency of the MIPv6 handover. As seen in the figure, the overall MIPv6 handover latency for the horizontal handover scenario can be calculated as:\n\nIn the equation, T MD is Movement Detection (MD) delay, T AC is Address Configuration (AC) delay, and T BU is Binding Update (BU) delay. The MD delay is the time taken for MN to detect its movement into a new subnet. The AC delay is the time required for MN to configure a new CoA using the prefix information contained in the RA message. The BU delay is the time taken for MN to register the new CoA with Home Agent (HA), to perform the RR test, and then to register with the CN.\n\nIt is noted that T MD could further be divided into the Layer 2 (L2) handover delay and Layer 3 (L3) MD delay. The L2 handover delay depends on the specific link layer technology and may be reduced as small as possible with a new access technology. By the way, the L3 MD delay may get larger in the network where an MN relies on RAs for movement detection. However, if an MN is able to send an RS as soon as it receives an L2 trigger from the lower layer, the MD delay will also be reduced considerably.\n\nAfter the movement detection, an MN begins to configure a new CoA and performs the DAD process to confirm the uniqueness of IPv6 CoA address on the subnet. The AC delay (T AC ) can be calculated by summing up the times taken for random waiting delay of an NS message (T RTR_SOL ) and for the DAD delay to wait a feedback from a neighboring node in the subnet (T DAD ).\n\nOn completion of a new CoA configuration, the MN needs to register the CoA with the HA and CN. For this purpose, the MN will perform the RR test to ensure the secure communication between MN and CN. Accordingly, the binding update (BU) delay can be expressed as follows:\n\nT BU = T BU-HA + T RR + T BU-CN Accordingly, the total BU delay is rewritten as\n\nIn summary, the overall MIPv6 handover delay for the horizontal handover scenario, Equation ( 1) can be expressed as\n\nOn the other hand, Figure 2 depicts the handover latency of MIPv6 for the heterogeneous handover scenario. In the vertical handover scenario, it is noted that an MN can still communicate with the CN during the MD and AC periods in the new subnet, which is different from the horizontal handover scenario. Therefore, the MIPv6 handover latency can be reduced to the T BU , as seen in Figure 3.\n\nThat is, the overall MIPv6 handover latency in the heterogeneous handover scenario can be shown in Equation (5).\n\nWe assume that the mSCTP uses the same MD and AC schemes as the MIPv6 does. Now, let T mSCTP be the time taken for the mSCTP handover signaling operations using the ASCONF chunks. Then, the overall handover latency of mSCTP can be expressed as:\n\nT handover_SCTP = T MD + T AC + T mSCTP (6) Figure 3 depicts the delay components associated with the mSCTP handover latency for the horizontal handover scenario. In the horizontal handover scenario, the mSCTP handover delay includes the time for MN to perform the 'ADD-IP' and 'Primary-Change (P-C)' operations. That is, the mSCTP handover delay corresponds to the transmission delays taken to exchange the ASCONF and ASCONF-ACK chunks between MN and CN, as shown in Equation (7).  In case of the vertical handover scenario, the total mSCTP handover latency only includes the time taken for MN to perform the 'Primary-Change' operation, because the MN is able to communicate with CN during the processes for the MD and AC and ADD-IP operation, as seen in Figure 4.\n\nAccordingly, the overall latency of mSCTP handover for the vertical handover scenario can be summarized as follows:\n\nC.\n\nComparison of mSCTP and MIPv6 Table 1 compares the handover latency required for mSCTP and MIPv6 handover.\n\nFrom the table, it seems that the total handover latencies of MIP for two scenarios are larger than those of mSCTP approximately by 2•(2•D MN•HA + D HA•CN ), which corresponds to the binding update delay of MIPv6 through HA (i.e., binding update between HA and CN). This is because the MIPv6 handover operations are dependent on the binding update with HA.\n\nTABLE 1 COMPARISON OF HANDOVER LATENCY OF MIP AND MSCTP\n\nThis section describes the experimental results of the MIPv6 and mSCTP handover operations that are performed over Linux testbed.\n\nTest Environment To perform the experiments, we construct a small test network where consists of routers and hosts (MN and CN). In addition, the HA is installed for experimentation of MIPv6 handover. For MIPv6 handover, we installed the open source codes of MIPL 2.0.2 [16] on MN, CN and HA.\n\nOn the other hand, for experimentation of mSCTP handover, we modified the existing source codes in [17], which include the following four modules: Link Layer Information Monitoring (LLIM), Router Discovery (RD), Handover Decision (HOD), and Handover Execution (HOE). LLIM is used to gather the link layer information of wireless interfaces to achieve faster movement detection. RD is used to discover the new access router (AR) in the new subnet region. HOD is used to determine when to perform the Primary-Change operation using the received signal strength information. HOE is used to execute the mSCTP handover operations with the help of the SCTP kernel, which include the exchange of the mSCTP ASCONF and ASCONF-ACK chunks. Figure 5 shows the topology of our testbed network. As shown in the figure, the test network has three different subnets where consist of two IEEE 802.11(a) wireless networks (AR1 and AR2) and one wired network (AR3). An MN with the two wireless interfaces moves from the AR1 region to the AR2 region, whereas the CN is located in the AR3 region. The MIPv6 HA is embedded at the AR1.\n\nTable 2 and 3 summarize the result of handover latency for MIPv6 and mSCTP in terms of associated delay components. Throughout the experiments, the MD delay is set to zero. The total MIPv6 and mSCTP handover latencies for the horizontal handover scenario are calculated by Equation ( 4) and ( 8), whereas the handover latencies for the vertical handover scenario are calculated by Equation ( 5) and ( 9), respectively.\n\nTABLE 2 RESULTS OF HANDOVER LATENCY BY MIPV6 T AC T BU-HA T RR T BU-CN T MIPhorizontal T MIP-vertical Min 1.023 1.013 0.011 0.549 2.597 1.573 Max 1.894 1.101 0.026 0.981 3.715 2.109 Avg. 1.558 1.057 0.019 0.765 3.156 1.841 TABLE 3 RESULTS OF HANDOVER LATENCY BY MSCTP TAC TADD-IP TP-C T mSCTP-horizontal T mSCTP-vertical Min 1.012 0.003 0.004 1.019 0.004 Max 1.945 0.062 0.070 2.077 0.070 Avg. 1.578 0.057 0.067 1.702 0.067\n\nFrom the results, we can see that the mSCTP handover latency for the horizontal handover scenario is smaller than the MIPv6 handover latency approximately by 1 or 2 seconds. This is mainly because the MIPv6 binding update delays between HA and MN are relatively large, compared to the delays taken for the ADD-IP and Primary-Change operations of mSCTP handover. It is noted that the mSCTP ADD-IP and Primary-Change operations are completed within 70ms. In case of the vertical handover scenario, it is also shown that the mSCTP handover latency is smaller than the MIPv6 handover latency.\n\nHorizontal Handover\n\nIt is why mSCTP handover latency just including the delay taken for the ADD-IP operation in this case is much smaller than the MIPv6 handover latency including the binding update delays for the HA and CN.\n\nMoreover, it is noted that the total MIPv6 and mSCTP handover latencies in the vertical handover scenario are much smaller than those by the horizontal handover scenario, because the data communication between MN and CN is maintained while the handover operations such as the address configuration and binding update or ADD-IP are performed.\n\nOn the other hand, Figure 6 show the experimental results of handover latency by the mSCTP for the horizontal and vertical handover scenarios, which was experimented on the small test environment. From the figure, it is shown that the total mSCTP handover latency in the horizontal handover scenario is being regular, whereas the handover latency in the vertical handover scenario is being reduced, as the sojourn time of an MN in the overlapping region between two subnets gets larger. This is mainly because the MN in the horizontal handover scenario can use the only one interface at a time so that it could not communicate with CN in the overlapping region during the handover operations, whereas in the vertical handover the data communication between MN and CN is maintained while the handover operations are performed, since the sojourn time in the overlapping region between two subnets gets larger.\n\nMore specifically, it is shown that the handover latency by two scenarios is approximately '2.4 (sec)' when the sojourn time in the overlapping region is 'zero'. This latency seems to be associated with the movement detection delay and address configuration delay as well as delays for mSCTP ADD-IP and Primary-Chang operations. We can also see that the total handover latency in the vertical handover scenario becomes nearly 'zero' after the sojourn time of approximately '2.4 (sec)' in the overlapping region.\n\nFrom the experimental results, it is noted that the handover latency in the vertical handover scenario is much smaller than that by the horizontal handover scenario when the sojourn time in overlapping region between two subnets is enough large. In particular, we can also see that these empirical results are nearly similar to the theoretical analysis of the handover latency for the horizontal and vertical handover scenarios.\n\nIn this paper, we analyzed the handover latency of MIPv6 and mSCTP for the horizontal handover and vertical handover scenarios. We compared the analytical values with results obtained by the experiments performed over a real test network. For MIPv6, we used the open source code of MIPL 2.0.2, whereas we modified the existing system supporting mSCTP handover on MN for the experiment of mSCTP handover.\n\nFrom the results, it is noted that the mSCTP could provide smaller handover latency than the MIPv6. Moreover, the mSCTP in the vertical handover scenario could provide smaller handover latency than that by the horizontal handover scenario when the sojourn time in the overlapping region between two subnets are enough large. In particular, we also saw that these empirical results are nearly similar to the theoretical analysis of the handover latency.\n\nThis full text paper was peer reviewed at the direction of IEEE Communications Society subject matter experts for publication in the ICC 2008 workshop proceedings.\n\nThis full text paper was peer reviewed at the direction of IEEE Communications Society subject matter experts for publication in the ICC 2008 workshop proceedings.This full text paper was peer reviewed at the direction of IEEE Communications Society subject matter experts for publication in the ICC 2008 workshop proceedings."
+}

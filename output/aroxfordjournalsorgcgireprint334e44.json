@@ -1,0 +1,195 @@
+{
+    "title": "Tagging genes with cassette-exchange sites",
+    "publication_date": "2003",
+    "authors": [
+        {
+            "full_name": "Gilda Cobellis",
+            "firstname": "Gilda",
+            "lastname": "Cobellis",
+            "affiliations": [
+                {
+                    "organization": "Telethon Institute of Genetics and Medicine",
+                    "address": {
+                        "city": "Naples",
+                        "country": "Italy",
+                        "postcode": "111 80131"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Giancarlo Nicolaus",
+            "firstname": "Giancarlo",
+            "lastname": "Nicolaus",
+            "affiliations": [
+                {
+                    "organization": "Istituto di Ricerche di Biologia Molecolare P. Angeletti",
+                    "address": {
+                        "city": "Pomezia Rome",
+                        "country": "Italy",
+                        "postcode": "600 00040"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Mariangela Iovino",
+            "firstname": "Mariangela",
+            "lastname": "Iovino",
+            "affiliations": [
+                {
+                    "organization": "Istituto di Ricerche di Biologia Molecolare P. Angeletti",
+                    "address": {
+                        "city": "Pomezia Rome",
+                        "country": "Italy",
+                        "postcode": "600 00040"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Antonio Romito",
+            "firstname": "Antonio",
+            "lastname": "Romito",
+            "affiliations": [
+                {
+                    "organization": "Telethon Institute of Genetics and Medicine",
+                    "address": {
+                        "city": "Naples",
+                        "country": "Italy",
+                        "postcode": "111 80131"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Emanuele Marra",
+            "firstname": "Emanuele",
+            "lastname": "Marra",
+            "affiliations": [
+                {
+                    "organization": "Istituto di Ricerche di Biologia Molecolare P. Angeletti",
+                    "address": {
+                        "city": "Pomezia Rome",
+                        "country": "Italy",
+                        "postcode": "600 00040"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Manlio Barbarisi",
+            "firstname": "Manlio",
+            "lastname": "Barbarisi",
+            "affiliations": [
+                {
+                    "organization": "Telethon Institute of Genetics and Medicine",
+                    "address": {
+                        "city": "Naples",
+                        "country": "Italy",
+                        "postcode": "111 80131"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Marco Sardiello",
+            "firstname": "Marco",
+            "lastname": "Sardiello",
+            "affiliations": [
+                {
+                    "organization": "Telethon Institute of Genetics and Medicine",
+                    "address": {
+                        "city": "Naples",
+                        "country": "Italy",
+                        "postcode": "111 80131"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Francesco P Di",
+            "firstname": "Francesco P",
+            "lastname": "Di",
+            "affiliations": []
+        },
+        {
+            "full_name": "Nicola Iovino",
+            "firstname": "Nicola",
+            "lastname": "Iovino",
+            "affiliations": [
+                {
+                    "organization": "Istituto di Ricerche di Biologia Molecolare P. Angeletti",
+                    "address": {
+                        "city": "Pomezia Rome",
+                        "country": "Italy",
+                        "postcode": "600 00040"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Massimo Zollo",
+            "firstname": "Massimo",
+            "lastname": "Zollo",
+            "affiliations": [
+                {
+                    "organization": "Telethon Institute of Genetics and Medicine",
+                    "address": {
+                        "city": "Naples",
+                        "country": "Italy",
+                        "postcode": "111 80131"
+                    }
+                },
+                {
+                    "organization": "Istituto di Ricerche di Biologia Molecolare P. Angeletti",
+                    "address": {
+                        "city": "Pomezia Rome",
+                        "country": "Italy",
+                        "postcode": "600 00040"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Andrea Ballabio",
+            "firstname": "Andrea",
+            "lastname": "Ballabio",
+            "affiliations": [
+                {
+                    "organization": "Telethon Institute of Genetics and Medicine",
+                    "address": {
+                        "city": "Naples",
+                        "country": "Italy",
+                        "postcode": "111 80131"
+                    }
+                },
+                {
+                    "organization": "Medical Genetics, Department of Pediatrics, Federico II University",
+                    "address": {
+                        "city": "Naples",
+                        "country": "Italy",
+                        "postcode": "80131"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Riccardo Cortese",
+            "firstname": "Riccardo",
+            "lastname": "Cortese",
+            "affiliations": [
+                {
+                    "organization": "Istituto di Ricerche di Biologia Molecolare P. Angeletti",
+                    "address": {
+                        "city": "Pomezia Rome",
+                        "country": "Italy",
+                        "postcode": "600 00040"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "In an effort to make transgenesis more flexible and reproducible, we developed a system based on novel 5 0 and 3 0 'gene trap' vectors containing heterospecific Flp recognition target sites and the corresponding 'exchange' vectors allowing the insertion of any DNA sequence of interest into the trapped locus. Flp-recombinase-mediated cassette exchange was demonstrated to be highly efficient in our system, even in the absence of locus-specific selection. The feasibility of constructing a library of ES cell clones using our gene trap vectors was tested and a thousand insertion sites were characterized, following electroporation in ES cells, by RACE-PCR and sequencing. We validated the system in vivo for two trapped loci in transgenic mice and demonstrated that the reporter transgenes inserted into the trapped loci have an expression pattern identical to the endogenous genes. We believe that this system will facilitate in vivo studies of gene function and large-scale generation of mouse models of human diseases, caused by not only loss but also gain of function alleles.",
+    "full_text": "The study of gene function in vivo has been facilitated by the insertion of transgenes in the mouse genome, either at random sites or at preselected sites by homologous recombination (1). When a transgene is injected in zygote pronuclei, there is no control over where it is introduced into the genome. This affects the reproducibility of the transgene expression pattern, a problem which was only partially solved by BAC-based transgenesis (2). On the other hand, homologous recombination while ideally suited for gene replacements and knock-outs is still somewhat laborious and time consuming, despite the recent development of high-throughput protocols.\n\nGene trapping strategies have been developed to partially circumvent these limitations, because they allow the selection of ES cell clones carrying the DNA insertion and a rapid identification of the trapped gene (3)(4)(5). The ultimate aim of gene trapping approaches is to generate a collection of ES 'gene trapped' clones that encompass all genes in the genome, as already proposed by Hicks et al. (6). This is a very ambitious project that will require the effort of several laboratories over several years. While published reports in this field appear to have adopted the gene trapping approach exclusively or primarily to generate loss of function alleles, it would be relevant to take advantage of these 'insertion sites' into genes for other purposes, such as the creation of allelic series. Along these lines, an additional feature of the vectors used for gene trapping strategies would be that of allowing to exchange the initial reporter cassette with any desired DNA sequence. This additional feature would greatly expand the usefulness, versatility and flexibility of a large collection of ES clones. For example, if the trapped gene is relevant for a human disease, multiple different alleles can be generated by cassette exchange. In addition, it is possible to exchange the trapped cassette with trans-regulation functions (cre recombinase, tet-dependent repressors and activators, etc.), which can be expressed in specific cells and tissues, taking advantage of the pattern of expression of the trapped gene.\n\nCassette exchange has been successfully achieved in cell culture by exploiting the property of Cre or Flp recombinases and their recognition sequences [Lox and Flp recognition target site (FRT), respectively]. For example, Bode et al. (7) have shown that a cassette exchange can be readily obtained if the recipient and the donor cassette are both flanked by matched heterospecific FRT sites. In addition, some of the public databases (Sanger Institute Gene Trap resource, Centre of Modeling Human Disease and German Gene Trap Consortium) report the sequence of trapped genes employing vectors carrying flanking heterospecific FRT or loxP sites, however, without experimental details describing their use.\n\nIn this work, we describe novel vectors that afford flp-based cassette exchange, and, more importantly, present evidence that with these reagents and method we can generate mice strains, which carry at the same locus different cassette obtained by flp-mediated exchange.\n\nThe pFLIPa1 vector is a modification of the pGT1.8bgeo (8), and pFLIPb1 and FLIPb2 are variants of the RET gene trap vector (9), respectively. These vectors have been engineered and modified through the introduction of two heterospecific Flp-recognition sites (F5/F1) (7) and buffer regions derived from the pBS SK +/À plasmid. Two double-stranded oligonucleotides containing the mutated and wild-type FRT sequences (indicated as F5 and F1 in Figure 1a) were ligated to the 5 0 and 3 0 ends of gene trapping cassettes derived from the pGT1.8bgeo and RET vectors. The modified cassette was ligated to SalIdigested BS SK +/À ; the buffer sequences, flanking the cassette, are the segment of the pBS plasmid derived from the linearization of the vector with ScaI present in the ampicillin gene.\n\nThe exchange vector pEXCH1 was generated by the substitution of the bgeo cassette of pIRESbgeo vector (10) with the Hygromicin-green fluorescent protein (GFP) fusion gene (NheI/ClaI fragment) derived from pTK-HygEGFP vector (Clontech). The pEXCH2 vector was created by the insertion of the SAiresCre-PR cassette, in front of the tk/Hygro/GFP cassette of the commercial vector. As buffer sequence, at 3 0 of the F1 site in the backbone of the vector, we cloned at SpeI site a 1 kb region containing segments of noncoding DNA of human origin (stuffer), derived from adenoviral vector (C4HSU) described by Sandig et al. (11) amplified with the following oligonucleotides: C4HSU up, 5 0 -GGACACTCGC-TTTCTGCTCTC-3 0 ; and C4HSU low, 5 0 -TAAACCAAGTT-CTTCCCAGAC-3 0 .\n\nThe pCAGGS-FlpE vector was a kind gift from Dr F. Stewart. The indicator transgene (loxP-disrupted LacZ) was a kind gift from Dr F. Graham.\n\nThe feeder-independent mouse ES E14 Tg2A.4 cell line was a kind gift from Dr W. Skarnes. We used standard culture conditions to grow and maintain the ES cell lines. ES cells were electoporated with ScaI-linearized pFLIPa1, pFLIPb1 and pFLIPb2 vectors and selected with G418 as described previously. Briefly, 10 8 ES cells were electroporated with 150 mg of linearized vector DNA in 1 ml phosphate-buffered saline (PBS), by applying single pulse at 0.8 mV, 3 mF in a Bio-Rad Gene Pulser. After electroporation, cells were seeded on gelatin-coated plates at 3 • 10 6 cells/100 mm dish. Selection with G418 (Gibco-BRL) at the recommended concentration started 48 h after electroporation. After 7-10 days of selection, single G418-resistant colonies were isolated, then picked and replicated in 96-well dishes. A set of master plates were frozen at À80 C using standard conditions.\n\nThe bgal activity of the clones generated with pFLIPa1 vector was assayed by Xgal staining (12), and bgal positive cell lines were cultured and duplicated for total RNA purification.\n\n5 0 and 3 0 RACE-PCR and direct sequencing The pFLIPa1 insertions were characterized by 5 0 RACE-PCR, while the pFLIPb1 and pFLIPb2 insertions by 3 0 RACE-PCR. In detail, total RNA from ES cell lines was prepared using SV 96 total RNA isolation system (Promega) with the BIOMEK 2000 robot (Beckman Coulter). The 5 0 RACE-PCRs were performed by using 5 0 RACE kit (Invitrogen) on total RNA extracted from ES cells. Two rounds of nested PCR were carried out on cDNA template, synthesized using the Superscript RT II (Invitrogen). The following LacZ-specific oligonucleotides were used: LacZrt 5 0 -TGGCGAAAGGGGGATGTG-3 0 for the first strand cDNA, L232 5 0 -GATGTGCTGCAAGGC-GATTA-3 0 for the first PCR and LacZ 5 0 -CCAGGGTTTT-CCCAGTCACG-3 0 for nested PCR. The PCR products were directly sequenced using automated ABI377 DNA sequencer and the Byg Dye Terminator V.2.0 Cycle Sequencing kit (Applied Biosystem) with SA3 oligonucleotide (5 0 -AACTC-AGCCTTGAGCCTCTG-3 0 ). We performed 3 0 RACE as described previously (9). Two rounds of nested PCR were carried out on cDNA template, as described previously. The neo-specific oligonucleotides were used: NEO2.8, 5 0 -TCGCC-TTCTTGACGAGTTCTTCTGACC-3 0 ; and NEO3, 5 0 -GCG-TCCACCTTTGTTGTTGGATATTGCC-3 0 .\n\nTo map the genomic insertion of the vector at the B56 and SPNR loci, a cloning strategy using inverse PCR is used (12).\n\nThe chromatogram data are interpreted with the base-calling program Phred. The high-quality sequences are then processed with Repeatmasker to eliminate repetitive sequences and then mapped against the murine genome using the BLAT algorithm at Santa Cruz server (13). Candidate sequences that are at least 95% identical to exonic sequence, over at least 90% of the query sequence, are annotated with the name of the gene. Unidentified sequences are those sequences that do not find match in the genome.\n\nAll gene trap insertions identified in this study have been submitted to the NCBI dbGSS database with the following accession numbers: CL982785-983254 and CW020243-020581.\n\nStandard fluorescence in situ hybridization procedure using the sequence of pFLIPa1 vector as probe, labeled by nick translation with the digoxigenin-11-dUTP (Roche Diagnostics), was used for the screening of the single-or multiple-copy integrants (14).\n\nFor the recombination mediated cassette exchange, 10 mg of pCAGGS-Flpe and 30 mg of pEXCH vector were coelectroporated using standard conditions into cell clones containing one integrated copy of pFLIPa or pFLIPb vector. Hygromicin selection (200 mg/ml) was applied 48 h after the electroporation. Clones were isolated, picked after 9-10 days of the selection and cultured for Southern and PCR analyses.\n\nTo evaluate the copy number of the vector, genomic DNA from 12 independent clones was extracted, cut with ClaI at 37 C overnight and run on 0.8% agarose gel in 1• TAE. The gel was blotted on nylon membrane (Hybond N) and hybridized with a probe spanning the neomycin gene (15).\n\nTo evaluate the correct exchange, genomic DNA was extracted from hygromycin-resistant clones, cut with BamHI overnight at 37 C and run on 0.8% agarose gel in 1• TAE. The gel was blotted on nylon membrane (Hybond N) and hybridized with a probe spanning the hygromycin gene, following standard procedures (15). PCR analysis was performed using the following oligonucleotides: 5 0 -TCACTCTCGGC-ATGGACGAG-3 0 (in the GFP gene) and the 5 0 -TCACAC-AGGAAACAGCTATGAC-3 0 (in the buffer region) for the reaction with pEXCH1. To analyze the corrected exchanged clones with the pEXCH2 vector, the PCR analysis was performed using the following oligonucleotides: EXCH2, 5 0 -TTCCCCAATGTCAAGCACTTC-3 0 ; and Buffer, 5 0 -TC-ACACAGGAAACAGCTATGAC-3 0 .\n\nThe mice are maintained in appropriate environment according to the Italian laws.\n\nThe ES cell lines were injected into C57BL/6 blastocyst and chimeras were obtained (16). The resulting male chimeras were bred to C57BL/6 females to test for germline transmission. Agouti offspring were genotyped by PCR on DNA extracted from tail biopsies, according to the standard procedures (12). Animals heterozygous for the insertion were crossed to C57BL/6 animals for embryos collection.\n\nThe experiments with animals were performed in compliance with the institutional guidelines and approved by the Local Committee for 'Good animal experimental activities'. The embryos were removed by cesarean section and immersed in 4% paraformaldehyde in PBS, pH 7.4 overnight. Then, the embryos were dehydrated in 10, 20 and 30% sucrose and embedded in O.C.T. compound (Tissue Tek). Cryostat sections (16 mm) were cut. In situ hybridization was performed as described previously. The DNA fragments used as probes were obtained by PCR using the following oligonucleotides: SPNR for 5 0 -TGATGATCGCCATGTTATGG-3 0 and rev 5 0 -TGCCAAACACTCCATTACTC-3 0 ; and B56 for 5 0 -GGA-GGCTGGTTTCTTGCCTTA-3 0 and B56 rev 5 0 -CGGCCAC-CTGGAAGTGAGAG-3 0 . The immunofluorescence was performed using the standard protocol (12), and the anti-GFP antibodies were purchased from Molecular Probes. X-Gal staining of embryos and/or sections was performed using the standard protocol (12). Photographs were taken using a fluorescence microscope, Zeiss Axioplan 2.\n\nThe vectors 5 0 tagging vectors. We constructed a 5 0 tagging vector, pFLIPa1, in which the expression of a selectable marker (in this case neo) depends on the capture of an active transcriptional promoter in the target cells (Figure 1a). The salient features of this vector are (i) the buffer regions, which are segments added to avoid loss of informative sequences from both ends before integration in the genome; (ii) the mutated FRT recognition sequence (F5) and the wild-type FRT sequence (F1), which are unable to recombine with each other (17) and allow Flp-mediated cassette exchange (Flp-RMCE); (iii) the mouse engrailed 2 splice acceptor sequence (8); (iv) the promoterless coding sequence for the beta-galactosidase-neo fusion gene (8,18); and (v) the SV40 poly(A) addition signal.\n\n3 0 tagging vectors. We also constructed a novel 3 0 tagging vector, pFLIPb (Figure 1a), in which the selectable marker lacks a poly(A) signal, whereby if its insertion occurs upstream of an endogenous poly(A) signal, it will be expressed independently on the expression of the trapped gene (9). The salient features of this vector are (i) the 'protective' buffer regions; (ii) the F5 and F1 sequences (17); (iii) the mouse bcl-2 splice acceptor sequence; (iv) the mouse RNA polII gene promoter, which drives the selectable marker neomycin; and (v) the mouse HPRT splice donor sequence, followed by the mRNA instability signal derived from the human granulocyte/macrophage colony-stimulating factor gene (9).\n\nAn additional feature of the 3 0 trapping vector is the possibility to carry any promoterless gene of interest (GOI), upstream of the selectable marker, and whose transcription should be driven by the endogenous promoter of the trapped locus. As an example, we constructed pFLIPb1, in which the promoterless GOI is GFP, and FLIPb2 in which the promoterless GOI is a progesterone-regulated Cre gene (Figure 1a) (19).\n\nCassette-exchange vectors. In order to exchange the tag at the trapped locus, the exchange vectors must contain similarly oriented FRT sequences, and different buffer sequences. For this purpose, we constructed pEXCH1 and pEXCH2 (Figure 1a) with the following features: (i) the same set of heterospecific FRT sites (F5 and F1), in the same orientation of the corresponding FLIPa and FLIPb vectors, flanking the gene cassette; (ii) the 'protective' buffer sequences different from those added to the FLIP vectors in order to design discriminative primers between the vectors (see Materials and Methods); (iii) the mouse engrailed 2 splice acceptor sequence; and (iv) the SV40 poly(A) addition signal (Figure 1a).\n\nTo disseminate various tags (bgal, GFP or Cre) into the ES cells genome, the same experimental procedure was applied to the 5 0 and 3 0 trapping vectors. In all our experiments, a feeder-independent ES cell line (E14Tg2A.4) was used.\n\nAfter electroporation with pFLIPa1, the cells were subjected to G418 selection and independent clones were analyzed for bgal activity. In our experimental conditions, an average of 30% (1012 out of 3360) of the clones expressed detectable bgal. To identify the integration sites, we performed the 5 0 RACE-PCR on total RNA extracted from bgal-positive cells. One-fifth (203 out of 1012) of the clones did not yield any PCR product. The remaining clones (809) were analyzed by direct PCR-sequencing and their sequences compared with the public mouse genome databases using the BLAST algorithm. This analysis revealed that in 95% (768) of the clones splicing between endogenous splice sites and the vector occurred as expected. Five percent (41) of the clones, in which there was no sign of a splicing event, were discarded. Sequence analysis of the remaining clones revealed that 60% (461) of them matched known genes, 34% (261) matched expressed sequence tags (ESTs). The remaining 6% (46) did not match any sequence in the public sequence databases. Although most of the insertions were unique (42%), the same integration site was found in more than one clone, probably due to integration hot-spots, as already reported in other gene trapping studies (5).\n\nA list of unique trapped genes with pFLIPa1 is reported in Supplementary Table 1.\n\nWe introduced the pFLIPb1 and pFLIPb2 into ES cells and 48 h later G418 selection was initiated to select for integration events. A total of 4 • 96 well plates were arrayed and the 3 0 RACE-PCR was used to detect the insertion sites. Direct PCR sequencing followed by the BLAST analysis revealed that the splicing properly occurred between the vector and the endogenous splice sites in 91% (262) of the clones with the pFLIPb1 vector. Bioinformatic analysis revealed that 74% (213) of them matched with known genes, 26% (68) with ESTs.\n\nThe analysis of the clones obtained with the pFLIPb2 vector shows that the splicing occurred in the 80% (77) of the clones with a similar distribution of matches, 66% (51) with known genes and 33% (25) with ESTs. A list of the trapped genes with pFLIPb1 and FLIPb2 is shown in the Supplementary Table 2.\n\nTo test the ability of the pFLIPb2 vector to trap genes independently of their expression status, we used the progesterone-regulated Cre system and an indicator vector containing a loxP-disrupted lacZ transgene. Using this system, we found that in 60% of these clones Cre was able to induce bgal activity in undifferentiated ES cells, while in an additional 30% of the clones the induction of bgal activity was observed only in differentiated ES cells, obtained after LIF deprivation. The remaining 10% of the clones did not induce bgal activity (data not shown).\n\nTo estimate the fraction of ES clones with multiple insertions, we performed FISH analysis on 12 clones, using the entire plasmid vector as probe. A single fluorescent spot was observed in 11 out of 12 analyzed clones. In the 12th clone, we observed a double fluorescent spot (Figure 1b).\n\nSouthern blot analysis was also performed on the same clones. Hybridization with the neo probe revealed that those clones with a single integration show a single band of different length, whereas the clone with double integration shows a double band, of 8 kb and 11 kb, respectively, confirming the results of the FISH (Figure 1b).\n\nThe cassette exchange mediated by the Flp recombinase is based on the observation that a DNA segment flanked by two heterospecific FRT sites can be exchanged with another DNA cassette flanked by the same set of heterospecific FRT sites (7).\n\nTo find out whether the Flp-RMCE takes place at the tagged loci and how efficient is this reaction, we designed a set of experiments to evaluate the efficiency of the exchange with or without a locus-specific selection. The RMCE strategy is schematically shown in Figure 1c.\n\nSix different tagged clones (B56/PP2Ag, SPNR, Otub1, Pep4, Rex2 and Usp9y) were transfected with the exchange vector pEXCH1 (Figure 1a), which contains the promoterless Hygro/GFP cassette, which will be driven by the endogenous promoter of the tagged locus, flanked by the two heterospecific FRT sites in the same orientation as the genomic tag. The in vitro enhanced FlpE recombinase was transfected in an expression vector (pCAAGS/FlpE) by electroporation, and 20 independent hygro-resistant ES clones were subjected to further analysis. Hybridization with the hygro probe revealed a 7 kb fragment on Southern blot analysis in the subclones in which RMCE had taken place (Figure 1d). The data were also confirmed by PCR using buffer-specific primers (Figure 1d). We evaluated the frequency of the site-specific recombination occurred in the different clones, ranging from 92 to 56%, with an average frequency of 75%. Thus, the results demonstrated that the locus-specific recombination event mediated by FlpE is highly favored over random insertion.\n\nWe then evaluated whether the FlpE enzyme is able to drive a genetic element in the tagged locus in the absence of a locusspecific selection. To this aim, we generated an exchange vector (pEXCH2, Figure 1a) containing (i) a promoterless progesterone-regulated form of the Cre gene (CRE-PR) (19) that will be driven by the endogenous promoter of the tagged locus and (ii) the Hygro/GFP fusion gene, under the control of the tk promoter that is necessary for the selection of transfectants but not for the selection of the exchange event at the trapped locus. The pEXCH2 vector was introduced with FlpE by electroporation in the SPNR-tagged clone (Figure 1e).\n\nAfter transfectants selection, 30 hygro-resistant clones were analyzed by PCR, showing that a correct exchange occurred in 2 clones (Figure 1f, 7%). Taken together, these results indicate that our cassette-exchange system does not require locusspecific selection and that the process is frequent enough to identify the exchanged clone by screening a relatively small number of clones. We also demonstrated that the progesteroneregulated Cre was functional in our clones by infecting the exchanged clones with an indicator vector containing a loxPdisrupted lacZ transgene (Figure 1e). We found that bgal activity was strictly dependent on Cre-mediated recombination and the production of an active Cre is regulated by the progesterone (Figure 1f ).\n\nOf crucial importance was to verify that the ES cells that had undergone multiple passages were still capable of germline transmission and that the transcription of the various tags exchanged by RMCE in the tagged loci show the identical pattern of expression of the endogenous gene. To this end, we generated transgenic animals using ES cell clones before and after the cassette exchange. For this analysis, we selected the ES cell clones bearing the insertions in the B56/PP2Ag isoform and SPNR genes, respectively (20,21).\n\nBoth the original trapped ES cell clone and the corresponding one after the cassette exchanges were injected into blastocysts to generate mouse chimeras. The resulting chimeras were used to produce mouse lines bearing either the original trap cassette (bgal) or the exchanged GFP cassette. We studied the expression patterns of bgal and GFP in heterozygous animals, and compared them with those of the corresponding endogenous genes. The B56/PP2Ag isoform transcript showed at 14.5 d.p.c. a major expression site in the developing heart. Figure 2b (top left) shows the expression pattern of the endogenous B56/PP2Ag isoform gene in the heart by in situ hybridization. Analysis of bgal activity (trap cassette) and GFP fluorescence (exchanged cassette) revealed an identical expression pattern (Figure 2b). We confirmed that the protein co-localizes in the same tissue by immunofluorescence using anti-GFP antibodies. In conclusion, we observed that the expression pattern of the reporter genes faithfully mimicked that of the endogenous gene.\n\nWe also studied the B56/PP2Ag isoform gene expression in adult mice. In this case, a specific pattern of expression of the endogenous gene is observed in the cerebellum and hippocampus. We confined the analysis to the B56 +/GFP mice and we demonstrated by in situ hybridization that the GFP transgene reproduced the same expression pattern, as shown in Figure 2c.\n\nA similar analysis was also performed for the SPNR mice carrying the GFP cassette after the RMCE (Figure 3a). We observed that the transgene had the same pattern of expression of the endogenous SPNR gene, as visualized by in situ hybridization with both SPNR and GFP probes and by direct GFP fluorescence (Figure 3b). Taken together, these data provide experimental evidence that ES clones that have undergone the cassette exchange treatment retain the capacity of germ-line transmission and that the RMCE does not significantly interfere with the regulation of the endogenous promoter.\n\nIn the majority of the previously published work on gene trap methodologies, the genomic modifications mediated by the gene trap vectors are essentially irreversible and the trapped loci cannot be further manipulated. In some cases, loxP and FRT sites were used to perform RMCE (22,23), but these studies were confined to in vitro experiments. The present work sought to refine the design of the RMCE vectors and to demonstrate the flexibility of the strategy for in vivo applications, i.e. the construction of mouse strains carrying exchanged cassettes.\n\nThe cassette-exchange system has important applications in the development of animal models, especially for those models of human genetic diseases that are characterized by allelic heterogeneity. In 'recessive' diseases, the presence of 'hypomorphic', rather than null mutations may result in milder phenotypes, while in 'dominant' diseases different gain of function mutations at the same locus may result in completely different phenotypes. In these situations, a simple 'knock-out' of the disease gene does not provide a good animal model to study the phenotype of different mutations. Conversely, a disease locus trapped by our cassette-exchange system can be easily manipulated multiple times with mutated cDNAs, thus allowing the substitution of the wild-type allele with a variety of disease-causing mutant alleles.\n\nTransgenic mice are typically generated by using cDNAs flanked by 'surrogate' promoters driving their expression either in a ubiquitous or in a tissue-specific manner. This approach has several limitations. First, the pattern of expression of the transgene might differ (sometimes significantly) from the pattern of expression of the endogenous gene, both in the amount and tissue distribution. Second, the expression pattern will be influenced by the site of integration into the mouse genome, thus limiting the reproducibility of the expression pattern even when the same promoter is used multiple times. Third, the choice of the promoter that mimics as much as possible the expression of the favored gene is limited by the 'repertoire' of characterized promoters.\n\nIdeally, transgenic animals should express the GOI with the same regulation of the endogenous one. In this case, laborintensive gene-targeting experiments must be performed to insert an extra-copy of the transgene under the control of the endogenous regulatory sequences.\n\nOur approach has the potential of overcoming these difficulties using the power of gene trapping with the flexibility and reproducibility of the cassette-exchange system.\n\nOur system can be used to create a large collection of ES cells, each carrying a tag whose expression is driven by a different promoter. These tags may potentially become 'standard' insertion sites for the expression of any transgene in specific tissues and in a reproducible way. Among the potential applications of this strategy are the construction of a collection of ES cells that can be tagged at the same locus with expression reporter genes (beta-gal, gfp, etc.) with site-specific recombinase (for example cre, as shown in this work), or transactivators (e.g. tTA, rtTA, etc.), for drug-induced and reversible gene expression in different tissues, or with toxin-encoding genes (e.g. tk, DTA) for cell ablation studies.\n\nWe validated in vivo the efficacy of our system by generating two sets of transgenic mice carrying the tag in two different loci. In both the cases, expression pattern of transgenes, before and after the cassette exchange, was identical to those of the endogenous-tagged genes. These data provide clear evidence that RMCE does not interfere with the regulation of gene expression.  In conclusion, we demonstrated that our vectors can efficiently and reliably trap genes in ES cells. We isolated several hundreds of ES cell clones carrying insertions in genes expressed and not expressed in ES cells. A comprehensive collection of ES cells bearing cassette-exchange tags will be a useful resource for functional genomics and disease studies.\n\nPublished online March 1, 2005 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\ne44 Nucleic Acids Research, 2005, Vol. 33, No. 4 PAGE 2 OF 7 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nby guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from"
+}

@@ -1,0 +1,68 @@
+{
+    "title": "E-27 3-D PRESTACK WAVE-EQUATION IMAGING: A RAPIDLY EVOLVING TECHNOLOGY",
+    "publication_date": "1999",
+    "authors": [
+        {
+            "full_name": "Biondo Biondi",
+            "firstname": "Biondo",
+            "lastname": "Biondi",
+            "affiliations": [
+                {
+                    "organization": "Department of Geophysics, Stanford University",
+                    "address": {
+                        "city": "Stanford",
+                        "country": "USA",
+                        "postcode": "94305"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Robert G Clapp",
+            "firstname": "Robert G",
+            "lastname": "Clapp",
+            "affiliations": [
+                {
+                    "organization": "Department of Geophysics, Stanford University",
+                    "address": {
+                        "city": "Stanford",
+                        "country": "USA",
+                        "postcode": "94305"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Marie Prucha",
+            "firstname": "Marie",
+            "lastname": "Prucha",
+            "affiliations": [
+                {
+                    "organization": "Department of Geophysics, Stanford University",
+                    "address": {
+                        "city": "Stanford",
+                        "country": "USA",
+                        "postcode": "94305"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Paul Sava",
+            "firstname": "Paul",
+            "lastname": "Sava",
+            "affiliations": [
+                {
+                    "organization": "Department of Geophysics, Stanford University",
+                    "address": {
+                        "city": "Stanford",
+                        "country": "USA",
+                        "postcode": "94305"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "N/A",
+    "full_text": "Wave-equation migration is an accurate and robust alternative to Kirchhoff migration when multipathing and other complex wave phenomena occur, such as in subsalt exploration. In these situations, images obtained by wave-equation migration are often superior to images obtained by Kirchhoff methods. However, 3-D wave-equation prestack imaging is an immature technology compared with Kirchhoff imaging, and thus its full potential is still far from being fulfilled. In this paper we discuss some of the new challenges that we encounter when applying wavefields methods to 3-D prestack imaging.\n\nVelocity estimation is probably the most urgent of these challenges. Substantial progress towards the preservation of reflector amplitudes under complex overburden and with irregular acquisition geometry are also on the horizon.\n\nAs long as we use velocity estimation methods that are based on Kirchhoff migration, we are severely limiting the amount of improvement we can achieve with wave-equation migration. Figure 1 demonstrates this issue. It shows an image obtained applying a multi-arrival Kirchhoff migration (left) and an image obtained applying a wave-equation migration (right). The migration velocity was the same for the two migrations, and it was derived using Kirchhoff based methods. The image obtained by waveequation migration is cleaner and higher resolution than the one obtained by a multi-arrival Kirchhoff migration, in particular in the salt body and under the salt edge. However, the overhanging salt flank and the sediments below it are still not properly imaged because of velocity errors.\n\nIn complex media, the most robust and widely used velocity estimation methodologies are based on iterative migration and velocity updating. The velocity is updated from information extracted from the migrated Common Image Gathers (CIGs). Depending on the characteristic of the data, the updating can be as simple as a vertical average velocity correction and as sophisticated as a tomographic inversion.\n\nAll these Migration Velocity Analysis (MVA) procedures are dependent on the quality of the CIGs obtained by migration. When multipathing occurs, Kirchhoff prestack images are even more prone to artifacts than stacked images, and thus CIGs can be severely misleading the velocity updating process. On the contrary, wave-equation migration generates Angle-Domain CIGs (ADCIGs) (de Bruin et al., 1990;Prucha et al., 1999;Sava et al., 2001;Rickett and Sava, 2001) that have less artifacts and thus yield more reliable information. These ADCIGs can be used to update the velocity function with procedures similar to the conventional procedures that use offset-domain CIGs. When the velocity function is simple and well defined by geological interfaces, a vertical or normal-ray updating is effective (Liu et al., 2001). When the velocity function is more complex a full tomographic approach ought to be employed (Clapp, 2001). Figure 2 demonstrates the application of a tomographic velocity inversion to a 2-D line of a 3-D data set. The migrated image on the left was obtained with the starting velocity model. The image in the middle was generated using the result of the first iteration of a tomographic MVA scheme. The image on the right was generated using the result of the sixth iteration of a tomographic MVA scheme. The improvements are clear, though a full 3-D scheme is necessary for this data set.\n\nEven further improvements in the MVA process can be expected when a wave-equation operator instead of a ray-tracing operator is employed to update the velocity. Wave Equation MVA (WEMVA) (Biondi and Sava, 1999) is also based on the back-projection of velocity errors measured from AD-CIGs. WEMVA is still in development and it is computational intensive (the cost is of the order of several wave-equation migrations per iteration), but it is a matter of only few years before WEMVA becomes practical.\n\nThe estimation of reflector amplitudes under complex overburden has the potential to be improved by wave-equation migration even more dramatically than structural imaging. The high-frequency approximations implied in Kirchhoff methods cause substantial errors in the amplitudes of a wavefield propagating through complex media even when they do not cause significant kinematic errors. However, the methodologies for robust and practical inversion of seismic data using wave-equation operators is not as well developed as it is for asymptotic methods (Cohen et al., 1986). Sava et al. (2001) presented a general theory for amplitude-preserved wave-equation prestack migration when the overburden velocity is relatively simple. When the overburden complexity creates significant illumination problems (e.g. under salt edges) full inversion may be needed (Kuehl and Sacchi, 2001). The crucial ingredient to make wavefield inversion to converge toward useful results is a proper regularization and preconditioning (Prucha et al., 2000). Figure 3    Wave-equation operators usually like the data to be regularly sampled. Therefore, field geometries must be regularized prior to wave-equation imaging. The regularization procedure should preserve amplitudes and minimize migration artifacts. The problem is similar to the uneven reflector illumination caused by complex overburden, and can be similarly addressed by regularized inversion. Figure 4 demonstrates the effects on image resolution of the inversion of the AMO operator (Biondi et al., 1998). The Figure shows four migrated depth slices for constant reflection angle (near angle on the left and far angle on the right). The depths slices on the top were obtained by simple binning and normalization of the input data. The depths slices on the bottom were obtained after AMO regularization."
+}

@@ -1,0 +1,52 @@
+{
+    "title": "Perception of collisions while walking in a virtual environment with simulated peripheral vision loss",
+    "publication_date": "2002",
+    "authors": [
+        {
+            "full_name": "James Barabas",
+            "firstname": "James",
+            "lastname": "Barabas",
+            "affiliations": [
+                {
+                    "organization": "Schepens Eye Research Institute, Harvard Medical School",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Russell L Woods",
+            "firstname": "Russell L",
+            "lastname": "Woods",
+            "affiliations": [
+                {
+                    "organization": "Schepens Eye Research Institute, Harvard Medical School",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Robert B Goldstein",
+            "firstname": "Robert B",
+            "lastname": "Goldstein",
+            "affiliations": [
+                {
+                    "organization": "Schepens Eye Research Institute, Harvard Medical School",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Eli Peli",
+            "firstname": "Eli",
+            "lastname": "Peli",
+            "affiliations": [
+                {
+                    "organization": "Schepens Eye Research Institute, Harvard Medical School",
+                    "address": {}
+                }
+            ]
+        }
+    ],
+    "abstract": "While walking, people rely on visual judgments to avoid collisions. People with severe peripheral vision loss (tunnel vision) report frequent collisions with obstacles. We used a virtual environment to examine how normally-sighted subjects performed with and without simulated tunnel vision in a collision-detection task. The virtual environment consisted of a treadmill situated in front of a large rear-projected screen (about 95 degrees wide). Subjects walked down a simulated shopping mall corridor and were shown one-second glimpses of human-sized obstacles at eccentricities from zero to 12 degrees relative to their heading. Subjects were asked to judge whether continued walking in the same direction would have resulted in a collision with the obstacle. Head and eye tracking were used to dynamically adjust a dark mask restricting the subjects field of vision. Restrictions revealed only parts of the scene within circles 5, 10 or 20 degrees in diameter centered at the subjects' center of gaze. Not surprisingly, subjects failed to see obstacles more frequently as their vision was increasingly restricted. However, when subjects were allowed to repeat obstacle presentations that they failed to see, performance at discriminating collisions was unaffected by peripheral vision restriction.",
+    "full_text": "Loss of peripheral vision makes navigating cluttered environments more difficult. Pelah et al., (2002) found an effect of vision restriction on decisions about obstacles in a virtual environment. Li, Peli & Warren (2002) found that simulated and diseaserelated peripheral vision loss impaired heading judgments in a virtual environment.\n\nDoes limited peripheral vision impair detection of potential obstacles? Does limited peripheral vision impair visual judgment of potential collisions once obstacles are seen? Approach:\n\nEvaluate collision perception of subjects walking in a computer-simulated corridor with and without simulated peripheral vision loss:\n\n• Subject walks on treadmill in front of a rear-projection screen.\n\n• Screen, viewed monocularly, shows simulated shopping mall corridor with obstacles.\n\n• Track head and eye movements.\n\n• For conditions with simulated vision loss, obscure virtual corridor except for a round window around point of gaze.\n\n• Gaze tracked using ISCAN pupil tracker, Ascension Flock of Birds Head Tracker, custom head & eye tracking integration.\n\n• View of corridor is dynamically adjusted to match eye position in front of screen as subject moves while walking (Allows depth cues from self motion parallax).\n\n•For restricted vision conditions, head and eye tracking used to dynamically place a virtual mask \"in front of\" subject's eye along line of gaze (to our knowledge, a novel approach).\n\nExperimental Methods: Walking Task Subjects: 6 normally-sighted adults 4 conditions: No peripheral vision restriction (about 90 degrees of corridor visible on screen independent of gaze), vision restricted to 5, 10, and 20 degrees around point of gaze.\n\nObstacles appear adjacent to point 5m or 15m down walking path.\n\nClosest distance between obstacle and path ranged from negative 10 cm to 100 cm.\n\nObstacles presented on left or right side.\n\nSubjects presented with 64 obstacles per viewing condition, each repeated until seen. Perceived safe passing distance (Woods et al., 2003) is the path-obstacle distance where subject responds \"Collision\" about half of the time.\n\nSafe Passing Distance closest distance to obstacle (cm) Probability of \"Collision\" response Quality of Decision (Smaller is Better) Cumulative Gaussian fitted to subject responses: Mean: \"Safe Passing Distance\" Standard Deviation: \"Quality of Decision\" \"No Collision\" \"Collision\" Subject Responses"
+}

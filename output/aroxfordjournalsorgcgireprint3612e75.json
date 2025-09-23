@@ -1,0 +1,137 @@
+{
+    "title": "Development of a single tube 640-plex genotyping method for detection of nucleic acid variations on microarrays",
+    "publication_date": "2008-06-05",
+    "authors": [
+        {
+            "full_name": "Kaarel Krjuts ˇkov",
+            "firstname": "Kaarel",
+            "lastname": "Krjuts ˇkov",
+            "affiliations": [
+                {
+                    "organization": "Department of Biotechnology, IMCB, University of Tartu",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Reidar Andreson",
+            "firstname": "Reidar",
+            "lastname": "Andreson",
+            "affiliations": [
+                {
+                    "organization": "Department of Bioinformatics, IMCB, University of Tartu",
+                    "address": {
+                        "city": "Tartu",
+                        "country": "Estonia"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Reedik Ma ¨gi",
+            "firstname": "Reedik",
+            "lastname": "Ma ¨gi",
+            "affiliations": [
+                {
+                    "organization": "Department of Bioinformatics, IMCB, University of Tartu",
+                    "address": {
+                        "city": "Tartu",
+                        "country": "Estonia"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Tiit Nikopensius",
+            "firstname": "Tiit",
+            "lastname": "Nikopensius",
+            "affiliations": [
+                {
+                    "organization": "Department of Biotechnology, IMCB, University of Tartu",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Andrey Khrunin",
+            "firstname": "Andrey",
+            "lastname": "Khrunin",
+            "affiliations": [
+                {
+                    "organization": "Department of Molecular Bases of Human Genetics, Institute of Molecular Genetics, RAS",
+                    "address": {
+                        "city": "Moscow",
+                        "country": "Russia"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Evelin Mihailov",
+            "firstname": "Evelin",
+            "lastname": "Mihailov",
+            "affiliations": [
+                {
+                    "organization": "Department of Biotechnology, IMCB, University of Tartu",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Veronika Tammekivi",
+            "firstname": "Veronika",
+            "lastname": "Tammekivi",
+            "affiliations": [
+                {
+                    "organization": "Department of Biotechnology, IMCB, University of Tartu",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Helena Sork",
+            "firstname": "Helena",
+            "lastname": "Sork",
+            "affiliations": [
+                {
+                    "organization": "Department of Biotechnology, IMCB, University of Tartu",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Maido Remm",
+            "firstname": "Maido",
+            "lastname": "Remm",
+            "affiliations": [
+                {
+                    "organization": "Department of Bioinformatics, IMCB, University of Tartu",
+                    "address": {
+                        "city": "Tartu",
+                        "country": "Estonia"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Andres Metspalu",
+            "firstname": "Andres",
+            "lastname": "Metspalu",
+            "affiliations": [
+                {
+                    "organization": "Department of Biotechnology, IMCB, University of Tartu",
+                    "address": {}
+                },
+                {
+                    "organization": "Estonian Genome Project, University of Tartu",
+                    "address": {
+                        "city": "Tartu",
+                        "country": "Estonia"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "Detection of DNA sequence variation is critical to biomedical applications, including disease genetic identification, diagnosis and treatment, drug discovery and forensic analysis. Here, we describe an arrayed primer extension-based genotyping method (APEX-2) that allows multiplex (640-plex) DNA amplification and detection of single nucleotide polymorphisms (SNPs) and mutations on microarrays via four-color single-base primer extension. The founding principle of APEX-2 multiplex PCR requires two oligonucleotides per SNP/mutation to generate amplicons containing the position of interest. The same oligonucleotides are then subsequently used as immobilized single-base extension primers on a microarray. The method described here is ideal for SNP or mutation detection analysis, molecular diagnostics and forensic analysis. This robust genetic test has minimal requirements: two primers, two spots on the microarray and a low cost four-color detection system for the targeted site; and provides an advantageous alternative to high-density platforms and low-density detection systems.",
+    "full_text": "Single nucleotide polymorphisms (SNPs), DNA variations in a single nucleotide position are often genetic determinants of disease; therefore, they have become predominant genetic markers in genome research. The labor intensive field of SNP identification and detection has been fueled by numerous intellectual and financial resources (1). While development of high and low multiplex methods (2) has received considerable attention and effort, there is currently a lack of much needed intermediate systems.\n\nRecent technological advances have provided platforms (Affymetrix and Illumina Inc.) that allow parallel analysis of potentially millions of SNPs, making large-scale association studies a reality (3,4). However, genome-wide association analysis (GWA) relies on multiple time intensive replication screens using only a small subset of SNPs, those with high P-values. Moreover, clinical diagnostic testing will require identification of hundreds of SNPs, not millions. Therefore, alternative methods that are flexible, fast and inexpensive are urgently needed (5)(6)(7)(8).\n\nPrimer extension on microarrays, first reported over a decade ago (9), has become mainstream technology (10). Originally it comprised of four steps: (i) targeted DNA amplification; (ii) fragmentation and array-based hybridization; (iii) enzymatic single-base extension (SBE) on the array and (iv) signal detection (11). Considering the capability of PCR amplicon detection in a single reaction tube is routinely 2-10 (5,6) and maximally 48 (7) amplicons per reaction, reliable multiplex PCR template amplification remains challenging (12).\n\nHere, we report an improved arrayed primer extension genotyping method (APEX-2) capable of identifying hundreds of SNPs and mutations in parallel using efficient homogeneous multiplex PCR (up to 640-plex) and SBE on microarrays (Figure 1). In the present report, we outline and justify the principle of the APEX-2 reaction, describe APEX-2 primer construction and validate the applicability of the APEX-2 principle using 640-plex amplification and genotyping. *To whom correspondence should be addressed. Tel: +372 7375029; Fax: +372 7420286; Email: andres@ebc.ee ß 2008 The Author(s) This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/ by-nc/2.0/uk/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.\n\nSNP-specific primers were designed by retrieval of 50-bp regions flanking either side of the SNP genomic sequence. A 50-bp reverse complement of the 3 0 !5 0 strand was generated, and truncated at the 5 0 end until an optimal melting temperature (57-628C) was achieved. Melting temperature was calculated using a formula from Primer3 software (13). Primer pair specificity was verified using GenomeTester 1.3 (14), which predicted generation of a single product (up to 1000 bp) per primer pair based on the human genome. Primer sequences were further assessed for the presence of SNPs using SNPmasker software (15). APEX-2 primers were generated upon addition of a universal sequence (5 0 -GATCAGGCGTCTGTCG TGCTC-3 0 ) to the 5 0 end of each SNP-specific primer. APEX-2 primers were then amino modified at the 5 0 end (for sequence see Table 1, small letters), attached via a linker, to enable primer immobilization on a solid surface. Oligonucleotides [de-salted, 100 pmol/ml in TE (10 mM Tris-HCl pH 8.0, 1 mM EDTA)] were purchased from Metabion International AG, Martinsried, Germany and stored at À208C. All oligonucleotides were analyzed by matrix-assisted laser desorption/ionization time-of-flight mass spectrometry (MALDI) to control the length and\n\nPrior to primer extension with dideoxynucleotides, purified PCR products were treated with shrimp alkaline phosphatase (SAP) in order to eliminate residual active deoxynucleotides. Briefly, 3 ml of concentrated APEX reaction buffer (500 mM Tris-HCl pH 9.5, 85 mM MgCl 2 , 100 mM KCl), 0.25 U SAP (Fermentas) and 26 ml of purified PCR product were incubated at 378C for 10 min, followed by SAP inactivation at 958C for 5 min. Prior to SBE, templates were denatured on the array at 958C for 5 min. SBE components were then added to the denatured PCR product, for a final reaction volume of 30 ml, which included: 1.\n\n5 mM of each dideoxynucleotide mixture, Cy3-ddATP, Cy5-ddGTP, Texas Red-ddCTP (Perkin Elmer Life Science, Waltham, Massachusetts, USA), Fluoresceine-12-ddUTP (ENZO Life Science, Farmingdale, NY, USA); 4.8 U of ThermoSequenase TM (GE Healthcare, Waukesha, WI, USA); and 1 ml enzyme dilution buffer (GE Healthcare). The SBE reaction mixture was applied to arrays prewarmed on a heated plate, then covered with LifterSlip TM (22 Â 25 mm 2 , Erie Scientific Company, Portsmouth, NH, USA). Hybridization and APEX-2 reactions were performed at 588C for 20 min and terminated by washing at 958C for 1 min with distilled water, 3 min in 0.3% Alconox Õ solution (Alconox, White Plains, NY, USA), and twice at 958C for 1 min with distilled water to remove the Alconox. To prevent photobleaching, a drop of Atlas Antifade (BioAtlas, Tartu, Estonia) was applied to the microarray, which was then coverslipped. Slide hybridization was detected by the Genorama TM Imaging System (Asper Biotech Ltd); and loci of interest were identified by Genorama TM Genotyping Software 4.2 Package (Asper Biotech Ltd) using clustered signal patterns from the dbSNP database (release 125) as a statistical reference.\n\nFigure 1 is a schematic diagram illustrating the principles of multiplex PCR and SBE on oligoarrays (Patent application PCT/EE2007/000003). Oligonucleotides are immobilized to the microarray via primer 5 0 amino modification, a convenient procedure facilitating a stable covalent bond to the array surface with no observed negative effects in subsequent PCR reactions. The amino-modified APEX-2 oligonucleotides immobilized on the microarray then site-specifically anneal to the denatured genomic DNA, binding just upstream of the position of interest (SNP or mutation), followed by primer elongation (Phase 1). Phase 1 generates a synthesized sequence that contains a nucleotide complementary to the position of interest. During phase 2, the SBE template is produced with multiplex PCR using universal primers. While the final reaction volume of phase 1 PCR is 15 ml, phase 2 PCR requires a final volume of 150 ml to insure sufficient amplicon quantity (total yield of 15 mg, data not shown) for microarray visualization. Detection on the microarray requires both the immobilized amino-modified APEX-2 oligonucleotide probes (positions on array are fixed during spotting), and the SBE template. Therefore, the APEX-2 method uses two site-specific oligonucleotides per position of interest, used both in amplification and detection on the microarray.\n\nThe APEX-2 primer is composed of three regions: (i) a region complementary to the genomic DNA sequence downstream of the point of interest; (ii) a universal sequence, enabling equal amplification of all phase 1 amplicons and (iii) a chemical modification, a 5 0 aminomodified primer with a C6 linker, immobilizing the primer on the microarray (Table 1, modification and sequence columns). The length of the universal tail, common to all APEX-2 primers, is 21 bp and contains no binding sites complementary to the human genome. The length of the complementary region ranges from 18 to 50 bp, which is dependent on melting temperature (57-628C).\n\nAccording to reaction principles, phase 1 multiplex polymerization (minimum two cycles) generates amplicons containing complementary sequence to the universal tail; using primers designed to this sequence, all phase 1 elongated products can be amplified and the position of interest studied. Final phase 2 double-stranded PCR products contain the position(s) of interest located between sense and antisense APEX-2 primer sequences. Due to the small size of phase 2 PCR products (79-130 bp, Figure 2A) product fragmentation prior to microarray hybridization is unnecessary.\n\nMissing calls occurred in 24 positions (99.91%) distributed equally over the examined DNAs. Concordance between Illumina (HumanHapCNV370-Duo v1.0 BeadChips) and APEX-2 genotype methods was determined using 173 SNPs in 19 individuals (3287 genotypes in total). The call rates of both methods, the Illumina and APEX-2, in those positions were 99.33 and 99.24%, respectively. Therefore, 22 positions genotyped with Illumina and 25 positions genotyped with APEX-2 were incomparable due to missing calls. Two positions failed with both platforms. Consequently, for the concordance evaluations stage the input number of genotypes remained at 3242 of which 3195 genotypes matched (47 genotyping errors). Hence, we detected 98.55% concordance rate between two platforms (Table 2). We detected five SNPs, in case of which the genotyping results did not match with three to four DNA samples between the used platforms. Thirty-four percent (16 of 47) of errors occurred in two DNAs. To analyze discordant genotype calls with a third method, we chose four (out of 29) SNPs in case of which the polymorphic position located at the restriction cleavage site (rs615098 TaiI, rs4940086 BseGI, rs1064875 SsiI, rs11119344 TaqI). By taking into account the number of DNAs having unmatched genotypes between the compared methods, altogether we analyzed 10 out of 47 discordant calls ascertained. The restriction results showed that APEX-2 had generated six errors, Illumina platform two mistakes and in case of two cases the calls of both methods differed from the results gained from the restriction analysis. We also scrutinized all 47 discordant positions manually and detected 20 APEX-2 calls in case of which, although a matching genotype with Illumina was visible, it remained automatically undetectable (due to the low signal-to-noise ratio).\n\nWe have developed a multiplex genotype and mutation detection platform based upon simultaneous amplification of multiple loci in a single tube reaction, and successive use of reaction products in microarray SBE detection, eliminating the need for additional primers. The APEX-2 approach is an immense improvement to current PCR-based approaches, increasing multiplexing capacity by 10-to 100-fold (8,17) reliability, as well as time and cost effectiveness. The foundation of these advancements include: (i) generation of short products ($100 bp) due to the close proximity of hybridizing APEX-2 primers (primers are only separated by the position of interest) and (ii) incorporation of the universal primer in the APEX-2 oligonucleotide sequence, allowing phase 2 PCR amplification under optimal conditions, which is not feasible with PCR primers containing unique sequences.\n\nA comparison of APEX-2 with its predecessor, APEX (11), illustrates the technical benefits associated with multiplex PCR, which includes faster analysis and cost effectiveness due to a reduction in labor-intensive steps. The first step of APEX is amplification of genomic regions adjacent to the SNP to produce sufficient template for detection. Comparatively, after phase 1 of APEX-2, the SNP has already been incorporated into the template DNA; and phase 2 amplification produces sufficient DNA for microarray SBE detection. While other low to medium throughput APEX, similar techniques are currently being employed, they require additional steps circumvented by the APEX-2 method, including enzymatic treatment of PCR generated probes to remove unincorporated deoxynucleotides and primers, and subsequent SBE analysis via microarray (18), electrophoresis (SNaPshot from Applied Biosystems Õ ) or mass differences (iPLEX from Sequenom Õ ). Further, APEX-2 differs from well-known molecular inversion probe (MIP) (19) and Illumina Golden Gate reaction principles in some essential aspects: APEX-2 primers are linear oligonucleotides that neither contains cleavage sites nor tag-ctag system sequences; and during APEX-2 detection, fluorescently labeled dideoxynucleotides are enzymatically incorporated into the immobilized primer sequence through a primer extension reaction.\n\nFour core factors to the APEX-2 design increase signal specificity and strength compared with alternative techniques: (i) APEX-2 primers anneal to both strands of genomic DNA within 26 bp up-and down-stream of the position of interest; (ii) universal primer PCR amplification favors a high yield of short products ($100 bp); (iii) the universal primer has no homologous binding sites to published human genome sequences (prior to December 2007). Therefore, templates lacking the universal primer sequence will not be amplified and (iv) prior to SBE, the probe-target hybridization control step on a solid surface ensures a high signal-to-noise ratio. While primer specificity is assured by a short region of interaction with genomic DNA (median of 26 bp, Figure 1), microarray hybridization involves a longer region of interaction (median 48 bp); therefore, microarray specificity is influenced by probe length and distance from the 3 0 end of the primer (20), as well as distance between the complementary region and the solid surface of the array. Optimization of these parameters may improve reaction kinetics and thereby favor higher signal intensities (21).\n\nIn addition to detection of single nucleotide variations, APEX-2 applications also include detection of short (up to 25 bp) deletion or insertion regions (Figure 3A). For example, we have successfully analyzed a marker (rs3908) on Y-chromosome (Figure 3B, deletion). Further, if positions of interest are in close proximity to one another and a polymorphic nucleotide is included in the primer sequence, then distinct APEX-2 oligonucleotides can be designed. The exact design of primers can differ from the principle outlined in Figure 3C depending on sequence context. Analyzing mitochondrial positions, which frequently situate close together, one polymorphic site may locate under primer-binding region of the other sequence variation and cause failure during hybridization. As a solution, APEX-2 offers the opportunity to design primers so that system amplifies and detects both genetic markers in one reaction using one pair of oligonucleotides (Figure 3D). Despite the significant advantages of APEX-2, obstacles remain minimal. The required quantity of genomic DNA per position of interest for APEX-2 (0.3 ng) is less than other multiplex PCR-based genotyping methods (17) and comparable to the iPLEX assay (0.2-0.3 ng) (6), MIP probe (0.17 ng) (22) and Illumina Golden Gate assay (0.3-1.4 ng). Although, the experimental design reported here was limited to 640-plex, we do not foresee any confounding obstacles in increasing the multiplex PCR level as large as 1500-plex. Conversely, smaller marker selections (10, 50, 100 and 300-plex assays) have also been successful (data not shown).\n\nWhile the potential to genotype more than 600 SNPs/ mutations simultaneously on custom-made microarrays may generate new opportunities in the fields of replication and whole-genome screening using commercial platforms, the flexible and medium-scale APEX-2 method may provide a vehicle for clinical disease identification as well as facilitate the involvement of thousands of individuals in research, molecular diagnostics and forensic analysis.\n\n(Metabion Int. AG) and not < 150 ng denatured genomic DNA. PCR amplification was conducted in TProfessional Basic (Biometra, Go¨ttingen, Germany), PTC-200 (MJ Research, Waltham, MA, USA) or PIKO (Finnzymes, Espoo, Finland) thermocyclers under the following amplification conditions: 988C/1 min (initial denaturation); 25 cycles of 958C/15 s (denaturation), 638C/1 min, 648C/ 1 min, 658C/1 min, 668C/1 min, 678C/15 s, 688C/15 s (annealing) and 728C/15 s (extension). PCR amplification conditions using a GeneAmp Õ PCR System 9700 thermocycler (Applied Biosystems, Foster City, CA, USA) differed and are as follows: 988C/45 s (initial denaturation); 25 cycles of 958C/20 s (denaturation), 608C/2 min (annealing) and 728C/20 s (extension). The time between annealing and extension steps using the GeneAmp Õ PCR System 9700 thermocycler was approximately 6 min, as ensured by a 3% ramp speed.\n\nÕ Extract II (Macherey-Nagel, Du¨ren, Germany) single columns [eluted in 28 ml buffer (5 mM Tris, pH 8.5)], extract binding plates or the MinElute PCR Purification kit (Qiagen, Hilden, Germany) using modified protocols. Briefly, 150 ml phase 2 PCR product and 300 ml NT buffer, mixed in a Round-well Block (Macherey-TM Pro System (Bio-Rad Laboratories, Inc., Hercules, CA, USA). Postspotting, slides were blocked with a 1% NH 4 OH solution and stored at 48C.\n\nby guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from"
+}

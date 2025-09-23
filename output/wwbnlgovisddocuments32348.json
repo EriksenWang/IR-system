@@ -1,0 +1,86 @@
+{
+    "title": "Vertical Beam Size Control in TLS and TPS",
+    "publication_date": "2003",
+    "authors": [
+        {
+            "full_name": "C C Kuo",
+            "firstname": "C C",
+            "lastname": "Kuo",
+            "affiliations": []
+        },
+        {
+            "full_name": "J R Chen",
+            "firstname": "J R",
+            "lastname": "Chen",
+            "affiliations": []
+        },
+        {
+            "full_name": "P J Chou",
+            "firstname": "P J",
+            "lastname": "Chou",
+            "affiliations": []
+        },
+        {
+            "full_name": "H P Chang",
+            "firstname": "H P",
+            "lastname": "Chang",
+            "affiliations": []
+        },
+        {
+            "full_name": "K T Hsu",
+            "firstname": "K T",
+            "lastname": "Hsu",
+            "affiliations": []
+        },
+        {
+            "full_name": "G H Luo",
+            "firstname": "G H",
+            "lastname": "Luo",
+            "affiliations": []
+        },
+        {
+            "full_name": "H J Tsai",
+            "firstname": "H J",
+            "lastname": "Tsai",
+            "affiliations": []
+        },
+        {
+            "full_name": "D J Wang",
+            "firstname": "D J",
+            "lastname": "Wang",
+            "affiliations": []
+        },
+        {
+            "full_name": "M H Wang",
+            "firstname": "M H",
+            "lastname": "Wang",
+            "affiliations": []
+        },
+        {
+            "full_name": "Taiwan A Chao",
+            "firstname": "Taiwan A",
+            "lastname": "Chao",
+            "affiliations": []
+        },
+        {
+            "full_name": "W T Weng",
+            "firstname": "W T",
+            "lastname": "Weng",
+            "affiliations": []
+        },
+        {
+            "full_name": "A Chao",
+            "firstname": "A",
+            "lastname": "Chao",
+            "affiliations": []
+        },
+        {
+            "full_name": "Slac W T Weng",
+            "firstname": "Slac W T",
+            "lastname": "Weng",
+            "affiliations": []
+        }
+    ],
+    "abstract": "Vertical beam size control is an important issue in the light source operations. The horizontal-vertical betatron coupling and vertical dispersion were measured and corrected to small values in the TLS 1.5 GeV storage ring. Estimated beam sizes are compared with the measured values. By employing an effective transverse damping system, the vertical beam blow-up due to transverse coherent instabilities, such as the fast-ion beam instability, was suppressed. As a result, the light source is very stable. In NSRRC we are designing an ultra low emittance 3-GeV storage ring and its designed vertical beam size could be as small as a few microns. The ground and mechanic vibration effects, and coherent instabilities could spoil the expected photon brightness due to blowup of the vertical beam size if not well taken care of. The contributions of these effects to vertical beam size increase will be evaluated and the counter measures to minimize them will be proposed and reported in this paper.",
+    "full_text": "Over past years, we have conducted several upgrade programs at the 1.3 GeV Taiwan Light Source (TLS) storage ring such as replacing the normal conducting cavities with a superconduting cavity, employing the digital transverse and longitudinal feedback systems to alleviate the coupled-bunch beam instabilities, and implementing the beam current top-up operation mode. Along with the real time orbit feedback system and emittance coupling correction scheme, the vertical beam size can be well controlled. Stable photon beam is thus delivered to the users routinely [ 1-51.\n\nRecently, we are designing a 3 GeV low emittance light source, Taiwan Photon Source (TPS). This 3 GeV machine can provide brighter x-ray photon beam. Its vertical beam size can be as low as several microns. The beam motion induced by ground-vibration is a concern and the study on this effect is necessary [6].\n\nIn this report, some damping systems are introduced and the emittance coupling ratio is measured and compared with the calculated beam size. The ground motion effects are simulated in both TLS and TPS.\n\nVertical emittance due to vertical dispersion can be calculated as:\n\nwhere the quantum constant C , = 3.84 x 10 -I3 m , the relativistic factor y = 5871 at 3 GeV, p=bending radius. Hence,\n\nwhere AY co ,I is the orbit offset with respect to the magnet center.\n\nFor betatron coupling, the skew quadrupole compoments k, can be generated from: (1) skew quadrupoles from quadrupole rotation errors:\n\nIn the single linear coupling resonance v ,v y = 1 and assuming only the skew quadrupole components k , , the coupling driving strength is\n\nand emittance ratio is defined as\n\nIn the TLS, we measured vertical dispersion and coupling driving strength from the coupling width with turn-by-turn beam position monitors (BPMs). The vertical dispersion and betaron coupling strength were corrected using a set of skew quadrupoles with the cross orbit response method [4]. The measured emittance ratio and vertical dispersion can be used for the estimation of the beam sizes which can be compared with the measured values from synchotron radiation monitors. Beam profiles at two locations, one using standard imaging fitting method and the other using an interferometer system, are employed [7]. Figure 1 shows the coupling width from the turn-by-turn BPM data. Table 1 lists the results of these measurements and estimated values. The measured betatron coupling ratio is 1.56e-4 and dispersion contributed emittance ratio is 5.0e-4. The operating horizontal natural emittance is 18.6 nm-rad.\n\nFor the TPS, the contributions to the vertical. dispersion of each driving term can be analyzed and expressed as follows:\n\nwhere roll 9 is in units of mrad and off-centerAyco is in where roll 8 is in units of mrad and off-center Ayco is in units of mm. The emittance ratio as a function of the offcenter orbit can be given in Fig. 2(b). G~ = i . i X 1 0 -~~~~, , , 2 +4.iX10-~ ~y ; ~, + YUI1PlniRbc.duD-CoUPlh. -, -*&s. *--I \" ' I I I Estimated Measured 138.3 123*2 13.2 24h2 123.3 174*5 17.0 18*5 Figure 2(a) (left): In TPS, vertical emittance fiom spurious vertical dispersion generated fi-om dipole roll, quadrupole roll, beam off-center at quadrupole and sextupole. Figure 2@) (right): Vertical emittance due to betatron coupling as a function of off-centered beam position at sextupoles. Quadrupole roll error is 0.1 mrad rms.\n\nIt is shown that if the emittance coupling ratio will be below 1% in the machine operations, the alignment errors as well as the orbit corrections should be carefully accomplished to achieve such stringent levels. Normally, a set of skew quadrupoles in the ring will be employed to correct both vertical dispersion and betatron coupling as we did in the TLS. The goal of 1% emittance coupling ratio is achievable.\n\nThe ground vibration can be transmitted to the magnets through girders and amplified if girder supports are not well designed. The beam orbits are perturbed and the optics amplification can be estimated [SI.\n\nAssuming the ground wave velocity is 500 d s , we can calculate the beam response due to lattice optics amplification in both horizontal and vertical planes. The calculated maximum lattice optics responses in the TPS long straight center with or without girder support are depicted in Fig. 3.\n\nPower spectrum density (PSD) of the measured vertical ground vibration on the TPS site and its electron beam PSD at the long straight center due to the lattice optics amplification with the existing girder design (assuming no girder amplification) are shown in Fig. 4(a). The integrated beam motion is given in Fig. 4@). If the girder transnzission is one, the vertical beam motion above 1 Hz is less than 1 micron.  For the TPS, with 1% emittance ratio, theoretical vertical beam size at long straight center is 12.7 pm and beam orbit stability should be in sub-micron range. Proper measures should be taken to avoid any detrimental effects from the ground vibration.\n\nFor the TLS, we.also estimate the vibration effects from the measurements. The contribution to the beam orbit fluctuation is shown in Fig. 5. With a global real time orbit correction system, the orbit vibration and variations can be suppressed to micron range even when the undualtor gaps are changed [9]. Due to the feedback capability limitation, the gap change speed is restricted to ensure micron range beam orbit stability.\n\nTo suppress longitudinal coupled bunch instabilities due to room temperature cavities in the TLS, we replaced the damping antenna with an adjustable plunger to control the strengths of the higher order modes, implementing a precision control of the cavity body temperature, and applied rf modulation. Acceptable stable beam is in the routine operations. However, if we want to increase stored beam current to 400 mA, we need to either add another rf system or replace it with a superconducting cavity. In 2004, we installed a CESR-type superconducting cavity module [l].\n\nWe have observed fast ion instabilities, especially in the vertical plane, since the operation of the storage ring in 1993 and the way to suppress it is to employ an active transverse damping system andor to leave a longer empty bucket train to allow the drift of ions away fiom the beam centre.\n\nFor the TPS, we plan to use superconducting RF cavities and coupled-bunch threshold is higher than nominal beam current at 400 mA. However, the onset of transverse instabilities induced by resistive wall might be at much lower current. In addition, the ion-beam instabilities are simulated and careful vacuum treatment as well as empty gap handling need to be taken care of [6]. The longitudinal coupled-bunch instabilities induced by cavity-like structures, as observed in the TLS, should be considered and the impedance budget control of the beam ducts is necessary.\n\nNew FPGA-based transverse and longitudinal bunchby-bunch feedback systems have been commissioned recently [2]. After the replacement of the normal conducting cavities with a superconduting RF, the longitudinal instabilities are much reduced, but still some beam modes exit at high beam current, which might be due to the impedance of cavity-like beam ducts. The systems can effectively suppress the longitudinal and transverse beam instabilities and result in much stable bright beam. Figure 6 shows the transverse beam spectrum with and without transverse feedback and Fig. 7 depicts those for longitudinal spectrum. The contributions to the enlargement of beam size due to energy oscillations are drastically reduced. Figure 7: The longitudinal beam spectrum with and without longitudinal feedback. Some peaks are due to the bunch filling pattern, not the instabilities, in feedback case. Comparison with normal conducting cavity is given too.\n\nFrom the TLS operating experience, we learned that control of vertical beam size need 'vibration and ground motion damping, orbit and coupling correction, transverse and vertical feedback systems and global orbit feedback systems. The goal for the TPS is more stringent but it is doable. Thanks to S.Y. Lee for his suggestions in this study."
+}

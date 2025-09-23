@@ -1,0 +1,174 @@
+{
+    "title": "The master sex-determination locus in threespine sticklebacks is on a nascent Y chromosome",
+    "publication_date": "1996",
+    "authors": [
+        {
+            "full_name": "Catherine L Peichel",
+            "firstname": "Catherine L",
+            "lastname": "Peichel",
+            "affiliations": [
+                {
+                    "organization": "Department of Developmental Biology and HHMI, Stanford University School of Medicine",
+                    "address": {
+                        "city": "Palo Alto",
+                        "country": "USA",
+                        "postcode": "94305"
+                    }
+                },
+                {
+                    "organization": "Division of Human Biology, Fred Hutchinson Cancer Research Center",
+                    "address": {
+                        "city": "Seattle",
+                        "country": "USA",
+                        "postcode": "98109"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Joseph A Ross",
+            "firstname": "Joseph A",
+            "lastname": "Ross",
+            "affiliations": [
+                {
+                    "organization": "Division of Human Biology, Fred Hutchinson Cancer Research Center",
+                    "address": {
+                        "city": "Seattle",
+                        "country": "USA",
+                        "postcode": "98109"
+                    }
+                },
+                {
+                    "organization": "Molecular and Cellular Biology Program, University of Washington",
+                    "address": {
+                        "city": "Seattle",
+                        "country": "USA",
+                        "postcode": "98195"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Clinton K Matson",
+            "firstname": "Clinton K",
+            "lastname": "Matson",
+            "affiliations": [
+                {
+                    "organization": "Division of Human Biology, Fred Hutchinson Cancer Research Center",
+                    "address": {
+                        "city": "Seattle",
+                        "country": "USA",
+                        "postcode": "98109"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Mark Dickson",
+            "firstname": "Mark",
+            "lastname": "Dickson",
+            "affiliations": [
+                {
+                    "organization": "Department of Genetics, Stanford Human Genome Center, Stanford University School of Medicine",
+                    "address": {
+                        "city": "Palo Alto",
+                        "country": "USA",
+                        "postcode": "94304"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jane Grimwood",
+            "firstname": "Jane",
+            "lastname": "Grimwood",
+            "affiliations": [
+                {
+                    "organization": "Department of Genetics, Stanford Human Genome Center, Stanford University School of Medicine",
+                    "address": {
+                        "city": "Palo Alto",
+                        "country": "USA",
+                        "postcode": "94304"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jeremy Schmutz",
+            "firstname": "Jeremy",
+            "lastname": "Schmutz",
+            "affiliations": [
+                {
+                    "organization": "Department of Genetics, Stanford Human Genome Center, Stanford University School of Medicine",
+                    "address": {
+                        "city": "Palo Alto",
+                        "country": "USA",
+                        "postcode": "94304"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Richard M Myers",
+            "firstname": "Richard M",
+            "lastname": "Myers",
+            "affiliations": [
+                {
+                    "organization": "Department of Genetics, Stanford Human Genome Center, Stanford University School of Medicine",
+                    "address": {
+                        "city": "Palo Alto",
+                        "country": "USA",
+                        "postcode": "94304"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Seiichi Mori",
+            "firstname": "Seiichi",
+            "lastname": "Mori",
+            "affiliations": [
+                {
+                    "organization": "Biological Laboratory, Gifu Keizai University",
+                    "address": {
+                        "city": "Ogaki Gifu",
+                        "country": "Japan",
+                        "postcode": "503-8550"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Dolph Schluter",
+            "firstname": "Dolph",
+            "lastname": "Schluter",
+            "affiliations": [
+                {
+                    "organization": "Department of Zoology, University of British Columbia",
+                    "address": {
+                        "city": "Vancouver",
+                        "country": "Canada",
+                        "postcode": "V6T 1Z4"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "David M Kingsley",
+            "firstname": "David M",
+            "lastname": "Kingsley",
+            "affiliations": [
+                {
+                    "organization": "Department of Developmental Biology and HHMI, Stanford University School of Medicine",
+                    "address": {
+                        "city": "Palo Alto",
+                        "country": "USA",
+                        "postcode": "94305"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "Background: Many different environmental and genetic sex-determination mechanisms are found in nature. Closely related species can use different master sex-determination switches, suggesting that these developmental pathways can evolve very rapidly.\nPrevious cytological studies suggest that recently diverged species of stickleback fish have different sex chromosome complements. Here we investigate the genetic and chromosomal mechanisms that underlie sex determination in the threespine stickleback (Gasterosteus aculeatus).\nResults: Genome-wide linkage mapping identifies a single chromosome region at the distal end of linkage group (LG) 19 that controls male or female sexual development in threespine sticklebacks. Although sex chromosomes are not cytogenetically visible in this species, several lines of evidence suggest that LG 19 is an evolving sex chromosome system, similar to the XX female/ XY male system in many other species:\n(1) Males are consistently heterozygous for unique alleles in this region; (2) Recombination between loci linked to the sex-determination region is reduced in male meiosis relative to female meiosis; (3) Sequence analysis of X and Y-specific bacterial artificial chromosome (BAC) clones from the sex-determination region reveals many sequence differences between the X and Y-specific clones; and (4) The Y chromosome has accumulated transposable elements and local duplications.\nConclusions:\nTaken together, our data suggest that threespine sticklebacks have a simple chromosomal mechanism for sex determination based on a nascent Y chromosome that is less than 10 million years old. Further analysis of the stickleback system will provide an exciting window into the evolution of sex-determination pathways and sex chromosomes in vertebrates.",
+    "full_text": "The decision to become a male or a female is one of the most fundamental in the life of an organism. However, the mechanisms that govern this choice are diverse, spanning myriad environmental and genetic sex-determination systems.\n\nDiverse sexdetermination systems can be found in closely related species, suggesting that sexdetermination mechanisms can evolve very rapidly. Genetic and molecular analyses of sex-determination pathways have identified many of the key regulatory molecules and pathways underlying sex-determination pathways in C. elegans, D. melanogaster and eutherian mammals [1,2]. One important finding from this work is that master sexdetermination genes are not conserved between divergent taxa [3][4][5][6]. This is surprising, given that many genes found in other developmental pathways are conserved between worms, flies and mice [7]. However, recent data have provided evidence for conservation of some downstream genes in divergent organisms with very different mechanisms of sex determination [3,5,6,[8][9]. A theme emerging from these studies is that evolutionary lability at the top of the sex-determination hierarchy is coupled with stability towards the bottom of the hierarchy [10]. Comparisons between closely related species with divergent sex-determining mechanisms are now needed in order to understand how these developmental hierarchies evolve.\n\nThe evolution of genetic sex determination is often accompanied by the evolution of heteromorphic sex chromosomes. The first step in the evolution of a sex chromosome is the existence of an autosomal gene with two alleles, where homozygosity leads to the development of one sex and heterozygosity to the other sex.\n\nThe evolution of heteromorphic sex chromosomes involves the suppression of recombination between homologous chromosomes, probably to reduce recombination between the sex-determination locus and linked genes with sex-specific fitness effects [11][12][13]. This suppression of recombination with the maintenance of one chromosome in a constant heterozygous state ultimately results in degeneration of sex-linked loci in the heterogametic sex [11,[13][14].\n\nSeveral models have been put forth to explain the evolution of heteromorphic sex chromosomes [15][16][17], but empirical evidence in support of these theories is limited.\n\nWhile the complete sequence of the human Y chromosome provides an interesting picture of a highly evolved sex chromosome [18], the human Y chromosome is 300 million years old and does not provide insight into the mechanisms that underlie the initial stages of sex chromosome evolution.\n\nEmpirical data from evolving Ychromosome systems in plant and Drosophila species have provided key insights into Y-chromosome degeneration, but more independent examples are needed to provide a complete picture of this process [17,19].\n\nFish are particularly attractive model systems in which to study the evolution of sex-determination mechanisms and sex chromosomes. Both environmental and genetic sex-determination mechanisms are represented in fish species [20]. In fish with environmentally determined sex, temperature or social interactions can be the primary sex determinant. Genetic mechanisms of sex determination in fish may be polygenic or simple and associated either with no cytogenetically visible sex chromosomes or with heteromorphic sex chromosomes in either males (XY systems) or females (ZW systems). This wide diversity of sex-determination mechanisms can be found even in closely related fish species, supporting the hypothesis that this developmental pathway is evolutionarily plastic and that sex-determination mechanisms and sex chromosomes can evolve very rapidly.\n\nStickleback fish (family Gasterosteidae) provide an excellent system in which to analyze the genetic and molecular mechanisms that underlie the evolution of sex determination and sex chromosomes. Threespine sticklebacks (Gasterosteus aculeatus) are small teleost fish found throughout the Northern hemisphere, and their behavior, ecology and evolution have been extensively characterized [21]. Previous cytological studies suggest that threespine sticklebacks lack sexually dimorphic chromosomes although closely related species do have distinguishable sex chromosomes in either males or females [22][23]. Some evidence had suggested that temperature and density of rearing could affect sex ratios in threespine sticklebacks [24]. However, an allozyme of isocitrate dehydrogenase (IDH) was found to be sexually dimorphic in multiple threespine stickleback populations in California and British\n\nColumbia [25][26][27], and DNA markers have also been reported with sex-specific alleles [28]. These results suggest that there might be a genetic basis for sex determination in threespine sticklebacks despite the absence of visible sex chromosomes in this species.\n\nHere we take advantage of extensive new molecular tools in Gasterosteus aculeatus [29][30] to map the genetic basis of sex determination in threespine sticklebacks, clone a chromosome region linked to the sex-determination locus, analyze the sex-linked regions for sequence characteristics typically found in evolving sex chromosomes, and study the evolution of sex-linked loci in different stickleback populations.\n\nTo determine if phenotypic sex in threespine sticklebacks is controlled primarily by genetic or environmental factors, we analyzed the progeny of two independent genetic crosses: the Priest backcross [29] and the Paxton intercross [31][32]. The progeny of each cross were genotyped with the large panel of microsatellite markers developed for threespine sticklebacks [29]. In both crosses, development of testes showed nearly perfect concordance with the inheritance of markers at the distal end of LG 19.\n\nPrevious data identified a male-specific protein polymorphism in isocitrate dehydrogenase (IDH) in multiple populations from the west coast of North America [25][26][27]. We identified the Idh gene in a cDNA clone isolated in our original screen for microsatellite markers [29]. We designed PCR primers to the 3' UTR of Idh and found that the primers amplified a 302 bp band from females, but amplified both a 302 bp band and a 271 bp band from males (Figure 1). This polymorphism segregates nearly perfectly with phenotypic sex in both the Priest and Paxton crosses, suggesting that it is very tightly linked to a master sex-determination locus in threespine sticklebacks (Figure 1).\n\nWhen the segregation of LG 19 markers from the male and female parents was analyzed in both the Paxton and Priest crosses, large sex-specific differences were seen in the calculated genetic distances along the linkage group (Figure 2). For example, the distance between Stn186 and Stn191 in the Paxton female meiotic map is 25.7 cM, but only 6.4 cM in the Paxton male meiotic map (p<0.001). A similar reduction in the male meiotic map is seen in this region in the Priest cross, where the 20.8 cM between Stn186 and Stn191 in the female meiotic map is reduced to a 1.1 cM interval in the male meiotic map (p<0.001). This regional difference in recombination rate does not reflect a lower general rate of recombination in male meiosis, as the genetic distance between Stn303 and Stn186 in the Paxton cross is twice as large in the male meiotic map as in the female meiotic map (47.7 cM vs 27.3 cM; p<0.005). These results suggest that recombination along this linkage group is suppressed, although not completely absent, in males around the sex-determination locus. The presence of rare recombinants in this interval is surprising; therefore, the genotype and phenotype of all putative recombinants was re-confirmed. Future work will reveal whether the observed suppression of recombination results from an inversion of this region in males relative to females or the accumulation of heterochromatin [15].\n\nIn both the Priest and the Paxton crosses, three of the sex-linked microsatellite markers (Stn187, Stn191, Stn192) had null alleles segregating from the male parent (Supplementary Table 1). Null alleles can either result from a deletion of the microsatellite locus or from polymorphisms in the primer sites used amplify the microsatellite. The high rate of male-specific null alleles on this linkage group suggests that the male-specific chromosome harbors significant differences from the homologous chromosome.\n\nOur genetic data provide evidence that threespine stickleback have a single chromosome region that determines male sex, that males are heteromorphic for markers in this region, and that there is a male-specific reduction in recombination around these sex-linked markers. Based on these and the following results, we propose that threespine stickleback females have two X chromosomes and that males have an X and a Y chromosome.\n\nTo analyze the molecular region around the sex-determination locus, a BAC library made from a pool of DNA from sixty male and female sticklebacks [30] was screened with an Idh probe. Twenty-one BACs were identified with this probe and were subsequently typed as being from the X or Y chromosome using the sex-specific polymorphism in the Idh 3'UTR. Fifteen BACs were X-chromosome specific and six BACs were Y-chromosome specific. These BACs were oriented relative to each other using PCR primers designed from BAC end sequences (data not shown). Two Xspecific BACs (101E8 and 160O9) and two Y-specific BACs (169J23 and 119K16) that extended in opposite directions with the least amount of overlap were sequenced to completion.\n\nA combination of BLAST and GENSCAN analysis revealed there are homologs of five known genes in this region on both the X and Y-chromosomes: Semaphorin 4B (Sema4B), NADP-dependent isocitrate dehydrogenase (Idh), a zinc finger containing gene (Znf), Ras protein-specific guanine nucleotide-releasing factor 1 (Rasgrf1), and a protein containing a Band 4.1 domain (Band 4.1) (Figure 3). All five of these genes are found on human chromosome 15q24-26, suggesting that the distal end of LG 19 in sticklebacks has regions of conserved synteny with human chromosome 15. The Idh gene does not map to the sex chromosome of Xiphophorus [41], suggesting that the chromosomal basis of sex determination has likely evolved independently in these different fish species.\n\nSuppression of recombination around a sex-determination locus with subsequent degeneration of sex-linked loci in the heterogametic sex is a hallmark of sex chromosomes [13]. Therefore, we expected to find poor homology between the X and Y-chromosome sequences. Global alignment of the X-specific and Y-specific contigs revealed only 63.7% sequence identity over their length. When the global alignment between the X and Y-chromosome sequences is visualized with VISTA, it is evident that this low sequence identity results from blocks of very high homology that are interrupted by large gaps of poor homology (Figure 3). These gaps in homology are most likely to be due to insertions on the Y chromosome for four reasons. First, the X and Ychromosome sequence contigs are anchored with the same end sequences, but the Ychromosome sequence contig is 87 kb longer. Second, a dot plot comparing the X and Y-chromosome sequence contigs shows that there are multiple insertions in the Ychromosome sequence relative to the X-chromosome sequence (Figure 4a). Third, dot plot analysis reveals that there are numerous local duplications on the Y-chromosome (Figure 4c). Fourth, many of these gaps in homology contain repetitive DNA elements, particularly novel stickleback specific repeats (Figure 3).\n\nAccumulation of repetitive DNA and transposable elements is predicted to occur on a Y chromosome [13]. To determine whether previously characterized transposable elements exist on both the X and the Y-chromosomes, RepeatMasker was used on the X and Y-chromosome sequences. This analysis showed that the Y chromosome has more repetitive elements than the homologous region on the X chromosome (Table 1).\n\nThe VISTA plot shows the positions of repetitive and transposable elements in the stickleback sex-determination region (Figure 3). Dot plots were also used to compare the X-chromosome sequence to itself, and the Y-chromosome sequence to itself (Figure 4b and c). This analysis revealed that the Y chromosome also has multiple local duplications, while the X chromosome has none. Many of these local duplications contain sequences that are not classified as known repetitive elements. These sequences are not contained on either X chromosome or autosomal BACs that have been sequenced to completion, suggesting that a class of stickleback-specific repetitive elements has been amplified on the Y chromosome. The Y-specific repeats account for a large number of the regions of discontinuity between the X and the Y-chromosome sequence contigs (Figure 3).\n\nSeveral other evolving Y-chromosome systems in plants (Silene latifolia, Marchantia polymorpha, Carica papaya) and animals (Drosophila miranda) have now been characterized, and many show similar patterns to the stickleback Y chromosome, such as the presence of duplicated sequences and the accumulation of repetitive DNA [34][35][36][37][38]. Similarly, the sex-determination regions of fish such as Oryzias latipes and Xiphophorus maculatus are characterized by duplications and the presence of multiple retrotransposable elements, including species-and Y-specific repeats [39][40]. On the highly evolved human Y chromosome, approximately 44% of the euchromatin in the male specific region consists of ampliconic regions containing Y-specific repeats [18].\n\nThe BAC sequence contig analysis revealed characteristic differences between the X and Y-specific alleles of the Idh and Znf genes. To examine how these genes differ in other stickleback populations, we amplified and sequenced the 3' UTR of the Idh gene and exon 2 of the Znf gene from five distinct geographic locations around the world (Figure 5). We also sequenced these regions in two populations of Gasterosteus wheatlandi, a sister species to the threespine stickleback. For each gene, PCR products were amplified from several male and female fish, and the PCR products were cloned and sequenced so that several X-specific clones and several Y-specific clones could be analyzed (Supplementary Table 2).\n\nAll five of the G. aculeatus populations showed characteristic differences between the X and Y-specific sequences in the Idh and Znf genes. In four of the five populations, including fish from both the Atlantic and Pacific Ocean, all of the sequence changes were identical to the sequence changes seen in the BAC contigs (derived from a Salmon River, BC population). These changes include a 32-bp deletion and 11 single nucleotide differences in the 3'UTR of the Idh gene, and 9 synonymous nucleotide differences in exon 2 of the Znf gene on the Y chromosome relative to the X chromosome. No intra-population variability was seen in the X or Y-linked alleles of either gene in the relatively small number of individuals studied (Supplementary Table 2).\n\nThreespine sticklebacks from the Japan Sea also showed characteristic sequence differences between X and Y-linked alleles in the Idh and Znf genes.\n\nHowever, some of these changes were unique to the Japan Sea population, consistent with the long period of isolation between Japan Sea sticklebacks and other Gasterosteus populations. However, phylogenetic analysis showed very strong bootstrap support for both the clustering of Japan Sea X chromosome sequences with the X chromosome sequences of the other four populations and the clustering of Japan Sea Y chromosome sequences with the Y chromosome sequences of the other four populations (Figure 5). These results suggest that the Y chromosome of Gasterosteus aculeatus predates the separation of the Japan Sea and other stickleback populations approximately 2 million years ago [41].\n\nThe sex-linked genes Idh and Znf were also sequenced in G. wheatlandi, a sister species thought to have diverged from G. aculeatus around 10 million years ago [21].\n\nThis analysis revealed no sex-specific polymorphisms in either gene in G. wheatlandi, suggesting that neither gene is linked to a sex-determination region in G. wheatlandi.\n\nAs G. wheatlandi has a cytogenetically visible Y chromosome [22], our results suggest either that its XY chromosome system evolved independently from the XY system in G.\n\naculeatus or that the linkage between the sex-determination region and the Idh and Znf genes has been broken up in G. wheatlandi. Taken together with the Japan Sea data, we believe that the threespine stickleback Y chromosome most likely arose after the split with G. wheatlandi 10 million years ago, but before the origin of the G. aculeatus subpopulations in the Japan Sea and Pacific/Atlantic Oceans 2 million years ago.\n\nThese studies show that a single major chromosome region in G. aculeatus controls sex determination. This region has the properties of a nascent Y chromosome: heterozygosity in males, suppression of recombination, accumulation of repeat sequences, and substantial nucleotide divergence from the homologous region on the X chromosome. The existing sequence contigs already provide an initial glimpse of the sequence changes associated with young sex chromosomes that are not yet visible different either at the light or electron microscope level [22][23]. Further extension of the X and Y sequence contigs should make it possible to identify the gene or genes responsible for sex determination in G. aculeatus, as well as linked genes that may be involved in male or female specific functions. The stickleback system should also provide a useful vertebrate comparison to other evolving sex chromosome systems in plants and insects. Furthermore, the existence of closely related Gasterosteid species with both XY (Gasterosteus wheatlandi) and ZW (Apeltes quadracus) sex determination systems [22] provides a unique opportunity to compare both the evolution of sex determination pathways and the origin of sex chromosomes in closely-related species that have diverged within the last 20 million years [21].\n\nThe Priest cross [29] and the Paxton cross [31][32] have been previously described. A single F2 family (Family 4) from the Paxton cross that generated 385 F2 progeny was used in this analysis. In both crosses, sex was determined by visual examination of the gonads.\n\nGenotyping with microsatellites was performed as described previously [29]. One To analyze female and male meiotic maps separately, F2 genotypes segregating from the F1 female and from the F1 male were entered into separate Map Manager v2.6.6 [42] files. Order of markers along the linkage group was determined by minimizing double recombination events. Distance between markers was calculated in Map Manager using Backcross stats. A chi-square contingency test was used to determine if observed differences in recombination rates were significant.\n\nHigh density filters from a BAC library prepared from the DNA of sixty (male and female)\n\nanadromous Salmon River (British Columbia) sticklebacks (CHORI-213, Children's Hospital Oakland Research Institute) [30] were screened with radiolabeled overgo probes designed to the Idh 3'UTR using Overgo 1.02i (http://www.mouse-genome.bcm.tmc.edu/webovergo/OvergoInput.asp) and Overgo Maker (http://www.genome.wustl.edu/tools/index.php?overgo=1).\n\nTwo overgo pairs were used: 5'-GGGACGAGCAAGATTTATTGGCAA-3' and 5'-GGACTGTCAAACGTATTTGCCCAAT-3'; 5'-GATAGTCGGAAAGACATGAGGTGG-3' and 5'-GTTGAGAGCTGTGCTTCCACCTCA-3'. BACs were genotyped as X chromosome or Y chromosome specific using the Idh 3'UTR primers as described above.\n\nTwo overlapping X chromosome BACs (101E8 and 160O9) and two overlapping Y chromosome BACs (169J23 and 119K16) were sequenced to completion. BAC DNA was hydrodynamically sheared using a Hydroshear Instrument (GeneMachines), size selected (3-4 kb) and subcloned into the plasmid pIK96 (http://shgc.stanford.edu).\n\nRandomly selected plasmid subclones were sequenced in both directions using universal primers and BigDye Terminator chemistry (Applied Biosystems) to an average sequence depth of 10x. Sequences were then assembled and edited using the Phred/Phrap/Consed suite of programs [43][44][45]. Following manual inspection of the assembled sequences, finishing was performed both by resequencing plasmid subclones and by walking on plasmid subclones or the BAC clone using custom primers. All finishing reactions were performed using dGTP BigDye Terminator chemistry (Applied Biosystems). Finished clones contain no gaps and are estimated to contain less than one error per 100,000 bp.\n\nThe region of sequence overlap between the two X chromosome BACs and between the two Y chromosome BACs were removed from one sequence to generate single sequence contigs for the X and Y chromosomes. To facilitate subsequent analysis, the 5' and 3' ends of the X and Y chromosome contigs were defined by homologous X-Y anchor sequences having >5000 nt of X-Y alignment and containing no known transposable elements.\n\nA global pairwise alignment of the final X chromosome sequence contig and the final Y chromosome sequence contig was performed using VISTA (http://www-gsd.lbl.gov/vista) with 95% stringency, 100 nt window size, and \"fugu\" repetitive element masking.\n\nTo identify genes on the X and Y-specific contigs, nucleotide-nucleotide BLAST was performed against the non-redundant database in GenBank (http://www.ncbi.nlm.nih.gov/BLAST/). GENSCAN (http://genes.mit.eduGENSCAN.html) was also used on the X and Y-specific contigs, and a protein-protein BLAST was performed with all predicted proteins against the non-redundant database in GenBank.\n\nIn order to identify the positions of the exons of the five genes in the alignment, representative genes that contain the complete coding sequence from other organisms were used. The genes and accession numbers used are: human Semaphorin 4B (Sema4B; NM_020210.2), zebrafish C2H2 zinc finger protein (Znf; NM_199792.1), zebrafish NADP-dependent isocitrate dehydrogenase (Idh; NM_199564.1) human Ras protein-specific guanine nucleotide-releasing factor 1 (Rasgrf1; NM_002891.3), and rat Band 4.1 containing protein (Band 4.1; XM_230513.2). Exon boundaries were identified using the program sim4 [46] to align the mRNA sequences to the final Y contig. The sim4 report was used to annotate the VISTA plot with exon positions.\n\nTo identify known repetitive elements in the X and Y-chromosome contigs, the sequences were analyzed with RepeatMasker (http://www.repeatmasker.org) using the fugu library. To identify the internal duplications on the Y-chromosome contig, the RepeatMasked Y-chromosome sequence contig was BLASTed against itself. All multicopy sequences with no homology to known repetitive elements and greater than 200 bp in length were then mapped onto the VISTA plot. sticklebacks. (A) Ethidium bromide stained agarose gel showing the pattern of the sex-specific polymorphism in the 3'UTR of the Idh gene in the grandparents and parents of both the Priest cross [37] and the Paxton cross [39-40]. The band at 302 bp is from the X chromosome and the band at 271 bp is from the Y chromosome. Abbreviations: PrB1, Priest benthic female 1; PrL1, Priest limnetic male 1; PrF1, Priest F1 male 1; PrB2, Priest wild caught benthic female 1; JM, Japanese Pacific marine female; PB, Paxton benthic male; F1F4, F1 female parent of family 4; F1M4, F1 male parent of family 4; NO, no DNA control. (B) Comparison of Idh genotype with phenotypic sex. Of 66 animals genotyped for Idh and phenotyped for sex in the Priest cross, one animal is recombinant. Of 328 animals genotyped for Idh and phenotyped for sex in the Paxton cross, two animals are recombinant. Female and male meiotic maps of LG 19 in the Paxton and Priest crosses are shown. Distance in centimorgans (cM) is indicated along each map. Microsatellite markers are designated with a prefix of Stn, followed by a number. Marker Stn303 could not be scored in the Priest cross, accounting for the difference in total map length between the two crosses. Markers that do not recombine with each other are listed on the same line. The sex-determination locus (SEX) is located at the end of LG 19 in both crosses. contigs. VISTA plot comparing 250 kb of sequence from the X and Y-chromosome sequence contigs. Shaded pink areas indicate regions of high sequence homology. Purple boxes indicate exons of putative genes, and the arrows indicate the direction of transcription.\n\nSema4B is Semaphorin 4B, Znf is a zinc finger-containing gene, Idh is NADPdependent isocitrate dehydrogenase, Rasgrf1 is Ras protein-specific guanine nucleotide-releasing factor 1, and Band 4.1 is a protein containing a Band 4.1 domain. Red boxes indicate the position of long interspersed nuclear elements (LINEs), green boxes indicate the position of short interspersed nuclear elements (SINEs), magenta boxes indicate the position of LTR-containing retroviral elements, orange boxes indicate the position of DNA mobile elements, and yellow boxes indicate position of other repeats, such as simple sequence and low complexity repeats. The blue boxes indicate the position of stickleback Y-chromosome specific repeats. The entire alignment used to generate Table 1 is not shown. Therefore, the numbers of repeats shown is a subset of those listed in Table 1. For this analysis, a 100 nt window size and 95% stringency were used. Dot plots comparing (A) the X-chromosome sequence contig to the Y-chromosome sequence contig; (B) the X-chromosome sequence contig to itself; (C) and the Ychromosome sequence contig to itself. (A) The broken lines in the X-Y comparison  phylogenetic tree. (A) Map of the distribution of populations used for phylogenetic analysis, modified from [29] by permission of Oxford University Press. (B) A linearized tree was generated using the neighbor-joining method. Bootstrap values are shown for each branch. The scale below the tree represents the averaged pairwise distances between populations.\n\nAbbreviations are Japan Pacific marine (JP), Japan Sea marine (JM), Little Campbell River (LC), Santa Clara River (SC), and White marines (WH). Details on populations and collections are given in Supplementary Table 2. Band 4.1 0 50 100 150 200 0 50 100 150 200 X chromosome BAC sequence (kb) X chromosome BAC sequence (kb) Y chromosome BAC sequence (kb) Y chromosome BAC sequence (kb) 0 50 100 150 200 250 300 0 50 100 150 200 250 300 B C A Y chromosome BAC sequence (kb) X chromosome BAC sequence (kb) 0 50 100 150 200 0 50 100 150 200 250 300 Y-chromosome insertion Y-chromosome deletion"
+}

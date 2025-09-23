@@ -1,0 +1,134 @@
+{
+    "title": "P4.19 Multilayered Clouds Identification and Retrieval for CERES Using MODIS",
+    "publication_date": "2005",
+    "authors": [
+        {
+            "full_name": "Sunny Sun-Mack",
+            "firstname": "Sunny",
+            "lastname": "Sun-Mack",
+            "affiliations": [
+                {
+                    "organization": "Science Application International Corporation",
+                    "address": {
+                        "city": "Hampton",
+                        "postcode": "23666"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Patrick Minnis",
+            "firstname": "Patrick",
+            "lastname": "Minnis",
+            "affiliations": [
+                {
+                    "organization": "Climate Science Branch, NASA Langley Research Center",
+                    "address": {
+                        "city": "Hampton",
+                        "postcode": "23681"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Yan Chen",
+            "firstname": "Yan",
+            "lastname": "Chen",
+            "affiliations": [
+                {
+                    "organization": "Science Application International Corporation",
+                    "address": {
+                        "city": "Hampton",
+                        "postcode": "23666"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Yuhong Yi",
+            "firstname": "Yuhong",
+            "lastname": "Yi",
+            "affiliations": [
+                {
+                    "organization": "AS & M",
+                    "address": {
+                        "city": "Hampton",
+                        "postcode": "23666"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jainping Huang",
+            "firstname": "Jainping",
+            "lastname": "Huang",
+            "affiliations": [
+                {
+                    "organization": "AS & M",
+                    "address": {
+                        "city": "Hampton",
+                        "postcode": "23666"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Bin Lin",
+            "firstname": "Bin",
+            "lastname": "Lin",
+            "affiliations": [
+                {
+                    "organization": "Climate Science Branch, NASA Langley Research Center",
+                    "address": {
+                        "city": "Hampton",
+                        "postcode": "23681"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Alice Fan",
+            "firstname": "Alice",
+            "lastname": "Fan",
+            "affiliations": [
+                {
+                    "organization": "Science Application International Corporation",
+                    "address": {
+                        "city": "Hampton",
+                        "postcode": "23666"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Sharon Gibson",
+            "firstname": "Sharon",
+            "lastname": "Gibson",
+            "affiliations": [
+                {
+                    "organization": "Science Application International Corporation",
+                    "address": {
+                        "city": "Hampton",
+                        "postcode": "23666"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Fu-Lung Chang",
+            "firstname": "Fu-Lung",
+            "lastname": "Chang",
+            "affiliations": [
+                {
+                    "organization": "National Institute of Aerospace",
+                    "address": {
+                        "city": "Hampton",
+                        "postcode": "23666"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "N/A",
+    "full_text": "Traditionally, analyses of satellite data have been limited to interpreting the radiances in terms of singlelayer clouds. Generally, this results in significant errors in the retrieved properties for multilayered cloud systems. Two techniques for detecting overlapped clouds and retrieving the cloud properties using satellite data are explored to help address the need for better quantification of cloud vertical structure. The first technique was developed using multispectral imager data with secondary imager products (infrared brightness temperature differences, BTD). The other method uses microwave (MWR ) data. The use of BTD, the 11-12 μm brightness temperature difference, in conjunction with , the retrieved visible optical depth, was suggested by Kawamoto et al. (2001) and used by Pavlonis et al. (2004) as a means to detect multilayered clouds. Combining visible (VIS; 0.65 μm) and infrared (IR) retrievals of cloud properties with microwave (MW) retrievals of cloud water temperature Tw and liquid water path LWP retrieved from satellite microwave imagers appears to be a fruitful approach for detecting and retrieving overlapped clouds (Lin et al., 1998, Ho et al., 2003, Huang et al., 2005). The BTD method is limited to optically thin cirrus over low clouds, while the MWR method is limited to ocean areas only. With the availability of VIS and IR data from the Moderate Resolution Imaging Spectroradiometer (MODIS) and MW data from the Advanced Microwave Scanning Radiometer EOS (AMSR-E), both on Aqua, it is now possible to examine both approaches simultaneously. This paper explores the use of the BTD method as applied to MODIS and AMSR-E data taken from the Aqua satellite over non-polar ocean surfaces.\n\nData from the MODIS and AMSR-E on the Aqua satellite are used to perform the various retrievals. The 1-km MODIS data are analyzed for CERES using the VIS-IR-Solar-infrared-Split-window Technique (VISST; Minnis et al., 1995) to retrieve single-layer (SL) cloud _____________________________________________ *Corresponding author address: Sunny Sun-Mack, SAIC, 1 Enterprise Pkwy., Hampton, VA, 23666. email: s.sun-mack@larc.nasa.gov.\n\nproperties for each pixel. The CERES cloud retrieval output, which includes cloud properties such as and cloud effective temperature Tc, as well as the original pixel radiances at 0.64, 1.6, 2.1, 3.7, 11, and 12, 1.3, 4.0, 6.7, 8.5, 13.3, 13.5, 13.9, and 14.2-μm MODIS channels. Cloud L W P and Tw are derived from the AMSR-E MW data at the 12-km resolution, 36.5-GHz field of view (FOV) by matching the multispectral MW data to radiative transfer model (RTM) calculations (Lin et al., 1998). The CERES pixel-level results are then convolved into the AMSR-E footprints following an earlier approach ( Ho et al., 2003) in order to apply the MW-VIS-IR multilayered cloud detection method of Huang et al. (2005). In this pilot study, the CERES MODIS pixels are matched to the nominal nadir-size footprint of the AMSR-E to facilitate comparison of the different techniques.\n\nThe comparative analyses focus on 18 5-minute Aqua MODIS granules taken over 8 days from January 2 -9, 2005. The RGB MODIS image in Figure 1 shows a complex system with a mixture of ice (pinkish, grayish), liquid water (white, yellow, and peach), and overlapped clouds. Also shown are the VISST-retrieved values of for all cloud types assuming SL clouds. The cloud optical depths range from 0.3 up to 128.\n\nTwo different ML cloud techniques are compared here; the MW-VIS-IR Multilayer Cloud Detection System (MCRS; Huang et al., 2005) and the CERES-BTD method (Minnis et al., 2005). The MCRS is used as the reference technique because it can detect water clouds over ocean in the presence of ice clouds as long as no precipitation occurs.\n\nThe MW-VIS-IR is used only if the VISST retrieves at least 98% ice cloud coverage for the MODIS pixels in the convolved AMSR field of view and the solar zenith angle is less than 78°. The scene is classified as being composed of SL ice clouds, if the retrieved MW LWP < 40 gm -2 . If LWP > 40 gm -2 , Tw -Tc > 5 K, and no precipitation is detected, the scene is classified as ML ice clouds, that is, an ice over a water cloud system. The precipitation detection is based on the amount of polarization in the 36.5-GHz channel. Single-layer water, clear, partly cloudy, and mixed phase scenes are not considered here. Figure 2 shows the probability of ice over water by MW-VIS-IR method. Multilayer probability is considered to be the highest (red) when T w -Tc > 15 K. The eighteen Aqua MODIS granules chosen in this study are from these highly likely multilayer clouds regions.\n\nThe CERES-BTD is a technique, following the suggestion of earlier research (e.g., Kawamoto et al., 2001) that uses the VISST-derived parameters and the BTD to classify cloudy pixels as SL, ML, or indeterminate. Figure 3 shows the flow diagram for the CERES-BTD. It begins with the VISST retrieval and applies different tests depending on the phase of the SL retrieval. In addition to , the CERES-BTD uses either the effective ice crystal diameter D e or r e depending on the phase. No iteration is performed in this prototype version.\n\nAn additional set of tests is applied if the cloud is ice and (VISST) > 20. Sometimes, a thick high ice cloud can have a positive BTD if the cloud top is diffuse. The cloud layering is classified as indeterminate if any one of the following statements is true.   4a) between 13 and 15 km above scattered cumulus clouds between 0.5 and 2 km. The BTD (Fig. 4b) along the flight path varies between 2 and 4 K with larger values coinciding with slightly thicker cirrus and the absence of cumulus clouds. The CERES-BTD classification (Figure 4c) detects ML clouds only when the lower cloud appears to be thick (bright) in the CPL return. Although some ML clouds are misclassified as SL, most of the SL clouds are accurately designated. The retrieval method yields mixed results for cloud heights (Figure 4d). At 18.3 UTC, it produces only a slight separation between the high (red) and low (blue) clouds, possibly because the low cloud height was incorrectly specified as being too high. At 18.37 UTC, the clouds are correctly classified as SL and the VISST (black) places the cloud between 9 and 10 km. The effective cloud height from VISST should be located somewhere between the cloud base and top. The SIST yields a more accurate retrieval of Z, placing the cloud between 13 and 14 km. At 18.40 UTC, the clouds are categorized as ML. The VISST retrieval is basically the same as the low cloud (blue), while the high cloud retrieval is between 9 and 14 km, certainly an improvement over the VISST retrieval. At 18.42 UTC, the ML cloudiness is misclassified as SL because the lower cloud is optically thin. In this case, the VISST retrieval is more accurate than the SIST. Results for the remainder of track are similar to those from the first part of the flight. This prototype retrieval is promising, but the iterations and conditions for application need to be implemented to fully assess its capabilities.\n\nFigure 5 shows the layering classifications from the MCRS (left) and the CERES-BTD (right). The MCRS is restricted to the center of the swath because the AMSR-E scans conically at a viewing zenith angle of 55°. Thus, all comparisons with the MCRS use only those MODIS pixels over water taken at a viewing zenith angle of 55°o r less. The MCRS precipitating clouds correspond to indeterminate, ML, and SL ice clouds from the CERES-BTD method as well as to some SL water clouds. The MCRS ML clouds typically correspond to different ML clouds from the CERES-BTD technique.\n\nThe comparisons with the MCRS results for all eighteen 5-minute Aqua-MODIS granules are quantified in Table 1. The numbers represent the percent of all MODIS pixels within the FOVs of all AMSR-E pixels over all 18 MODIS granules having an MCRS classification. Because the over all 18 MODIS granules is only used for AMSR-E pixels having at least 98% ice cloud coverage from the VISST or are precipitating, the percentages will exclude most clear and many SL and ML water pixels from consideration. The CERES-BTD yields a match of 56.3% for ML ice clouds. The CERES-BTD finds no high clouds in 31.1% of the MCRS ML cases. The CERES-BTD yields agrees with the MCRS for SL ice clouds in 54.9% of the cases. The CERES-BTD detects ML ice 38.1% of the time when MCRS detects SL ice. When the MCRS retrieves precipitating clouds (PRCP), CERES-BTD identifies roughly 10% of the PRCP as SL water clouds, 10% as SL ice clouds, and 43% as ML ice clouds.\n\nAn overall score for the CERES-BTD method relative to the MCRS retrievals can be assessed by considering only the non-precipitating AMSR-E pixels. A correct classification is assumed if the CERES-BTD technique yields ML clouds when the MCRS detects ML ice, and SL clouds when the MCRS retrieves SL water. Given that basis, the CERES-BTD yields accurate classifications in 62% of the cases. Some of the errors in the ML methods may be due to inaccuracies in matching the MODIS pixels used for the MODIS-only retrievals because the nadir FOV size was assumed for the matching. However, a comparison of the images in Fig. 1 indicate that this is not likely to explain more than a few percent of the differences in classifications. Another source of error is the assumption that, in an AMSR-E FOV, the entire area is covered by a water cloud when LWP > 40 gm -2 and by no water when LWP < 40 gm -2 . This is a reasonable assumption given that the detectability of LWP from MW data is highly uncertain when the LWP is below that limit and it corresponds to a lower cloud optical depth of ~5 for r e = 12 μm. Detection of ML clouds with the MODIS data alone is likely to be difficult if < 5. However, if the lower clouds are scattered and have optical depths exceeding 5, then the MW-VIS-IR might classify the cloud as SL ice while the MODIS methods could classify a third or more of the pixels as ML and be correct. Conversely, the AMSR-E pixel could be half covered by optically thick cumulus clouds and be classified as ML ice while only half of the MODIS pixels are categorized as ML and be correct.\n\nFigure 6 shows cloud layering classifications for 0220 UTC and 2200 UTC January 5, 2005. The ML clouds identified by the CERES-BTD method are color coded by the optical depth retrieved from VISST. It is seen that very few clouds are identified as ML with optical depths less than 4 (yellow and orange colors in Figure 6). This is also true for all other 5minute MODIS granules analyzed here (not shown). Therefore, further research on how the BTDs behave for optically thin clouds ( < 4) is the next step for improving the method.\n\nAccepting the assumption that MCRS is accurate, the BTD histograms were constructed using all MODIS pixels within the AMSR-E FOVs for the eighteen granules having an MCRS classification, with optical depth 1 < < 4 and cloud effective temperature ranging from 200 -270 K. Various channel combinations of BTD are T(11 μm) -T(3.7 μm), T(11 μm) -T(4.0 μm), T(11 μm) -T(6.7 μm), T(11 μm) -T(12 μm), T(11 μm) -T(8.5 μm), and T(11 μm) -T(13.3 μm). Figures 7, 8 and 9 show the relative BTD histograms for all matched MODIS pixels classified as ML or SL identified by MW-VIS-IR, for each cloud effective temperature range retrieved from VISST. T In the figures, ML clouds are represented with black and SL red. Figure 7a shows the BTD histogram for all five channel pairs and indicates that most clouds in the cloud effective temperature (retrieved by VISST) range of 200 -210 K are SL ice cloud, although more statistics are needed to confirm the conclusion. Figures 7b, 8a, 8b, 9a, and 9b show BTDs of observed brightness temperature T(11μm) -T(8.5μm), T(11 μm) -T(12 μm), T(11 μm) -T(13.5 μm), T(11 μm) -T(4.0 μm), and T(11 μm) -T(6.7 μm), respectively, for all cloud effective temperature ranges 220 -260 K. For almost all BTDs, both SL and ML histograms have very broad curves and the majority of ML and SL curves overlap. However BTDs for T(11μm) -T(8.5μm) and T(11μm) -T(4.0μm) have distinct separations between ML and SL, and the BTDs of the most ML and SL pixels increase as cloud effective temperature increases. To demonstrate how the BTD study helps tuning to improve the CERES-BTD multilayer classification, a new test (BTD11-85) based on T(11μm) -T(8.5μm) is added. This test uses a lookup table derived from Fig. 7b, for each cloud effective temperature bin (210 -220K, 220 -230K, 230 -240K, 240 -250K, and 250 -260K). The look up table comprises several thresholds for each cloud effective temperature bin and is only valid for cirrus clouds with optical depth less than 4 and greater than 1, to single out multilayer clouds.\n\nTable 1. CERES -BTD classification of MODIS pixels in marine AMSR-E pixels containing 98% ice cloud cover as determined by the VISST for the same MODIS pixels. Results in % total number of MODIS pixels, except N(AMSR).\n\nSL water SL Ice ML water ML ice Indeterminate Clear N(AMSR) ML ice 0.3 31.1 0.3 56.3 n/a 0.0 62197 SL ice 0.5 54.9 0.2 38.1 n/a 0.3 48119 Precipitation 10.5 10.6 2.7 43.0 n/a 1.9 102641   (a) (b) Fig. 8. Same as Fig. 7(b), except for BTDs are (a) T (11μm) -T (12μm) and (b) T (11μm) -T (13.3μm). curves (Figs. 7 , 8, and 9) can be reduced, and, more importantly, to see if there really exists a clear separation between ML and SL in BTDs. Chang and Li (2005) exploited the discrepancy between the cloud-top pressure derived from a CO2-slicing retrieval and the IR-based cloud pressure to detect overlapped clouds. This multilayer identification method (CERES-CO2-Multi) has been implemented in the CERES framework.\n\nThere appear to be distinct, but overlapping BTD distributions for ML and SL clouds when matching MODIS pixels to AMSR-E FOVs. The broad histograms for both ML and SL cause difficulties in creating an accurate lookup table. This confirms that passive remote sensing of multilayered cloud systems is a difficult and possibly intractable approach for a number of cloud systems. However, because only 18 scenes were analyzed, the various techniques have not been optimized, and the uncertainties and limitations of the reference MCRS method have not been clearly defined. Considerably more data need to be processed to create more accurate BTD distributions for both ML and SL clouds, and hopefully prdouce well-separated ML BTDs and SL BTDs. A framework for performing more detailed and robust comparisons has been established, thus, facilitating the analysis of multilayered clouds over the global oceans and for incorporating the optimized algorithms for both published and unpublished detection methods. By further detailed examination of the MCRS in conjunction with surface, airborne, and satellite lidar-radar systems, it should be possible to determine the uncertainties in a given retrieval. The capabilities of the other methods can then be assessed using both the active sensors and the MCRS to cover more cloud types and viewing angles than would be possible using the active sensors alone.  color code is the same as Figure 5 (right)."
+}
