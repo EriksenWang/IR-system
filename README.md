@@ -12,11 +12,11 @@ docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.8.2
 
 ```
 .
-├── extract.py           # 批量解析PDF为XML的主程序
+├── process_pdfs.py           # 批量解析PDF为XML并导出json的主程序
 ├── requirements.txt     # Python依赖包列表
 ├── README.md            # 项目说明文档
 ├── config.json          # grobid_client配置文件
-├── output_xml/          # 文档解析后生成的XML文件目录
+├── output_json/          # 文档解析后生成的json文件目录
 ├── D:/testpdf/          # 输入PDF文件目录（示例路径）
 ├──
 └── ...
