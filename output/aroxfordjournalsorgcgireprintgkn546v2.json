@@ -1,0 +1,79 @@
+{
+    "title": "De ´ja `vu: a database of highly similar citations in the scientific literature",
+    "publication_date": "2006",
+    "authors": [
+        {
+            "full_name": "Mounir Errami",
+            "firstname": "Mounir",
+            "lastname": "Errami",
+            "affiliations": [
+                {
+                    "organization": "Division of Translational Research",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Zhaohui Sun",
+            "firstname": "Zhaohui",
+            "lastname": "Sun",
+            "affiliations": [
+                {
+                    "organization": "Division of Translational Research",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Tara C Long",
+            "firstname": "Tara C",
+            "lastname": "Long",
+            "affiliations": [
+                {
+                    "organization": "McDermott Center for Human Growth and Development, The University of Texas Southwestern Medical Center",
+                    "address": {
+                        "city": "Dallas",
+                        "country": "USA",
+                        "postcode": "75390-9185"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Angela C George",
+            "firstname": "Angela C",
+            "lastname": "George",
+            "affiliations": [
+                {
+                    "organization": "McDermott Center for Human Growth and Development, The University of Texas Southwestern Medical Center",
+                    "address": {
+                        "city": "Dallas",
+                        "country": "USA",
+                        "postcode": "75390-9185"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Harold R Garner",
+            "firstname": "Harold R",
+            "lastname": "Garner",
+            "affiliations": [
+                {
+                    "organization": "Division of Translational Research",
+                    "address": {}
+                },
+                {
+                    "organization": "McDermott Center for Human Growth and Development, The University of Texas Southwestern Medical Center",
+                    "address": {
+                        "city": "Dallas",
+                        "country": "USA",
+                        "postcode": "75390-9185"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "In the scientific research community, plagiarism and covert multiple publications of the same data are considered unacceptable because they undermine the public confidence in the scientific integrity. Yet, little has been done to help authors and editors to identify highly similar citations, which sometimes may represent cases of unethical duplication. For this reason, we have made available De ´ja `vu, a publicly available database of highly similar Medline citations identified by the text similarity search engine eTBLAST. Following manual verification, highly similar citation pairs are classified into various categories ranging from duplicates with different authors to sanctioned duplicates. De ´ja `vu records also contain user-provided commentary and supporting information to substantiate each document's categorization. De ´ja `vu and eTBLAST are available to authors, editors, reviewers, ethicists and sociologists to study, intercept, annotate and deter questionable publication practices. These tools are part of a sustained effort to enhance the quality of Medline as 'the' biomedical corpus. The De ´ja `vu database is freely accessible at\nhttp://  spore.swmed.edu/dejavu\n. The tool eTBLAST is also freely available at\nhttp://etblast.org\n.",
+    "full_text": "Authorship of scientific papers is one of the most valuable currencies for scientists and engineers, and is an asset not only for climbing the corporate or academic ladder (1), but also most importantly to secure funding for academic laboratories. The fierce competition in most scientific disciplines and the increasing necessity to publish may lead authors to engage in questionable behavior such as publishing a single piece of work more than once, or emulating the style, or copying the content of another person's work. Duplicate publication may be useful to provide wider access to the scientific community or to report important updates to surveys or clinical trials, but publications that simply reproduce a previous work with virtually identical results and conclusions often lack the novelty to justify additional publication. The latter types of duplicate publication are considered unethical because they undermine the public confidence in scientific integrity. Others have previously described additional duplicate publication behaviors referred to as 'salami slicing' (dissecting a scientific work into multiple least publishable units) and 'meat extenders' (building on a previous publication with new data that would not be publishable alone) (2)(3)(4). Most previous studies of duplicate publication have been limited to a particular scientific field where duplication was painstakingly identified manually, underscoring the need for an automated method to detect putative duplications (5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)(16).\n\nWe have established a method to identify highly similar citations in Medline, the comprehensive literature database of life sciences and biomedical information, using the text similarity search engine eTBLAST (17,18). We were able to statistically calibrate eTBLAST to identify citations that have unusually high similarity, which were then saved in De´ja`vu pending manual inspection (19,20).\n\nTechnical details describing the detection of highly similar citations and its application to the entire Medline database have been reported previously (19,20). Briefly, the method which has contributed the preponderance of entries in De´ja`vu involves 'eTBLASTing' each Medline citation against its most related article (a feature available from Medline). Upon comparison, citation pairs are so highly similar that predetermined similarity thresholds exceeded are flagged as a highly similar pair and stored in De´ja`vu awaiting manual verification by human curators. *To whom correspondence should be addressed. Tel: +1 214 648 5992; Fax: +1 214 648 1445; Email: mounir.errami@utsouthwestern.edu ß 2008 The Author(s) This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/ by-nc/2.0/uk/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.\n\nDe´ja`vu was designed and developed to allow for collaborative work among the multiple curators. It was also necessary to define a broad, flexible and extensible classification scheme to accommodate a wide range of highly similar documents dealing with all areas of biomedical research, reflecting different publication behaviors, styles and agreements. Upon manual verification, highly similar citation pairs were classified in one or more of the categories listed and defined in Table 1. In particular, we sought to distinguish between appropriate and inappropriate duplication, a process which is admittedly subjective. A pair of duplicates with different authors may indicate potential plagiarism, while two publications with shared authors may indicate multiple publication of the same study. Updates to clinical trials or survey type research are instances where complete duplication is not necessarily inappropriate. Similarly, studies with different outcomes using similar phraseology may bring valuable new information. Errata, which may or may not be tagged as such in Medline, are most similar to the initial record, often involving only a typographical correction. All of these determinations are difficult or impossible to accomplish computationally, and thus are best made by human curators.\n\nAll data collected have been consolidated into a webaccessible database, available at http://spore.swmed.edu/ dejavu. As of 22 July 2008, De´ja`vu contains a total 74 760 records of which 5645 have been manually inspected (Table 1). De´ja`vu has received over 40 000 visits since 1 January 2008 and currently receives an average of about 2000 visits per month.\n\nThe De´ja`vu interface was designed using python (http://  python.org) and the Django web framework (http://  djangoproject.com). Data are stored in a backend MySQL Database (http://mysql.com). De´ja`vu was designed to allow real-time collaborative annotation by multiple curators who need not be programmers to add comments and updates or create new records.\n\nOn the De´ja`vu website users can: (i) browse De´ja`vu entries with no specific search method (Each entry links to the scientific citation along with full text when freely available.); (ii) perform generic searches within the De´ja`vu content by authors, address, title word, abstract word, year and comment word; (iii) perform detailed searches by specifying search criteria specific to PMID, journal names, title words, abstract, address and year; (iv) filter and view De´ja`vu results in a particular category or identified by particular authors (same or different), language, availability of full text, discovery method, etc.; (v) send comments or reports to contest a record or submit a potential duplication to be reviewed by human curators; and (vi) access statistics using different filters including category, language, country, journals, etc.\n\nFor each duplicate record, a viewing window presents citations side-by-side with similarities or differences highlighted (Figure 1), providing a user-friendly interface to search, browse and facilitate rapid and rigorous interpretation of the results. De´ja`vu data are also available for data mining in two formats: comma-separated values and a MySQL script to recreate the MySQL database.\n\nThe De´ja`vu database is the first of its kind to publically present cases of highly similar citations in Medline.\n\nTable 1. De´ja`vu content by category and category definitions Duplication type Count Description DISTINCT 1379 There are a number of reasons for different citations to have a high similarity, including citations that describe related, but very distinct publications. A pair of citations identified by computer similarity, which after inspection is, for example, clearly a continuation of a study which has evolved, and the text represents new information that is categorized as a distinct and unique work DUPLICATE 2443 A pair of citations that was identical or nearly identical. The citations report on a study with the same or very similar results and conclusions. ERRATUM 188 Only a fraction of the MEDLINE records that are apparently corrections to previous entries are marked as errata. If a title/abstract pair is either labeled as errata or if it is clear that a correction has been made (author list, spelling, small changes to abstract or title wording, etc.), then the errata classification is used. SANCTIONED 1619\n\nThere are a number of reasons for different citations to have a high level of similarity, some of which play a special, very important, and very legitimate role in the reporting of science. Examples include periodic reviews, periodic guidelines, specialized databases and specialized federal register citations. Citation pairs of this type, identified through computer text similarity have been manually classified to the category sanctioned. NO ABSTRACT 16 In some cases highly similar titles are flagged as potential duplicates, but the non-identity MEDLINE record does not contain an abstract, we designate that pair as a 'NO ABSTRACT' to indicate that its status cannot be determined. UNVERIFIED 69115 Deja vu is a database of duplicate publications, as identified using a number of different techniques, with the principle one being text similarity comparisons. Those putative duplicates identified by any of these techniques, prior to human verification and assignment to another category, are initially loaded into these categories, and since our software also inspects the author lists, they are loaded into unverified categories that have either overlapping authors (SA) or not (DA). TOTAL 74 760\n\nUp to date statistics and definitions are available at http://spore.swmed.edu/dejavu/help and http://spore.swmed.edu/dejavu/statistics/.\n\nIn addition to presenting the list of highly similar citations, a goal of De´ja`vu is to help scientists study in depth the behaviors of authors and the characteristics underlying multiple publications and related ethics issues surrounding the process of scientific publication. A friendly interface provides users with various browsing options along with a graphical representation of the overlapping information between citations. Ultimately, De´jav u may act as a deterrent to the unethical practice of duplication.\n\nFurther work, currently in progress, that will substantially improve De´ja`vu includes: (i) a streamlined process to update De´ja`vu on a daily basis. (ii) a more collaborative approach for recruitment and qualification of topical experts as volunteer curators for specific publication areas. (iii) New methods to better address the question most often asked by authors introduced to De´ja`vu, 'Am I in it, or has my work been duplicated? ' Authors can now check if their work has been duplicated by submitting their abstracts one by one directly to eTBLAST, which then flags highly similar citations for the authors to pursue. Utilities are being developed to allow authors to scan their entire bibliography at once (retrieved using Medline Entrez keyword queries) to obtain a list of highly similar citations for each citation entered. Authors will also be able to automatically submit suspicious highly similar citations found by this process directly to De´jav u curators. (iv) Currently, duplications found in De´jav u were obtained from Medline citations. Other literature databases will be added as they are scanned by eTBLAST, including the Institute of Physics, NASA and NIH CRISP.\n\nNucleic Acids Research Advance Access published September 8, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nby guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from"
+}

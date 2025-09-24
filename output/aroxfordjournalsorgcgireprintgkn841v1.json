@@ -1,0 +1,111 @@
+{
+    "title": "UniHI 4: new tools for query, analysis and visualization of the human protein-protein interactome",
+    "publication_date": "2004",
+    "authors": [
+        {
+            "full_name": "Gautam Chaurasia",
+            "firstname": "Gautam",
+            "lastname": "Chaurasia",
+            "affiliations": [
+                {
+                    "organization": "Institute for Theoretical Biology, Charite ´, Humboldt-University",
+                    "address": {}
+                },
+                {
+                    "organization": "Max-Delbru ¨ck-Center for Molecular Medicine",
+                    "address": {
+                        "city": "Berlin",
+                        "country": "Germany"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Soniya Malhotra",
+            "firstname": "Soniya",
+            "lastname": "Malhotra",
+            "affiliations": [
+                {
+                    "organization": "Max-Delbru ¨ck-Center for Molecular Medicine",
+                    "address": {
+                        "city": "Berlin",
+                        "country": "Germany"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jenny Russ",
+            "firstname": "Jenny",
+            "lastname": "Russ",
+            "affiliations": [
+                {
+                    "organization": "Institute for Theoretical Biology, Charite ´, Humboldt-University",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Sigrid Schnoegl",
+            "firstname": "Sigrid",
+            "lastname": "Schnoegl",
+            "affiliations": [
+                {
+                    "organization": "Max-Delbru ¨ck-Center for Molecular Medicine",
+                    "address": {
+                        "city": "Berlin",
+                        "country": "Germany"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Christian Ha ¨nig",
+            "firstname": "Christian",
+            "lastname": "Ha ¨nig",
+            "affiliations": [
+                {
+                    "organization": "Max-Delbru ¨ck-Center for Molecular Medicine",
+                    "address": {
+                        "city": "Berlin",
+                        "country": "Germany"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Erich E Wanker",
+            "firstname": "Erich E",
+            "lastname": "Wanker",
+            "affiliations": [
+                {
+                    "organization": "Max-Delbru ¨ck-Center for Molecular Medicine",
+                    "address": {
+                        "city": "Berlin",
+                        "country": "Germany"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Matthias E Futschik",
+            "firstname": "Matthias E",
+            "lastname": "Futschik",
+            "affiliations": [
+                {
+                    "organization": "Institute for Theoretical Biology, Charite ´, Humboldt-University",
+                    "address": {}
+                },
+                {
+                    "organization": "Center for Molecular and Structural Biomedicine, University of Algarve",
+                    "address": {
+                        "city": "Faro",
+                        "country": "Portugal"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "Human protein interaction maps have become important tools of biomedical research for the elucidation of molecular mechanisms and the identification of new modulators of disease processes. The Unified Human Interactome database (UniHI,\nhttp://  www.unihi.org\n) provides researchers with a comprehensive platform to query and access human protein-protein interaction (PPI) data. Since its first release, UniHI has considerably increased in size. The latest update of UniHI includes over 250 000 interactions between ~22 300 unique proteins collected from 14 major PPI sources. However, this wealth of data also poses new challenges for researchers due to the complexity of interaction networks retrieved from the database. We therefore developed several new tools to query, analyze and visualize human PPI networks. Most importantly, UniHI allows now the construction of tissue-specific interaction networks and focused querying of canonical pathways. This will enable researchers to target their analysis and to prioritize candidate proteins for follow-up studies.",
+    "full_text": "Human protein interaction maps play an increasingly important role in biomedical research. They have been shown to be highly valuable in the study of a variety of human diseases and signaling pathways (1)(2)(3). The rising popularity of network analyses is reflected in the large number of independently constructed human PPI maps based on experimental and computational approaches. However, these maps generally have limited overlap and frequently lack cross-references (4). To obtain comprehensive interaction data, researchers were required to perform time-consuming queries of different databases with subsequent error-prone matching of obtained identifiers.\n\nUniHI has been developed to overcome these difficulties (5). It has integrated separate PPI resources to provide a comprehensive platform for querying the human interactome. UniHI is not intended to replace single databases, but to offer a convenient single portal access to human protein interaction data for the biomedical research community. Notably, it allows the identification of network topologies which would not be detectable if PPI resources were examined separately.\n\nThe size of UniHI has remarkably increased with more than 250 000 human PPIs currently included. However, this amount of data has its challenges. Even searches with a small number of query proteins can lead to large, highly connected-and often unstructured-networks (frequently referred to as 'hairballs'). For efficient followup analysis, new tools for navigation within the network and prioritization of targets are necessary. Also, flexible visualization is a crucial prerequisite for the display and evaluation of network structures. To meet these challenges, we have implemented several new tools in UniHI for query, analysis and visualization of interaction networks. Beyond its original role as a direct entry gate to the human interactome, UniHI will serve as an integrative platform for the exploration and utilization of human PPI data.\n\nIn our aim to continually provide the most comprehensive human PPI dataset, UniHI has been substantially extended by the inclusion of interactions from two additional major protein interaction databases, i.e. IntAct and BioGRID (6,7). Currently, UniHI includes over 250 000 interactions between more than 22 000 unique proteins *To whom correspondence should be addressed. Tel: +35 1 914 199 509; Email: mfutschik@ualg.pt ß 2008 The Author(s) This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/ by-nc/2.0/uk/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited. from 14 distinct sources, establishing it as the largest catalog for human PPIs worldwide (Table 1 and Figure 1). Although the overlap between different PPI resources included in UniHI has increased, they are still strongly divergent. Only a relatively small fraction of $19% can be found in two or more interaction maps, underlining the continuing need for integrative platforms such as UniHI (Supplementary Tables S1 and S2; Figures S1A and B).\n\nIn this study, we optimized the query interface which allows the simultaneous search for interaction partners of several proteins in a network-oriented manner. To facilitate its application, the list of possible protein identifiers has been expanded to include gene symbol, Entrez Gene, Uniprot, NCBI Geneinfo, Ensembl, Biogrid and HPRD IDs. Notably, these identifiers can now also be used for direct hyperlinks to UniHI.\n\nAs in previous versions, special care was taken to indicate the origin of the interaction data to the user. Besides links to the original resource, a variety of information regarding the interacting proteins is given. Additionally, updates were carried out for measures of co-annotation and co-expression, which are not only important for the interpretation of single interactions, but also for higher network structures (18).\n\nVisualization of the retrieved interaction networks remains to be crucial for the evaluation of query results. The complexity of retrieved networks, however, requires highly flexible graphical tools. While the former versions of UniHI only provided non-interactive display, the present update includes interactive graphical tools which offer many attractive features for rapid analysis and adjustment of the extracted information.\n\nFor example, nodes (i.e. proteins) can be anchored or hidden allowing filtering of the network and manual adjustment of the layout. Also, information about proteins and interactions can now be accessed directly in the network graphics, thereby avoiding cumbersome comparisons with the textual output. The display can be restricted to direct interactions between query proteins or extended to include bridging proteins.\n\nFor quality control, users can specify the PPI resource, from which interactions should be retrieved. This allows, e.g. the exclusion of less validated mapping approaches such as computational prediction. As additional criteria, interactions can be filtered based on a minimum number of PubMed references in which they have been reported.\n\nPathway information can provide highly useful clues about the functions and dynamics of interactions. Especially for the elucidation of local network structures, knowledge of interrelated pathways can be of crucial importance. We therefore constructed a new tool called UniHI Pathway Scanner (Figure 2A and B). It provides the possibility to examine the intersection of canonical pathways from KEGG with the extracted networks (19). In this way, it enables researchers to detect possible  modifiers of pathways as well as proteins involved in the cross-talk between different pathways. Users can switch between the graphical display of the complete network and the intersection with selected pathways. UniHI Scanner does not only show the proteins included in the pathway but also the KEGG annotation of the interactions (e.g. phosphorylation, activation or inhibition) between nodes (see also Supplementary Materials). We expect that this will be a highly attractive feature for the large community of researchers working in cell signaling.\n\nProtein interactions are known to be highly dynamic and to strongly depend on many biological factors. Current protein interaction maps, however, only give a static view of the human interactome. Experimentally validated protein interactions are generally identified under a variety of conditions in numerous cell and tissue types. Current interaction maps do not fully reflect physiological states, because only a selection of proteins is present in a cell at a certain point in time. Biomedical research, however, is usually focused on specific tissues involved in pathogenesis. Addressing this need, we developed and implemented UniHI Express as a new tool in our database (Figure 2C and D). It allows the filtering of PPIs based on gene expression in selected tissues and thus enables the construction of tissue-specific networks (see also Supplementary Materials). First preliminary studies show that the use of UniHI Express can be highly efficient to prioritize interactions. The expression data were derived from Gene Expression Atlas and merged to a number of main tissue types to facilitate their utilization (20). UniHI Express represents a first step towards a dynamic representation of the human interactome.\n\nHuman interaction maps are rapidly increasing in size and have proven to be highly valuable for the study of human health and disease. UniHI will continue to extend its scope by the incorporation of newly available PPI resources and to consolidate the frequently divergent data. In this context, we like to invite other data providers and researchers to participate in the UniHI project. Clearly, the wealth of interaction data poses new challenges in follow-up analysis. The new tools included in UniHI allow researchers a more rapid inspection and prioritization of extracted interactions. Tissue-specific networks can help to focus on biologically relevant interactions, whereas use of pathway information can give important hints about functional modules of interacting proteins. We hope that these and further extensions of UniHI will support scientists in the exploration and utilization of the human interactome.\n\nNucleic Acids Research Advance Access published November 4, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nby guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2008 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from"
+}

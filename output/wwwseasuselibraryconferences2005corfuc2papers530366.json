@@ -1,0 +1,36 @@
+{
+    "title": "Approximate analytical three-dimensional solution for periodical system with rectangular fin, Part 1",
+    "publication_date": "1972",
+    "authors": [
+        {
+            "full_name": "Andris Buikis",
+            "firstname": "Andris",
+            "lastname": "Buikis",
+            "affiliations": [
+                {
+                    "organization": "Institute of Mathematics Latvian Academy of Sciences, Akademijas lauk, University of Latvia 1",
+                    "address": {
+                        "city": "Riga",
+                        "postcode": "LV1524 LATVIA"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Margarita Buike",
+            "firstname": "Margarita",
+            "lastname": "Buike",
+            "affiliations": [
+                {
+                    "organization": "Institute of Mathematics Latvian Academy of Sciences, Akademijas lauk, University of Latvia 1",
+                    "address": {
+                        "city": "Riga",
+                        "postcode": "LV1524 LATVIA"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "In this paper the approximate analytical three dimensional solution for one element in periodical system with rectangular fins is obtained by the original method of conservative averaging.",
+    "full_text": "Obtaining sufficient cooling for the components of devices is a difficult challenge in modern industry. It is related to refrigerators, radiators, engines and modern electronics, etc. Usually its mathematical modeling is realized by one dimensional steady-state assumptions [1], [2], [8], [9]. In our previous papers [3] - [6] we have constructed two dimensional analytical approximate [3] - [5] and exact [6] solutions. In this paper we obtain approximate analytical three dimensional solution by the original method of conservative averaging and some its simplifications (special cases).\n\nWe will start with accurate three-dimensional formulation of steady-state problem for one element of periodical system with rectangular fin. This mathematical formulation is similar to those which are given in our papers [3]- [7] for 2-D case.\n\nWe will use following dimensionless arguments and parameters [4]\n\nwhere -heat conductivity coefficient for the fin (wall), -heat exchange coefficient for the fin (wall), 2В -width (thickness) of the fin, Llength of the fin ,\n\nWe add needed boundary conditions as follow:\n\n(\n\nWe assume the conjugations conditions on the surface between the wall and the fin as ideal thermal contact -there is no contact resistance:\n\nWe have following boundary conditions for the fin:\n\nLet's mention, that almost all of the authors negligible the heat transfer trough flank surface z w = . We assume that this heat transfer is proportional to the temperature excess between the wall/fin and the surrounding medium and are given by second boundary condition (5) and condition (11).\n\nWe will use the original method of conservative averaging.\n\nSimilarly as in our previous papers [4], [5] we will use our original method of conservative averaging and approximate the 3-D temperature field for the fin in following form:\n\n( , , )\n\n( , ), z z V x y z h x y e h x y e h x y w σ σ σ --= + -+ -= 1 (14)\n\nwith unknown functions For this purpose we introduce the integral average value of function in the -direction:\n\n( , ),\n\nThis equality together with two boundary conditions (at 0 z = and z w = ) allow us to exclude all unknown functions from the representation (13). The boundary condition (13) gives the equality:\n\n( , )\n\nThe substitution of representation ( 14) in (15) gives expression:\n\n2(sinh(1) 1)\n\nand representation (14) takes form:\n\nFinally, by the use of the boundary condition (11) we can exclude from last expression and represent the 3-D solution for the fin in following form:\n\n(17) It is easy to check that the function looks like ( ) z Ψ sinh (1) [cosh(1) cosh( )] ( ) sinh (1) [cosh(1) sinh(1)]\n\nThe second stage for the method of conservative averaging is the transforming of the differential equation ( 8) for the function to the differential equation for the function . To realize this goal we integrate the main differential equation ( 8) in the -direction:\n\n(19) Expressing from the boundary conditions (11) and (13) the first derivatives of the function at ( , , ) V x y z 0 z = and z w = trough the function we finally obtain following partial differential equation for two-dimensional temperature field in the fin: ( , ) U x y ( , ) U x y 2 2 2 2 2 ( , ) ( , ) ( , ) 0 U x y U x y U x y x y µ ∂ ∂ + -∂ ∂ = . (20) Here 2 1 ( ) w w µ β - = Ψ . The same procedure for the wall gives the representation: 0 0 ( , , ) ( , ) ( ) V x y z U x y z = Ψ . (21) Here again (similar with equality (15)) is the integral average value of function in the -direction: 0 ( , ) U x y 0 ( , , ) V x y z z 0 0 0 ( , ) ( , , ) w U x y V x y z dz σ = ∫\n\n.\n\nFinally we obtain following partial differential equation for two-dimensional temperature field for the wall:\n\nFrom here again we can use the conservative averaging method for 2-D as in our previous papers [4], [5], but with one distinction: in previous subsection we have obtained Helmholtz equations ( 20),( 22) instead of Laplace equation. However this difference doesn't make additional difficulties for the utilization of the conservative averaging method. This is why we will briefly describe further steps of solution of the equations ( 20),( 22) together with boundary conditions (2)-( 4),( 9),(10),(12) and conjugations conditions ( 6), (7). We will approximate the 2-D temperature field in the fin in the form similar to the representation (14):\n\n( , ) U x y 0 ( , , )\n\nRepeating all steps as in subsection 3.1 we finally obtain the solution for the fin in the form similar to approximation (17):\n\n( , ) ( ) ( ) U x y u x y = Φ .\n\n(24) Here the expression for the function is similar to expression (18) for the function :\n\n[cosh(1) cosh( )] ( ) sinh (1) [cosh(1) sinh( 1 Then we finally obtain that the function is the solution of following ordinary differential equation:\n\nThe solution of this ordinary differential equation for ( ,\n\ntogether with the boundary condition (corollary from the boundary condition (9) after its integration in y and directions) z ( ) ( ) 0\n\nHere is temporarily unknown constant and\n\nWe act almost equally for the wall and approximate the 2-D temperature field for the wall in 0 ( , ) U x y xdirection:\n\nProceedings of the 3rd IASME/WSEAS Int. Conf. on HEAT TRANSFER, THERMAL ENGINEERING AND ENVIRONMENT, Corfu, Greece, August20-22, 2005 (pp382-386)\n\n( , ) U x yProceedings of the 3rd IASME/WSEAS Int. Conf. on HEAT TRANSFER, THERMAL ENGINEERING AND ENVIRONMENT, Corfu, Greece, August20-22, 2005 (pp382-386)"
+}

@@ -1,0 +1,214 @@
+{
+    "title": "The protein that binds to DNA base J in trypanosomatids has features of a thymidine hydroxylase",
+    "publication_date": "2007-03-27",
+    "authors": [
+        {
+            "full_name": "Zhong Yu",
+            "firstname": "Zhong",
+            "lastname": "Yu",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Biology and Centre of Biomedical Genetics",
+                    "address": {
+                        "city": "Amsterdam",
+                        "country": "The Netherlands",
+                        "postcode": "1066 CX"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Paul-Andre ´genest",
+            "firstname": "Paul-Andre",
+            "lastname": "´genest",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Biology and Centre of Biomedical Genetics",
+                    "address": {
+                        "city": "Amsterdam",
+                        "country": "The Netherlands",
+                        "postcode": "1066 CX"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Bas Ter Riet",
+            "firstname": "",
+            "lastname": "Bas Ter Riet",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Biology and Centre of Biomedical Genetics",
+                    "address": {
+                        "city": "Amsterdam",
+                        "country": "The Netherlands",
+                        "postcode": "1066 CX"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Kate Sweeney",
+            "firstname": "Kate",
+            "lastname": "Sweeney",
+            "affiliations": [
+                {
+                    "organization": "Global Infectious Diseases Program Marine Biological Laboratory",
+                    "address": {
+                        "country": "USA",
+                        "postcode": "02543"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Courtney Dipaolo",
+            "firstname": "Courtney",
+            "lastname": "Dipaolo",
+            "affiliations": [
+                {
+                    "organization": "Global Infectious Diseases Program Marine Biological Laboratory",
+                    "address": {
+                        "country": "USA",
+                        "postcode": "02543"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Rudo Kieft",
+            "firstname": "Rudo",
+            "lastname": "Kieft",
+            "affiliations": [
+                {
+                    "organization": "Global Infectious Diseases Program Marine Biological Laboratory",
+                    "address": {
+                        "country": "USA",
+                        "postcode": "02543"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Evangelos Christodoulou",
+            "firstname": "Evangelos",
+            "lastname": "Christodoulou",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Carcinogenesis",
+                    "address": {
+                        "city": "Amsterdam",
+                        "country": "The Netherlands",
+                        "postcode": "1066 CX"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Anastassis Perrakis",
+            "firstname": "Anastassis",
+            "lastname": "Perrakis",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Carcinogenesis",
+                    "address": {
+                        "city": "Amsterdam",
+                        "country": "The Netherlands",
+                        "postcode": "1066 CX"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jana M Simmons",
+            "firstname": "Jana M",
+            "lastname": "Simmons",
+            "affiliations": [
+                {
+                    "organization": "Department of Biochemistry & Molecular Biology",
+                    "address": {}
+                }
+            ]
+        },
+        {
+            "full_name": "Robert P Hausinger",
+            "firstname": "Robert P",
+            "lastname": "Hausinger",
+            "affiliations": [
+                {
+                    "organization": "Department of Biochemistry & Molecular Biology",
+                    "address": {}
+                },
+                {
+                    "organization": "Department of Microbiology & Molecular Genetics, Michigan State University",
+                    "address": {
+                        "city": "East Lansing",
+                        "country": "USA",
+                        "postcode": "48824-4320"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Henri G A M Van Luenen",
+            "firstname": "Henri G A M",
+            "lastname": "Van Luenen",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Biology and Centre of Biomedical Genetics",
+                    "address": {
+                        "city": "Amsterdam",
+                        "country": "The Netherlands",
+                        "postcode": "1066 CX"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Daniel J Rigden",
+            "firstname": "Daniel J",
+            "lastname": "Rigden",
+            "affiliations": [
+                {
+                    "organization": "School of Biological Sciences, University of Liverpool",
+                    "address": {
+                        "city": "Liverpool",
+                        "country": "UK",
+                        "postcode": "L69 7ZB"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Robert Sabatini",
+            "firstname": "Robert",
+            "lastname": "Sabatini",
+            "affiliations": [
+                {
+                    "organization": "Global Infectious Diseases Program Marine Biological Laboratory",
+                    "address": {
+                        "country": "USA",
+                        "postcode": "02543"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Piet Borst",
+            "firstname": "Piet",
+            "lastname": "Borst",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Biology and Centre of Biomedical Genetics",
+                    "address": {
+                        "city": "Amsterdam",
+                        "country": "The Netherlands",
+                        "postcode": "1066 CX"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "Trypanosomatids contain an unusual DNA base J (b-D-glucosylhydroxymethyluracil), which replaces a fraction of thymine in telomeric and other DNA repeats. To determine the function of base J, we have searched for enzymes that catalyze J biosynthesis. We present evidence that a protein that binds to J in DNA, the J-binding protein 1 (JBP1), may also catalyze the first step in J biosynthesis, the conversion of thymine in DNA into hydroxymethyluracil. We show that JBP1 belongs to the family of Fe 2þ and 2-oxoglutarate-dependent dioxygenases and that replacement of conserved residues putatively involved in Fe 2þ and 2-oxoglutarate-binding inactivates the ability of JBP1 to contribute to J synthesis without affecting its ability to bind to J-DNA. We propose that JBP1 is a thymidine hydroxylase responsible for the local amplification of J inserted by JBP2, another putative thymidine hydroxylase.",
+    "full_text": "unicellular kinetoplastid flagellates, such as Trypanosoma and Leishmania species, contain a unique modified base in their nuclear DNA, b-D-glucosylhydroxymethyl-uracil, or J (1)(2)(3)(4). In Trypanosoma brucei, J replaces 0.5-1.0% of thymine (T) in nuclear DNA (5) and somewhat lower values have been found in other trypanosomatids (2) and Euglena (6). J is predominantly present in repetitive DNA sequences in T. brucei (7)(8)(9), and most prominently in the telomeric GGGTTA repeats (7). Indirect evidence indicates that J is made in two steps (Figure 1): hydroxylation of specific Ts in DNA is followed by addition of a glucose to the hydroxymethyluracil (HMU) formed (10)(11)(12). We have tried to find the thymidine hydroxylase and the glucosyl transferase that we expect to be involved in J biosynthesis in cell extracts, by complementation, and by RNAi knockdown of candidate genes, but these attempts have failed thus far. Hence, we have not been able to generate J-less parasites to unravel the function of base J.\n\nA protein that specifically binds to J-containing duplex DNA was found in T. brucei, in Leishmania species and in the insect trypanosome Crithidia fasciculata (13)(14)(15). In Leishmania this 90-kDa J-binding protein (JBP1) is essential (16), but in T. brucei it is not. The absence of JBP1 in T. brucei has no effect on growth, repeat stability or gene expression, but results in a 20-fold decrease in J level relative to wild-type cells (17). This decrease in J level was not due to loss of protection by JBP1 against removal of J from DNA and suggested that JBP1 is somehow involved in J maintenance (17).\n\nA large protein with substantial homology with JBP1 (34% identity; 47% similarity) in its N-terminal half turned up in a database search (18). In its C-terminal half, this J-binding protein 2 (JBP2) contains a region homologous to proteins with SWI2/SNF2-like chromatin remodeling activity. Although there is no evidence that JBP2 can bind to J-DNA, DiPaulo et al. were able to show that JBP2 does affect J biosynthesis, because it can induce J synthesis in insect form trypanosomes, which normally do not express JBP2 (18) and are devoid of J (19,20). JBP2 is neither essential in T. brucei, nor in Leishmania (unpublished data).\n\nAs both JBP1 and JBP2 are able to increase the level of J in trypanosomes, we hypothesized that both proteins actually catalyze the first, and rate-limiting step in J biosynthesis, the hydroxylation of T in DNA. The homology of the N-terminal halves of JBP1 and JBP2 would then be due to the presence of the thymidine hydroxylase function in this part of the protein. Since the hydroxylation of T resembles the hydroxylation of methylated bases by the repair enzyme AlkB (21,22), we further hypothesized that the thymidine hydroxylase, like AlkB, would be a member of the family of dioxygenases that use Fe 2þ and 2-oxoglutarate as cofactors (23)(24)(25). In this article, we provide evidence supporting this hypothesis for JBP1. Our results lead to a simple (but still speculative) model for the first step of J biosynthesis. In this model, JBP2 is responsible for the de novo region-specific synthesis of J, whereas JBP1 is responsible for the local maintenance and expansion of J.\n\nJBP1 and JBP2 sequences were obtained by PSI-BLAST (26) searches in the nr database combined with the genome databases of T. brucei (27), T. cruzi and Leishmania major (28) prior to their incorporation into nr. Their homologous regions were aligned using MUSCLE (29). Distant homologies of this common domain with other proteins were sought using the sensitive sequence comparison and fold-recognition tools of the Meta server (30). This server conveniently collects the results of analysis by various modern sequence comparison and fold-recognition methods and applies the consensus 3D-Jury method (31) to them. The HHsearch software (32) for comparison of hidden Markov model representations of protein alignments was also used in conjunction with the domain databases Pfam (33), Smart (32), COG (34) and KOG (35). Structures were browsed in the SCOP database (36).\n\nThe mutations were made by site-directed mutagenesis using the Quik-Change site-directed mutagenesis kit (Stratagene) following the instruction of the manufacturer. A Lt GFP-JBP1 gene fusion or a Tb GFP-JBP1 gene fusion cloned in a T. brucei or a Leishmania tarentolae expression vector were used as a template. The different oligonucleotides used for the mutagenesis reaction as well as maps of the expression vectors used can be found in Supplementary Figure 1. Mutations were verified by sequencing using an ABI Prism 3700 DNA Analyzer (Applied Biosystems). The GFP-JBP1 constructs were linearized and transfected into the JBP1 null trypanosomes or transfected as episomes in Leishmania following standard protocols (37,38). Leishmania was cultured in SDM-79 medium (39) and the bloodstream form of T. brucei in HMI9 medium (40).\n\nGenomic DNAs of the JBP1 null trypanosomes transfected with the various GFP-JBP1 DNA constructs were isolated, serially diluted in steps of two, denatured, spotted on a nitrocellulose membrane and crosslinked. J levels were determined by incubation with the J antiserum as described before (8). Briefly, the membrane was blocked in skim milk, incubated with a polyclonal J antiserum, washed, incubated with a goat anti-rabbit antibody (horse-radish peroxidase conjugated) and washed, followed by enhanced chemiluminescence detection. The membrane was later hybridized with a telomeric or tubulin DNA probe in a formamide-based hybridization buffer at 428C overnight. Washes were done with 6Â SSC (0.9 M NaCl, 0.09 M Na citrate, pH 7.0), 0.1% SDS. The signal was detected by autoradiography.\n\nProtein lysates were made by spinning down the parasites followed by resuspension of the pellet in Laemmli buffer (41). Proteins were run on 8% SDS-PAGE gel, blotted according to previously described protocols (41). Membranes were blocked in skim milk and incubated with the Lt JBP1 or the Tb JBP1 antibodies as described previously (42).\n\nA His tag version of the various JBP1 mutants was generated by PCR and was ligated in a pET-46 Ek/LIC or pET-16b E. coli expression vector (Novagen) following the instructions of the supplier. The constructs were transformed in the BL21(DE3)pLysS or in the Rosetta2(DE3)pLysS E. coli strains (Novagen). Protein expression was induced by addition of IPTG (isopropylbeta-D-thiogalactopyranoside) at a final concentration of 0.5 mM in Luria-Bertani broth, for 3 h at 378C or overnight at 158C. Proteins were purified using His-Select Nickel Magnetic Beads (Sigma) according to the instructions given by the manufacturer and eluted with imidazole. Nuclear extracts of the Leishmania transfected with the Lt GFP-JBP1 mutants were made as described before (13).\n\nThe partially purified proteins were used in an electromobility shift assay following published protocols (13). Briefly, the purified proteins were incubated with radioactively labeled double-stranded J-containing DNA oligonucleotides in a buffer containing 25 mM Hepes-NaOH pH 7.9, 100 mM KCl, 5 mM MgCl 2 , 1mM ethylenediaminetetraacetic acid (EDTA), 1 mM dithiothreitol (DTT), 0.1 mg poly-dIdC per ml and 0.5 mg bovine serum albumin (BSA) per ml. Proteins were run on a 4.5% native polyacrylamide gel for 2 h in 0.5Â TBE (44.5 mM Tris, 44.5 mM boric acid, 1 mM EDTA). The gel was dried and the signal detected by autoradiography. The Lt His-JBP1/J-DNA complex was supershifted using an Lt JBP1 antiserum (42). The Lt GFP-JBP1/J-DNA complex was supershifted using a GFP antiserum (Clontech).\n\nGFP localization of the Lt JBP1-GFP fusions in the Tb JBP1 null trypanosomes. Trypanosomes were spun down and washed in 1Â PBS (137 mM NaCl, 2.7 mM KCl, 10 mM Na 2 HPO 4 , 1.4 mM KH 2 PO 4 , pH 7.3) and stained with DAPI. The samples were then embedded in low melting 2% agarose in 1Â PBS, spotted on a glass slide, sealed with a cover slip and placed at 48C for a minimum of 1.5 h to ensure little movement of the trypanosomes. Images were acquired using a motorized Zeiss Axioplan 2 and a Axiocam MRm camera which were controlled by the Axiovisons 4.4 software.\n\nGFP localization of the Tb JBP1-GFP in the Tb JBP1 null trypanosomes. Trypanosomes were fixed in 1% formaldehyde in 1Â PBS (137 mM NaCl, 2.7 mM KCl, 10 mM Na 2 HPO 4 , 1.4 mM KH 2 PO 4 , pH 7.3). They were then spotted and dried on a glass slide and embedded in 5 mM ToPro3 in Vectashield mounting medium (Vector Laboratories, Inc.). Images were acquired using a Leica-NT confocal microscope and the Leica confocal software.\n\nJBP1 and JBP2 share a conserved domain with the hydroxylase superfamily JBP1 and JBP2 share amino acid sequence identity over a region of $270 residues. Iterative database searches with PSI-BLAST (26) starting from this region pick out the JBP1/2 family but nothing more. Similarly, extensive iterative PSI-BLAST ( 26) searches starting from nucleic-acid-modifying members of the Fe 2þ -and 2-oxoglutarate-dependent dioxygenase superfamily, such as AlkB, (43) did not reach JBP1 or JBP2 sequences. In order to explore the possibility of a remote relationship, undetectable even by PSI-BLAST, further analyses were done. Secondary structure predictions for the 270 residue homologous region showed an all-b portion flanked by two largely a-helical parts. We worked with this all-b region, as well as with the entire JBP1/2 conserved region. Both native and derived consensus sequences were submitted for analysis to the Meta server (30). Matches to Fe 2þ -and 2-oxoglutaratedependent dioxygenases were indeed present, although rarely top-scoring by individual methods. The most significant result by an individual method was the score of 3.84 (corresponding to a 90% confidence level) given to the central all-b portion of the conserved domain of T. brucei JBP1, in a hit to clavaminate synthase by FUGUE (44). Although scores were below confidence levels (45), the top hits by the 3D-Jury consensus method, when applied to the same sequence, were dominated by the dioxygenases and by proteins with the cupin fold. In the Structural Classification of Proteins Database (36), these architectures are united at the fold level as they share b-helix structure. At large evolutionary distances, it is no surprise that the two are confused by fold-recognition programs. Analysis with the hidden Markov model comparison program HHsearch (46) was also supportive of structural correspondence between JBP1/2 and Fe 2þ -and 2-oxoglutarate-dependent dioxygenases; dioxygenases monopolized the top hits in the domain databases tested, although the best E-value obtained was only 0.2.\n\nTwo arguments further supported the existence of a distant homology. The first was the excellent correspondence between JBP1/2-predicted secondary structure and the actual secondary structures of the dioxygenases in the conserved all-b core (a structural fold comprising of eight b-strands found in all Fe 2þ /2-oxoglutarate-dependent dioxygenases) (Figure 2). The second and more telling factor was the presence in the JBP1/2 sequences of conserved residues at positions matching the key Fe 2þ binding residues of the dioxygenases. Two His residues and one Asp residue are usually involved in Fe 2þ binding and are invariant in the aligned JBP1/2 sequences (Figure 2). In addition, an Arg residue, also highly conserved in dioxygenases and important for binding the 2-oxoglutarate, is present in the JBP1/2 sequences (Figure 2). As Figure 2 and recent analyses (23,24) make clear, the all-b core with these four largely conserved residues is the only typical feature within the structures of the dioxygenase superfamily. The structures of family members outside this core cannot generally be superimposed (data not shown), and even within the core substantial insertions are sometimes present (Figure 2). This unusual degree of structural variability probably explains the relatively poor scores for dioxygenase folds produced for the JBP1/2 common domain.\n\nIf JBP1 is an Fe 2þ -and 2-oxoglutarate-dependent thymidine hydroxylase catalyzing the first step of J biosynthesis (see Figure 1), mutation of the three residues essential for Fe 2þ -binding, or the Arg residue important for the binding of 2-oxoglutarate, should abolish the putative hydroxylase activity. To test this, we mutated the His 189, the Asp 191, the His 239 and the Arg 255 of a GFP-tagged version of the JBP1 of L. tarentolae to alanines by site-directed mutagenesis (Figure 2, Supplementary Figure 1). As JBP1 is essential in Leishmania (16), we could not assess the functionality of the mutants by transfecting the constructs in a JBP1 null Leishmania. We therefore attempted to inactivate both wild-type chromosomal JBP1 alleles in cell lines that expressed the wild-type, or a mutant Lt GFP-JBP1 from a rescue plasmid. This was possible with the wild type JBP1 construct, but not with the mutant JBP1 constructs (as seen by the generation of cell lines still expressing the endogenous wild-type protein) (Supplementary Figure 2), even though the mutant protein routed normally to the nucleus of Leishmania (data not shown).\n\nEffects of amino acid replacements in JBP1 on its ability to support J biosynthesis in the JBP1 null trypanosomes\n\nOur Leishmania experiments show that replacement of amino acids critical for the putative hydroxylase function of JBP1 abrogates the ability of JBP1 to complement JBP1 null mutants, but these experiments do not prove that JBP1 converts T into HMU. To test this putative hydroxylase function more directly we turned to T. brucei, in which the absence of JBP1 is not lethal, but results in a 20-fold reduction of J in DNA (17). Arrowheads below the alignment indicate the four key residues, largely conserved throughout the Fe 2þ -and 2-oxoglutarate-dependent dioxygenase superfamily that bind the iron (His, Asp) or 2-oxoglutarate (Arg) (23,24). The residues of Lt JBP1 that were mutated to alanines: H189, D191, H239, R255, V259, are shown by the arrowheads above the alignment. Note that there are near identical pairs of sequences for both JBP1 and JBP2 in the T. cruzi genome: only one of each pair is shown in the alignment.\n\nWe transfected wild-type and mutant Lt GFP-JBP1 gene constructs into the JBP1 null trypanosomes and determined the level of J in the genomic DNAs of the transfectants using the J antiserum (8). Wild-type Lt GFP-JBP1 was equally effective as the Tb GFP-JBP1 in raising the J levels of the JBP1 null trypanosomes approximately to wild-type levels (Figure 3A), but the H189A, the D191A, the H239A and the R255A mutants were not (Figure 3A and Table 1). As a control, we replaced Val 259. This residue is conserved in all JBPs analyzed and close to the 'hydroxylase' domain, but it is not conserved in members of the Fe 2þ -and 2oxoglutarate-dependent dioxygenase superfamily (Figure 2). Its replacement might therefore not affect the putative hydroxylase function. Indeed, the Val 259 mutant protein did complement the JBP1 null trypanosomes and resulted in wild-type J levels (Figure 3A and Table 1).\n\nWe also verified that the putative Fe 2þ -binding His 213 and Asp 215 of T. brucei JBP1 (corresponding to the His 189 and the Asp 191 of Lt JBP1) are essential for the putative hydroxylase function. Replacement of these residues by serines resulted in mutant proteins that failed to restore the J-level in the JBP1 null trypanosomes to wild-type levels, whereas a wild-type Tb GFP-JBP1 fusion did (Supplementary Figure 3, Supplementary Table 1). The expression levels of the wild type and mutants of the Lt and Tb GFP-JBP1 fusions were comparable, excluding the possibility that the mutants did not complement the J levels because they were poorly expressed in the parasite (Figure 3B, data not shown). All wild type and mutant GFP-JBP1 fusions of Lt JBP1 and Tb JBP1 tested were targeted to the nucleus of T. brucei ruling out the possibility that the mutants were not functional because they were not correctly routed to the nucleus (Table 1, Figure 4, Supplementary Table 1 and Supplementary Figure 4).\n\nWe previously found that mutant versions of JBP1 that lost their J-binding property do not restore the J levels in the JBP1 null trypanosomes (our unpublished data). The fact that the putative hydroxylase mutants did not rescue the JBP1 inactivation in Leishmania and did not restore the J levels in the JBP1 null T. brucei could therefore be due to their inability to bind to J-DNA. To exclude this possibility, we purified His-tagged recombinant wild-type and mutant Lt JBP1 from E. coli (Figure 5A) and tested these for J-binding in electromobility shift assays using radioactively labeled double-stranded J-containing DNA oligonucleotides (13,14). A J-DNA-dependent bandshift was obtained with the wild type as well as with all the mutated versions of Lt JBP1 we tested (Figure 5 and Table 1). The shifted J-DNA band, which contains a 1:1  ratio of JBP1:DNA, could be supershifted using an Lt JBP1 antiserum (42), implying that the shift was indeed due to JBP1 (Figure 5B). As reported previously (13,14), purified JBP1 does not bind to DNA without J under our assay conditions (Figure 5B). The results in Figure 5 indicate that wild-type and mutant forms of Lt JBP1 have similar affinity for J-DNA. Protein titration of the double mutant (H189A plus D191A) supports this conclusion (Supplementary Figure 5).\n\nTo exclude the possibility that the GFP-tagged versions of the mutant proteins produced in Leishmania would not bind to J-DNA, whereas the His-tagged versions produced in E. coli would (Figure 5), we made nuclear extracts of the Leishmania cell lines expressing the H189A, the D191A and the H189A þ D191A Lt GFP-JBP1 mutant proteins and tested these for J-binding activity in electromobility shift assays. Mutant proteins bound to J-DNA are shown in Supplementary Figure 6. We conclude from these results that the H189A, the D191A, the H239A and the R255A Lt JBP1 mutants failed to rescue the J levels in the JBP1 null trypanosomes because they lost their putative thymidine hydroxylase activity, not because they can no longer bind to J-DNA.\n\nGiven the experimental evidence for the correctness of the dioxygenase fold assignment for JBP1 and JBP2, the relationships of JBP1/2 with other branches of the dioxygenase superfamily were explored further. Do JBP1/2 bear a particular similarity with other enzymes that modify nucleic acids such as AlkB and, especially, the thymine 7-hydroxylase, cloned recently from Rhodotorula glutinis (48), which also converts T into HMU? Alternatively, are they unexpectedly more closely related to other enzymes such as deacetoxycephalosporin C synthase (DCS) which featured in the top hits of several fold-recognition programs? These questions were addressed using PSI-BLAST and HHsearch. PSI-BLAST runs to convergence when initiated with R. glutinis T7H or AlkB, but failed to reach JBP1/2 sequences, indicating that there is only a distant relationship between JBP1/2 and these nucleic-acid-modifying dioxygenases. Interestingly, R. glutinis T7H bears only a distant relationship to AlkB, being more closely related to enzymes such as isopenicillin N synthase and gibberellin 20-oxidase (data not shown). Also, JBP1/2 sequences were not retrieved in PSI-BLAST searches starting from DCS. We then chose 22 sequences to cover the full range of the dioxygenase superfamily in the Pfam database PF03171 (33) and initiated PSI-BLAST runs with each. No run retrieved JBP1/2 sequences, confirming that only a very distant evolutionary relationship exists between JBP1/2 and all other dioxygenase superfamily members characterized to date. HHsearch-based comparison of a JBP1/2 conserved domain alignment with alignments of 55 AlkB sequences, 11 DCS proteins and 8 T7H sequences told a similar tale: E-values were similar-0.01 for T7H, 0.02 for AlkB and 0.05 for DCS-and indicative of only very distant homologies. Therefore, it appears that the AlkB, T7H and JBP1/2-catalyzed thymidine hydroxylase activities, all base modifying, represent three phylogenetically distant branches within the Fe 2þ -and 2-oxoglutaratedependent dioxygenase superfamily.\n\nOur results show that JBP1 has the properties to be expected of a thymidine hydroxylase catalyzing the first step in J biosynthesis:\n\n(1) JBP1 has all the sequence/structural hallmarks of an Fe 2þ -and 2-oxoglutarate-dependent dioxygenase/ hydroxylase. (2) Replacement of amino acids predicted to be essential for hydroxylase function abolishes the ability of JBP1 to stimulate J synthesis. We have mutated the His and Asp residues essential for Fe 2þ binding and the Arg important for 2-oxoglutarate binding in other members of this dioxygenase family.\n\nReplacement of these residues with Ala or Ser inactivates the putative hydroxylase function, as shown by the fact that the mutated JBP1 is unable to complement the JBP1 null trypanosomes. The mutations were introduced in a GFP-JBP1 fusion gene, allowing us to show that the mutant fusion protein is made in T. brucei and Leishmania cells in similar amount as wild-type protein and that it is properly routed to the nucleus. (3) Replacement of residues essential for the putative hydroxylase function does not affect the ability to recognize and bind J-DNA. In experiments with purified mutant and wild-type recombinant Lt JBP1 proteins, we have shown that the affinity of the JBP1 mutants for J-DNA is not substantially altered. Moreover, the GFP-tagged mutant proteins still bind to J-DNA in extracts of L. tarentolae as shown by bandshift of J-containing duplex oligonucleotides. The J-DNA binding by JBP1 is therefore independent of the putative hydroxylase function. (4) Absence of JBP1 in T. brucei reduces the J level in nuclear DNA 20-fold (17). Although this could be an indirect effect, the result is fully compatible with a hydroxylase function for JBP1. This also holds for the ability of JBP1 to promote retention of J introduced into DNA by growing trypanosomes in medium containing HMdU (17). This nucleoside is randomly incorporated into DNA, both in bloodstream form and in insect-form trypanosomes (10), and in the presence of JBP1 this extra J is more sluggishly lost than in its absence (17).\n\nAlthough these results support our hypothesis that JBP1 is an Fe 2þ -and 2-oxoglutarate-dependent dioxygenase that catalyzes the hydroxylation of T in DNA to yield HMU, our attempts to demonstrate hydroxylase activity with purified JBP1 have failed thus far (see Supplementary Data, Materials and Methods for a detailed description of these experiments). Dioxygenases belonging to this enzyme family are often able to catalyze the oxidative decarboxylation of 2-oxoglutarate in the absence of primary substrate ( 24), but we have been unable to detect succinate formation or oxygen consumption by JBP1 with or without J-containing oligonucleotide substrate, using a highly purified His-tagged JBP1 preparation from C. fasciculata. Negative results were also obtained in another in vitro assay in which the conversion of T into HMU by Cf JBP1 or Lt JBP1 (in the presence of Fe 2þ , 2-oxoglutarate and a J-DNA oligonucleotide) was analyzed with a specific DNA base excision glycosylase for HMU (11). Finally, we looked in vain for thymidine hydroxylase activity in E. coli overproducing JBP1 of L. tarentolae using the HMU-specific glycosylase. These negative results might raise the question whether JBP1 is really a hydroxylase or only affecting thymidine hydroxylation indirectly, e.g. by recruiting a hydroxylase to the DNA. We consider this highly unlikely. First, the possibility that a domain shared by members of the Fe 2þand 2-oxoglutarate-dependent dioxygenase superfamily is present in a protein recruiting a thymidine hydroxylase is small. Second, the likelihood that replacement of conserved amino acids in this domain affects the recruitment of the hydroxylase is remote. Third, it is hard to believe that residues critical for hydroxylase function would be conserved over the long evolutionary time separating T. brucei and Crithidia, if these residues would not serve the same function as in other members of the dioxygenase family. The fact that we have not yet been able to demonstrate hydroxylase activity in our JBP1 preparations, does not mean much, like most negative results. Nothing is known yet about the nature of the DNA substrate for JBP1. It may simply require longer DNA than the oligonucleotides used thus far, DNA packaged in chromatin, or additional cofactors, etc.\n\nThe analysis of JBP2 remains to be carried out, but the available evidence supports a hydroxylase function for JBP2 as well: Its N-terminal half contains all conserved elements characteristic of Fe 2þ -and 2-oxoglutaratedependent dioxygenases. Absence of JBP1 in T. brucei does not result in a complete loss of J, indicating the presence of a second hydroxylase, i.e. JBP2 (17). Expression of JBP2 in insect form T. brucei (which does not normally contain any J) results in the formation of J (18).\n\nOn the basis of our results, we propose that the de novo modification of T to HMU is exclusively catalyzed by JBP2 and that it is JBP2 that determines the region, and context specificity of J in nuclear DNA (18). The low level of HMU made by JBP2 is then converted into J and locally amplified 20-fold by JBP1 (17). Although this procedure for HMU formation looks unduly complex, the need for two enzymes could stem from the requirement to insert HMU in very specific places in repetitive DNA sequences packed in chromatin. The initial precise recognition of this sequence may be a slow process, or the number of recognition sites for JBP2 might be limited. This could explain that a second enzyme is required to finish the job and raise the J level further, making use of the HMU already inserted by JBP2 (after the conversion of HMU into J). The presence of two hydroxylases, each with a unique sequence and substrate specificity, may explain why we have never been able to find a common theme in the sequences containing J, even though these sequences are highly non-random (7).\n\nby guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from"
+}

@@ -5,13 +5,13 @@ from lxml import etree
 from tqdm import tqdm
 import time
 
-# --- 配置 (保持不变) ---
-PDF_INPUT_DIR = 'pdf_test'
-JSON_OUTPUT_DIR = 'output_test'
+# --- 配置  ---
+PDF_INPUT_DIR = 'pdfs_1'
+JSON_OUTPUT_DIR = 'output'
 GROBID_API_URL = 'http://localhost:8070/api/processFulltextDocument'
 
 
-# --- 辅助函数：解析Grobid返回的XML (已升级) ---
+# --- 辅助函数：解析Grobid返回的XML  ---
 def parse_grobid_xml(xml_content):
     """
     使用 lxml 解析 Grobid 返回的 XML 数据。
@@ -28,36 +28,69 @@ def parse_grobid_xml(xml_content):
         print(f"XML 解析错误: {e}")
         return None
 
-    # --- 提取标题 (保持不变) ---
+    # --- 提取标题  ---
     title_element = root.find('.//tei:titleStmt/tei:title', ns)
     title = title_element.text.strip() if title_element is not None and title_element.text else "N/A"
 
-    # --- 提取作者 (*** 升级版逻辑 ***) ---
+    date = "N/A"
+    # 优先寻找有 "when" 属性的 date 标签，这是最标准的格式
+    date_element = root.find('.//tei:biblStruct//tei:date[@type="published"][@when]', ns)
+    if date_element is not None:
+        date = date_element.get('when')
+    else:
+        # 如果找不到，退而求其次寻找任何 'published' 类型的 date 标签
+        date_element = root.find('.//tei:biblStruct//tei:date[@type="published"]', ns)
+        if date_element is not None and date_element.text:
+            date = date_element.text.strip()
+
+
+
+    # --- 提取作者、机构、地址  ---
     authors = []
-    # 查找所有包含作者信息的 <author> 标签
-    author_elements = root.findall('.//tei:analytic//tei:author', ns)
+    author_elements = root.findall('.//tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:analytic/tei:author', ns)
+
     for author_element in author_elements:
-        # 在每个<author>标签内找到<persName>，这里包含了完整的姓名结构
         pers_name = author_element.find('.//tei:persName', ns)
         if pers_name is not None:
-            # 提取所有 <forename> (名和中间名)
             forenames = pers_name.findall('.//tei:forename', ns)
             firstname_parts = [fn.text.strip() for fn in forenames if fn.text]
 
-            # 提取 <surname> (姓)
             surname_element = pers_name.find('.//tei:surname', ns)
             lastname = surname_element.text.strip() if surname_element is not None and surname_element.text else ""
 
-            # 拼接成完整的名字
-            full_name = " ".join(firstname_parts + [lastname])
+            full_name = " ".join(firstname_parts + [lastname]).strip()
 
-            authors.append({
-                'full_name': full_name,
-                'firstname': " ".join(firstname_parts),  # 名+中间名
-                'lastname': lastname
-            })
+            # 提取该作者的机构信息
+            affiliations = []
+            affiliation_elements = author_element.findall('.//tei:affiliation', ns)
+            for aff_element in affiliation_elements:
+                org_names = [name.text.strip() for name in aff_element.findall('.//tei:orgName', ns) if name.text]
 
-    # --- 提取摘要 (*** 升级版逻辑 ***) ---
+                # 提取地址信息
+                address_element = aff_element.find('.//tei:address', ns)
+                address_parts = {}
+                if address_element is not None:
+                    city = address_element.find('.//tei:settlement', ns)
+                    country = address_element.find('.//tei:country', ns)
+                    postcode = address_element.find('.//tei:postCode', ns)
+                    if city is not None and city.text: address_parts['city'] = city.text.strip()
+                    if country is not None and country.text: address_parts['country'] = country.text.strip()
+                    if postcode is not None and postcode.text: address_parts['postcode'] = postcode.text.strip()
+
+                affiliations.append({
+                    'organization': ", ".join(org_names),
+                    'address': address_parts
+                })
+
+            if full_name:
+                authors.append({
+                    'full_name': full_name,
+                    'firstname': " ".join(firstname_parts),
+                    'lastname': lastname,
+                    'affiliations': affiliations
+                })
+
+    # --- 提取摘要  ---
     abstract = "N/A"
     # 先找到 <abstract> 标签
     abstract_element = root.find('.//tei:abstract', ns)
@@ -84,6 +117,7 @@ def parse_grobid_xml(xml_content):
     # 组合成一个字典
     paper_data = {
         'title': title,
+        'publication_date': date,
         'authors': authors,
         'abstract': abstract,
         'full_text': full_text
@@ -92,7 +126,7 @@ def parse_grobid_xml(xml_content):
     return paper_data
 
 
-# --- 主逻辑 (保持不变) ---
+# --- 主逻辑  ---
 def main():
     if not os.path.exists(JSON_OUTPUT_DIR):
         os.makedirs(JSON_OUTPUT_DIR)
@@ -111,7 +145,7 @@ def main():
         try:
             with open(pdf_path, 'rb') as f:
                 files = {'input': (pdf_filename, f, 'application/pdf')}
-                response = requests.post(GROBID_API_URL, files=files, timeout=60)  # 超时延长到60秒
+                response = requests.post(GROBID_API_URL, files=files, timeout=80)  # 超时延长到60秒
 
             if response.status_code == 200:
                 paper_data = parse_grobid_xml(response.content)

@@ -1,0 +1,78 @@
+{
+    "title": "Air Trench and Photonic Crystal Structures for Compact Waveguide Devices in Low Index Contrast Waveguides",
+    "publication_date": "1999",
+    "authors": [
+        {
+            "full_name": "Gregory P Nordin",
+            "firstname": "Gregory P",
+            "lastname": "Nordin",
+            "affiliations": [
+                {
+                    "organization": "Nano and Micro Devices Center, The University of Alabama in Huntsville",
+                    "address": {
+                        "city": "Huntsville",
+                        "postcode": "35899"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Seunghyun Kim",
+            "firstname": "Seunghyun",
+            "lastname": "Kim",
+            "affiliations": [
+                {
+                    "organization": "Nano and Micro Devices Center, The University of Alabama in Huntsville",
+                    "address": {
+                        "city": "Huntsville",
+                        "postcode": "35899"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Lixia Li",
+            "firstname": "Lixia",
+            "lastname": "Li",
+            "affiliations": [
+                {
+                    "organization": "Nano and Micro Devices Center, The University of Alabama in Huntsville",
+                    "address": {
+                        "city": "Huntsville",
+                        "postcode": "35899"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jingbo Cai",
+            "firstname": "Jingbo",
+            "lastname": "Cai",
+            "affiliations": [
+                {
+                    "organization": "Nano and Micro Devices Center, The University of Alabama in Huntsville",
+                    "address": {
+                        "city": "Huntsville",
+                        "postcode": "35899"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jianhua Jiang",
+            "firstname": "Jianhua",
+            "lastname": "Jiang",
+            "affiliations": [
+                {
+                    "organization": "Nano and Micro Devices Center, The University of Alabama in Huntsville",
+                    "address": {
+                        "city": "Huntsville",
+                        "postcode": "35899"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "N/A",
+    "full_text": "A fundamental enabling technology for dense planar lightwave circuits (PLCs) is the ability to make compact waveguide bends and splitters that have high optical efficiency. In conventional dielectric waveguides, the minimum bend radius is determined by the refractive index contrast between the core and cladding materials. Low refractive index contrast (LIC) materials such as silica [1] and some polymers [2] have many attractive properties (for example, low propagation loss), but are typically limited to minimum bend radii in the multiple millimeter to centimeter range. This in turn limits the level of device integration that can be achieved for a given die footprint.\n\nAlternatively, high refractive index contrast (HIC) material systems [3] and 2D planar photonic crystal approaches [4] have received serious attention for PLC miniaturization. However, both suffer higher propagation losses than LIC approaches.\n\nIn this paper we consider air trench [5] and photonic crystal structures of limited spatial extent [6] integrated with conventional LIC waveguides to form compact bends and splitters. In both cases the effect is to make the bend size essentially independent of the core/clad refractive index contrast.\n\nAn example multi-air trench bend is shown in Figure 1 for a polymer ridge waveguide. The magnitude squared time averaged electric field for TM polarized light (electric field out of the plane) is shown for a 2D finite difference time domain (FDTD) simulation. The optical bend efficiency is 98.8%. Similarly, an air hole photonic crystal-based bend for a silica waveguide is shown in Figure 2 in which the optical bend efficiency is 99.4% [7]. A micro-genetic algorithm optimization has been used to adjust the 1 st row of air holes to maximize the bend efficiency [8]. (a) (b) Fig. 2. Air hole photonic crystal bend in silica waveguide material system. (a) Power ratio of reflected light to incident light as a function of wavelength for the initial structure (dashed line) and the structure after optimization process (solid line). (b) Magnitude squared time averaged electric field for λ=1.55µm for the final optimized geometry.\n\nAbs. 1433, 206th Meeting, © 2004 The Electrochemical Society, Inc."
+}

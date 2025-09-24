@@ -1,0 +1,49 @@
+{
+    "title": "Propagation of wave groups over bathymetry using a variational Boussinesq model",
+    "publication_date": "1982",
+    "authors": [
+        {
+            "full_name": "Gert Klopman",
+            "firstname": "Gert",
+            "lastname": "Klopman",
+            "affiliations": [
+                {
+                    "organization": "Appl. Analysis and Math. Physics, University of Twente",
+                    "address": {
+                        "country": "The Netherlands"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Maarten W Dingemans",
+            "firstname": "Maarten W",
+            "lastname": "Dingemans",
+            "affiliations": [
+                {
+                    "organization": "",
+                    "address": {
+                        "city": "Emmeloord",
+                        "country": "The Netherlands",
+                        "postcode": "8303 KW"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Brenny Van Groesen",
+            "firstname": "Brenny",
+            "lastname": "Van Groesen",
+            "affiliations": [
+                {
+                    "organization": "Appl. Analysis and Math. Physics, University of Twente",
+                    "address": {
+                        "country": "The Netherlands"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "N/A",
+    "full_text": "Surface water waves propagating into shallow water are affected by the changes in the sea bed. Often, Boussinesq-type wave models are used to take these finite-depth effects into account. In Klopman et al. (2005), a variational method has been used to derive fully nonlinear Boussinesq-type models from the full three-dimensional Hamiltonian structure. The canonical structure, as well as the positive definiteness of the Hamiltonian are preserved by this approach. In our view and experience, the positive definiteness of the resulting Hamiltonian ensures the good dynamical behaviour of the resulting equations.\n\nIn Klopman et al. (2005), the variational model has been derived for one horizontal dimension, and numerical examples have been presented for waves propagating over a horizontal bed. Here, we will extend the model to two horizontal dimensions. The model will be applied to the computation of waves propagating over an elliptic shoal on a slope (Berkhoff et al., 1982). This test case is known to be affected by wave shoaling, refraction, diffraction and non-linearity (Kirby & Dalrymple, 1984;Dingemans et al., 1984).\n\nThe Hamiltonian theory for surface water waves on an incompressible fluid with an irrotational flow was independently discovered by Zakharov (1968), Broer (1974) and Miles (1977). Consider a fluid layer bounded below by the sea bed at z = -h 0 (x) and above by the free surface z = ζ(x, t), where x = (x, y) T are the horizontal coordinates, z is the vertical coordinate and t is the time. The irrotational flow of the homogeneous fluid of unit mass density is described with a velocity potential φ(x, z, t), i.e. ∇φ = (∂ x φ, ∂ y φ) T are the horizontal flow velocity components and ∂ z φ is the vertical velocity component. The potential at the free surface is denoted as ϕ(x, t) ≡ φ (x, ζ(x, t), t). Then ζ and ϕ are canonical variables, and the Hamiltonian description of the flow is given by:\n\n(1)\n\nprovided the flow in the fluid interior satisfies the Laplace equation, the bottom boundary condition at z = -h(x) and the free-surface condition φ = ϕ(x, t) at z = ζ(x, t). The Hamiltonian H (ζ, ϕ) is equal to the sum of the kinetic and potential energy of the fluid:\n\n(2)\n\nwhere g is the value of the gravitational acceleration, with gravity acting in the negative z-direction. Now, in order to be able to derive a model only in the horizontal coordinates x and time t, we assume a vertical structure of the flow:\n\n), assuming f (z; h 0 , ζ) to be given. To preserve the canonical structure, and to arrive at time-evolution equations for only ζ and φ, it is essential to require that f = 0 at the free surface z = ζ(x, t). In accordance with the classical Boussinesq model, with a parabolic shape for the vertical flow structure and ∂ z f = 0 at the sea bed, we choose:\n\nwhich is expected to be a good approximation for mildly-sloping sea beds and intermediate to shallow water depths. In this case, the function f (z; h 0 , ζ) has been normalized, in order to have ψ(x, t) equal to the vertical velocity at the free surface. Note that also other forms of f (z; h 0 , ζ) may be taken, as well as a series of vertical shape functions (each equal to zero at the free surface).\n\nWe use the approximation (3) to compute the velocities needed in the Hamiltonian (2), and use a mild-slope assumption by neglecting the sea bed slopes in the velocities (but not in the functional derivatives of H ). Then the Hamiltonian H (ζ, ϕ; ψ) for the Boussinesq model becomes:\n\nwhich is indeed seen to be positive definite.\n\nNext, we introduce the horizontal gradient of the velocity potential, u ≡ ∇ϕ and the instantaneous total depth h(x, t) ≡ h 0 (x) + ζ(x, t). Note that u(x, t) is different from the horizontal velocity components ∇φ at the free surface, since ϕ(x, t) is not at a fixed level but at the moving free surface. Then, from Eq. ( 1) and from δH /δψ = 0, we get after taking the gradient of the equation for ϕ(x, t):\n\nis the depth-averaged velocity. For one horizontal spatial dimension, the above set of equations is equal to the one derived in Klopman et al. (2005). Note that the third equation in ( 6) is an elliptic equation for ψ, and also that it is a linear equation in terms of ψ.\n\nWaves over an elliptic shoal on a uniform slope The laboratory setup for the elliptic shoal test (Berkhoff et al., 1982) is shown in Figure 1, also showing the measurement sections. The deeper part of the wave basin has a constant depth of 0.45 m. The elliptic shoal is placed on a 1/50 sloping bottom, with the depth contours on the slope making an angle of 20 o with the x-axis. The centre of the shoal is located at a distance (perpendicular to the depth contours) of 5.84 m from the toe of the slope, and the shoal thickness d is given by:\n\nwith all distances in m. The incoming periodic waves are propagating in the negative y-direction and have a wave period of 1.00 s and wave amplitude of 23.2 mm, with wave amplitude defined as half the wave height. Wave amplitudes have been measured in a large number of points on a 0.25 by 0.25 m grid (Dingemans, 1997, Section 4.7.2, Note 4.2).\n\nFor our computations we use a pseudo-spectral code to solve the set (6), similar to the one used in Klopman et al. (2005), but now extended to two horizontal dimensions. The resulting set of ordinary differential equations for ζ and u in the grid points is solved with a high-order ODE solver with variable step size (matlab function 'ode113'). At the start of each time step, ψ is determined for given ζ and ϕ, by solving the elliptic equation (6a) for ψ with a pre-conditioned conjugate-gradient method (matlab function 'bicgstab'). On average, about 2 to 4 iterations are necessary to lower the residual in the ψ-equations to a relative error of 10 -5 . Computation time is about twice the time needed by the pseudo-spectral model for solving the shallow-water equations. The computations have been performed on a spatial grid of 240 by 360 grid points with 0.125 m spacing, and for a duration of 25 wave periods,.\n\nFigures 2 and 3 give a comparison between the computations and the measurements. Figure 3(b) clearly shows the diffraction pattern, as well as the wave focussing by refraction. The two most discriminating sections, 5 and 6, show quite good agreement between the measurements and the computations, comparable to the results of other wave models (Mooiman, 1991;Kirby & Dalrymple, 1984;Dingemans et al., 1984). Wave non-linearity is essential in these sections to get fair agreement with the measurements, as shown by both Dingemans et al. (1984) and Kirby & Dalrymple (1984)."
+}

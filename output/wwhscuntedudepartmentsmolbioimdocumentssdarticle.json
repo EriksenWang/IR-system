@@ -1,0 +1,277 @@
+{
+    "title": "DNA-PKcs-PIDDosome: A Nuclear Caspase-2-Activating Complex with Role in G2/M Checkpoint Maintenance",
+    "publication_date": "2009-02-05",
+    "authors": [
+        {
+            "full_name": "Mingan Shi",
+            "firstname": "Mingan",
+            "lastname": "Shi",
+            "affiliations": [
+                {
+                    "organization": "Stowers Institute for Medical Research",
+                    "address": {
+                        "city": "Kansas City",
+                        "country": "USA",
+                        "postcode": "64110"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Carolyn J Vivian",
+            "firstname": "Carolyn J",
+            "lastname": "Vivian",
+            "affiliations": [
+                {
+                    "organization": "Stowers Institute for Medical Research",
+                    "address": {
+                        "city": "Kansas City",
+                        "country": "USA",
+                        "postcode": "64110"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Kyung-Jong Lee",
+            "firstname": "Kyung-Jong",
+            "lastname": "Lee",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Radiation Biology, University of Texas Southwestern Medical Center",
+                    "address": {
+                        "city": "Dallas",
+                        "country": "USA",
+                        "postcode": "75390"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Chunmin Ge",
+            "firstname": "Chunmin",
+            "lastname": "Ge",
+            "affiliations": [
+                {
+                    "organization": "Stowers Institute for Medical Research",
+                    "address": {
+                        "city": "Kansas City",
+                        "country": "USA",
+                        "postcode": "64110"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Keiko Morotomi-Yano",
+            "firstname": "Keiko",
+            "lastname": "Morotomi-Yano",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Radiation Biology, University of Texas Southwestern Medical Center",
+                    "address": {
+                        "city": "Dallas",
+                        "country": "USA",
+                        "postcode": "75390"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Claudia Manzl",
+            "firstname": "Claudia",
+            "lastname": "Manzl",
+            "affiliations": [
+                {
+                    "organization": "Division of Developmental Immunology, Innsbruck Medical University",
+                    "address": {
+                        "city": "Biocenter Innsbruck",
+                        "country": "Austria",
+                        "postcode": "A-6020"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Florian Bock",
+            "firstname": "Florian",
+            "lastname": "Bock",
+            "affiliations": [
+                {
+                    "organization": "Division of Developmental Immunology, Innsbruck Medical University",
+                    "address": {
+                        "city": "Biocenter Innsbruck",
+                        "country": "Austria",
+                        "postcode": "A-6020"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Shigeo Sato",
+            "firstname": "Shigeo",
+            "lastname": "Sato",
+            "affiliations": [
+                {
+                    "organization": "Stowers Institute for Medical Research",
+                    "address": {
+                        "city": "Kansas City",
+                        "country": "USA",
+                        "postcode": "64110"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Chieri Tomomori-Sato",
+            "firstname": "Chieri",
+            "lastname": "Tomomori-Sato",
+            "affiliations": [
+                {
+                    "organization": "Stowers Institute for Medical Research",
+                    "address": {
+                        "city": "Kansas City",
+                        "country": "USA",
+                        "postcode": "64110"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Ruihong Zhu",
+            "firstname": "Ruihong",
+            "lastname": "Zhu",
+            "affiliations": [
+                {
+                    "organization": "Stowers Institute for Medical Research",
+                    "address": {
+                        "city": "Kansas City",
+                        "country": "USA",
+                        "postcode": "64110"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jeffrey S Haug",
+            "firstname": "Jeffrey S",
+            "lastname": "Haug",
+            "affiliations": [
+                {
+                    "organization": "Stowers Institute for Medical Research",
+                    "address": {
+                        "city": "Kansas City",
+                        "country": "USA",
+                        "postcode": "64110"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Selene K Swanson",
+            "firstname": "Selene K",
+            "lastname": "Swanson",
+            "affiliations": [
+                {
+                    "organization": "Stowers Institute for Medical Research",
+                    "address": {
+                        "city": "Kansas City",
+                        "country": "USA",
+                        "postcode": "64110"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Michael P Washburn",
+            "firstname": "Michael P",
+            "lastname": "Washburn",
+            "affiliations": [
+                {
+                    "organization": "Stowers Institute for Medical Research",
+                    "address": {
+                        "city": "Kansas City",
+                        "country": "USA",
+                        "postcode": "64110"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "David J Chen",
+            "firstname": "David J",
+            "lastname": "Chen",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Radiation Biology, University of Texas Southwestern Medical Center",
+                    "address": {
+                        "city": "Dallas",
+                        "country": "USA",
+                        "postcode": "75390"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Benjamin P C Chen",
+            "firstname": "Benjamin P C",
+            "lastname": "Chen",
+            "affiliations": []
+        },
+        {
+            "full_name": "Andreas Villunger",
+            "firstname": "Andreas",
+            "lastname": "Villunger",
+            "affiliations": [
+                {
+                    "organization": "Division of Molecular Radiation Biology, University of Texas Southwestern Medical Center",
+                    "address": {
+                        "city": "Dallas",
+                        "country": "USA",
+                        "postcode": "75390"
+                    }
+                },
+                {
+                    "organization": "Division of Developmental Immunology, Innsbruck Medical University",
+                    "address": {
+                        "city": "Biocenter Innsbruck",
+                        "country": "Austria",
+                        "postcode": "A-6020"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Laurence Florens",
+            "firstname": "Laurence",
+            "lastname": "Florens",
+            "affiliations": [
+                {
+                    "organization": "Stowers Institute for Medical Research",
+                    "address": {
+                        "city": "Kansas City",
+                        "country": "USA",
+                        "postcode": "64110"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Chunying Du",
+            "firstname": "Chunying",
+            "lastname": "Du",
+            "affiliations": [
+                {
+                    "organization": "Stowers Institute for Medical Research",
+                    "address": {
+                        "city": "Kansas City",
+                        "country": "USA",
+                        "postcode": "64110"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "Caspase-2 is unique among all the mammalian caspases in that it is the only caspase that is present constitutively in the cell nucleus, in addition to other cellular compartments. However, the functional significance of this nuclear localization is unknown.\nHere we show that DNA damage induced by g-radiation triggers the phosphorylation of nuclear caspase-2 at the S122 site within its prodomain, leading to its cleavage and activation. This phosphorylation is carried out by the nuclear serine/threonine protein kinase DNA-PKcs and promoted by the p53inducible death-domain-containing protein PIDD within a large nuclear protein complex consisting of DNA-PKcs, PIDD, and caspase-2, which we have named the DNA-PKcs-PIDDosome. This phosphorylation and the catalytic activity of caspase-2 are involved in the maintenance of a G2/M DNA damage checkpoint and DNA repair mediated by the nonhomologous end-joining (NHEJ) pathway. The DNA-PKcs-PIDDosome thus represents a protein complex that impacts mammalian G2/M DNA damage checkpoint and NHEJ.",
+    "full_text": "Apoptosis in mammalian cells is executed mainly by the effector caspase-3 and caspase-7, which are activated through cleavage mediated by the initiator caspase-9 or caspase-8/10 (Degterev et al., 2003). Caspase-9 is activated by the Apaf-1 apoptosome in the cytoplasm, whose formation is triggered by the release of mitochondrial cytochrome c from mitochondria to cytosol (Li et al., 1997;Wang, 2001). Caspase-8/10 is activated by the death-inducing signaling complex (DISC) at the cytoplasmic side of the cell membrane formed upon ligation of apoptosisinducing receptor ligands to their corresponding cell membrane receptors (Peter and Krammer, 2003). In addition to these well-characterized apoptotic caspases, caspase-1, 4, and 5 in humans and caspase-1, 11, and 12 in mice function in the processing of proinflammatory cytokines (Martinon and Tschopp, 2007).\n\nCaspase-2 was the second caspase cloned (Kumar et al., 1994;Wang et al., 1994). Despite many reports regarding the function of caspase-2 in a variety of apoptotic processes (Troy and Shelanski, 2003;Zhivotovsky and Orrenius, 2005), the precise role of caspase-2 in apoptosis remains to be verified in vivo because caspase-2-knockout mice display few apoptotic defects (Bergeron et al., 1998;O'Reilly et al., 2002).\n\nCaspase-2 is known to be cleaved and activated by a cytosolic protein complex termed the PIDDosome that contains PIDD, an adaptor protein RAIDD (receptor-interacting protein-associated ICH-1/CED-3 homologous protein with a death domain), and caspase-2 (Tinel and Tschopp, 2004). The death domain (DD) of PIDD is essential for caspase-2 activation, and overexpression of PIDD results in spontaneous activation of caspase-2 and sensitization of the cells to genotoxic stress-induced apoptosis (Tinel and Tschopp, 2004). The DD in the oligomeric PIDDosome core complex displays eight unique asymmetric interfaces, suggesting that the DD might engage multiple interactions with other proteins similar to the core structure of apoptosome (Acehan et al., 2002;Park et al., 2007).\n\nInterestingly, unlike other caspases, caspase-2 constitutively localizes to the cell nucleus in addition to being present in other cellular compartments (Colussi et al., 1998;Mancini et al., 2000;Zhivotovsky et al., 1999). The prodomain of caspase-2 is required for its nuclear localization (Baliga et al., 2003;Colussi et al., 1998), and nuclear caspase-2 is rapidly cleaved in cells upon DNA damage (Zhivotovsky et al., 1999). However, it remains a mystery why caspase-2 is localized inside the cell nucleus and whether the nuclear caspase-2 contributes to apoptosis or other processes of the DNA damage response.\n\nIn this report, we identify a nuclear protein complex that activates caspase-2 in the cell nucleus. It contains PIDD, caspase-2, and the catalytic subunit of DNA-PK (DNA-PKcs) but not RAIDD. In response to g-radiation, caspase-2 is phosphorylated at S122 within its prodomain by DNA-PKcs, whose kinase activity is promoted by PIDD, leading to caspase-2 cleavage and activation. Characterization of this complex reveals unexpected involvement of caspase-2 in a G2/M DNA damage checkpoint and the repair of DNA double-strand breaks (DSBs) mediated by the NHEJ pathway. Our results underscore the complexity and additional regulations of the mammalian G2/M cell cycle checkpoint and the NHEJ pathway.\n\nIdentification of DNA-PKcs as a Major PIDD-Interacting Protein in the Cell Nucleus We took an unbiased approach to search for PIDD-interacting proteins by immunoprecipitation (IP) from cell nuclear extracts prepared from an HEK293 cell line stably expressing a FLAGtagged PIDD. The PIDD-associated proteins were identified by Multidimensional Protein Identification Technology (MudPIT). In addition to PIDD itself, another major protein in the PIDD immunocomplex is the catalytic subunit of the DNA-dependent protein kinase, DNA-PKcs (Figure 1A), a nuclear serine/threonine protein kinase that mainly functions in the NHEJ pathway to repair DNA DSBs (Burma and Chen, 2004). The detected 20% peptide coverage of DNA-PKcs (Figure 1B) is high considering the large mass of DNA-PKcs ($470 kDa, 4128 amino acids). We confirmed this interaction by reciprocal IP (Figures 1C,1D,and S1A available online), and characterized this interaction to be independent of DNA by ethidium bromide or micrococcal nuclease treatment of the nuclear extracts (Figure S1B). Surprisingly, we did not detect the presence of RAIDD in this immunocomplex either by immunoblotting or MudPIT despite its presence in the nuclear extracts (Figures 1C,1D,and S1A), suggesting that RAIDD is not associated with this fraction of nuclear PIDD.\n\nPIDD, DNA-PKcs, and Caspase-2 Form a Nuclear DNA-PKcs-PIDDosome Complex Because PIDD is involved in caspase-2 activation (Tinel and Tschopp, 2004), the interaction between PIDD and DNA-PKcs prompted us to examine whether PIDD and DNA-PKcs were also associated with caspase-2 in the cell nucleus. Taking advantage of the fact that there is an active pool of caspase-2 in unstimulated cells (Tinel and Tschopp, 2004) that can bind to the cell-permeable, biotinylated pan-caspase inhibitor b-VAD-fmk in living cells (Read et al., 2002;Tinel and Tschopp, 2004;Tu et al., 2006), we incubated HeLa cells with b-VAD-fmk and used streptavidin-sepharose beads to pull down b-VAD-fmk from the cell nuclear extracts. A fraction of the endogenous active nuclear caspase-2, and importantly fractions of DNA-PKcs and PIDD, were pulled down in a b-VAD-fmk dose-dependent manner (Figure 1E). The caspase-2 dependency of this pull down was confirmed because the association of DNA-PKcs and PIDD with caspase-2 was not detected in caspase-2-deficient mouse embryonic fibroblast (MEF) cells (Figure S2). These results demonstrate that without any stimulation, these three proteins already interact in viable cell nuclei. This pre-existing interaction is not restricted to HeLa or MEF cells and is also present in HEK293 cells (Figure S3). Again, RAIDD is not present in the b-VAD-fmk nuclear pull-down complex (Figure 1E). Furthermore, these three purified proteins could directly interact to form a trimolecular complex in vitro (Figure 1F). DNA-PKcs directly bound to PIDD or caspase-2 (lanes 1 and 2), whereas no direct binding was detected between PIDD and caspase-2 unless DNA-PKcs was added (lanes 3 and 4). Thus, DNA-PKcs is required for the three to associate. Moreover, the DD of PIDD could bind to the N-terminal 403-amino-acid fragment of DNA-PKcs (Figure 1G, middle) that contains a helical HEAT repeat, a protein-protein interaction motif (Figure 1A) (Brewerton et al., 2004;Groves and Barford, 1999). The prodomain of caspase-2 was found to predominantly bind the C-terminal catalytic PI-3 kinase (PI3K) domain of DNA-PKcs (Figure 1G, bottom). Thus, DNA-PKcs serves as a central adaptor bridging the three proteins together (Figure 1H).\n\nThe size of this preformed complex analyzed by gel filtration chromatography corresponds to a molecular mass of close to 2 million Daltons (Figure S4A). Ionizing radiation (IR) treatment neither changed the fraction positions of these three proteins nor triggered a significant increase in the amounts of the preformed complex (Figure S4B). However, IR did trigger a shift of Ku70/Ku80 heterodimer to the preformed complex fractions (Figure S4B). This cofractionation suggests that DNA-PKcs kinase activity in this complex could be enhanced by the coeluted Ku70/80 after IR treatment because the Ku heterodimer is a regulatory subunit of DNA-dependent protein kinase (DNA-PK) and promotes the recruitment of DNA-PKcs to DNA ends from which the kinase is activated (Gottlieb and Jackson, 1993). Neither RAIDD nor receptor interacting protein kinase-1 (RIP1) was cofractionated with this complex irrespective of IR treatment (Figure S4), the latter being a component of the PIDD-RIP1-NEMO complex responsible for DNA damageinduced activation of nuclear factor kB (Janssens et al., 2005). Considering the similarity and difference of this complex with the previously reported RAIDD-containing PIDDosome (Tinel and Tschopp, 2004), we named this complex the DNA-PKcs-PIDDosome, and the other the RAIDD-PIDDosome.\n\nDamage to DNA Increases Active Caspase-2 Bound to the DNA-PKcs-PIDDosome DNA-PKcs, PIDD, and caspase-2 are known players in various aspects of cellular processes of DNA damage. To gain insight into the function of the DNA-PKcs-PIDDosome, we treated HeLa cells with IR, labeled these cells with b-VAD-fmk, and isolated the DNA-PKcs-PIDDosome with streptavidin-sepharose bead pull down. Damage to DNA resulted in a significant activation and increase in the binding of active caspase-2 (full length, p37, and p20 fragments) to the DNA-PKcs-PIDDosome (Figure 2A, lane 4), suggesting that the DNA-PKcs-PIDDosome functions as a platform for nuclear caspase-2 activation. However, a significant increase in the formation of DNA-PKcs-PIDDosome after IR might not be a major mechanism for caspase-2 activation, because only a mild increase in the levels of PIDD and DNA-PKcs was observed (Figure 2A, lane 4). Consistent with the idea that RAIDD is not part of the DNA-PKcs-PIDDosome, RAIDD was not detected in the complex even after IR treatment (Figure 2A). protein substrates by phosphorylation (Smith and Jackson, 1999). We examined if nuclear caspase-2 is phosphorylated and identified the site serine 122 (S122) to be phosphorylated after DNA damage induction by IR or etoposide treatment using MudPIT combined with spectral count analysis (Figures 2B and 2C). This phosphorylation in this nuclear sample was confirmed by immunoblotting with a caspase-2 anti-phospho-S122 (pS122) antibody (Figure S5).\n\nThe site S122 in caspase-2 is followed by a leucine residue, which conforms to the ''S-hydrophobic'' consensus DNA-PK phosphorylation sites. Similar phosphorylation sites have been identified in the S6Y motif in Ku70 (Chan et al., 1999), the S2624L autophosphorylation site in DNA-PKcs itself (Ding et al., 2003), and the S127L motif in c-Fos (Anderson and Lees-Miller, 1992). This S122L motif could be important for cas-pase-2 function because it is conserved in humans, mice, and rats, and a similar S-hydrophobic consensus SF motif is also found in Xenopus caspase-2 (Figure 2D). Although the SQ and TQ motifs are the major DNA-PK phosphorylation sites (Collis et al., 2005;Lees-Miller, 1996), no phosphorylation at the S65Q motif in caspase-2 was detected by tandem mass spectrometry.\n\nCaspase-2 at S122 In Vivo This S122 phosphorylation appears to be important for caspase-2 activation, because prevention of this phosphorylation in the S122A MEF line resulted in a blockage of IR-induced caspase-2 activation, as reflected by the lack of active p20 fragment (Figure 3A) shown earlier to be active and bound to b-VAD-fmk (Figure 2A). (B) Quantification of phosphopeptides containing phosphorylated S122 (pS122). HEK293 cells stably expressing FLAG-tagged caspase-2 (C303A) were left untreated (À), exposed to 80 Gy IR (+IR), or treated with 100 mM etoposide (+ETOP) for 2 hr. Caspase-2 was FLAG-affinity-purified, and phosphorylation of caspase-2 was analyzed by MudPIT combined with spectral count analysis. Each bar represents the mean and standard deviation (mean ± SD) of three independent experiments (n = 3). (C) Annotation of a representative tandem mass spectrum matched to L.SGLQHVLPPLSCDYDLpSLPFPV.C from elastase-digested caspase-2. The doubly charged precursor ion with a protonated mass of 2535.71 Da is marked by the green triangle under the m/z-axis, whereas the phosphate neutral loss peak is denoted with ''Phs.'' Fragment ions bearing phosphorylated serine 122 (circled) are matched in both b and y ion series, which are labeled in red and blue, respectively. (D) Sequence alignment of human caspase-2 (residues 116-153) with mouse, rat, and Xenopus caspase-2 showing the conserved DNA-PKcs phosphorylation site S122 (arrow). The PKCK2 phosphorylation site S157 in human caspase-2 (solid arrowhead) and the CaMKII phosphorylation site S135 in Xenopus caspase-2 (open arrowhead) are also shown.\n\nThe S122 site is also phosphorylated in vivo after IR or etoposide treatment, which was demonstrated by anti-pS122 immunoblotting (Figures 3B and S5). Furthermore, DNA-PKcs is a major protein kinase in the cell nucleus that mediates this phosphorylation, because this phosphorylation was abolished by the inhibitor NU7026, which is highly selective for DNA-PKcs (Veuger et al., 2003) (Figure 3B). Consistently, both this phosphorylation and caspase-2 cleavage into p20 fragment were abolished in DNA-PKcs-deficient M059J cells (Figure 3C), and in DNA-PKcs-deficient and Ku80-deficient MEFs (Figure S6). The cells analyzed in Figures 3A and 3C were not undergoing apoptosis despite the activation of caspase-2 (Figure S7). PIDD Overexpression Facilitates the DNA-PKcs-Mediated Phosphorylation of Nuclear Caspase-2 at the S122 Site In Vivo In addition to the finding that PIDD shuttles between cytoplasm and nucleus (Janssens et al., 2005), we observed a nuclear accumulation of PIDD upon IR-induced DNA damage in HCT116 cells (Figure 3D), as well as in HEK 239T and U2OS cells (Figure S8). In contrast to the p53-dependent p21 accumulation, this PIDD accumulation is not completely p53 dependent because it also occurred in HCT116 p53 À/À cells, albeit to a lesser extent (Figure 3D).\n\nOne of the functions of this PIDD nuclear accumulation, resembled by the ectopic expression of PIDD, is to significantly enhance the S122 phosphorylation and the p20 cleavage product in the cell nucleus (Figure 3E) in a DNA-PKcs activitydependent manner (Figures 3F and S9). Again, the activated caspase-2 in these cells did not result in apoptosis (Figure S10).\n\nCaspase-2 at the S122 Site, and PIDD Enhances the Kinase Activity of DNA-PKcs In Vitro A significant incorporation of g-[ 32 P]-ATP into caspase-2 (p37, containing the S122 site) was observed in an in vitro kinase assay when DNA-PK was activated by DNA (Figures 4A and 1A). This phosphorylation indeed occurs at the S122 site because the S122A mutant caspase-2 failed to be phosphorylated (Figure 4B, lane 5 versus 1). Moreover, PIDD enhances the phosphorylation of caspase-2 in a S122-dependent manner (Figure 4B).\n\nThe direct phosphorylation of caspase-2 at the S122 site by DNA-PKcs was reproduced in ''cold'' in vitro kinase assays by anti-pS122 immunoblotting (Figure 4C). Using this assay, we found that PIDD acts as a positive regulator for DNA-PK kinase activity leading to caspase-2 phosphorylation and cleavage, because PIDD significantly promoted the autophosphorylation of DNA-PKcs at the S2056 site, which is an indicator of DNA-PKcs kinase activity (Chen et al., 2005).\n\nCaspase-2 Phosphorylation and Processing and PIDD Accumulation in the Cell Nucleus Occur before Cell Death We showed earlier in several experiments that S122 phosphorylation and caspase-2 cleavage had already occurred yet the cells were not undergoing apoptosis (Figures S7 and S10). To gain further insight into the timing of nuclear caspase-2 activation relative to the onset of apoptosis, HeLa cells were irradiated with IR (80 Gy) to induce cell death. It is surprising that, in the cell nucleus, IR-induced S122 phosphorylation and increase in the p20 fragment of caspase-2, as well as IR-induced PIDD accumulation, had already occurred as early as 2-4 hr after irradiation, a much earlier event than the onset of IR-induced cell death (Figures 5A and 5B). These observations are not just limited to HeLa cells because similar results were also observed in HEK293T and MJ-L24 cells (Figures S11 and S12). Surprisingly, none of the three proteins impacts apoptosis induced by g-radiation (80 Gy) over a period of up to 96 hr, and the apoptotic percentage remained unchanged irrespective of deficiency in each gene or DNA-PKcs-inhibitor treatment (Figure S13) (for PIDD-knockout MEFs; C.M., F.B., and A.V., unpublished data). These observations indicate that DNA-PKcs, PIDD, and caspase-2 might have a role in the cell nucleus before apoptosis. Caspase-2 Impacts G2/M Checkpoint in Response to Low-Dose g-Radiation Besides triggering apoptosis, DNA damage also induces an evolutionarily conserved DNA damage response to activate cell cycle checkpoints to arrest cell cycle progression and allow for DNA repair so as to preserve genomic integrity (Kastan and Bartek, 2004).\n\nWe looked for caspase-2 involvement in the G2/M DNA damage checkpoint in human osteosarcoma U2OS cells, a cell line widely used in G2/M checkpoint studies. Mitotic cells were labeled with an anti-phospho-histone H3 antibody (Wang et al., 2002;Xu et al., 2001). Knocking down caspase-2 in U2OS cells with small-interfering RNA (siRNA) resulted in a higher percentage of mitotic cells (i.e., a defect in G2/M checkpoint) compared with control cells after 4 Gy IR treatment in the absence of apoptosis induction (Figure S14). These results suggest that caspase-2 impacts a G2/M DNA damage checkpoint before apoptosis.\n\nWe further investigated the effect of caspase-2 on the G2/M checkpoint in four immortalized and isogenic caspase-2-deficient MEF lines, each reconstituted with an empty vector, wildtype (WT), S122A, or C303A mutant caspase-2 (Figure 5C). We first examined the phosphorylation and activation of caspase-2 in these cell lines. Consistently, in the absence of apoptosis induction (Figure 5D), the same dose of irradiation (4 Gy) readily induced phosphorylation at the S122 site and the p20 cleavage of caspase-2 in WT cells at 2 hr and, to a greater extent, both events were detected at 6 hr (Figure 5C, lanes 4-6). Furthermore, the specificity of this caspase-2 phosphorylation event was verified in the S122A cell lines (Figure 5C, lanes 7-9), and this phosphorylation is independent of catalytic activity (Figure 5C, lanes 10-12). Moreover, the p20 fragment cleavage of caspase-2 was dependent on both S122 phosphorylation and catalytic activity (Figure 5C, lanes 7-12). These cells, however, are not intrinsically resistant to apoptosis because they all readily underwent apoptosis when treated with the potent apoptotic inducer staurosporine (Figure 5D).\n\nExamination of the integrity of the G2/M checkpoint in these cell lines indicates that there exists an IR-induced caspase-2dependent G2/M checkpoint in mammalian cells to delay the progression of cells from G2 into M phase, which occurs around 2 hr and becomes stronger 6 hr after DNA damage induction (Figure 5E). Specifically, unlike a normal G2 arrest induced by 4 Gy IR in MEFs expressing WT caspase-2, the caspase-2-deficient MEFs exhibited a higher percentage of mitotic cells at 2 hr (0.14%), and a greater loss of this checkpoint appeared at 6 hr (0.88%, Figure 5E, left). An alternative evaluation of this partial loss of checkpoint by the percentage of arrest at 6 hr (0.88%) normalized to that observed in untreated cells (2.32%) indicated 38% of the mitotic cells failed to arrest in G2 phase and entered mitosis. Such a greater checkpoint effect at 6 hr correlated with the observed stronger S122 phosphorylation and caspase-2 activation at the same time point (Figure 5C, lane 6). In addition, a lower dose of 3 Gy triggered an even greater defect in the G2/M checkpoint at 6 hr, with a significant $80% of mitotic cells failing to arrest in G2 phase (Figure 5E,right). Furthermore, cells expressing S122A or C303A mutant caspase-2 displayed a partial loss of the G2/M checkpoint at both doses, and a greater loss was observed at 6 hr (Figure 5E). Thus, phosphorylation of nuclear caspase-2 at S122 and caspase-2 catalytic activity both contribute to IR-induced G2/M cell cycle checkpoint.\n\nThe Caspase-2-Dependent G2/M DNA Damage Checkpoint Follows the G2/M Checkpoint Regulated by ATM A defect in ataxia telangiectasia mutant (ATM) activity in ataxia telangiectasia cells results in a defective G2/M checkpoint at early time usually within 1-2 hr after DNA DSB induction (Xu et al., 2002). We compared the time window between the caspase-2-dependent and ATM-regulated G2/M checkpoints in WT MEFs (C2 [À/À] reconstituted with WT caspase-2). As shown in Figure 5F, inhibition of ATM in WT cells (lower left) significantly reduced IR-induced G2 arrest at 2 hr (0.62%), and this effect had weakened at 6 hr (0.27%), consistent with the established notion that the ATM-dependent G2/M checkpoint occurs ''early'' after DNA damage induction and is transient (Xu et al., 2002). In addition, this ATM-dependent G2/M checkpoint does not seem to depend on caspase-2 because inhibition of ATM in caspase-2-deficient cells still resulted in a significant loss of G2/M checkpoint 2 hr after IR (1.56%, lower right). In a striking contrast, a temporally opposite G2 arrest was observed in caspase-2-deficient cells (upper right), with a stronger reduction in G2 arrest occurring at 6 hr (0.89%) and a milder reduction at 2 hr (0.20%), indicating that the caspase-2-dependent G2/M checkpoint is temporally distinct from the ATM-dependent checkpoint, with its effect appearing stronger ''later'' than the rapid and early ATM checkpoint. Furthermore, caspase-2 is important for sustaining the G2/M checkpoint because 90% of the initial checkpoint activity occurring at 2 hr [(2.22 À 0.20)/ 2.22] still remained in the absence of caspase-2, but that checkpoint could not be sustained at 6 hr (upper right). Moreover, ATM also has a partial effect on this caspase-2 checkpoint because inhibition of ATM in caspase-2-deficient cells (lower right) rescued a portion of that checkpoint loss, as shown by the reduction in mitotic cells from 40% (0.89/2.22) to 28% (0.91/ 3.29). This ATM effect could possibly be through ATM regulation of DNA-PKcs phosphorylation, which has been reported to be required for a full activation of DNA-PKcs (Chen et al., 2007).\n\nDNA-PKcs Impacts the Caspase-2 G2/M DNA Damage Checkpoint ATM is a major G2/M checkpoint kinase in response to DSB induction. In contrast, not much evidence has been reported for a role of DNA-PKcs in G2/M arrest. The observed requirement of DNA-PKcs-mediated caspase-2 phosphorylation for a G2 arrest argues that DNA-PKcs also has an impact on the G2/M checkpoint. We indeed observed such an influence of endogenous DNA-PKcs after the ATM checkpoint, although the influence was not as strong as ATM. DNA-PKcs-deficient cells showed a mild but clear loss of the G2/M arrest, which also occurred more apparently at 6 hr (0.29%) than at 2 hr (0.17%, Figure 6A), consistent with the kinetics of caspase-2-dependnet checkpoint (Figure 5). Importantly, unlike the caspase-2-independent ATM checkpoint (Figure 5F), the DNA-PKcsinvolved G2/M checkpoint depends on caspase-2 because inhibition of DNA-PKcs only affected the G2/M checkpoint in caspase-2 WT cells (Figure 6B, lower), suggesting that the influence of DNA-PKcs on the G2/M checkpoint is mediated by caspase-2, likely owing to its phosphorylation of caspase-2.\n\nEndogenous PIDD also has significant influence on the G2/M checkpoint and shares a similar temporal trend to DNA-PKcs and caspase-2 in that a greater effect occurred at 6 hr than at 2 hr (Figure 6C). The significant decrease in both IR-induced phosphorylation at the S122 site and activation of caspase-2 in PIDD deficient cells provide biochemical support for PIDD to influence this caspase-2 checkpoint (Figure 6D). It is important to note that unlike the abolished S122 phosphorylation and caspase-2 activation in DNA-PKcs-inactive Ku80-deficient cells (Figure S6), both events in PIDD-deficient cells were still occurring, though they were significantly attenuated (Figure 6D). This finding argues that DNA-PKcs is still active in the absence of endogenous PIDD, and that PIDD acts like a ''modifier'' to facilitate (but is not indispensable for) DNA-PKcs kinase activity regarding IR-induced phosphorylation at the S122 site and caspase-2 activation. Furthermore, stable overexpression of PIDD in HeLa cells strengthened the G2 arrest (Figures 6E and S15A). Moreover, this PIDD G2/M checkpoint depends on caspase-2 (E) PIDD-overexpression induces a stronger activation of a G2/M checkpoint. HeLa cells stably expressing an empty vector or FLAG-tagged PIDD (PIDD-stable) were exposed to 4 Gy IR, cultured for 1 and 2 hr, and analyzed for mitotic percentages. (F) Requirement of caspase-2 for PIDD to activate a G2/M checkpoint. Caspase-2-deficient MEFs [C2 (À/À)] stably expressing an empty vector (Vector-stable) or FLAG-tagged PIDD (PIDD-stable) were exposed to 4 Gy IR, cultured for additional 2 or 6 hr, and analyzed for mitotic percentages. at 2 hr after IR and becomes partially dependent of caspase-2 at 6 hr (Figures 6F and S15B), suggesting that PIDD may also work with other molecules to impact the G2/M checkpoint.\n\nThe DNA-PKcs-PIDDosome Influences NHEJ DNA NHEJ is believed to be a major pathway of DSB repair in higher eukaryotes by rejoining DSBs without any requirement for a homologous template (Burma and Chen, 2004;Collis et al., 2005). Although six mammalian NHEJ factors, including DNA-PKcs, had been identified, the latest identification of the seventh factor, XLF/Cernunnos (Ahnesorg et al., 2006;Buck et al., 2006), indicates a high level of complexity in the composition of this repair pathway, and suggests that additional factors still exist to affect this pathway.\n\nWe analyzed the effect of PIDD and caspase-2 on NHEJ in MEFs transfected with a pEGFP-N1 plasmid linearized with the restriction enzyme BsrGI that cleaves the plasmid within the GFP coding region (Wang et al., 2006). The rationale was that the GFP gene would only be expressed after the plasmid was rejoined as the circular form. Similar to DNA-PKcs-deficient cells, PIDD-deficient and caspase-2-deficient cells displayed a significant reduction in end-joining activity (Figures 7A-7C and S16A-S16C), suggesting an involvement of PIDD and caspase-2 in NHEJ. Furthermore, this observation was confirmed in an independent in vivo assay in which the lacZ reading frame in the plasmid substrate was restored after end-joining (Figure S17). The impact of PIDD and caspase-2 on NHEJ was further confirmed at the DNA level by DNA sequencing across the religation junctions generated by BsrGI. All three knockout cell lines displayed a reduction in accurate junction and a greater extent of nucleotide deletion than their WT counterparts (Figures 7E-G). Further investigation in cells expressing the S122A and C303A mutant caspase-2 displayed a significant reduction in NHEJ activity similar to that observed in caspase-2-deficient cells (Figures 7D and S16D), demonstrating a contribution of these two sites to caspase-2-mediated NHEJ.\n\nBased on our findings, we propose the existence of a preformed DNA-PKcs-PIDDosome complex in the cell nucleus in the absence of stimulation, and that upon DNA damage this complex activates nuclear caspase-2 through a previously undescribed ''phosphorylation for activation'' mechanism. PIDD accumulates in the cell nucleus, binds to the N-terminal HEAT repeat-containing region of DNA-PKcs, and acts like a modifier to facilitate DNA damage-induced activation of DNA-PKcs, probably by changing the conformation of DNA-PKcs. DNA-PKcs, in turn, phosphorylates caspase-2 at its S122 residue, leading to caspase-2 activation and cleavage. As a result, caspase-2 gains the ability to impact two major processes in a cellular response to DNA damage: the G2/M checkpoint and NHEJ (Figure 7H). The current study raises interesting issues with respect to the complexity of the G2/M checkpoint and NHEJ regulation mediated by a caspase that has long been implicated in the execution of apoptosis.\n\nIt has been reported that caspase-2 can be inhibited by phosphorylation. Phosphorylation of Xenopus caspase-2 at serine 135 (S135) within its prodomain, mediated by calcium/ calmodulin-dependent protein kinase II (CaMKII), inhibits caspase-2 and suppresses apoptosis in oocytes. Removal of this inhibitory phosphorylation by depleting cells of glucose activates caspase-2 and results in apoptosis in oocytes (Nutt et al., 2005). Human caspase-2 can also be inhibited by phosphorylation at the serine 157 (S157) site within its prodomain mediated by the protein kinase casein kinase 2 (PKCK2). Dephosphorylation at this site, therefore, activates caspase-2 to prime human cancer cell apoptosis induced by TNF-related apoptosis-inducing ligand (Shin et al., 2005). In contrast to inhibitory phosphorylation, our study presents an example that phosphorylation induces caspase-2 activation. Phosphorylation of the S122 site mediated by DNA-PKcs may induce conformational change in caspase-2, making the D152 cleavage site more accessible to the catalytic center. Clearly, the detailed molecular mechanism of this regulation remains to be determined. Nonetheless, in contrast to the fact that the physiological substrates of DNA-PK in NHEJ have remained largely unknown (Collis et al., 2005;Lees-Miller, 1996), in this current study caspase-2 has been identified as a physiological substrate of DNA-PKcs for a G2/M cell cycle arrest and NHEJ.\n\nThere are apparent similarities and differences between the DNA-PKcs-PIDDosome and RAIDD-PIDDosome (Figure 7H). Both PIDDosomes are high-molecular-weight complexes and share the components PIDD and caspase-2. However, each PIDDo some contains a distinct central adaptor protein DNA-PKcs and RAIDD. The activated caspase-2 also has distinct functions. Spatially, the DNA-PKcs-PIDDosome phosphorylates and activates caspase-2 in the cell nucleus, whereas the RAIDD-PIDDo some most likely activates caspase-2 in the cytoplasm. Temporally, the DNA-PKcs-PIDDosome impacts a G2/M checkpoint and DNA repair in the early phase of the DNA damage response before apoptosis, whereas the RAIDD-PIDDosome promotes apoptosis in a later phase than the checkpoint activation when DNA damage is severe and irreparable and cells are doomed to die. Furthermore, the mechanism of activation is also distinct. Phosphorylation of caspase-2 mediated by DNA-PKcs activates the largely already formed DNA-PKcs-PIDDosome. In contrast, the RAIDD-PIDDosome does not have a kinase component. Considering the notion that cells can undergo apoptosis when DNA damage is irreparable, it would be interesting to examine if the two PIDDosomes are functionally connected.\n\nThe potential roles of the pre-existing DNA-PKcs-PIDDosome in the absence of any exogenous stimulation may be to sense the presence of endogenous DNA damages and to slow down the cell cycle progression to allow for DNA repair. It may also be advantageous to the de novo assembly of this complex after exogenous DNA damage induction, thereby allowing a quicker and more efficient activation of caspase-2 for an effective signaling in G2/M checkpoint and DNA DSB repair via the NHEJ pathway.\n\nRelations between Caspase-2-Dependent and ATM-Dependent G2/M Checkpoints The caspase-2 G2/M checkpoint is kinetically distinct from the ATM G2/M checkpoint, with its role appearing prominently after the rapid ATM checkpoint is mostly executed, providing a mech-anism to sustain and extend the G2/M checkpoint to allow more time for repair. Furthermore, the molecular compositions and mechanism of action of the two checkpoint components are distinct. The early ATM checkpoint comprises ATM-Chk2-Cdc25, and the checkpoint kinases ATM and Chk2 (D) Both S122 and C303 sites are required for caspase-2 end-joining activity. The same in vivo end-joining assay as in (A) was performed in the four isogenic caspase-2 cell lines. The end-joining activity in C2 (À/À) + WT cells was arbitrarily set at 100%, which served as a reference, and the activities in three other cell lines were normalized to that in C2 (À/À) + WT cells. Each bar represents the mean ± SD of three independent experiments (n = 3); *p < 0.05 (two-tailed Student's t test). (E-G) The junction accuracy frequencies of in vivo DNA end-joining. The religation junctions of BsrGI restriction site were sequenced. The DNA sequencing results with the exact nucleotides of BsrGI restriction site (red letters) were shown at the top of each set of sequences. The number of times each sequence was represented in the data set was indicated in the column ''Outcome Type'' as ''#''; also shown in the same column was the nucleotide loss (empty space) from the religation ends as ''À''; the nucleotide addition (green letters) as ''+''; and the nucleotide loss and addition as ''±''. (H) Working model for the roles of DNA-PKcs-PIDDosomes in DNA damage-induced cellular responses. In addition to the RAIDD-PIDDosome that is present mainly in cytoplasm to activate caspase-2 for apoptosis, the DNA-PKcs-PIDDosome is preformed in the cell nucleus without any stimulation. DNA damage (IR) induces nuclear caspase-2 phosphorylation at the serine 122 site within its prodomain, and this phosphorylation is mediated by DNA-PKcs, whose kinase activity is facilitated by PIDD, leading to nuclear caspase-2 activation and cleavage. Both this phosphorylation and the catalytic activity of nuclear caspase-2 contribute to G2/M DNA damage checkpoint and NHEJ.\n\nphosphorylate and inhibit the Cdc25 family of phosphatases that normally activate mitotic entry (Sancar et al., 2004). In contrast, the later caspase-2 checkpoint consists of DNA-PKcs, PIDD, and caspase-2. DNA-PKcs phosphorylates and activates caspase-2, and the caspase-2 catalytic activity is required to fully execute the G2/M checkpoint via certain targets yet to be identified. Moreover, the early ATM checkpoint does not seem to require caspase-2, whereas the later caspase-2 checkpoint seems to partially depend on ATM and might be subjected to ATM regulation. This ATM effect could possibly be through ATM regulation of DNA-PKcs phosphorylation, which has been reported to be required for a full activation of DNA-PKcs (Chen et al., 2007).\n\nHow Nuclear Caspase-2 Impacts the G2/M Checkpoint and NHEJ Our study has raised an important question as to what the downstream caspase-2 target(s) is/are for carrying out the G2/M checkpoint and NHEJ. So far only a few protein substrates of caspase-2, mostly in vitro, have been reported: caspase-2 itself, Golgin-160, aII-spectrin, PKCd, and Bid (Gao et al., 2005;Mancini et al., 2000;Rotter et al., 2004;Xue et al., 1996). Clearly, their functional significance in caspase-2-dependent G2/M checkpoint and NHEJ can be investigated in the future. Based on the finding from the current study that the catalytic activity of caspase-2 is involved in both the G2/M checkpoint and NHEJ, we hypothesize that certain G2/M checkpoint regulator(s) is/are cleavable by caspase-2, and that these candidate targets could be positive or negative regulators of the two processes because it remains unknown if caspase-2 cleavage induces a loss of function or a gain of function of the substrate(s). This current study provides insight into searching for these caspase-2 substrates to address how nuclear caspase-2 is integrated into the current G2/M checkpoint and NHEJ pathways.\n\nStable Cell Lines Primary MEFs were immortalized by SV40 large T antigen. The main MEFs used were WT and knockouts of DNA-PKcs, Ku80, PIDD, caspase-2, and RAIDD. See Supplemental Data for complete cell line information.\n\nNuclear extracts were prepared as reported previously (Dignam et al., 1983). Two milligrams of nuclear extract was precleared with protein G agarose (Roche) and incubated with antibodies plus protein G agarose beads at 4 C overnight. The immunoprecipitates were washed four times and subjected to SDS-PAGE and immunoblotted with specific antibodies.\n\nCells fixed with 70% ethanol were permeabilized in 1 ml 0.25% Triton X-100 in phosphate-buffered saline. Approximately 1 3 10 6 cells were stained with 10 mg/ml fluorescein-isothiocyanate-conjugated antibody against phosphorylated histone H3 Ser 10 (Upstate Biotechnology) for 1 hr at room temperature in the dark, followed by propidium iodide (20 mg/ml) staining. Cellular fluorescence was monitored with a CyAn flow cytometer (Dako). Two-dimensional dot plots were generated by FloJo 8.2 software.\n\nIn Vivo DNA End-Joining Assay The plasmid-based DNA end-joining in vivo assay was performed as described previously (Wang et al., 2006). The green florescent protein (GFP) vector (pEGFP-N1, Clontech), linearized using BsrGI to cut within the GFP coding region, was utilized to measure DNA end-joining activity, and the religated junction accuracy was sequenced. See Supplemental Data for details.\n\nThe Supplemental Data include 17 figures and can be found with this article online at http://www.cell.com/supplemental/S0092-8674(08)01609-7.\n\nCell 136, 508-520, February 6, 2009 ª2009 Elsevier Inc.\n\nCell 136, 508-520, February 6, 2009 ª2009 Elsevier Inc. 511\n\nCell 136, 508-520, February 6, 2009 ª2009 Elsevier Inc. 513\n\nCell 136, 508-520, February 6, 2009 ª2009 Elsevier Inc.\n\nCell 136, 508-520, February 6, 2009 ª2009 Elsevier Inc. 515\n\nCell 136, 508-520, February 6, 2009 ª2009 Elsevier Inc. 517"
+}

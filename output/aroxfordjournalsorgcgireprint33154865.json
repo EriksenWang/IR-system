@@ -1,0 +1,204 @@
+{
+    "title": "Nucleotide modification at the g-phosphate leads to the improved fidelity of HIV-1 reverse transcriptase",
+    "publication_date": "2005-09-01",
+    "authors": [
+        {
+            "full_name": "Brent A Mulder",
+            "firstname": "Brent A",
+            "lastname": "Mulder",
+            "affiliations": [
+                {
+                    "organization": "Department of Biology and Biochemistry, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "postcode": "77204-5001"
+                    }
+                },
+                {
+                    "organization": "VisiGen Biotechnologies, Inc",
+                    "address": {
+                        "city": "Houston",
+                        "country": "USA",
+                        "postcode": "77054"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Steve Anaya",
+            "firstname": "Steve",
+            "lastname": "Anaya",
+            "affiliations": [
+                {
+                    "organization": "Department of Biology and Biochemistry, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "postcode": "77204-5001"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Peilin Yu",
+            "firstname": "Peilin",
+            "lastname": "Yu",
+            "affiliations": [
+                {
+                    "organization": "Department of Chemistry, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "postcode": "77204-5003"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Keun Woo Lee",
+            "firstname": "Keun Woo",
+            "lastname": "Lee",
+            "affiliations": [
+                {
+                    "organization": "Department of Biology and Biochemistry, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "postcode": "77204-5001"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Anvy Nguyen",
+            "firstname": "Anvy",
+            "lastname": "Nguyen",
+            "affiliations": [
+                {
+                    "organization": "Department of Biology and Biochemistry, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "postcode": "77204-5001"
+                    }
+                },
+                {
+                    "organization": "VisiGen Biotechnologies, Inc",
+                    "address": {
+                        "city": "Houston",
+                        "country": "USA",
+                        "postcode": "77054"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Jason Murphy",
+            "firstname": "Jason",
+            "lastname": "Murphy",
+            "affiliations": [
+                {
+                    "organization": "Department of Chemical Engineering, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "country": "USA",
+                        "postcode": "77204-4004"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Richard Willson",
+            "firstname": "Richard",
+            "lastname": "Willson",
+            "affiliations": [
+                {
+                    "organization": "Department of Biology and Biochemistry, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "postcode": "77204-5001"
+                    }
+                },
+                {
+                    "organization": "Department of Chemical Engineering, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "country": "USA",
+                        "postcode": "77204-4004"
+                    }
+                },
+                {
+                    "organization": "VisiGen Biotechnologies, Inc",
+                    "address": {
+                        "city": "Houston",
+                        "country": "USA",
+                        "postcode": "77054"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "James M Briggs",
+            "firstname": "James M",
+            "lastname": "Briggs",
+            "affiliations": [
+                {
+                    "organization": "Department of Biology and Biochemistry, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "postcode": "77204-5001"
+                    }
+                },
+                {
+                    "organization": "VisiGen Biotechnologies, Inc",
+                    "address": {
+                        "city": "Houston",
+                        "country": "USA",
+                        "postcode": "77054"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Xiaolian Gao",
+            "firstname": "Xiaolian",
+            "lastname": "Gao",
+            "affiliations": [
+                {
+                    "organization": "Department of Biology and Biochemistry, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "postcode": "77204-5001"
+                    }
+                },
+                {
+                    "organization": "Department of Chemistry, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "postcode": "77204-5003"
+                    }
+                }
+            ]
+        },
+        {
+            "full_name": "Susan H Hardin",
+            "firstname": "Susan H",
+            "lastname": "Hardin",
+            "affiliations": [
+                {
+                    "organization": "Department of Biology and Biochemistry, University of Houston",
+                    "address": {
+                        "city": "Houston",
+                        "postcode": "77204-5001"
+                    }
+                },
+                {
+                    "organization": "VisiGen Biotechnologies, Inc",
+                    "address": {
+                        "city": "Houston",
+                        "country": "USA",
+                        "postcode": "77054"
+                    }
+                }
+            ]
+        }
+    ],
+    "abstract": "The mechanism by which HIV-1 reverse transcriptase (HIV-RT) discriminates between the correct and incorrect nucleotide is not clearly understood. Chemically modified nucleotides containing 1-aminonaphthalene-5-sulfonate (ANS) attached to their g-phosphate were synthesized and used to probe nucleotide selection by this error prone polymerase. Primer extension reactions provide direct evidence that the polymerase is able to incorporate the gamma-modified nucleotides. Forward mutation assays reveal a 6-fold reduction in the mutational frequency with the modified nucleotides, and specific base substitutions are dramatically reduced or eliminated. Molecular modeling illustrates potential interactions between critical residues within the polymerase active site and the modified nucleotides. Our data demonstrate that the fidelity of reverse transcriptase is improved using modified nucleotides, and we suggest that specific modifications to the g-phosphate may be useful in designing new antiviral therapeutics or, more generally, as a tool for defining the structural role that the polymerase active site has on nucleotide selectivity.",
+    "full_text": "HIV-1, the causative agent of AIDS, has evolved a variety of ways to defeat human host defenses (1). One of these involves evading the immune system by inaccurately replicating its genome. HIV-1 reverse transcriptase (HIV-RT) is the error-prone polymerase responsible for replicating the single-stranded RNA genome of the virus and producing a double-stranded proviral DNA (1,2). HIV-RT's low fidelity is attributed to its lower discrimination during polymerization and the ease at which it extends a mispaired primer terminus (3,4). The resulting high rate of genetic variability, coupled with the rapid accumulation of virions, facilitates escape from the host immune response and promotes the rapid development of drug resistant mutants under single drug regimens. The need for more potent HIV inhibitors is urgent. A clearer understanding of the enzymatic properties governing fidelity is essential for the creation of more effective antiviral therapies.\n\nAnalysis of crystal structures of various DNA polymerases, including HIV-RT, reveals a common architecture resembling a partially open right hand (5,6). Each polymerase displays its own characteristic kinetic properties which can be used to assess fidelity. Only recently well-established concepts surrounding nucleotide selection have been challenged by alternate theories with data showing that selection of the correct nucleotide is governed by more than hydrogen-bonding (7,8). One proposed mechanism for polymerase fidelity is the inherent 'geometric selection' for the proper Watson-Crick base pair at the enzyme's active site (9)(10)(11)(12). In this model a correct nucleotide is distinguished by its fit within the active site and by any free energy differences which may be amplified by partial water exclusion (10,(13)(14)(15). Analysis of amino acid substitutions support a strictly confined active site and suggest that polymerase fidelity may be a function of the pocket's flexibility (16). Thus, polymerases with higher fidelities would have a more rigid (i.e. less flexible) pocket than those with lower fidelities. *To whom correspondence should be addressed. Tel: +1 713 743 2686; Fax: +1 713 743 2636; Email: shardin@uh.edu Ó The Author 2005. Published by Oxford University Press. All rights reserved.\n\nThe online version of this article has been published under an open access model. Users are entitled to use, reproduce, disseminate, or display the open access version of this article for non-commercial purposes provided that: the original authorship is properly and fully attributed; the Journal and Oxford University Press are attributed as the original place of publication with the correct citation details given; if an article is subsequently reproduced or disseminated not in its entirety but only in part or as a derivative work this must be clearly indicated. For commercial re-use, please contact journals.permissions@oupjournals.org It is estimated that on average one error is introduced into the HIV-1 genome at each viral replication cycle (17)(18)(19). This high mutation rate ($3.4 • 10 À5 ) suggests that HIV-RT's binding pocket may be quite flexible. Others have reported that altering amino acids in or around the nucleotide binding pocket affects fidelity (20)(21)(22)(23). We discovered that fidelity can be manipulated by engineering a phosphate group within the nucleotide substrate.\n\nIndividual Escherichia coli cell strains carrying pRT and p6RT51 were grown in a 3 litre:1 litre ratio, respectively, in PSD187 media [10 g/l Bacto Tryptone, 10 g/l yeast extract, 10 g/l glycerol, 5 g K 2 HPO 4 and 5 ml/l of trace metals solution (4 g MgSO\n\n4 •7H 2 O, 0.2 g NaCl, 0.4 g FeSO 4 •7H 2 O and 0.2 g MnSO 4 •4H\n\n2 O per 100 ml of solution adjusted to pH 3.0 with H 2 SO 4 )] to an OD of 1-2 at 37 C. Protein was induced by the addition of 210 mg/ml of IPTG and grown for an additional 2-3 h at 37 C. Cell cultures were centrifuged at 5 000 • g then lysed by adding 50 ml of lysis suspension [5 mM spermidine, 0.1% Triton X-100 and 25 mM NaPO 4 (pH 7.0)] to each, vortexing, and passing lysed solution through a French press at $11 000 psi at 4 C. The solution was then centrifuged at 10 000 g for 30 min at 4 C. Supernatant was decanted, filtered through Whatman Filter paper no.1, and loaded onto a preequilibrated 8 ml Talon Superflow IMAC column (Clontech). Fifteen additional column volumes of running buffer 1 [25 mM NaPO4 and 300 mM NaCl (pH 7.0)] were loaded at a linear velocity of 100 cm/h and the column was washed with twenty column volumes of running buffer 1. A gradient of 15 column volumes from 0 to 500 mM imidazole was used to elute HIV-RT, which occurred at $100 mM imidazole. Protein fractions were pooled and dialyzed against RT buffer [50 mM Tris, 25 mM NaCl, 1 mM EDTA and 10% glycerol (pH 7.0)]. Further purification consisted of isocratically running HIV-RT over a 1 ml DEAE Sepharose FF Hitrap column (Amersham Biosciences), followed by a 1 ml SP Sepharose FF Hitrap column (Amersham Biosciences). The protein was pooled, dialyzed against buffer containing 50 mM Tris, 25 mM NaCl, 1 mM EDTA and 50% glycerol (pH 7.0), and stored at À80 C.\n\nA DNA primer, (TOP) d(GGTACTAAGCGGCCGCATG), and a DNA template, (BotC6C) d(CCCCCCCCATGCGGCC-CTTAGTACC), were used in primer extension reactions. The DNA primer, (5 0 Gap) d(ACAGGATTTTCGCCTGC), was used in DNA sequencing reactions. The oligonucleotides d(G 15 ) and d(C 30 ) were used as primer-template for determining the specific activity of the enzyme. All oligodeoxyribonucleotides were synthesized by MWG Biotech with high-performance liquid chromatography (HPLC) purification.\n\nReaction conditions were according to (24) with the following modifications. Reactions were prepared by combining 5 ml of Solution B [160 mM KCl, 100 mM Tris-HCl (pH 8.0), 20 mM DTT and 12 mM MgCl 2 ] with 5 ml of Solution A which contains 15:1 molar excess of primer-template to enzyme. The reactions contained 0.01 U of recombinant HIV-RT isolated from E.coli (pRT and p6HRT51 plasmids, generous gifts from S.F. LeGrice), where 1 U is equal to the incorporation of 1 nmol of [a-32 P]dGTP (PerkinElmer) into an oligo (dG 15 )/ (dC 30 ) primer-template at 37 C over a 15 min period. Reactions were terminated by adding 20 ml of stop solution (99% deionized formamide, 0.1% xylene cyanol, 0.1% bromophenol blue and 20 mM EDTA, pH 8.0). Samples were heated at 96 C for 3 min, placed on ice, loaded onto a 20% polyacrylamide-urea gel, and electrophoresed for $2 h at 50 W. Intensities of unextended primer band (I o ) versus extended primer band (I 1 ) were quantified with a Fuji MacBas 1000 phosphorimager and version 3.0 image software.\n\nThin layer chromatography was performed to examine ANS-dGTP incorporation by HIV-RT. Modifications to the primer extension reaction include: (i) the amount of duplex in the primer extension reaction was increased to 100 pmol to generate detectable amounts of ANS-pyrophosphate, a product of the incorporation event, for UV visualization, (ii) the template oligonucleotide, (BotC6C) d(CCCCCCCCA TGCGGCCG-CTTAGTACC), is complementary to the primer oligo(TOP) and has a homopolymeric overhang of seven Cs (sequence underlined), and (iii) ANS-dGTP was used at a final concentration of 100 mM. To monitor the migration of ANS-PPi, the ANS-dGTP was treated with phosphodiesterase 1 (PDE) (Worthington) for 10 min at room temperature in 1• PDE1 buffer. One microliter of the 10 ml primer extension reaction was spotted onto a PEI Cellulose F plate (Merck), and the spotted reactions were air dried and placed under foil to protect them from light. The plate was then incubated in a closed chamber with 50 ml of running buffer (70% ethanol and 6.6 mM NaCl) for 30 min, and scanned with a Bio-Rad Gel Documentation System under UV mode with Bio-Rad Quantity One software (Bio-Rad Laboratories, Inc., USA).\n\nSynthesis of (5-sulfonate)-naphthalenyl-amino-gphosphoramidate-b,a-diphosphate-deoxynucleotides (g-ANS-dATP)\n\nThe four g-P-aminonaphalene-5-sulfonate dNTP compounds, A, C, G and T, were synthesized using a modified procedure for the synthesis of the ANS-ATP (25). The preparation of gamma ANS-dATP is shown in Figure 1. 1-Aminonaphthalene-5sulphonic acid (ANS) and 1-(3-dimethylaminopropyl)-3ethyl-carbodiimide hydrochloride (DEC) (Lancaster); dNTP (Sigma), and DEAE-Sephadex ion exchange resin (A-25-120) (Aldrich).\n\nANS (447 mg, 2 mmol and 40 eq.) was dissolved in 10 ml H 2 O. The pH of the solution was adjusted to 5.8 using NaOH (1 N) and insoluble materials were removed by a syringe filter, yielding a saturated solution of sodium ANS (0.18-0.2 M). 5 0 -triphosphate-2 0 -deoxyadenosine disodium salt (0.05 mmol) and DEC (2 mmol) were mixed in 4 ml H 2 O (12.5 mM dATP) at 22 C. The two solutions were mixed and the reaction continued for an additional 2.5 h. The pH of the reaction was kept at 5.7-5.8 by periodic addition of 0.1 N HCl. The reaction solution was then diluted to 50 ml and adjusted to pH 7.4 using 0.05 M triethylammonium bicarbonate buffer (TEAB, pH $7.5). The DEAE-Sephadex anion exchange column used for purification was pre-equilibrated with 100 ml TEAB (pH 7.5, 1 M), 100 ml aqueous sodium bicarbonate (1 M), and 100 ml TEAB (pH 7.5 and 0.05 M). The reaction mixture was then applied to the ion exchange column at 5 C. The column was eluted with a linear gradient of TEAB (pH 7.5) from 0.05 to 0.9 M. The product fractions were collected at $0.7 M buffer in a total volume of about 10 ml, and detected to emit brilliant blue fluorescence at 366 nm excitation. These fractions were pooled, freeze dried and co-evaporated twice with H 2 O/ethanol (70/30). The dried residue was dissolved in water and lyophilized to give g-ANS modified dATP as powder. UV (CH 3 OH) l max 245 nm. À24.93. The concentrations of g-ANS modified dNTPs were obtained from 260 nm absorption readings after multiplying by a fraction factor that was derived from the ratio of the absorption at 260 nm for free 1-aminonapthalene-5sulfonate (ANS) versus dATP (for g-ANS-dATP the factor is 0.72). The synthesis of g-ANS-dCTP, g-ANS-dGTP and g-ANS-dTTP followed similar procedures. Each of the ANS-dNTPs was resuspended in MQ H 2 O for use.\n\nThe forward mutation bacterial strains and phage (generous gifts from T. Kunkel) and methodology are described (26). Two independent 25 ml reactions for each nucleotide substrate, dNTPs or ANS-dNTPs, were performed in the presence of 0.01 U of recombinant HIV-RT at 37 C for 1 h. The nucleotide substrates used for gap-filling were at a 500 mM concentration, and all reactions were analyzed by agarose gel electrophoresis (0.8% gel, 25 mA and 18 h) to confirm that gap-filling synthesis proceeded to completion. The X-gal substrate used for blue/white screening was replaced with S-gal/LB agar blend, (Sigma), which produces black (wild-type) and clear (mutant) plaques to facilitate mutant screening. All candidate mutant plaques were re-screened in the presence of wild-type to confirm their phenotype. The background mutation frequency was determined by electroporating unfilled gapped-duplex DNA and screening for mutants as described. Singlestranded M13 DNA was purified from each mutant plaque using an M13 ssDNA kit (Qiagen) as per manufacturer's instructions.\n\nMutational frequencies were calculated by dividing the total number of mutants detected for a substrate (dNTPs or ANS-dNTPs) by the total number of plaques screened for that substrate. This mutational frequency was then corrected by subtracting the background mutational frequency of 2.2 • 10 À4 . The corrected mutational frequency was then multiplied by the percentage of mutations represented in the particular class. As an example, the mutational frequency for the dNTPs single-base substitution class was calculated by dividing the number of mutants for this class (178) by the total number of mutants detected (211) and then multiplying by the corrected mutational frequency for the dNTPs.\n\nAutomated DNA sequencing reactions were performed in a 10 ml volume using 50 ng of purified phage ssDNA, 2 ml of ABI PRISM BigDye Terminator Cycle Sequencing Ready Reaction Kit Mix v2.0, and 1.6 pmol of primer (5 0 Gap). The cycling regimen was as follows: 96 C for 10 s, 50 C for 1 min and 60 C for 4 min for a total of 30 cycles. Sequencing reactions were precipitated, lyophilized and resuspended in 3 ml loading buffer (50 mg/ml Blue Dextran, 5 parts deionized formamide, 1 part 25 mM EDTA at pH 8.0). The samples were heated to 96 C for 2 min and one-half of the reaction was loaded onto a 36 cm 5.3% RapidGel-XL (US Biochemical). Data were collected in 2• mode on an ABI PRISM 377 DNA Sequencer and manually edited using Sequencher v3.0 or v3.1 (GeneCodes).\n\nThe DISCOVER and HOMOLOGY modules of the INSIGHTII program were used for the modeling studies. The CVFF forcefield and an implicit solvent model using a distance dependent dielectric constant (e ¼ 4 r) were introduced for the calculations (Insight II Version 2000, Accelrys Inc.). A 12 A ˚cutoff was applied to truncate intermolecular interactions. Minimization of the initial system was carried out for 100 steps using the steepest descent algorithm. Since the molecular system is very large, most of it was held rigid/fixed during the minimizations and molecular dynamics simulations. The ANS-dTTP, two Mg 2+ and 235 residues, mostly in the finger and palm domains of the p66 domain that are neighbors of the ANS-dTTP, were allowed to move. After initial minimization, the system temperature was raised to 400 K for 5 ps and then cooled to 300 K for 5 ps. The final structures after the simulated annealing were minimized for 1000 steps using the conjugate gradient scheme. The partial charges for each atom of the sulfate moiety in ANS were derived from the electrostatic potential fitted charges from a PM3 quantum mechanical geometry optimization. The net charges of the oxygen atoms in the sulfate were very similar to the oxygen atoms in the DNA phosphate, À0.80 and À0.85, respectively. The original X-ray structure contains three structural defects in the p66 domain, namely missing coordinates for residues 1-2, 218-230 and 430-440 which were repaired using the HOMOLOGY module of the INSIGHTII program. These regions were held rigid in the modeling studies since they exist on the opposite side of the dNTP and DNA binding sites so the repairs are not anticipated to have a significant impact on these results.\n\nBoth an extended primer and a pyrophosphate group are products of a nucleotide incorporation event. Thus, to determine whether the gamma-modified nucleotides are incorporated by HIV-RT, both the accumulation of tagged-PPi and extended DNA strands were monitored during the course of the extension reaction. Specifically, thin layer chromatography (TLC) was used to monitor the production of ANS-pyrophosphate (ANS-PPi) during the incorporation reaction. TLC exploits the chemical differences of intact ANS-dGTP and ANS-PPi via their differential migration in solvent. The intact ANS-dGTP migrates close to the solvent front (Figure 2A, lane 1), whereas ANS-PPi is more slowly migrating, staying near the bottom of the plate (Figure 2A, lane 2). Extension reaction timepoints demonstrate that as the reaction progresses, an increase in signal for the ANS-PPi is observed (Figure 2A, lanes 3-7) along with an accumulation of extended products (Figure 2B, lanes 9-13). To eliminate the possibility that production of the ANS-PPi spot might be due to reaction conditions promoting ANS-dGTP decomposition instead of HIV-RT incorporation, a 60 min reaction lacking HIV-RT was spotted. As shown, the ANS-dGTP remains intact (Figure 2A, lane 8). HIV-RT's ability to incorporate the ANS-dGTP against a template containing a run of seven complementary bases was also assessed using a gel-based primer extension assay. Primer extension products were electrophoresed on a 20% denaturing polyacrylamide gel where each incorporated base can be defined by its difference in mobility. Extension reactions mimicking those performed in the TLC analysis displayed extended products over the same time period, further confirming that nucleotides modified at their gamma-phosphate with ANS are incorporated by HIV-RT (Figure 2B). Additionally, to address the possibility that even a minimal amount (<1%) of contaminating natural dNTP carried over from synthesis of the ANS-dGTP could lead to erroneous results in a primer extension assay, the ANS-dGTP was pre-treated with shrimp alkaline phosphatase to eliminate any natural dNTPs. Results from this treatment did not produce differences in the amounts of ANS-dGTP primer extension product nor did it have any detrimental effects on the integrity of the ANS-dGTP, data not shown.\n\nAnalysis of primer extension reactions comparing natural and ANS-modified dNTPs in the context of matched and all possible mismatched configurations demonstrated that the modified nucleotides are incorporated by HIV-RT and that the presence of the ANS-tag appeared to reduce misincorporation, relative to natural nucleotides (data not shown). These reactions also demonstrated that this apparent fidelity improvement required attachment to the gamma-phosphate of the nucleotide. To more thoroughly investigate this result a forward mutation assay was conducted with HIV-RT to determine the enzyme's fidelity and preference for certain error types using either all natural or all ANS-modified nucleotides (4,28). Two independent gap-filling reactions were performed with each substrate and analyzed by agarose gel electrophoresis to ensure complete synthesis. In the assay containing all four natural dNTPs, HIV-RT produced 169 mutant plaques out of the 11 334 plaques screened, (mutational frequencies of 1.4 and 1.8% for screen no. 1 and no. 2, respectively), resulting in an overall mutational frequency A B of 149 • 10 À4 . Whereas the assay containing all four ANS-dNTPs produced only 26 mutant plaques out of the 10 053 plaques screened, (mutational frequencies of 0.2 and 0.5% for screen no. 1 and no. 2, respectively), resulting in an overall mutational frequency of 26 • 10 À4 . The background mutant frequency (2.2 • 10 À4 ) was subtracted from each and a comparison of these frequencies revealed a 6-fold reduction in mutational frequency using the ANS-dNTPs. The specific mutations generated by HIV-RT in the lacZ a-complementation region with either substrate (dNTPs or ANS-dNTPs) are illustrated (Figure 3). For both cases, the distribution of mutations is non-random and the appearance of hot spots (three or more independent mutations at one location) is evident. A lower incidence of hot spots is observed with the ANS-dNTPs, but this may reflect the overall reduction in mutation frequency observed using the ANS-modified nucleotides (Figure 3). Comparatively, the largest reduction in mutation frequency is at positions À35 and À36 where there were 88 errors introduced by reverse transcriptase using natural dNTPs, but only six errors when RT incorporated ANS-dNTPs. Typically hot spots are found within a run of two or more of the same template base, and result in a change to the base identity of the 5 0 neighboring base of the run (29). This is generally supported by the data for both the dNTPs and ANS-dNTPs. The other hot spot observed with both natural and modified nucleotides occured at position +145, a region not contained within a homopolymeric sequence (Figure 3). Interestingly, the dG:ANS-dATP mispair, the largest hot spot observed for the ANS-dNTPs, lies at the center of a 12-base perfect (18-base imperfect) palindrome.\n\nThe mutational classes found for both error spectra consist of single-base substitutions, single-base frameshifts, and complex errors (i.e. multiple mutations) (Table 1). Single-base substitutions predominate and a 6-fold difference is observed for these errors occurring with the dNTPs versus the ANS-dNTPs. The dNTP substitutions that occur most frequently are the mispairs: dT:dGTP, dG:dATP and dG:dTTP (Table 1). The ANS-dNTPs mispairs of dT:ANS-dGTP and dG:ANS-dATP are observed most frequently, and each is reduced to 10-to 3-fold relative to natural nucleotides, respectively. However, no dG:ANS-dTTP mispairs are detected.\n\nThe preferential site of introduction of a frameshift error in both cases is within runs of a common template base. However, no frameshift hotspots are observed for the ANS-dNTPs, possibly because of the low number of mutants recovered. Complex errors account for 16 of the 169 screened dNTP mutants; the majority having at least one error within a hot spot. Only one of the 26 ANS-dNTP mutants contains nonadjacent, multiple mutations, and neither error is located within a region corresponding to a hot spot.\n\nA plausible starting conformation of ANS-dNTP in the dNTP binding pocket and the function of the ANS group were investigated using molecular modeling studies. For the modeling study, the 3.2 A ˚X-ray structure of HIV-RT solved by Huang et al. was employed (PDB code: 1RTD) (30). This structure contains a DNA template, primer, and a dTTP containing two Mg 2+ ions in addition to the p66 and p51 domains that comprise the heterodimer RT. The core region around the dTTP is rendered in Figure 4A. Based on this ternary complex, the ANS-dTTP structure was manually constructed using the BUILDER module of the INSIGHTII program. The ANS moiety was introduced to one of the three oxygen atoms of the gamma-phosphate group (Figure 4B). While the available room for ANS was small, it could be accommodated in a few conformations. The three oxygen atoms in the sulfate group were placed near residue K70 of the p66 domain. Before introducing the ANS group to the dTTP, the solvent accessible surface of the p66 domain was investigated to examine the available volume and its location. The surface diagram of the X-ray structure clearly shows that some amount of volume exists at the end of the gamma-phosphate of the dTTP (Figure 4C), eventually extending to the solvent. Interestingly, another surface map of the initial ANS-dTTP model (Figure 4D) shows that there is a small amount of room near the residue K70 which seems to be perfect for introduction of the sulfate group into the ANS structure.\n\nIn an attempt to identify possible conformations of the manually built ANS-dTTP ternary complex, a simulated annealing method was employed. During the simulations, most of the structure was held fixed except for the ANS-dTTP, two magnesium ions and 235 residues. After initial minimization, the system temperature was increased to 400 K and then cooled to room temperature (300 K). Subsequently, the structure was again minimized. The final structure represents a refined starting conformation of the ANS-dTTP complex, useful for initial analyses and as a starting point for further detailed modeling studies. For comparison purposes, the same approach was applied to the dTTP X-ray structure with the RT and DNA structures.\n\nThe refined dTTP structure after simulated annealing and minimization is shown in Figure 5A. The overall shape of the pyrimidine ring is slightly distorted from that in the X-ray structure (Figure 4A); the gamma-phosphate group moved away from the side chain N-atom of K70. However, the The results are the sum of two independent reactions per substrate at a concentration of 500 mM each. If a clone contained more than one mutation, each mutation was counted as an individual event. 'Multiple mutants' indicates the number of phage containing more than one mutation. CD: cannot be determined. positions of the sugar ring and the alpha phosphate group are well conserved. Although our simulated annealing approach caused minor structural distortions, it did not introduce unphysical change to the ternary complex. Of course, this was in part by design since most of the protein (76.4%) was held rigid. For the ANS-dTTP structure (Figure 5B), the sugar ring and the pyrimidine ring of the ANS-dTTP are very similar to those of the X-ray structure (Figure 4B). Interestingly, the side chain of K70 maintains the interaction with the termini of the substrates. The backbone geometries of residues from 68 to 72 significantly changed their positions to adjust to the new interactions. The ANS group is well aligned along the valley of the p66 domain. This result supports the idea that the effect of adding ANS to the dTTP structure can be compared to an extension of the phosphate chain. Further computational experiments were performed to model the interaction of non-complementary DNA bases with and without the ANS moiety. A, C and G were introduced in place of 'T' to investigate the effect of the ANS group in the fidelity enhancement of the DNA synthesis reaction. Based on the refined structures of the dTTP and ANS-dTTP (Figure 5A and 5B), the remaining dNTP and ANS-dNTP structures for A, C and G were manually built by manipulating the pre-existing pyrimidine ring using the BUILDER module of INSIGHTII.\n\nAfter initial energy minimizations, the identical simulated annealing procedures were applied to each structure to obtain refined conformations for each of the ternary complexes, and these refined conformations of mispair complexes with or without ANS were compared with those of the complementary base, T (Figures 5C and D).\n\nThe conformations of dNTPs without ANS (Figure 5C) are predicted to be more similar to each other, in contrast to those of the ANS-dNTPs (Figure 5D). In particular, the positions of the sugar ring and the alpha phosphate, both of which are critical positions in the DNA synthesis reaction, are more closely aligned with each other in the models containing unmodified dNTPs. However with the addition of the ANS group (Figure 5D), large differences in the binding conformation between the complementary and non-complementary bases are predicted.\n\nHighly accurate enzymatic DNA synthesis requires that the DNA polymerase recognizes and transmits information about the identity of the bases within a template sequence, either before or immediately after nucleotide incorporation. Current models suggest that the geometry of the active site plays a role in fidelity by distinguishing the dimensions of a correct versus and an incorrect base pair (8,12,31,32). Nucleotide analogs containing base (33)(34)(35)(36), sugar (37)(38)(39)(40)(41)(42), or phosphate (43)(44)(45)(46) modifications have been designed to probe the active site architecture. Incorporation analyses demonstrate that each polymerase has a defined tolerance for a particular nucleotide modification. One explanation for this variability is attributed to the flexibility within each polymerase's nucleotide binding pocket.\n\nOur results show that in an M13-based forward mutation assay HIV-RT was able to incorporate and extend all four ANS-dNTPs. We demonstrated that HIV-RT incorporates nucleotides with ANS attachment at the g-phosphate via a TLC assay. Differences in the mobility of the intact ANS-dGTP and ANS-PPi permit identification of nucleotide incorporation, which was detected by increasing intensities of tagged-PPi with increased reaction time (Figure 2). Primer extension analyses (data not shown) reveal that the ANS-dNTPs are incorporated at slower rates than their natural dNTP counterparts. Specifically, a natural dNTP typically produces fully-extended products at approximately 10-fold lower concentration than the ANS-dNTPs. For a misincorporated nucleotide to become a mistake, the DNA polymerase must be able to extend the terminal mispair (48). Fewer errors were made with the ANS-dNTP substrates than with the dNTPs (Figure 3) for each class of mutation (Table 1). Comparison of the specific error types supports the trend initially detected via primer extension reactions (data not shown): gamma-phosphate modifications more dramatically reduce misincorporation of purine nucleotides (Table 1). However, misincorporation of ANS-pyrimidines (whose frequency was already low) is also either reduced or eliminated. For example, the G:dTTP mispair is only detected with the natural substrate.\n\nA key feature of the wobble base pair dG:dT is its use of alternate hydrogen bonding patterns and its ability to adopt orientations in which either the template base or incoming dNTP base laterally shifts (49). Given that the G:ANS-dTTP mispair is not observed, the accommodation of a shift may not be possible in the presence of the ANS-attachment, suggesting a mechanism by which the modification improves fidelity.\n\nHIV-RT's low error frequency with the ANS-dNTPs resulted in a reduction in the number of hotspots (29). ANS-dNTP mutations occur at 19 positions, and 79% of these are located at the same spots as the dNTP mutations. Primer-template misalignments are suspected to be the underlying cause of mutations at sites where there are runs of a common template base (27,50,51), which is where a majority of the ANS-dNTP errors were found. However, the largest ANS-dNTP hotspot (+145) is not located within a run of common template bases, but rather at the center of a palindrome.\n\nA molecular model of the HIV-RT binding pocket with an ANS-dTTP positioned at the primer-template was constructed. The incorporation of a nucleotide is a dynamic process which involves the polymerase changing its conformation from an 'open' to a 'closed' configuration. Critical residues within the fingers domain bend inward toward the palm domain and make contact with the incoming nucleotide, resulting in the formation of the dNTP binding pocket (30). Our model predicts that the active site amino acid residues 68-72 sterically clashes with the ANS-attachment at the g-phosphate. Crystal structure analysis of a trapped catalytic complex reveals that the incoming triphosphate portion of the dNTP is positioned to interact with K65, R72 and D113 (30). The clash of the ANS-tag with these amino acid sidechains may play a role in nucleotide discrimination by minimizing alternative nucleotide orientations that are required for incorporation of a mismatched nucleotide. This hypothesis is supported by the host of multinucleoside resistance mutants which have been identified within this region of the fingers domain (52).\n\nANS attachment to the g-phosphate of a dNTP enhances HIV-RT's discrimination between correct and incorrect nucleotides and demonstrates that base discrimination can be modulated by 'non-informational' portions of the nucleotide. A number of alternative base pairing arrangements are proposed for mispairing events, and each requires an altered base alignment. Molecular modeling suggests that ANS attachment to the g-phosphate may sterically inhibit mispair formation such that a mispair may not easily adopt an orientation that is conducive to nucleotide incorporation. Lack of contact between the phosphates and any of the elements necessary for catalysis (e.g. critical amino acid side chains, divalent cations, or the 3 0 -OH of the terminal base) could impair the chemical step of the reaction.\n\nOur data demonstrate that g-modified dNTPs improve the accuracy at which nucleotides are inserted into a DNA strand and our molecular modeling studies predict significant differences in the positions of the sugar ring and the alpha phosphate group in non-complementary base pairings involving gmodified dNTPs. Together these results suggest that the g-phosphate modification may act as a signal amplifier of base identity. The conformation of the ANS group is sensitive to the internal environment (presence of a mispair), and this conformational information is transmitted along the attached phosphate groups to the sugar ring position. This effect may be the key reason for the fidelity increase in the DNA synthesis reaction.\n\nThese findings may have both therapeutic and biotechnology applications. Probing the active site with nucleotide attachments that differ in size, charge, or length of linker will provide valuable information about the polymerase's fidelity and potentially lead to the development of more potent antiviral therapies. Biotechnological applications for nucleotides modified at the gamma-phosphate may include increased fidelity of in vitro DNA replication, such as more accurate production of first strand cDNA, and as new substrates for next generation sequencing methods.\n\nby guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from\n\nNucleic Acids Research, 2005, Vol. 33, No. 15 4869 by guest on October 27, 2014 http://nar.oxfordjournals.org/ Downloaded from"
+}
