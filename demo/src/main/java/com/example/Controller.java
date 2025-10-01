@@ -2,7 +2,7 @@ package com.example;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/search")
 public class Controller {
     @GetMapping
     public String search() {
