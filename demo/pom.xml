@@ -62,6 +62,13 @@
         <version>${lucene.version}</version>
     </dependency>
 
+    <!-- Lucene 查询解析器依赖 -->
+    <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-queryparser</artifactId>
+        <version>${lucene.version}</version>
+    </dependency>
+
     <!-- 可选：日志 -->
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -73,6 +80,13 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-test</artifactId>
         <scope>test</scope>
+    </dependency>
+
+     <!-- 添加 JSON-java 依赖 -->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20210307</version> <!-- 可以根据需要选择其他版本 -->
     </dependency>
 
   </dependencies>

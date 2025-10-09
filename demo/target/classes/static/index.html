@@ -146,7 +146,7 @@
     <button onclick="search()"><i class="fas fa-search"></i></button>
   </div>
 
-  <!-- 筛选区 -->
+  <!-- 筛选区 
   <div class="filters-container">
     <button class="toggle-filters" onclick="toggleFilters()">
       展开/收起筛选条件 <i class="fas fa-chevron-down" id="arrow"></i>
@@ -159,7 +159,22 @@
       <div><label for="location">地址</label><input type="text" id="location" placeholder="会议/出版地"></div>
       <div><label for="fulltext">全文</label><input type="text" id="fulltext" placeholder="全文检索"></div>
     </div>
+  </div>-->
+
+  <div class="fields-checkbox-group">
+    <label><input type="checkbox" name="fields" value="title" checked> 标题</label>
+    <label><input type="checkbox" name="fields" value="authors" checked> 作者</label>
+    <label><input type="checkbox" name="fields" value="publication_date" checked> 日期</label>
+    <label><input type="checkbox" name="fields" value="affiliations" checked> 机构</label>
+    <label><input type="checkbox" name="fields" value="address" checked> 地址</label>
+    <label><input type="checkbox" name="fields" value="full_text" checked> 全文</label>
   </div>
+</div>
+
+
+
+
+
 </section>
 
 <section class="results" id="results"></section>
@@ -169,64 +184,100 @@
 </footer>
 
 <script>
-  const sampleResults = [
-    { title: "信息检索基础理论", author: "张三", date: "2023-03-15", org: "北京大学", location: "北京", desc: "本文介绍了信息检索的基本模型与方法...", link: "#" },
-    { title: "深度学习在自然语言处理中的应用", author: "李四", date: "2022-12-01", org: "清华大学", location: "上海", desc: "探索深度学习如何改进文本检索效果...", link: "#" },
-    { title: "学术搜索引擎发展综述", author: "王五", date: "2021-05-20", org: "复旦大学", location: "广州", desc: "分析了Google Scholar等学术引擎的特点...", link: "#" }
-  ];
 
-  function toggleFilters() {
-    const filters = document.getElementById("filters");
-    const arrow = document.getElementById("arrow");
-    filters.classList.toggle("show");
-    arrow.style.transform = filters.classList.contains("show") ? "rotate(180deg)" : "rotate(0deg)";
+function toggleFilters() {
+  const filters = document.getElementById("filters");
+  const arrow = document.getElementById("arrow");
+  filters.classList.toggle("show");
+  // 切换箭头方向
+  if (filters.classList.contains("show")) {
+    arrow.style.transform = "rotate(180deg)";
+  } else {
+    arrow.style.transform = "rotate(0deg)";
   }
+}
 
-  function search() {
-    const query = document.getElementById("query").value.trim().toLowerCase();
-    const title = document.getElementById("title").value.trim().toLowerCase();
-    const author = document.getElementById("author").value.trim().toLowerCase();
-    const date = document.getElementById("date").value;
-    const org = document.getElementById("org").value.trim().toLowerCase();
-    const location = document.getElementById("location").value.trim().toLowerCase();
-    const fulltext = document.getElementById("fulltext").value.trim().toLowerCase();
 
-    const resultsDiv = document.getElementById("results");
-    resultsDiv.innerHTML = "";
+function getFirstWords(text, n) {
+  if (!text) return "";
+  const words = text.split(/\s+/).filter(Boolean);
+  return words.slice(0, n).join(" ") + (words.length > n ? " ..." : "");
+}
 
-    let filtered = sampleResults.filter(r => {
-      return (!query || r.title.toLowerCase().includes(query) || r.desc.toLowerCase().includes(query)) &&
-             (!title || r.title.toLowerCase().includes(title)) &&
-             (!author || r.author.toLowerCase().includes(author)) &&
-             (!date || r.date === date) &&
-             (!org || r.org.toLowerCase().includes(org)) &&
-             (!location || r.location.toLowerCase().includes(location)) &&
-             (!fulltext || r.desc.toLowerCase().includes(fulltext));
+
+
+
+function getSelectedFields() {
+/*
+  const fields = [];
+  if (document.getElementById("title").value.trim()) fields.push("title");
+  if (document.getElementById("author").value.trim()) fields.push("authors");
+  if (document.getElementById("date").value.trim()) fields.push("publicationDate");
+  if (document.getElementById("org").value.trim()) fields.push("affiliations");
+  if (document.getElementById("location").value.trim()) fields.push("address");
+  if (document.getElementById("fulltext").value.trim()) fields.push("fullText");
+  return fields;
+*/ 
+  const checkboxes = document.querySelectorAll('input[name="fields"]:checked');
+  return Array.from(checkboxes).map(cb => cb.value);
+
+}
+
+function search() {
+/*
+  const query = document.getElementById("query").value.trim();
+  const title = document.getElementById("title").value.trim();
+  const author = document.getElementById("author").value.trim();
+  const date = document.getElementById("date").value.trim();
+  const org = document.getElementById("org").value.trim();
+  const location = document.getElementById("location").value.trim();
+  const fulltext = document.getElementById("fulltext").value.trim();
+
+  let q = query;
+  if (title) q += ` ${title}`;
+  if (author) q += ` ${author}`;
+  if (date) q += ` ${date}`;
+  if (org) q += ` ${org}`;
+  if (location) q += ` ${location}`;
+  if (fulltext) q += ` ${fulltext}`;
+*/
+
+  const q = document.getElementById("query").value.trim();
+  const fields = getSelectedFields();
+  let url = `/search?q=${encodeURIComponent(q)}`;
+  fields.forEach(f => url += `&fields=${encodeURIComponent(f)}`);
+
+  fetch(url)
+    .then(res => res.json())
+    .then(data => {
+      const resultsDiv = document.getElementById("results");
+      resultsDiv.innerHTML = "";
+      if (!data || data.length === 0) {
+        resultsDiv.innerHTML = "<p style='color:white;text-align:center;'>未找到相关结果</p>";
+        return;
+      }
+      data.forEach(r => {
+        const card = document.createElement("div");
+        card.className = "result-card";
+        card.innerHTML = `
+          <h3>${r.title || ""}</h3>
+          <div class="result-meta"><b>作者:</b> ${r.authors || ""} | <b>时间:</b> ${r.publicationDate || ""}</div>
+          <div class="result-meta"><b>机构:</b> ${r.affiliations || ""} | <b>地址:</b> ${r.address || ""}</div>
+          <p>${getFirstWords(r.fullText, 10)}</p>
+        `;
+        resultsDiv.appendChild(card);
+      });
+    })
+    .catch(err => {
+      document.getElementById("results").innerHTML = err+ "<p style='color:white;text-align:center;'>查询出错</p>";
+      console.error(err);
     });
+}
 
-    if (filtered.length === 0) {
-      resultsDiv.innerHTML = "<p style='color:white;text-align:center;'>未找到相关结果</p>";
-      return;
-    }
-
-    filtered.forEach(r => {
-      const card = document.createElement("div");
-      card.className = "result-card";
-      card.innerHTML = `
-        <h3>${r.title}</h3>
-        <div class="result-meta"><i class="fas fa-user"></i>${r.author} | <i class="fas fa-calendar"></i>${r.date}</div>
-        <div class="result-meta"><i class="fas fa-building"></i>${r.org} | <i class="fas fa-map-marker-alt"></i>${r.location}</div>
-        <p>${r.desc}</p>
-        <a href="${r.link}" target="_blank">阅读全文</a>
-      `;
-      resultsDiv.appendChild(card);
-    });
-  }
-
-  // 搜索框按回车触发
-  document.getElementById("query").addEventListener("keypress", function(e) {
-    if (e.key === "Enter") search();
-  });
+// 搜索框按回车触发
+document.getElementById("query").addEventListener("keypress", function(e) {
+  if (e.key === "Enter") search();
+});
 </script>
 
 </body>
