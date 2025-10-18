@@ -144,6 +144,58 @@
     }
 
 
+    #history-panel {
+      position: fixed;
+      top: 0;
+      right: -350px;
+      width: 320px;
+      height: 100vh;
+      background: #fff;
+      box-shadow: -4px 0 18px rgba(85,99,222,0.15);
+      z-index: 999;
+      transition: right 0.35s cubic-bezier(.4,2.2,.2,1);
+      display: flex;
+      flex-direction: column;
+    }
+    #history-panel.show { right: 0; }
+    .history-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 20px 10px 20px;
+      border-bottom: 1px solid #eee;
+      font-size: 18px;
+      color: #5563DE;
+      font-weight: 600;
+    }
+    .close-btn {
+      background: none;
+      border: none;
+      font-size: 26px;
+      color: #aaa;
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+    .close-btn:hover { color: #5563DE; }
+    #history-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 18px 20px;
+      margin: 0;
+      list-style: none;
+    }
+    #history-list li {
+      margin-bottom: 14px;
+      font-size: 15px;
+      color: #333;
+      cursor: pointer;
+      border-bottom: 1px dashed #eee;
+      padding-bottom: 6px;
+      transition: color 0.2s;
+    }
+    #history-list li:hover { color: #5563DE; }
+
+
     .result-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
     .result-card h3 { margin-top: 0; font-size: 18px; color: #5563DE; }
     .result-meta { font-size: 13px; color: #666; margin: 5px 0; }
@@ -164,6 +216,7 @@
     <a href="#">首页</a>
     <a href="#">关于</a>
     <a href="#">帮助</a>
+    <a href="#" id="history-btn">搜索历史</a>
   </nav>
 </header>
 
@@ -197,6 +250,8 @@
     <label><input type="checkbox" name="fields" value="address" checked> 地址</label>
     <label><input type="checkbox" name="fields" value="full_text" checked> 全文</label>
   </div>
+
+
 </div>
 
 
@@ -313,6 +368,8 @@ function search() {
 
   const q = document.getElementById("query").value.trim();
   const fields = getSelectedFields();
+  saveSearchHistory(q, fields);
+
   // let url = `/search?q=${encodeURIComponent(q)}`;
 
   let url = `/search?q=${encodeURIComponent(q)}&page=${currentPage}&size=${pageSize}`;
@@ -366,7 +423,69 @@ document.getElementById("query").addEventListener("keypress", function(e) {
   }
 
 });
+
+
+// 打开/关闭历史面板
+document.getElementById("history-btn").onclick = function(e) {
+  e.preventDefault();
+  renderSearchHistory();
+  document.getElementById("history-panel").classList.add("show");
+};
+function closeHistory() {
+  document.getElementById("history-panel").classList.remove("show");
+}
+
+// 保存历史
+function saveSearchHistory(q, fields) {
+  let history = JSON.parse(localStorage.getItem("searchHistory") || "[]");
+  // 去重（只保留最新一次）
+  history = history.filter(item => item.q !== q || JSON.stringify(item.fields) !== JSON.stringify(fields));
+  history.unshift({ q, fields, time: new Date().toLocaleString() });
+  history = history.slice(0, 20);
+  localStorage.setItem("searchHistory", JSON.stringify(history));
+}
+
+// 渲染历史
+function renderSearchHistory() {
+  const list = document.getElementById("history-list");
+  let history = JSON.parse(localStorage.getItem("searchHistory") || "[]");
+  if (history.length === 0) {
+    list.innerHTML = "<li style='color:#aaa;'>暂无历史记录</li>";
+    return;
+  }
+  list.innerHTML = "";
+  history.forEach(item => {
+    const li = document.createElement("li");
+    li.textContent = item.q;
+    li.title = item.q + " [" + (item.fields || []).join(", ") + "]";
+    li.onclick = function() {
+      document.getElementById("query").value = item.q;
+      // 勾选字段
+      document.querySelectorAll('input[name=\"fields\"]').forEach(cb => {
+        cb.checked = (item.fields || []).includes(cb.value);
+      });
+      closeHistory();
+      currentPage = 1;
+      search();
+    };
+    list.appendChild(li);
+  });
+}
+
+
+
 </script>
+
+
+
+<div id="history-panel">
+  <div class="history-header">
+    <span>搜索历史</span>
+    <button onclick="closeHistory()" class="close-btn">&times;</button>
+  </div>
+  <ul id="history-list"></ul>
+</div>
+
 
 </body>
 </html>

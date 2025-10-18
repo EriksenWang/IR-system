@@ -11,6 +11,6 @@ public class PdfResourceConfig implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/pdfs/**")
-                .addResourceLocations("file:///D:/Codes/IR-system/oriPDFs/");
+                .addResourceLocations("file:///D:/Codes/oriPDFs/");
     }
 }
