@@ -48,9 +48,11 @@ docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.8.2
 
 在运行App.java之后，转到：
 
-[访问系统首页](http://localhost:8080/)
-
+```
+http://localhost:8080/
+```
 
 ## 原数据
 
-(https://pan.baidu.com/share/init?surl=bIFRaCEsNmqDfokn7JRYkw)
+[pdf数据](https://pan.baidu.com/share/init?surl=bIFRaCEsNmqDfokn7JRYkw)
+
