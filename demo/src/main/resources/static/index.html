@@ -116,6 +116,34 @@
       box-shadow: 0 6px 15px rgba(0,0,0,0.1);
       transition: transform 0.3s, box-shadow 0.3s;
     }
+
+    .advanced-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 25px auto 0 auto;
+      padding: 12px 32px;
+      font-size: 17px;
+      font-weight: 500;
+      border-radius: 28px;
+      background: linear-gradient(135deg, #5563DE 60%, #74ABE2 100%);
+      color: #fff;
+      border: none;
+      box-shadow: 0 4px 16px rgba(85,99,222,0.12);
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+      letter-spacing: 1px;
+    }
+    .advanced-btn i {
+      font-size: 18px;
+    }
+    .advanced-btn:hover {
+      background: linear-gradient(135deg, #2e3bb5 60%, #74ABE2 100%);
+      transform: translateY(-2px) scale(1.04);
+      box-shadow: 0 8px 24px rgba(85,99,222,0.18);
+    }
+
+
     .result-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
     .result-card h3 { margin-top: 0; font-size: 18px; color: #5563DE; }
     .result-meta { font-size: 13px; color: #666; margin: 5px 0; }
@@ -174,7 +202,7 @@
 
 
 
-
+<button class="advanced-btn" onclick="window.location.href='advanced.html'">高级检索<i class="fas fa-sliders-h"></i></button>
 </section>
 
 <section class="results" id="results"></section>
@@ -184,6 +212,47 @@
 </footer>
 
 <script>
+
+
+
+
+
+
+
+
+
+
+let currentPage = 1;
+const pageSize = 12;
+const maxPage = 10;
+
+
+function renderPagination(total) {
+  const resultsDiv = document.getElementById("results");
+  const totalPages = Math.min(Math.ceil(total / pageSize), maxPage);
+  let html = `<div style="text-align:center;margin:20px 0;">`;
+  html += `<button onclick="prevPage()" ${currentPage === 1 ? "disabled" : ""}>上一页</button>`;
+  html += ` <span>第 ${currentPage} / ${totalPages} 页</span> `;
+  html += `<button onclick="nextPage()" ${currentPage === totalPages ? "disabled" : ""}>下一页</button>`;
+  html += `</div>`;
+  resultsDiv.innerHTML += html;
+}
+
+function prevPage() {
+  if (currentPage > 1) {
+    currentPage--;
+    search();
+  }
+}
+
+function nextPage() {
+  currentPage++;
+  search();
+}
+
+
+
+
 
 function toggleFilters() {
   const filters = document.getElementById("filters");
@@ -244,7 +313,9 @@ function search() {
 
   const q = document.getElementById("query").value.trim();
   const fields = getSelectedFields();
-  let url = `/search?q=${encodeURIComponent(q)}`;
+  // let url = `/search?q=${encodeURIComponent(q)}`;
+
+  let url = `/search?q=${encodeURIComponent(q)}&page=${currentPage}&size=${pageSize}`;
   fields.forEach(f => url += `&fields=${encodeURIComponent(f)}`);
 
   fetch(url)
@@ -252,21 +323,34 @@ function search() {
     .then(data => {
       const resultsDiv = document.getElementById("results");
       resultsDiv.innerHTML = "";
-      if (!data || data.length === 0) {
-        resultsDiv.innerHTML = "<p style='color:white;text-align:center;'>未找到相关结果</p>";
+      if (!data || !data.results || data.results.length === 0) {
+
+        resultsDiv.innerHTML = `
+          <div style="text-align:center;">
+            <img src="/images/muzimi.png" alt="未找到相关结果" style="width:180px;max-width:80%;margin:30px auto 10px auto;display:block;">
+            <p style='color:white;text-align:center;font-size:18px;'>未找到相关结果</p>
+          </div>
+        `;
+
         return;
       }
-      data.forEach(r => {
+      data.results.forEach(r => {
         const card = document.createElement("div");
         card.className = "result-card";
+        // 拼接PDF相对路径（假设后端已映射 /pdfs/ 到 D:\Codes\IR-system\oriPDFs）
+        const pdfUrl = `/pdfs/${encodeURIComponent(r.pdfFilename.replace('.json', '.pdf'))}`;
         card.innerHTML = `
-          <h3>${r.title || ""}</h3>
-          <div class="result-meta"><b>作者:</b> ${r.authors || ""} | <b>时间:</b> ${r.publicationDate || ""}</div>
-          <div class="result-meta"><b>机构:</b> ${r.affiliations || ""} | <b>地址:</b> ${r.address || ""}</div>
-          <p>${getFirstWords(r.fullText, 10)}</p>
+          <a href="${pdfUrl}" target="_blank" style="text-decoration:none;color:inherit;">
+            <h3>${r.title || ""}</h3>
+            <div class="result-meta"><b>作者:</b> ${r.authors || ""} | <b>时间:</b> ${r.publicationDate || ""}</div>
+            <div class="result-meta"><b>机构:</b> ${r.affiliations || ""} | <b>地址:</b> ${r.address || ""}</div>
+            <p>${getFirstWords(r.fullText, 10)}</p>
+            <div style="color:#2e3bb5;font-size:13px;margin-top:8px;">点击查看原文PDF</div>
+          </a>
         `;
         resultsDiv.appendChild(card);
       });
+      renderPagination(data.total);
     })
     .catch(err => {
       document.getElementById("results").innerHTML = err+ "<p style='color:white;text-align:center;'>查询出错</p>";
@@ -276,7 +360,11 @@ function search() {
 
 // 搜索框按回车触发
 document.getElementById("query").addEventListener("keypress", function(e) {
-  if (e.key === "Enter") search();
+  if (e.key === "Enter") {
+    currentPage = 1; // 重置页码
+    search();
+  }
+
 });
 </script>
 
