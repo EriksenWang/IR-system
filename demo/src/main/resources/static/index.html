@@ -49,6 +49,20 @@
       box-shadow: 0 6px 20px rgba(0,0,0,0.2);
       margin-bottom: 15px;
     }
+
+     /* n-gram checkbox 样式 */
+    .ngram-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-left: 10px;
+      font-size: 14px;
+      color: #333;
+    }
+    .ngram-label input { transform: scale(1.05); }
+
+
+
     .search-box input { flex: 1; border: none; outline: none; font-size: 16px; padding: 8px; }
     .search-box button {
       background: linear-gradient(135deg, #5563DE, #74ABE2);
@@ -61,6 +75,105 @@
       transition: all 0.3s ease;
     }
     .search-box button:hover { background: linear-gradient(135deg, #2e3bb5, #3f5acb); transform: scale(1.1); }
+
+
+
+
+    .search-row {
+      position: relative;
+      display: flex;
+      flex-direction: column;    /* 垂直排列 */
+      align-items: center;
+      gap: 8px;                  /* 控制组件间距，改小 */
+      justify-content: center;
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+    }
+    .search-box-wrapper {
+      position: relative;
+      flex: 0 0 520px;
+      display: flex;
+      flex-direction: column;    /* 内部垂直排列：index-type / search-box / fields */
+      align-items: center;
+      gap: 6px;                  /* 内部元素间距更小 */
+      width: 100%;
+    }
+
+
+
+    .spell-suggestion {
+      position: absolute;
+      right: 100%;           /* 放在 wrapper 左侧 */
+      margin-right: 12px;    /* 间隙 */
+      top: 50%;
+      transform: translateY(-50%);
+      color: #fff;
+      background: rgba(0,0,0,0.15);
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 14px;
+      min-width: 220px;
+      text-align: left;
+      display: none;         /* 隐藏时不占位 */
+      pointer-events: auto;
+      z-index: 50;
+    }
+    .spell-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      align-self: flex-end;     /* 放到 wrapper 右侧 */
+      margin-top: 2px;
+    }
+    .spell-controls label { color:#fff; font-size:14px; display:flex; align-items:center; gap:6px; }
+
+
+
+    .index-type {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      margin: 0;                 /* 移除额外底部间距 */
+      width: 100%;
+    }
+    .index-type label {
+      color: #fff;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.06);
+      padding: 6px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .index-type input[type="radio"] { transform: scale(1.02); }
+
+
+    .fields-checkbox-group {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-top: 4px;
+      padding: 6px 8px;
+      border-radius: 8px;
+      box-sizing: border-box;
+      background: rgba(255,255,255,0.04);
+    }
+    .fields-checkbox-group label { color: #fff; font-size: 13px; margin: 0 6px; }
+
+    
+
+
+
+
+
+
 
     /* 筛选区 */
     .filters-container {
@@ -106,7 +219,7 @@
       margin: 20px auto 40px;
       padding: 0 20px;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: 1fr;
       gap: 20px;
     }
     .result-card {
@@ -115,6 +228,7 @@
       border-radius: 12px;
       box-shadow: 0 6px 15px rgba(0,0,0,0.1);
       transition: transform 0.3s, box-shadow 0.3s;
+      width: 100%; 
     }
 
     .advanced-btn {
@@ -142,6 +256,32 @@
       transform: translateY(-2px) scale(1.04);
       box-shadow: 0 8px 24px rgba(85,99,222,0.18);
     }
+
+    .results-count {
+      color: #fff;
+      font-size: 15px;
+      margin: 6px 0;
+      text-align: center;
+    }
+
+
+    .year-range {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      margin-top: 6px;
+    }
+    .year-input {
+      width: 110px;
+      padding: 6px 8px;
+      border-radius: 6px;
+      border: 1px solid rgba(0,0,0,0.12);
+      font-size: 13px;
+      box-sizing: border-box;
+      background: #fff;
+    }
+    .range-sep { color: #fff; font-size: 14px; }
+
 
 
     #history-panel {
@@ -222,9 +362,77 @@
 
 <section class="search-container">
   <h2>🔍 查找你需要的学术文献</h2>
+
+  <!--
   <div class="search-box">
     <input type="text" id="query" placeholder="请输入关键词...">
+    <label class="ngram-label" title="使用 n-gram 索引进行子串匹配">
+      <input type="checkbox" id="use-ngram"> N‑gram
+    </label>
     <button onclick="search()"><i class="fas fa-search"></i></button>
+  </div>
+-->
+
+<!--
+  <div class="search-row">
+    <div id="spell-area" class="spell-suggestion" style="visibility:hidden;"></div>
+
+    <div class="search-box" style="flex:0 0 520px;">
+      <input type="text" id="query" placeholder="请输入关键词...">
+      <label class="ngram-label" title="使用 n-gram 索引进行子串匹配">
+        <input type="checkbox" id="use-ngram"> N‑gram
+      </label>
+      <button onclick="search()"><i class="fas fa-search"></i></button>
+    </div>
+
+    <div class="spell-controls">
+      <label title="开启拼写校正（实时建议）">
+        <input type="checkbox" id="use-spell"> 拼写校正
+      </label>
+    </div>
+  </div>
+-->
+  <div class="search-row">
+    <div class="search-box-wrapper">
+
+      <div class="index-type" aria-label="索引类型选择">
+        <label><input type="radio" name="index-type" value="inverted" checked> 倒排索引</label>
+        <label><input type="radio" name="index-type" value="ngram"> N‑gram 索引</label>
+        <!--<label><input type="radio" name="index-type" value="vec"> 相似度索引</label>-->
+      </div>
+
+      <div id="spell-area" class="spell-suggestion"></div>
+
+      <div class="search-box">
+        <input type="text" id="query" placeholder="请输入关键词...">
+        <button onclick="search()"><i class="fas fa-search"></i></button>
+      </div>
+
+      <div class="spell-controls">
+        <label title="开启拼写校正（实时建议）">
+          <input type="checkbox" id="use-spell"> 拼写校正
+        </label>
+      </div>
+
+      <div class="fields-checkbox-group">
+        <label><input type="checkbox" name="fields" value="title" checked> 标题</label>
+        <label><input type="checkbox" name="fields" value="authors" checked> 作者</label>
+        <label><input type="checkbox" name="fields" value="publication_date" checked> 日期</label>
+        <label><input type="checkbox" name="fields" value="affiliations" checked> 机构</label>
+        <label><input type="checkbox" name="fields" value="address" checked> 地址</label>
+        <label><input type="checkbox" name="fields" value="full_text" checked> 全文</label>
+      </div>
+
+
+      <div class="year-range" title="按年份范围筛选（格式 YYYY），可只填起始或结束年份">
+        <input type="text" id="startYear" class="year-input" placeholder="起始年 (YYYY)">
+        <span class="range-sep">~</span>
+        <input type="text" id="endYear" class="year-input" placeholder="结束年 (YYYY)">
+      </div>
+      <button class="advanced-btn" onclick="window.location.href='advanced.html'">高级检索<i class="fas fa-sliders-h"></i></button>
+
+
+    </div>
   </div>
 
   <!-- 筛选区 
@@ -240,7 +448,7 @@
       <div><label for="location">地址</label><input type="text" id="location" placeholder="会议/出版地"></div>
       <div><label for="fulltext">全文</label><input type="text" id="fulltext" placeholder="全文检索"></div>
     </div>
-  </div>-->
+  </div>
 
   <div class="fields-checkbox-group">
     <label><input type="checkbox" name="fields" value="title" checked> 标题</label>
@@ -252,12 +460,12 @@
   </div>
 
 
-</div>
 
 
 
 
-<button class="advanced-btn" onclick="window.location.href='advanced.html'">高级检索<i class="fas fa-sliders-h"></i></button>
+
+  <button class="advanced-btn" onclick="window.location.href='advanced.html'">高级检索<i class="fas fa-sliders-h"></i></button>-->
 </section>
 
 <section class="results" id="results"></section>
@@ -269,7 +477,11 @@
 <script>
 
 
-
+function escapeHTML(s) {
+  return String(s || "").replace(/[&<>"']/g, function(m) {
+    return ({ "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;" })[m];
+  });
+}
 
 
 
@@ -372,13 +584,42 @@ function search() {
 
   // let url = `/search?q=${encodeURIComponent(q)}`;
 
-  let url = `/search?q=${encodeURIComponent(q)}&page=${currentPage}&size=${pageSize}`;
+  //let url = `/search?q=${encodeURIComponent(q)}&page=${currentPage}&size=${pageSize}`;
+
+  //const useNgram = document.getElementById("use-ngram") && document.getElementById("use-ngram").checked;
+  // 根据勾选切换到 ngram 专用接口（Controller 中已实现 /search/ngram）
+  //let base = useNgram ? '/search/ngram' : '/search';
+  //let url = `${base}?q=${encodeURIComponent(q)}&page=${currentPage}&size=${pageSize}`;
+
+    // 根据上方单选选择索引类型：inverted / ngram / vec
+  const idx = document.querySelector('input[name="index-type"]:checked')?.value || 'inverted';
+  let base;
+  if (idx === 'ngram') base = '/search/ngram';
+  else if (idx === 'vec') base = '/search/vec';
+  else base = '/search';
+  let url = `${base}?q=${encodeURIComponent(q)}&page=${currentPage}&size=${pageSize}`;
+  // 可为向量检索添加 k 参数（可选）
+  if (idx === 'vec') url += `&k=20`;
   fields.forEach(f => url += `&fields=${encodeURIComponent(f)}`);
+
+
+    // 年份范围参数（仅接受 4 位数字）
+  const startRaw = document.getElementById("startYear")?.value.trim();
+  const endRaw = document.getElementById("endYear")?.value.trim();
+  const yRe = /^\d{4}$/;
+  let sy = null, ey = null;
+  if (startRaw && yRe.test(startRaw)) sy = parseInt(startRaw, 10);
+  if (endRaw && yRe.test(endRaw)) ey = parseInt(endRaw, 10);
+  // 如果两端都有且顺序反了则交换
+  if (sy !== null && ey !== null && sy > ey) { const tmp = sy; sy = ey; ey = tmp; }
+  if (sy !== null) url += `&startYear=${sy}`;
+  if (ey !== null) url += `&endYear=${ey}`;
 
   fetch(url)
     .then(res => res.json())
     .then(data => {
       const resultsDiv = document.getElementById("results");
+/*
       resultsDiv.innerHTML = "";
       if (!data || !data.results || data.results.length === 0) {
 
@@ -391,17 +632,47 @@ function search() {
 
         return;
       }
+
+
+
       data.results.forEach(r => {
+*/
+        resultsDiv.innerHTML = "";
+      // 无结果处理
+        if (!data || !data.results || data.results.length === 0) {
+          resultsDiv.innerHTML = `
+            <div style="text-align:center;">
+              <img src="/images/muzimi.png" alt="未找到相关结果" style="width:180px;max-width:80%;margin:30px auto 10px auto;display:block;">
+              <p style='color:white;text-align:center;font-size:18px;'>未找到相关结果</p>
+            </div>
+          `;
+          return;
+        }
+
+      // 显示总命中数（由后端返回的 data.total）
+        const total = data.total != null ? data.total : data.results.length;
+        resultsDiv.innerHTML = `<div class="results-count">共检索到 ${total} 篇</div>`;
+
+      // 渲染每条结果卡片（原有代码）
+      data.results.forEach(r => {
+
         const card = document.createElement("div");
         card.className = "result-card";
-        // 拼接PDF相对路径（假设后端已映射 /pdfs/ 到 D:\Codes\IR-system\oriPDFs）
+        // 拼接PDF相对路径（后端已映射 /pdfs/ 到 D:\Codes\IR-system\oriPDFs）
         const pdfUrl = `/pdfs/${encodeURIComponent(r.pdfFilename.replace('.json', '.pdf'))}`;
+
+        // title: 优先使用高亮的 title（后端返回 highlightTitle），否则普通 title（需要 escape）
+        const titleHtml = r.highlightTitle ? r.highlightTitle : escapeHTML(r.title || "");
+
+        // snippet: 优先使用后端生成的 highlight（HTML），否则截取全文的纯文本片段（escape）
+        const snippetHtml = r.highlight ? r.highlight : escapeHTML(getFirstWords(r.fullText, 30));
+
         card.innerHTML = `
           <a href="${pdfUrl}" target="_blank" style="text-decoration:none;color:inherit;">
-            <h3>${r.title || ""}</h3>
-            <div class="result-meta"><b>作者:</b> ${r.authors || ""} | <b>时间:</b> ${r.publicationDate || ""}</div>
-            <div class="result-meta"><b>机构:</b> ${r.affiliations || ""} | <b>地址:</b> ${r.address || ""}</div>
-            <p>${getFirstWords(r.fullText, 10)}</p>
+            <h3>${titleHtml}</h3>
+            <div class="result-meta"><b>作者:</b> ${escapeHTML(r.authors || "")} | <b>时间:</b> ${escapeHTML(r.publicationDate || "")}</div>
+            <div class="result-meta"><b>机构:</b> ${escapeHTML(r.affiliations || "")} | <b>地址:</b> ${escapeHTML(r.address || "")}</div>
+            <p>${snippetHtml}</p>
             <div style="color:#2e3bb5;font-size:13px;margin-top:8px;">点击查看原文PDF</div>
           </a>
         `;
@@ -471,6 +742,73 @@ function renderSearchHistory() {
     list.appendChild(li);
   });
 }
+
+
+
+
+// 防抖工具
+function debounce(fn, wait) {
+  let t;
+  return function(...args) {
+    clearTimeout(t);
+    t = setTimeout(() => fn.apply(this, args), wait);
+  };
+}
+
+const fetchSpellSuggestion = debounce(function() {
+  const useSpell = document.getElementById("use-spell").checked;
+  const area = document.getElementById("spell-area");
+  if (!useSpell) {
+    area.style.display = "none";
+    return;
+  }
+  const q = document.getElementById("query").value.trim();
+  if (!q) {
+    area.style.display = "none";
+    return;
+  }
+  fetch(`/search/spell?q=${encodeURIComponent(q)}&max=1`)
+    .then(r => r.json())
+    .then(data => {
+      if (data && data.corrected && data.corrected !== data.original) {
+        area.style.display = "block";
+        area.innerHTML = `你要找的是不是： <a href="#" id="spell-fill" style="color:#ffd966;text-decoration:underline;">${data.corrected}</a>`;
+        document.getElementById("spell-fill").onclick = function(e) {
+          e.preventDefault();
+          document.getElementById("query").value = data.corrected;
+          area.style.display = "none";
+          currentPage = 1;
+          search();
+        };
+      } else {
+        area.style.display = "none";
+      }
+    })
+    .catch(err => {
+      console.error("spell error", err);
+      area.style.display = "none";
+    });
+}, 300);// 300ms debounce
+
+// 绑定输入事件（支持多词，因为后端逐 token 纠错）
+document.getElementById("query").addEventListener("input", fetchSpellSuggestion);
+document.getElementById("use-spell").addEventListener("change", fetchSpellSuggestion);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
